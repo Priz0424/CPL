@@ -301,22 +301,22 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
 
     <div class="sec-title" data-en="Practice Mode" data-zh="練習模式">Practice Mode</div>
     <div class="mode-grid">
-      <div class="mode-card m-seq" onclick="startMode('sequential')">
+      <div class="mode-card m-seq" onclick="startMode('sequential', null)">
         <div class="mode-icon-wrap">📖</div>
         <div class="mode-label" data-en="Sequential" data-zh="順序練習">Sequential</div>
         <div class="mode-desc" data-en="From question 1" data-zh="從第一題開始">From question 1</div>
       </div>
-      <div class="mode-card m-rand" onclick="startMode('random')">
+      <div class="mode-card m-rand" onclick="startMode('random', null)">
         <div class="mode-icon-wrap">⇄</div>
         <div class="mode-label" data-en="Random" data-zh="隨機練習">Random</div>
         <div class="mode-desc" data-en="Shuffled order" data-zh="打亂順序">Shuffled order</div>
       </div>
-      <div class="mode-card m-wrong" onclick="startMode('wrong')">
+      <div class="mode-card m-wrong" onclick="startMode('wrong', null)">
         <div class="mode-icon-wrap">⟳</div>
         <div class="mode-label" data-en="Review Wrong" data-zh="錯題複習">Review Wrong</div>
         <div class="mode-desc" data-en="Drill weak spots" data-zh="專攻弱點">Drill weak spots</div>
       </div>
-      <div class="mode-card m-exam" onclick="startMode('exam')">
+      <div class="mode-card m-exam" onclick="startMode('exam', null)">
         <div class="mode-icon-wrap">✎</div>
         <div class="mode-label" data-en="Mock Exam" data-zh="模擬考試">Mock Exam</div>
         <div class="mode-desc" data-en="30 questions" data-zh="30 題">30 questions</div>
@@ -421,8 +421,8 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
 // CONFIG & STATE
 // ══════════════════════════════════════════
 const SUBJECTS_MANIFEST = ['A21','A22','A23','A24','A25','A26','A27','B01','B09'];
-const IMG_BASE = 'images';
 const OPTION_LETTERS = ['A','B','C','D'];
+const FIGURE_BASES = ['images', 'pic', ''];
 
 let allSubjects  = {};
 let activeSubject = null;
@@ -432,6 +432,7 @@ let currentIdx   = 0;
 let answered     = false;
 let session      = { correct: 0, wrong: 0, wrongItems: [] };
 let lang         = localStorage.getItem('cpl_lang') || 'en'; // 'en' | 'zh'
+let quizAudioCtx = null;
 
 // ── i18n strings ──────────────────────────
 const T = {
@@ -492,6 +493,65 @@ function getOptionLetters(q) {
   return OPTION_LETTERS.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
 }
 
+function getQuestionSubject(q) {
+  return q.__subj || activeSubject || '';
+}
+
+function getFigureCandidates(subjectCode, figure) {
+  const candidates = [];
+  ['png', 'jpg', 'jpeg', 'webp'].forEach(ext => {
+    FIGURE_BASES.forEach(base => {
+      if (base) {
+        if (subjectCode) candidates.push(`${base}/${subjectCode}/${figure}.${ext}`);
+        candidates.push(`${base}/${figure}.${ext}`);
+      } else {
+        candidates.push(`${figure}.${ext}`);
+      }
+    });
+  });
+  return [...new Set(candidates)];
+}
+
+function getQuizAudioContext() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) return null;
+  if (!quizAudioCtx) quizAudioCtx = new AudioContextClass();
+  return quizAudioCtx;
+}
+
+function scheduleTone(ctx, startAt, duration, frequency, type, gainPeak) {
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = type;
+  osc.frequency.setValueAtTime(frequency, startAt);
+
+  gain.gain.setValueAtTime(0.0001, startAt);
+  gain.gain.exponentialRampToValueAtTime(gainPeak, startAt + 0.012);
+  gain.gain.exponentialRampToValueAtTime(0.0001, startAt + duration);
+
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start(startAt);
+  osc.stop(startAt + duration + 0.02);
+}
+
+function playCorrectSound() {
+  const ctx = getQuizAudioContext();
+  if (!ctx) return;
+
+  if (ctx.state === 'suspended') {
+    ctx.resume().catch(() => {});
+  }
+
+  const startAt = ctx.currentTime + 0.01;
+
+  // A short bright ascending chime inspired by language-app success feedback.
+  scheduleTone(ctx, startAt, 0.12, 783.99, 'triangle', 0.08);
+  scheduleTone(ctx, startAt + 0.085, 0.15, 987.77, 'triangle', 0.07);
+  scheduleTone(ctx, startAt + 0.17, 0.22, 1174.66, 'sine', 0.06);
+  scheduleTone(ctx, startAt + 0.17, 0.18, 1567.98, 'triangle', 0.025);
+}
+
 // ══════════════════════════════════════════
 // PERSISTENCE
 // ══════════════════════════════════════════
@@ -540,6 +600,18 @@ function updateQuizLang() {
   const q = questionQueue[currentIdx];
   if (!q) return;
   const useEn = lang === 'en';
+  const subj = activeSubject ? allSubjects[activeSubject] : null;
+  const qSubject = getQuestionSubject(q);
+  document.getElementById('quiz-title').textContent =
+    activeSubject
+      ? `${activeSubject} · ${useEn ? (subj.title_en||subj.title) : subj.title}`
+      : `CPL · ${useEn ? 'All Subjects' : '全題庫'}`;
+  document.getElementById('q-num-badge').textContent =
+    activeSubject
+      ? `#${q.num}`
+      : `${qSubject} · ${useEn ? `Q${q.num}` : `第${q.num}題`}`;
+  document.getElementById('q-id-tag').textContent =
+    activeSubject ? q.id : `${qSubject} · ${q.id}`;
   document.getElementById('q-text').textContent = useEn ? (q.question_en || q.question) : q.question;
   // Update options text only (keep state classes)
   const btns = document.querySelectorAll('.opt');
@@ -611,7 +683,7 @@ function renderHome() {
       <div class="prog-track"><div class="prog-bar" style="width:${pct}%"></div></div>
       <div class="prog-row"><span>${lang==='en'?'Attempted':'已練習'} ${attempted}</span><span>${pct}%</span></div>
     `;
-    card.onclick = () => { activeSubject = code; startMode('random'); };
+    card.onclick = () => startMode('random', code);
     list.appendChild(card);
   }
 }
@@ -667,16 +739,26 @@ function buildGlobalPool() {
   return pool;
 }
 
-function startMode(mode) {
-  currentMode = mode;
+function buildSubjectPool(subjectCode) {
+  const data = allSubjects[subjectCode];
+  if (!data) return [];
+  return data.questions.map(q => ({
+    ...q,
+    __subj: subjectCode
+  }));
+}
 
-  // GLOBAL MODE: use all subjects
-  let pool = buildGlobalPool();
+function startMode(mode, subjectCode = activeSubject) {
+  currentMode = mode;
+  activeSubject = subjectCode || null;
+
+  let pool = activeSubject ? buildSubjectPool(activeSubject) : buildGlobalPool();
 
   if (mode === 'wrong') {
     const wrongSet = new Set();
+    const targetSubjects = activeSubject ? [activeSubject] : SUBJECTS_MANIFEST;
 
-    SUBJECTS_MANIFEST.forEach(subj => {
+    targetSubjects.forEach(subj => {
       getWrongIds(subj).forEach(id => wrongSet.add(`${subj}::${id}`));
     });
 
@@ -721,11 +803,16 @@ function renderQuestion() {
   document.getElementById('sc-bad').textContent = session.wrong;
 
   // Meta
-  document.getElementById('q-num-badge').textContent = `#${q.num}`;
+  const qSubject = getQuestionSubject(q);
+  document.getElementById('q-num-badge').textContent =
+    activeSubject
+      ? `#${q.num}`
+      : `${qSubject} · ${lang === 'en' ? `Q${q.num}` : `第${q.num}題`}`;
   const diffEl = document.getElementById('q-diff-badge');
   diffEl.textContent = q.difficulty === '易' ? t('easy') : t('med');
   diffEl.className = 'q-diff ' + (q.difficulty === '易' ? 'diff-easy' : 'diff-med');
-  document.getElementById('q-id-tag').textContent = q.id;
+  document.getElementById('q-id-tag').textContent =
+    activeSubject ? q.id : `${qSubject} · ${q.id}`;
   document.getElementById('q-counter').textContent = `${currentIdx+1} / ${total}`;
 
   // Question text
@@ -737,12 +824,8 @@ function renderQuestion() {
   const figImg   = document.getElementById('fig-img');
   const figLabel = document.getElementById('fig-label');
   if (q.figure) {
-    const candidates = [
-      `${IMG_BASE}/${activeSubject}/${q.figure}.png`,
-      `${IMG_BASE}/${activeSubject}/${q.figure}.jpg`,
-      `${IMG_BASE}/${q.figure}.png`,
-      `${IMG_BASE}/${q.figure}.jpg`
-    ];
+    const figureSubject = getQuestionSubject(q);
+    const candidates = getFigureCandidates(figureSubject, q.figure);
     let i = 0;
     const tryNext = () => {
       if (i >= candidates.length) {
@@ -810,6 +893,7 @@ function selectAnswer(chosen, correct, q) {
   const useEn   = lang === 'en';
 
   if (ok) {
+    playCorrectSound();
     fb.className = 'fb show ok';
     fbIcon.textContent = '✓';
     fbHead.className = 'fb-head ok';
