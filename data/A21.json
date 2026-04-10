@@ -1,6 +1,6 @@
 {
   "subject": "A21",
-  "title": "CPL 基本航行學",
+  "title": "CPL Basic Navigation",
   "total": 221,
   "questions": [
     {
@@ -12,128 +12,176 @@
       "A": "等磁差線上每一點之值都不同",
       "B": "等磁差線上每一點與緯線之夾角都不同",
       "C": "航 線上每一點與經線之夾角都不同",
-      "has_figure": false
+      "question_en": "True course measurements on a Sectional Aeronautical Chart should be made at a meridian near the midpoint of the course because the",
+      "A_en": "values of isogonic lines change from point to point.",
+      "B_en": "angles formed by isogonic lines and lines of latitude vary from point to point.",
+      "C_en": "angles formed by lines of longitude and the course line vary from point to point",
+      "figure": null
     },
     {
       "id": "0011431",
       "num": 2,
       "difficulty": "易",
       "answer": "C",
-      "question": "( 請參考 Fig1 , 第6點 ) Mosier 機場是(如圖A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第6點 ) Mosier 機場是",
       "A": "被限制為只供自用飛行員與休閒飛行員使用之機場",
       "B": "限航區中的軍用機場",
       "C": "非 公眾使用的機場",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 6, on the inside front cover.) Mosier Airport is",
+      "A_en": "an airport restricted to use by private and recreational pilots.",
+      "B_en": "a restricted military stage field within restricted airspace.",
+      "C_en": "a nonpublic use airport.",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011433",
       "num": 3,
       "difficulty": "易",
       "answer": "C",
-      "question": "( 請參考 Fig1 , 第7點 ) 在Woodland 鎮上空之 E 類空域 , 其底部高是在 :(如圖 A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第7點 ) 在Woodland 鎮上空之 E 類空域 , 其底部高是在 :",
       "A": "該鎮部份區域之地表以上700英呎開始 , 自此以上沒有其他更高的底部",
       "B": "該鎮部 份區域之地表以上1200英呎開始 , 自此以上沒有其他更高的底部",
       "C": "700英呎(地平面 上 ) 和 1200英呎(地平面上 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 7, on the inside front cover.) The floor of Class E airspace over the town of Woodland is",
+      "A_en": "700 feet AGL over part of the town and no floor over the remainder.",
+      "B_en": "1,200 feet AGL over part of the town and no floor over the remainder.",
+      "C_en": "both 700 feet and 1,200 feet AGL.",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011434",
       "num": 4,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig1 , 第8點 ) 在Auburn 鎮上空之 E 類空域 , 其底部高是在 :(如圖 A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第8點 ) 在Auburn 鎮上空之 E 類空域 , 其底部高是在 :",
       "A": "1200英呎( 平均海平面 )",
       "B": "700英呎(地平面上 )",
       "C": "1200英呎(地平面上 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 8. on the inside front cover.) The floor of the Class E airspace over the town of Auburn is",
+      "A_en": "1,200 feet MSL.",
+      "B_en": "700 feet AGL",
+      "C_en": "1,200 feet AGL",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011435",
       "num": 5,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig1 , 第1點 ) 在Georgetown 機場 (Q61)上空之 E 類空域 , 其底部高是 在 :(如圖A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第1點 ) 在Georgetown 機場 (Q61)上空之 E 類空域 , 其底部高是 在 :",
       "A": "地表",
       "B": "3823英呎( 平均海平面 )",
       "C": "700英呎(地平面上 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 1, on the inside front cover.) The floor of the Class E airspace above Georgetown Airport (Q61) is at",
+      "A_en": "the surface.",
+      "B_en": "3,823 feet MSL",
+      "C_en": "700 feet AGL",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011436",
       "num": 6,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig1 , 第5點 ) 在University 機場 ( 005)上空之 E 類空域 , 其底部是 在 :(如圖A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第5點 ) 在University 機場 ( 005)上空之 E 類空域 , 其底部是 在 :",
       "A": "地表",
       "B": "700英呎(地平面上 )",
       "C": "1200英呎(地平面上 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 5, on the inside front cover.) The floor of the Class E airspace over University Airport (005) is",
+      "A_en": "the surface.",
+      "B_en": "700 feet AGL",
+      "C_en": "1,200 feet AGL",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011437",
       "num": 7,
       "difficulty": "易",
       "answer": "C",
-      "question": "( 請參考 Fig1 , 第4點 ) 在Lincoln Regional 機場 ( LHM ) 10海哩內有一最高之 障礙物 ( 裝有高強度燈的 ) , 其高度離地表為 ?(如圖A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第4點 ) 在Lincoln Regional 機場 ( LHM ) 10海哩內有一最高之 障礙物 ( 裝有高強度燈的 ) , 其高度離地表為 ?",
       "A": "1,254 英呎",
       "B": "662 英呎",
       "C": "299 英呎",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 4, on the inside front cover.) The highest obstruction with high intensity lighting within 10 NM of Lincoln Regional Airport (LHM) is how high above the ground?",
+      "A_en": "1,254 feet.",
+      "B_en": "662 feet.",
+      "C_en": "299 feet.",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011438",
       "num": 8,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig1 , 第4點 ) 在Lincoln Regional 機場 ( LHM ) 東南東方 8海里之障 礙物所在之地形高過該機場多高 ?(如圖A21_Fig1)",
+      "question": "( 請參考 Fig1 , 第4點 ) 在Lincoln Regional 機場 ( LHM ) 東南東方 8海里之障 礙物所在之地形高過該機場多高 ?",
       "A": "376 英呎",
       "B": "835 英呎",
       "C": "1135 英呎",
-      "has_figure": true
+      "question_en": "(Refer to figure 1, point 4, on the inside front cover.) The terrain at the obstruction approximately 8 NM east southeast of the Lincoln Airport is approximately how much higher than the airport elevation?",
+      "A_en": "376 feet.",
+      "B_en": "835 feet.",
+      "C_en": "1,135 feet.",
+      "figure": "A21_Fig1"
     },
     {
       "id": "0011439",
       "num": 9,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig2 , 前封面內部 , 第1點 ) 細的黑色陰影線最有可能是 :(如圖 A21_Fig2)",
+      "question": "( 請參考 Fig2 , 前封面內部 , 第1點 ) 細的黑色陰影線最有可能是 :",
       "A": "到場航路",
       "B": "軍用訓練航路",
       "C": "州界線",
-      "has_figure": true
+      "question_en": "(Refer to figure 2, point 1, on the inside back cover.) this thin black shaded line is most likely",
+      "A_en": "an arrival route.",
+      "B_en": "a military training route.",
+      "C_en": "a state boundary line.",
+      "figure": "A21_Fig2"
     },
     {
       "id": "0011440",
       "num": 10,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig2 , 底封面內部 , 第2點 ) 16表示(如圖A21_Fig2)",
+      "question": "( 請參考 Fig2 , 底封面內部 , 第2點 ) 16表示",
       "A": "天線頂部的高度為離地面1600 呎",
       "B": "該地圖方塊中最高海拔數字",
       "C": "該地圖方塊 中最低安全扇形高度",
-      "has_figure": true
+      "question_en": "(Refer to figure 2, point 2, on the inside back cover.) The 16 indicates",
+      "A_en": "an antenna top at 1,600 feet AGL.",
+      "B_en": "the maximum elevation figure for that quadrangle.",
+      "C_en": "the minimum safe sector altitude for that quadrangle.",
+      "figure": "A21_Fig2"
     },
     {
       "id": "0011441",
       "num": 11,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考 Fig3 , 底封面外部 , 第6點 ) 在Metropolitan Oakland International ( OAK 機場的C類空域中 , 自地表往上延伸之區塊 , 其頂部的高度為(如圖A21_Fig3)",
+      "question": "( 請參考 Fig3 , 底封面外部 , 第6點 ) 在Metropolitan Oakland International ( OAK 機場的C類空域中 , 自地表往上延伸之區塊 , 其頂部的高度為",
       "A": "2100 英呎 ( 平均海平面 ) 與 3000英呎 ( 平均海平面 )",
       "B": "8000 英呎 ( 平均海 平面 )",
       "C": "2100 英呎 ( 地平面上 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 3, point 6,on the outside back cover.) The Class C airspace at Metropolitan Oakland International (OAK) which extends from the surface upward has a ceiling of",
+      "A_en": "both 2,100 feet and 3,000 feet MSL.",
+      "B_en": "8,000 feet MSL.",
+      "C_en": "2,100 feet AGL.",
+      "figure": "A21_Fig3"
     },
     {
       "id": "0011442",
       "num": 12,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考 Fig3 , 底封面外部 , 第1點 ) . 那一規定的最低高度可躲開Livermore (LVK 機場之D類空域 ?(如圖A21_Fig3)",
+      "question": "( 請參考 Fig3 , 底封面外部 , 第1點 ) . 那一規定的最低高度可躲開Livermore (LVK 機場之D類空域 ?",
       "A": "2,503 英呎 ( 平均海平面 )",
       "B": "2,901 英呎 ( 平均海平面 )",
       "C": "3,297 英呎 ( 平 均海平面 )",
-      "has_figure": true
+      "question_en": "(Refer to figure 3, point 1, on the outside back cover.) What minimum altitude is required to avoid the Livermore Airport (LVK) Class D airspace?",
+      "A_en": "2,503 feet MSL.",
+      "B_en": "2,901 feet MSL.",
+      "C_en": "3,297 feet MSL.",
+      "figure": "A21_Fig3"
     },
     {
       "id": "0011443",
@@ -144,7 +192,11 @@
       "A": "248 英磅",
       "B": "265 英磅",
       "C": "284 英磅",
-      "has_figure": false
+      "question_en": "If an airplane is consuming 95 pounds of fuel per hour at a cruising altitude of 6,500 feet and the groundspeed Is 173 knots, how much fuel is required to travel 450 NM?",
+      "A_en": "248 pounds.",
+      "B_en": "265 pounds.",
+      "C_en": "284 pounds.",
+      "figure": null
     },
     {
       "id": "0011444",
@@ -155,7 +207,11 @@
       "A": "205 英磅",
       "B": "212 英磅.",
       "C": "460 英磅.",
-      "has_figure": false
+      "question_en": "If fuel consumption is 80 pounds per hour and groundspeed is 180 knots, how much fuel is required for an airplane to travel 460 NM?",
+      "A_en": "205 pounds.",
+      "B_en": "212 pounds.",
+      "C_en": "460 pounds.",
+      "figure": null
     },
     {
       "id": "0011445",
@@ -166,7 +222,11 @@
       "A": "27 加侖",
       "B": "34 加侖",
       "C": "38 加侖",
-      "has_figure": false
+      "question_en": "If an airplane is consuming 12.5 gallons of fuel per hour at a cruising altitude of 8,500 feet and the groundspeed is 145 knots, how much fuel is required to travel 435 NM?",
+      "A_en": "27 gallons.",
+      "B_en": "34 gallons.",
+      "C_en": "38 gallons.",
+      "figure": null
     },
     {
       "id": "0011446",
@@ -177,7 +237,11 @@
       "A": "27 加侖",
       "B": "30 加侖",
       "C": "35 加侖",
-      "has_figure": false
+      "question_en": "5 gallons of fuel per hour at a cruising altitude of 6,000 feet and the groundspeed is 135 knots, how much fuel is required to travel 490 NM?",
+      "A_en": "27 gallons.",
+      "B_en": "30 gallons.",
+      "C_en": "35 gallons. ( C ) 16.",
+      "figure": null
     },
     {
       "id": "0011447",
@@ -188,7 +252,11 @@
       "A": "50 加侖",
       "B": "53 加侖",
       "C": "57 加侖",
-      "has_figure": false
+      "question_en": "If an airplane is consuming 14.8 gallons of fuel per hour at a cruising altitude of 7,500 feet and the groundspeed is 167 knots, how much fuel is required to travel 560 NM?",
+      "A_en": "50 gallons.",
+      "B_en": "53 gallons.",
+      "C_en": "57 gallons.",
+      "figure": null
     },
     {
       "id": "0011448",
@@ -199,51 +267,71 @@
       "A": "58 加侖",
       "B": "60 加侖",
       "C": "64 加侖 6 , 若飛行距離為 612 海里 , 需要",
-      "has_figure": false
+      "question_en": "7 gallons per hour and groundspeed is 157 knots, how much fuel is required for an airplane to travel 612 NM?",
+      "A_en": "58 gallons.",
+      "B_en": "60 gallons.",
+      "C_en": "64 gallons. ( A ) 18.",
+      "figure": null
     },
     {
       "id": "0011449",
       "num": 19,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考Fig 4 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?(如圖A21_Fig4)",
+      "question": "( 請參考Fig 4 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?",
       "A": "13分鐘",
       "B": "17分鐘",
       "C": "26分鐘 , 需飛行時間為13分鐘 , 預估到 , 需飛行時間為15分鐘 , 預估到 , 需飛行時間為13分鐘 , 預估到",
-      "has_figure": true
+      "question_en": "(Refer to figure 4 below.) If the time flown between aircraft positions 2 and 3 is 13 minutes, what is the estimated time to the station?",
+      "A_en": "13 minutes.",
+      "B_en": "17 minutes.",
+      "C_en": "26 minutes.",
+      "figure": "A21_Fig4"
     },
     {
       "id": "0011450",
       "num": 20,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考Fig 5 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?(如圖A21_Fig5)",
+      "question": "( 請參考Fig 5 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?",
       "A": "15分鐘",
       "B": "30分鐘",
       "C": "60分鐘",
-      "has_figure": true
+      "question_en": "(Refer to figure 5 .) !f the time flown between aircraft positions 2 and 3 is 15 minutes, what is the estimated time to the station ?",
+      "A_en": "15 minutes.",
+      "B_en": "30 minutes.",
+      "C_en": "60 minutes.",
+      "figure": "A21_Fig5"
     },
     {
       "id": "0011451",
       "num": 21,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考Fig 6 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?(如圖A21_Fig6)",
+      "question": "( 請參考Fig 6 )若 飛機 由位置2 飛到 位置 3 達站台之飛行時間為 ?",
       "A": "7.8 分鐘",
       "B": "13 分鐘",
       "C": "26 分鐘",
-      "has_figure": true
+      "question_en": "(Refer to figure 6 below.) If the time flown between aircraft positions 2 and 3 is 13 minutes, what is the estimated time to the station?",
+      "A_en": "7.8 minutes.",
+      "B_en": "13 minutes.",
+      "C_en": "26 minutes.",
+      "figure": "A21_Fig6"
     },
     {
       "id": "0011452",
       "num": 22,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考Fig 7 )若 飛機 由位置2 飛到 位置 3 到達站台之飛行時間為 ?(如圖A21_Fig7)",
+      "question": "( 請參考Fig 7 )若 飛機 由位置2 飛到 位置 3 到達站台之飛行時間為 ?",
       "A": "8 分鐘",
       "B": "16 分鐘",
       "C": "48 分鐘",
-      "has_figure": true
+      "question_en": "(Refer to figure 7 below.) If the time flown between aircraft positions 2 and 3 is 8 minutes, what is the estimated time to the station?",
+      "A_en": "8 minutes.",
+      "B_en": "16 minutes.",
+      "C_en": "48 minutes.",
+      "figure": "A21_Fig7"
     },
     {
       "id": "0011453",
@@ -254,7 +342,11 @@
       "A": "8 分鐘",
       "B": "15分鐘",
       "C": "30 分鐘",
-      "has_figure": false
+      "question_en": "radial, a pilot selects the 055 radial, turns 15 degree to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 15 minutes. Based on this information, the ETE to the station is",
+      "A_en": "8 minutes.",
+      "B_en": "15 minutes.",
+      "C_en": "30 minutes. ( B ) 23.",
+      "figure": null
     },
     {
       "id": "0011454",
@@ -265,7 +357,11 @@
       "A": "8 分鐘",
       "B": "16 分鐘",
       "C": "24 分鐘",
-      "has_figure": false
+      "question_en": "radial, a pilot rotates the OBS 010 degree to the left, turns 010 degree to the right, and notes the time. While maintaining a constant heading, the pilot determines that the elapsed time for the CDI to center is 8 minutes. Based on this information, the ETE to the station is",
+      "A_en": "8 minutes.",
+      "B_en": "16 minutes.",
+      "C_en": "24 minutes. ( A ) 24.",
+      "figure": null
     },
     {
       "id": "0011455",
@@ -276,7 +372,11 @@
       "A": "10 分鐘",
       "B": "12 分鐘",
       "C": "24 分鐘",
-      "has_figure": false
+      "question_en": "Inbound on the 315 radial, a pilot selects the 320 radial, turns 5 degree to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 12 minutes. The ETE to the station is",
+      "A_en": "10 minutes",
+      "B_en": "12 minutes",
+      "C_en": "24 minutes.",
+      "figure": null
     },
     {
       "id": "0011456",
@@ -287,7 +387,11 @@
       "A": "10 分鐘.",
       "B": "15 分鐘.",
       "C": "20 分鐘.",
-      "has_figure": false
+      "question_en": "radial, a pilot selects the 195 radial, turns 5 degree to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 10 minutes. The ETE to the station is",
+      "A_en": "10 minutes.",
+      "B_en": "15 minutes.",
+      "C_en": "20 minutes. ( A ) 26.",
+      "figure": null
     },
     {
       "id": "0011457",
@@ -298,7 +402,11 @@
       "A": "42 分鐘和 84 浬",
       "B": "42 分鐘和 91 浬",
       "C": "44 分鐘和 96 浬.",
-      "has_figure": false
+      "question_en": "While maintaining a magnetic heading of 270 degree and a true airspeed of 120 knots, the 360 radial of a VOR is crossed at 1237 and the 350 radial is crossed at 1244. The approximate time and distance to this station are",
+      "A_en": "42 minutes and 84 NM.",
+      "B_en": "42 minutes and 91 NM.",
+      "C_en": "44 minutes and 96 NM.",
+      "figure": null
     },
     {
       "id": "0011458",
@@ -309,7 +417,11 @@
       "A": "26 NM.",
       "B": "37 NM",
       "C": "58 NM.",
-      "has_figure": false
+      "question_en": "degree to 260 degree in 2 minutes of elapsed time. If the groundspeed is 145 knots, the distance to that station would be",
+      "A_en": "26 NM.",
+      "B_en": "37 NM.",
+      "C_en": "58 NM. ( C ) 28.",
+      "figure": null
     },
     {
       "id": "0011459",
@@ -320,7 +432,11 @@
       "A": "15 NM.",
       "B": "32 NM.",
       "C": "36 NM.",
-      "has_figure": false
+      "question_en": "degree in 2 minutes of elapsed time, and the TAS is 160 knots. What is the distance to the station?",
+      "A_en": "15 NM.",
+      "B_en": "32 NM.",
+      "C_en": "36 NM. ( B ) 29.",
+      "figure": null
     },
     {
       "id": "0011460",
@@ -331,7 +447,11 @@
       "A": "12.5 浬",
       "B": "24.5 浬",
       "C": "34.5 浬",
-      "has_figure": false
+      "question_en": "knots, the relative bearing on an ADF changes from 090 degree to 095 degree in 1.5 minutes of elapsed time. The distance to the station would be",
+      "A_en": "12.5 NM.",
+      "B_en": "24.5 NM.",
+      "C_en": "34.5 NM. ( C ) 30.",
+      "figure": null
     },
     {
       "id": "0011461",
@@ -342,7 +462,11 @@
       "A": "36 浬",
       "B": "57.5 浬",
       "C": "115 浬",
-      "has_figure": false
+      "question_en": "GIVEN: Wingtip bearing change : 5 degree Time elapsed between bearing change : 5 min True airspeed : 115 kts The distance to the station is",
+      "A_en": "36 NM.",
+      "B_en": "57.5 NM.",
+      "C_en": "115 NM.",
+      "figure": null
     },
     {
       "id": "0011462",
@@ -353,7 +477,11 @@
       "A": "18 分鐘",
       "B": "24 分鐘",
       "C": "30 分鐘",
-      "has_figure": false
+      "question_en": "degree to 1 00 degree in 1.5 minutes of elapsed time. The time en route to that station would be",
+      "A_en": "18 minutes.",
+      "B_en": "24 minutes.",
+      "C_en": "30 minutes. ( A ) 32.",
+      "figure": null
     },
     {
       "id": "0011463",
@@ -364,7 +492,11 @@
       "A": "5 分鐘和 8.7哩",
       "B": "10 分鐘和 17哩",
       "C": "15 分鐘和 31.2 哩",
-      "has_figure": false
+      "question_en": "While maintaining a constant heading, a relative bearing of 100 doubles in 5 minutes. If the true airspeed is 105 knots, the time and distance to the station being used is approximately",
+      "A_en": "5 minutes and 8.7 miles.",
+      "B_en": "10 minutes and 17 miles.",
+      "C_en": "15 minutes and 31.2 miles.",
+      "figure": null
     },
     {
       "id": "0011464",
@@ -375,7 +507,11 @@
       "A": "3.44 加侖",
       "B": "6.88 加侖",
       "C": "17.84 加侖 6 分鐘 ,",
-      "has_figure": false
+      "question_en": "GIVEN: Wingtip bearing change : 15 degree , Elapsed time between bearing change : 6 min Rate of fuel consumption : 8.6 gal/hr Calculate the approximate fuel required to fly to the station.",
+      "A_en": "3.44 gallons.",
+      "B_en": "6.88 gallons.",
+      "C_en": "17.84 gallons.",
+      "figure": null
     },
     {
       "id": "0011465",
@@ -386,7 +522,11 @@
       "A": "30 分鐘 ; 42.5 哩 ; 4.80 加侖",
       "B": "32 分鐘 ; 48 哩 ; 5.58 加侖",
       "C": "48 分鐘 ; 48 哩 ; 4.58 加侖",
-      "has_figure": false
+      "question_en": "GIVEN: Wingtip bearing change : 15 degree , Elapsed time between bearing change : 7.5 min , True airspeed : 85 kts , Rate of fuel consumption : 9.6 gal/hr The time, distance, and fuel required to fly to the station is",
+      "A_en": "30 minutes; 42.5 miles; 4.80 gallons.",
+      "B_en": "32 minutes; 48 miles; 5.58 gallons.",
+      "C_en": "48 minutes; 48 miles; 4.58 gallons.",
+      "figure": null
     },
     {
       "id": "0011466",
@@ -397,7 +537,11 @@
       "A": "3 minutes.",
       "B": "6 minutes.",
       "C": "12 minutes.",
-      "has_figure": false
+      "question_en": "While maintaining a constant heading, a relative bearing of 15 degree doubles in 6 minutes. The time to the station being used is",
+      "A_en": "3 minutes.",
+      "B_en": "6 minutes.",
+      "C_en": "12 minutes.",
+      "figure": null
     },
     {
       "id": "0011467",
@@ -408,7 +552,11 @@
       "A": "5 分鐘",
       "B": "10 分鐘",
       "C": "15 分鐘",
-      "has_figure": false
+      "question_en": "to 0900 in 5 minutes. The time to the station being used is",
+      "A_en": "5 minutes.",
+      "B_en": "10 minutes.",
+      "C_en": "15 minutes. ( A ) 37.",
+      "figure": null
     },
     {
       "id": "0011468",
@@ -419,7 +567,11 @@
       "A": "7 分鐘和 16 哩",
       "B": "14 分鐘和 28 哩",
       "C": "19 分鐘和 38哩",
-      "has_figure": false
+      "question_en": "knots and on a constant heading, the ADF needle decreases from a relative bearing of 315 degree to 270 degree in 7 minutes. The approximate time and distance to the station being used is",
+      "A_en": "7 minutes and 16 miles.",
+      "B_en": "14 minutes and 28 miles.",
+      "C_en": "19 minutes and 38 miles. ( A ) 38.",
+      "figure": null
     },
     {
       "id": "0011469",
@@ -430,7 +582,11 @@
       "A": "9 分鐘",
       "B": "18 分鐘",
       "C": "30 分鐘",
-      "has_figure": false
+      "question_en": "The ADF is tuned to nondirectional radio beacon and the relative bearing change from 270 degree to 265 degree in 2.5 minutes of elapsed time. The time enroute to that beacon would be",
+      "A_en": "9 minutes.",
+      "B_en": "18 minutes.",
+      "C_en": "30 minutes.",
+      "figure": null
     },
     {
       "id": "0011470",
@@ -441,7 +597,11 @@
       "A": "15 分鐘",
       "B": "18 分鐘",
       "C": "24 分鐘",
-      "has_figure": false
+      "question_en": "An ADF is tuned to a NDB and the relative bearing change from 085 to 090 in 2 minutes of elapsed time. The time en route to the station would be",
+      "A_en": "15 minutes.",
+      "B_en": "18 minutes.",
+      "C_en": "24 minutes.",
+      "figure": null
     },
     {
       "id": "0011471",
@@ -452,7 +612,11 @@
       "A": "12 分鐘",
       "B": "15分鐘",
       "C": "18 分鐘",
-      "has_figure": false
+      "question_en": "If the relative bearing change from 090 degree to 100 degree in 2.5 minutes of elapsed time. The time en route to the station would be",
+      "A_en": "12 minutes.",
+      "B_en": "15 minutes.",
+      "C_en": "18 minutes.",
+      "figure": null
     },
     {
       "id": "0011472",
@@ -463,7 +627,11 @@
       "A": "15 哩和 22.5分鐘",
       "B": "22.5 哩 和 15分鐘",
       "C": "32哩 和 18分鐘",
-      "has_figure": false
+      "question_en": "The ADF is tuned to a non-directional radio beacon and the relative bearing changes from 090 degree to 100 degree in 2.5 minutes of elapsed time. If the true airspeed is 90 knots, the distance and time en route to that radio beacon would be",
+      "A_en": "15 miles and 22.5 minutes",
+      "B_en": "22.5 miles and 15 minutes",
+      "C_en": "32 miles and 18 minutes",
+      "figure": null
     },
     {
       "id": "0011473",
@@ -474,7 +642,11 @@
       "A": "4.4加侖",
       "B": "8.4加侖",
       "C": "12加侖",
-      "has_figure": false
+      "question_en": "GIVEN: Wingtip bearing change : 10 degree , Elapsed time between bearing change : 4 min , Rate of fuel consumption : 11 gal/hr . Calculate the fuel required to fly to the station.",
+      "A_en": "4.4 gallons.",
+      "B_en": "8.4 gallons.",
+      "C_en": "12 gallons.",
+      "figure": null
     },
     {
       "id": "0011474",
@@ -485,7 +657,11 @@
       "A": "8.2 加侖",
       "B": "14.4 加侖",
       "C": "18.7 加侖",
-      "has_figure": false
+      "question_en": "GIVEN: Wingtip bearing change : 5 degree , Elapsed time between bearing change : 6 min , Rate of fuel consumption : 12 gal/hr , The fuel required to fly to the station is",
+      "A_en": "8.2 gallons.",
+      "B_en": "14.4 gallons.",
+      "C_en": "18.7 gallons.",
+      "figure": null
     },
     {
       "id": "0011475",
@@ -496,7 +672,11 @@
       "A": "020度和32節",
       "B": "030度和38節",
       "C": "200度和32節",
-      "has_figure": false
+      "question_en": "GIVEN: True course : 105 degree , True heading : 085 degree , True airspeed : 95 kts , Groundspeed : 87 kts. Determine the wind direction and speed.",
+      "A_en": "020 degree and 32 knots.",
+      "B_en": "030 degree and 38 knots.",
+      "C_en": "200 degree and 32 knots.",
+      "figure": null
     },
     {
       "id": "0011476",
@@ -507,7 +687,11 @@
       "A": "095度和19節",
       "B": "113度和19節",
       "C": "238度和18節",
-      "has_figure": false
+      "question_en": "GIVEN: True course : 345 degree , True heading : 355 degree , True , Groundspeed : 95 kts . Determine the wind direction airspeed : 85 kts and speed.",
+      "A_en": "095 degree and 19 knots.",
+      "B_en": "113 degree and 19 knots.",
+      "C_en": "238 degree and 18 knots.",
+      "figure": null
     },
     {
       "id": "0011477",
@@ -518,7 +702,11 @@
       "A": "3 度",
       "B": "6 度",
       "C": "10 度",
-      "has_figure": false
+      "question_en": "You have flown 52 miles, are 6 miles off course, and have 118 miles yet to fly. To converge on your destination, the total correction angle would be",
+      "A_en": "3 degree.",
+      "B_en": "6 degree.",
+      "C_en": "10 degree",
+      "figure": null
     },
     {
       "id": "0011478",
@@ -529,7 +717,11 @@
       "A": "4度",
       "B": "6度",
       "C": "10度",
-      "has_figure": false
+      "question_en": "GIVEN: Distance off course : 9 mile , Distance flown : 95 mile , Distance to fly : 125 mile. To converge at the destination, the total correction angle would be",
+      "A_en": "4 degree",
+      "B_en": "6 degree",
+      "C_en": "10 degree",
+      "figure": null
     },
     {
       "id": "0011479",
@@ -540,7 +732,11 @@
       "A": "14 分鐘, 234 度, 26 海里, 3.9 加侖",
       "B": "17 分鐘, 224 度, 36 海里, 3.7 加侖.",
       "C": "17 分鐘, 242 度, 31 海里, 3.5 加侖",
-      "has_figure": false
+      "question_en": ",000 ft, Cruise altitude 9,500 ft , Rate of climb 500 ft/min , Average true airspeed 135 kts , True course 215 degree , Average wind velocity 290 at 20 kts , Variation 3°W , Deviation -2°, Average fuel consumption 13 gal/hr. Determine the approximate time, compass heading, distance, and fuel consumed during the climb.",
+      "A_en": "14 minutes, 234 degree , 26 NM, 3.9 gallons.",
+      "B_en": "17 minutes, 224 degree , 36 NM, 3.7 gallons.",
+      "C_en": "17 minutes, 242 degree , 31 NM, 3.5 gallons. ( B ) 49.",
+      "figure": null
     },
     {
       "id": "0011480",
@@ -551,7 +747,11 @@
       "A": "14分鐘 , 128 度 , 35 海里 , 3.2 加侖",
       "B": "16分鐘 , 132 度 , 41 海里 , 3.7 加侖",
       "C": "16分鐘 , 128 度 , 32 海里 , 3.8 加侖",
-      "has_figure": false
+      "question_en": "An airplane departs an airport under the following conditions: Airport elevation 1,500 ft , Cruising altitude 9,500 ft , Rate of climb 500 ft/min, Average true airspeed 160 kts , True course 145° , Average wind velocity 080° at 15 kts , Variation 5°E , Deviation -3° , Average fuel consumption 14 gal/hr. Determine the approximate time, compass heading, distance, and fuel consumed during the climb.",
+      "A_en": "14 minutes, 128 degree , 35 NM, 3.2 gallons.",
+      "B_en": "16 minutes, 132 degree , 41 NM, 3.7 gallons.",
+      "C_en": "16 minutes, 128 degree , 32 NM, 3.8 gallons.",
+      "figure": null
     },
     {
       "id": "0011481",
@@ -562,7 +762,11 @@
       "A": "1 小時 28 分 和 73.2 磅",
       "B": "1 小時 38 分 和 158 磅",
       "C": "1 小時 40 分 和 175 磅",
-      "has_figure": false
+      "question_en": "GIVEN : Wind 175 degree at 20 kts , Distance 135 NM , True course 075 degree , True airspeed 80 kts , Fuel consumption 105 lb/hr . Determine the time en route and fuel consumption.",
+      "A_en": "1 hour 28 minutes and 73.2 pounds.",
+      "B_en": "1 hour 38 minutes and 158 pounds.",
+      "C_en": "1 hour 40 minutes and 175 pounds.",
+      "figure": null
     },
     {
       "id": "0011482",
@@ -573,7 +777,11 @@
       "A": "16 分鐘 , 168度 , 30 浬 , 2.9 加侖",
       "B": "18 分鐘 , 164度 , 34 浬 , 3.2 加 侖",
       "C": "18 分鐘 , 168度 , 34浬 , 2.9 加侖",
-      "has_figure": false
+      "question_en": "An airplane descends to an airport under the following conditions: Cruising altitude 7,500 ft , Airport elevation 1,300 ft , Descends to 800 ft AGL Rate of descent 300 ft/min , Average true airspeed 120 kts , True course 165 degree, Average wind velocity 240° at 20 kts, Variation 4°E, Deviation -2°, Average fuel consumption 9.6 gal/hr Determine the approximate time, compass heading, distance, and fuel consumed during the descent.",
+      "A_en": "16 minutes, 1680, 30 NM, 2.9 gallons.",
+      "B_en": "18 minutes, 1640, 34 NM, 3.2 gallons.",
+      "C_en": "18 minutes, 1680, 34 NM, 2.9 gallons.",
+      "figure": null
     },
     {
       "id": "0011483",
@@ -584,62 +792,86 @@
       "A": "9分鐘 , 274度 , 26浬 , 2.8加侖",
       "B": "13分鐘 , 274度 , 28浬 , 2.5 加侖",
       "C": "13分鐘 , 271度 , 26浬 , 2.5加侖",
-      "has_figure": false
+      "question_en": "An airplane descends to an airport under the following conditions: Cruising altitude 10,500 ft , Airport elevation 1,700 ft , Descends to 1,000 ft AGL , Rate of descent 600 ft/min , Average true airspeed 135 kts , True course 263 degree , Average wind velocity 330 degree at 30 kts , Variation 7 degree E , Deviation +3 degree , Average fuel consumption 11.5 gal/hr . Determine the approximate time, compass heading, distance, and fuel consumed during the descent.",
+      "A_en": "9 minutes, 274 degree, 26 NM, 2.8 gallons.",
+      "B_en": "13 minutes, 274 degree , 28 NM, 2.5 gallons.",
+      "C_en": "13 minutes, 271 degree, 26 NM, 2.5 gallons.",
+      "figure": null
     },
     {
       "id": "0011484",
       "num": 54,
       "difficulty": "易",
       "answer": "C",
-      "question": "( 請參考Fig8 ) 飛行員通常於降落後, 讓飛機完全離開跑道後 , 才呼叫地面管制 , 這時是當飛機在 圖上何位置 :(如圖A21_Fig8)",
+      "question": "( 請參考Fig8 ) 飛行員通常於降落後, 讓飛機完全離開跑道後 , 才呼叫地面管制 , 這時是當飛機在 圖上何位置 :",
       "A": "通過圖上方紅色符號時",
       "B": "中間符號 , 折線的那一邊",
       "C": "中間符號 , 實線的那一 邊",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.) The pilot generally calls ground control after landing when the aircraft is completely clear of the runway. this is when the aircraft",
+      "A_en": "passes the red symbol shown at the top of the figure.",
+      "B_en": "is on the dashed-line side of the middle symbol.",
+      "C_en": "is past the solid-line side of the middle symbol.",
+      "figure": "A21_Fig8"
     },
     {
       "id": "0011485",
       "num": 55,
       "difficulty": "易",
       "answer": "B",
-      "question": "( 請參考Fig8 ) 圖上方紅色符號最有可能於那裡看到 :(如圖A21_Fig8)",
+      "question": "( 請參考Fig8 ) 圖上方紅色符號最有可能於那裡看到 :",
       "A": "當離開跑道時 , 在呼叫地面管制前",
       "B": "在跑道或滑行道交會處 , 當行車道可能會 被誤認為滑行道",
       "C": "接近儀器降落跑道的進場端",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.) The red symbol at the top would most likely be found",
+      "A_en": "upon exiting all runways prior to calling ground control.",
+      "B_en": "at an intersection where a roadway may be mistaken as a taxiway.",
+      "C_en": "near the approach end of ILS runways.",
+      "figure": "A21_Fig8"
     },
     {
       "id": "0011486",
       "num": 56,
       "difficulty": "易",
       "answer": "C",
-      "question": "( 請參考Fig8 ) 正當你離開正在使用的跑道時 , 你很有可能被要求離開儀器降落關 鍵區域 , 這時是當你經過那一個符號 ?(如圖A21_Fig8)",
+      "question": "( 請參考Fig8 ) 正當你離開正在使用的跑道時 , 你很有可能被要求離開儀器降落關 鍵區域 , 這時是當你經過那一個符號 ?",
       "A": "上方紅色符號",
       "B": "中間黃色符號",
       "C": "下方黃色符號",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.) While clearing an active runway you are most likely clear of the ILS critical area when you pass which symbol?",
+      "A_en": "Top red.",
+      "B_en": "Middle yellow.",
+      "C_en": "Bottom yellow.",
+      "figure": "A21_Fig8"
     },
     {
       "id": "0011487",
       "num": 57,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考Fig8 ) 當你在滑行前往正在使用的跑道時 , 你有可能被要求停在儀器降落 關鍵區域(ILS critical area)之外 , 在那一個符號之前 ?(如圖A21_Fig8)",
+      "question": "( 請參考Fig8 ) 當你在滑行前往正在使用的跑道時 , 你有可能被要求停在儀器降落 關鍵區域(ILS critical area)之外 , 在那一個符號之前 ?",
       "A": "下方黃色符號",
       "B": "上方紅色符號",
       "C": "中間黃色符號",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.) When taxiing up to an active runway, you are likely to be clear of the ILS critical area when short of which symbol?",
+      "A_en": "Bottom yellow.",
+      "B_en": "Top red.",
+      "C_en": "Middle yellow.",
+      "figure": "A21_Fig8"
     },
     {
       "id": "0011488",
       "num": 58,
       "difficulty": "易",
       "answer": "A",
-      "question": "( 請參考Fig8 )那一符號與防止飛機闖入跑道沒有直接關聯(如圖A21_Fig8)",
+      "question": "( 請參考Fig8 )那一符號與防止飛機闖入跑道沒有直接關聯",
       "A": "上方紅色符號",
       "B": "中間黃色符號",
       "C": "下方黃色符號",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.) Which symbol does not directly address runway incursion with other aircraft?",
+      "A_en": "Top red.",
+      "B_en": "Middle yellow.",
+      "C_en": "Bottom yellow.",
+      "figure": "A21_Fig8"
     },
     {
       "id": "0011489",
@@ -650,7 +882,11 @@
       "A": "作90度左轉與右轉 , 以掃瞄看有沒有其他飛機",
       "B": "保持警戒以躲避從VOR其他方向 來的飛機",
       "C": "在所飛的VOR幅向中, 當通過VOR時 , 從右方通過 , 讓在同一幅向但從反 方向來的飛機有通過的空間",
-      "has_figure": false
+      "question_en": "When in the vicinity of a VOR which is being used for navigation on VFR flight, it is important to",
+      "A_en": "make 90 degree left and right turns to scan for other traffic.",
+      "B_en": "exercise sustained vigilance to avoid aircraft that may be converging on the VOR from other directions.",
+      "C_en": "pass the VOR on the right side of the radial to allow room for aircraft flying in the opposite direction on the same radial. ( B ) 59.",
+      "figure": null
     },
     {
       "id": "0011490",
@@ -661,7 +897,11 @@
       "A": "180 節 指示空速.",
       "B": "200 節 真空速.",
       "C": "200 節 指示空速.",
-      "has_figure": false
+      "question_en": "When the approach procedure involves a procedure turn the maximum speed that should be observed from first overheading the course reversal IAF through the procedure turn is",
+      "A_en": "180 knots IAS.",
+      "B_en": "200 knots TAS.",
+      "C_en": "200 knots IAS.",
+      "figure": null
     },
     {
       "id": "0011491",
@@ -672,7 +912,11 @@
       "A": "最低向量高度( MVA )",
       "B": "航路外障礙物隔離高度 ( OROCA )",
       "C": "最低安全 / 扇形 區域高度( MSA )",
-      "has_figure": false
+      "question_en": "An off-route altitude which provides obstruction clearance of 1,000 feet in nonmountainous terrain areas and 2,000 feet in designated mountainous areas within the United States is called",
+      "A_en": "Minimum Vectoring Altitude (MVA).",
+      "B_en": "OROCA.",
+      "C_en": "Minimum Safe/Sector Altitude (MSA).",
+      "figure": null
     },
     {
       "id": "0011492",
@@ -683,7 +927,11 @@
       "A": "其資訊來自羅盤 , 空速, 與所輸入的風與磁差資料",
       "B": "其資訊來自於類似雷達之感 應器 , 此感應器是測量地速與偏流角",
       "C": "藉由獨立運作(不靠地面助航設備)的陀螺儀 和加速器提供訊號",
-      "has_figure": false
+      "question_en": "What type navigation system is Inertial Navigation System (INS)? A navigation computer which provides position",
+      "A_en": "from information by compass, airspeed, and an input of wind and variation data.",
+      "B_en": "from radar-type sensors that measure ground speed and drift angles.",
+      "C_en": "by signals from self-contained gyros and accelerometers.",
+      "figure": null
     },
     {
       "id": "0011493",
@@ -694,7 +942,11 @@
       "A": "高高度下接近VORTAC",
       "B": "低高度下接近VORTAC",
       "C": "低高度下遠離VORTAC",
-      "has_figure": false
+      "question_en": "Where does the DME indicator have the greatest error between the ground distance and displayed distance to the VORTAC?",
+      "A_en": "High altitudes close to the VORTAC.",
+      "B_en": "Low altitudes close to the VORTAC.",
+      "C_en": "Low altitudes far from the VORTAC.",
+      "figure": null
     },
     {
       "id": "0011494",
@@ -705,117 +957,161 @@
       "A": "0 DME里",
       "B": "2 DME 里.",
       "C": "2.3 DME 里.",
-      "has_figure": false
+      "question_en": "What DME indications should a pilot observe when directly over a VORTAC site at 12,000 feet?",
+      "A_en": "0 DME miles.",
+      "B_en": "2 DME miles.",
+      "C_en": "2.3 DME miles.",
+      "figure": null
     },
     {
       "id": "0011495",
       "num": 65,
       "difficulty": "中",
       "answer": "B",
-      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機以磁方向235度飛離電台? ( 風055度20節 )(如 圖A21_Fig9)",
+      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機以磁方向235度飛離電台? ( 風055度20節 )",
       "A": "2",
       "B": "3",
       "C": "4",
-      "has_figure": true
+      "question_en": "(Refer to figure 9.) Which RMI illustration indicates the aircraft to be flying outbound on the magnetic bearing of 235 degree degree at 20 knots.)",
+      "A_en": "2",
+      "B_en": "3",
+      "C_en": "4 16 FROM the station? (Wind",
+      "figure": "A21_Fig9"
     },
     {
       "id": "0011496",
       "num": 66,
       "difficulty": "中",
       "answer": "B",
-      "question": "( 請參考Fig9 ) 如4號圖所示 , 往電台的磁方向為何 ?(如圖A21_Fig9)",
+      "question": "( 請參考Fig9 ) 如4號圖所示 , 往電台的磁方向為何 ?",
       "A": "285 度.",
       "B": "055 度.",
       "C": "235 度.",
-      "has_figure": true
+      "question_en": "(Refer to figure 9.) What is the magnetic bearing TO the station as indicated by illustration 4?",
+      "A_en": "285 degree.",
+      "B_en": "055 degree.",
+      "C_en": "235 degree.",
+      "figure": "A21_Fig9"
     },
     {
       "id": "0011497",
       "num": 67,
       "difficulty": "中",
       "answer": "A",
-      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機在電台的西南方, 並飛向電台?(如圖 A21_Fig9)",
+      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機在電台的西南方, 並飛向電台?",
       "A": "1",
       "B": "2",
       "C": "3",
-      "has_figure": true
+      "question_en": "(Reter to figure 9.) Which RMI Illustration indicates the aircraft is southwest of the station and proceeding TO the station?",
+      "A_en": "1",
+      "B_en": "2",
+      "C_en": "3",
+      "figure": "A21_Fig9"
     },
     {
       "id": "0011498",
       "num": 68,
       "difficulty": "中",
       "answer": "B",
-      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機在電台的055度幅向(radial), 並飛離電台?(如 圖A21_Fig9)",
+      "question": "( 請參考Fig9 ) 那一個RMI 圖指出飛機在電台的055度幅向(radial), 並飛離電台?",
       "A": "1",
       "B": "2",
       "C": "3",
-      "has_figure": true
+      "question_en": "(Refer to figure 9.) Which RMI illustration indicates the aircraft is located on the 055 degree 圖A21_Fig9)",
+      "A_en": "1",
+      "B_en": "2",
+      "C_en": "3 radial of the station and heading away from the station?(如",
+      "figure": "A21_Fig9"
     },
     {
       "id": "0011499",
       "num": 69,
       "difficulty": "中",
       "answer": "A",
-      "question": "( 請參考Fig10 ) 在No.1 NAV所選擇的幅向(radial)上 , 飛機左右偏離了多少海 里 ?(如圖A21_Fig10)",
+      "question": "( 請參考Fig10 ) 在No.1 NAV所選擇的幅向(radial)上 , 飛機左右偏離了多少海 里 ?",
       "A": "5.0 NM",
       "B": "7.5 NM",
       "C": "10.0 NM",
-      "has_figure": true
+      "question_en": "(Refer to figure 10 below.) What is the lateral displacement of the aircraft in nautical miles from the radial selected on the No. 1 NAV ?",
+      "A_en": "5.0 NM.",
+      "B_en": "7.5 NM.",
+      "C_en": "10.0 NM.",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011500",
       "num": 70,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig10 ) No.1 NAV指示飛機在那一個幅向(radial) ?(如圖A21_Fig10)",
+      "question": "( 請參考Fig10 ) No.1 NAV指示飛機在那一個幅向(radial) ?",
       "A": "R-175.",
       "B": "R-165.",
       "C": "R-345.",
-      "has_figure": true
+      "question_en": "(Refer to figure 10 below.) On which radial is the aircraft as indicated by the No. 1 NAV?",
+      "A_en": "R-175.",
+      "B_en": "R-165.",
+      "C_en": "R-345.",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011501",
       "num": 71,
       "difficulty": "中",
       "answer": "B",
-      "question": "( 請參考Fig10 ) 在No.1 NAV 中那一個OBS選擇可使CDI歸回中央位置 , 和改變TO / FROM 指示器到TO ?(如圖A21_Fig10)",
+      "question": "( 請參考Fig10 ) 在No.1 NAV 中那一個OBS選擇可使CDI歸回中央位置 , 和改變TO / FROM 指示器到TO ?",
       "A": "175",
       "B": "165",
       "C": "345",
-      "has_figure": true
+      "question_en": "(Refer to figure 10.) Which OBS selection on the No. 1 NAV would center the CDI and change the ambiguity indication to a TO?",
+      "A_en": "175",
+      "B_en": "165",
+      "C_en": "345",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011502",
       "num": 72,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig10 ) 在No.2 NAV所選擇的幅向(radial)上 , 飛機左右偏離了多少度 ?(如 圖A21_Fig10)",
+      "question": "( 請參考Fig10 ) 在No.2 NAV所選擇的幅向(radial)上 , 飛機左右偏離了多少度 ?",
       "A": "1 度",
       "B": "2 度",
       "C": "4 度",
-      "has_figure": true
+      "question_en": "(Refer to figure 10.) What is the lateral displacement in degrees from the desired radial on the No. 2 NAV?",
+      "A_en": "1 degree",
+      "B_en": "2 degree",
+      "C_en": "4 degree",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011503",
       "num": 73,
       "difficulty": "中",
       "answer": "A",
-      "question": "( 請參考Fig10 ) 在No.2 NAV 中那一個OBS選擇可使CDI歸回中央位置 ?(如圖 A21_Fig10)",
+      "question": "( 請參考Fig10 ) 在No.2 NAV 中那一個OBS選擇可使CDI歸回中央位置 ?",
       "A": "174",
       "B": "166",
       "C": "335",
-      "has_figure": true
+      "question_en": "(Refer to figure 10.) Which OBS selection on the No. 2 NAV would center the CDI?",
+      "A_en": "174",
+      "B_en": "166",
+      "C_en": "335",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011504",
       "num": 74,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig10 ) 在No.2 NAV 中那一個OBS選擇可使CDI歸回中央位置 , 和改變TO / FROM 指示器到TO ?(如圖A21_Fig10)",
+      "question": "( 請參考Fig10 ) 在No.2 NAV 中那一個OBS選擇可使CDI歸回中央位置 , 和改變TO / FROM 指示器到TO ?",
       "A": "166",
       "B": "346",
       "C": "354",
-      "has_figure": true
+      "question_en": "(Refer to figure 10.) Which OBS selection on the No. 2 NAV would center the CDI and change the ambiguity indication to a TO?",
+      "A_en": "166",
+      "B_en": "346",
+      "C_en": "354",
+      "figure": "A21_Fig10"
     },
     {
       "id": "0011505",
@@ -826,7 +1122,11 @@
       "A": "只有平行進入法",
       "B": "只有直接進入法",
       "C": "只有淚點進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 12 below.) You receive this ATC clearance: \"…HOLD EAST OF THE ABC VORTAC ON THE ZERO NINER ZERO RADIAL, LEFT TURNS…\" What is the recommended procedure to enter the holding pattern?",
+      "A_en": "Parallel only.",
+      "B_en": "Direct only.",
+      "C_en": "Teardrop only.",
+      "figure": "A21_Fig12"
     },
     {
       "id": "0011506",
@@ -837,18 +1137,26 @@
       "A": "只有淚點進入法",
       "B": "只有直接進入法",
       "C": "只有平行進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 12 above.) You receive this ATC clearance: \"…CLEARED TO THE ABC VORTAC. HOLD SOUTH ON THE ONE EIGHT ZERO RADIAL…\" What is the recommended procedure to enter the holding pattern?",
+      "A_en": "Teardrop only.",
+      "B_en": "Direct only.",
+      "C_en": "Parallel only.",
+      "figure": "A21_Fig12"
     },
     {
       "id": "0011507",
       "num": 77,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig12 ) 你接收到航管的指示 : \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS….\" 那一種程序是被建議為進入 待命航線的方法 ?(如圖A21_Fig12)",
+      "question": "( 請參考Fig12 ) 你接收到航管的指示 : \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS….\" 那一種程序是被建議為進入 待命航線的方法 ?",
       "A": "只有平行進入法",
       "B": "只有直接進入法",
       "C": "只有淚點進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 12.) You receive this ATC clearance: \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS…\" What is the recommended procedure to enter the holding pattern?",
+      "A_en": "Parallel only.",
+      "B_en": "Direct only.",
+      "C_en": "Teardrop only.",
+      "figure": "A21_Fig12"
     },
     {
       "id": "0011508",
@@ -859,40 +1167,56 @@
       "A": "只有平行進入法",
       "B": "只有直接進入法",
       "C": "只有淚點進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 12.) You receive this ATC clearance: \"…CLEARED TO THE ABC VORTAC. HOLD WEST ON THE TWO SEVEN ZERO RADIAL…\" What is the recommended procedure to enter the holding pattern?",
+      "A_en": "Parallel only.",
+      "B_en": "Direct only.",
+      "C_en": "Teardrop only.",
+      "figure": "A21_Fig12"
     },
     {
       "id": "0011509",
       "num": 79,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE ABC VORTAC. HOLD 那一種程序是被建議為進入待命航線的方 WEST ON THE TWO SEVEN ZERO RADIAL….\" 法 ?(如圖A21_Fig13)",
+      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE ABC VORTAC. HOLD 那一種程序是被建議為進入待命航線的方 WEST ON THE TWO SEVEN ZERO RADIAL….\" 法 ?",
       "A": "平行和淚點進入法",
       "B": "只有平行進入法",
       "C": "只有直接進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 13 below.) A pilot receives this ATC clearance: \"…CLEARED TO THE ABC VORTAC. HOLD WEST ON THE TWO SEVEN ZERO RADIAL…\" What is the recommended procedure to enter the holding pattern?",
+      "A_en": "Parallel or teardrop.",
+      "B_en": "Parallel only.",
+      "C_en": "Direct only.",
+      "figure": "A21_Fig13"
     },
     {
       "id": "0011510",
       "num": 80,
       "difficulty": "中",
       "answer": "C",
-      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS…\" 那一種程序是被建議為進入 待命航線的方法 ?(如圖A21_Fig13)",
+      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS…\" 那一種程序是被建議為進入 待命航線的方法 ?",
       "A": "只有淚點進入法",
       "B": "只有平行進入法",
       "C": "直接進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 13.) A pilot receives this ATC clearance: \"…CLEARED TO THE XYZ VORTAC. HOLD NORTH ON THE THREE SIX ZERO RADIAL, LEFT TURNS…\" What is the recommended procedure to enter the holding paftern?",
+      "A_en": "Teardrop only.",
+      "B_en": "Parallel only.",
+      "C_en": "Direct.",
+      "figure": "A21_Fig13"
     },
     {
       "id": "0011511",
       "num": 81,
       "difficulty": "中",
       "answer": "A",
-      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE ABC VORTAC. HOLD 那一種程序是被建議為進入待命航線的方 SOUTH ON THE ONE EIGHT ZERO RADIAL…\" 法 ?(如圖A21_Fig13)",
+      "question": "( 請參考Fig13 ) 飛行員接收到航管的指示 : \"…CLEARED TO THE ABC VORTAC. HOLD 那一種程序是被建議為進入待命航線的方 SOUTH ON THE ONE EIGHT ZERO RADIAL…\" 法 ?",
       "A": "只有淚點進入法",
       "B": "只有平行進入法",
       "C": "只有直接進入法",
-      "has_figure": true
+      "question_en": "(Refer to figure 13.) A pilot receives this ATC clearance: \"…CLEARED TO THE ABC VORTAC. HOLD SOUTH ON THE ONE EIGHT ZERO RADIAL…\" What is the recommended procedure to enter the holding paftern?",
+      "A_en": "Teardrop only.",
+      "B_en": "Parallel only.",
+      "C_en": "Direct only.",
+      "figure": "A21_Fig13"
     },
     {
       "id": "0011512",
@@ -903,7 +1227,11 @@
       "A": "265 節.",
       "B": "230 節.",
       "C": "156 節.",
-      "has_figure": false
+      "question_en": "The maximum speed a propeller-driven airplane may hold at is",
+      "A_en": "265 knots.",
+      "B_en": "230 knots.",
+      "C_en": "156 knots.",
+      "figure": null
     },
     {
       "id": "0011513",
@@ -914,7 +1242,11 @@
       "A": "200 節.",
       "B": "265 節.",
       "C": "230 節.",
-      "has_figure": false
+      "question_en": "Maximum holding speed for a civil turbojet aircraft at a joint use airport (civil/Navy) between 7,000 and 14,000 feet is",
+      "A_en": "200 knots.",
+      "B_en": "265 knots.",
+      "C_en": "230 knots.",
+      "figure": null
     },
     {
       "id": "0011514",
@@ -925,7 +1257,11 @@
       "A": "265 節.",
       "B": "230 節.",
       "C": "250 節.",
-      "has_figure": false
+      "question_en": "What is the maximum holding speed for a civil turbojet holding at a civil airport at 15,000 ft MSL, unless a higher speed is required due to turbulence or icing, and ATC is notified?",
+      "A_en": "265 knots.",
+      "B_en": "230 knots.",
+      "C_en": "250 knots.",
+      "figure": null
     },
     {
       "id": "0011515",
@@ -936,7 +1272,11 @@
       "A": "250 節.",
       "B": "260 節.",
       "C": "230 節.",
-      "has_figure": false
+      "question_en": "Civil aircraft holding at an altitude of 14,000 feet at a military or joint civil/military use airports should expect to operate at which holding pattern airspeed?",
+      "A_en": "250 knots.",
+      "B_en": "260 knots.",
+      "C_en": "230 knots.",
+      "figure": null
     },
     {
       "id": "0011516",
@@ -947,7 +1287,11 @@
       "A": "3度每秒 或 25度 左右傾斜角 , 兩者中之較小者 .",
       "B": "3度 每秒 或 30度 左右傾 斜角 , 兩者中之較小者.",
       "C": "1-1/2度 每秒 或 25度 左右傾斜角 , 兩者之中較小 者.",
-      "has_figure": false
+      "question_en": "When using a flight director system, what rate of turn or bank angle should a pilot observe during turns in a holding pattern?",
+      "A_en": "3 degree per second or 25 degree bank, whichever is less.",
+      "B_en": "3 degree per second or 30 degree bank, whichever is less.",
+      "C_en": "1-1/2 degree per second or 25 degree bank, whichever is less.",
+      "figure": null
     },
     {
       "id": "0011517",
@@ -958,7 +1302,11 @@
       "A": "1 分鐘.",
       "B": "1-1/2 分鐘.",
       "C": "1-1/2 分鐘 或 10 海里 ,",
-      "has_figure": false
+      "question_en": "When entering a holding pattern above 14,000 feet, the initial outbound leg should not exceed",
+      "A_en": "1 minute.",
+      "B_en": "1-1/2 minutes.",
+      "C_en": "1-1/2 minutes or 10 NM, whichever is less.",
+      "figure": null
     },
     {
       "id": "0011518",
@@ -969,40 +1317,56 @@
       "A": "等待點在飛機的側面或當飛機完成轉向至outbound航向機翼平飛時 , 兩者先發生 為主",
       "B": "在通過電台後 , 以標準轉彎率完成了 1 分鐘的轉彎時",
       "C": "等待點在飛機的側 面",
-      "has_figure": false
+      "question_en": "When holding at an NDB, at what point should the begin for the second leg outbound?",
+      "A_en": "Abeam the holding fix or when the wings are level after completing the turn to the outbound heading, whichever occurs first.",
+      "B_en": "At the end of a 1 -minute standard rate turn after station passage.",
+      "C_en": "when Abeam the holding fix.",
+      "figure": null
     },
     {
       "id": "0011519",
       "num": 89,
       "difficulty": "中",
       "answer": "A",
-      "question": "(請參考 Fig. 14) 在 Cugar Four 標準儀器到場結束於那裡?(如圖A21_Fig14)",
+      "question": "(請參考 Fig. 14) 在 Cugar Four 標準儀器到場結束於那裡?",
       "A": "在 BANTY INT。",
       "B": "在 IAH VORTAC。",
       "C": "當被許可降落時。",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 14) The Cugar Four Arrival ends",
+      "A_en": "At BANTY INT.",
+      "B_en": "At IAH VORTAC.",
+      "C_en": "When cleared to land.",
+      "figure": "A21_Fig14"
     },
     {
       "id": "0011520",
       "num": 90,
       "difficulty": "中",
       "answer": "C",
-      "question": "(請參考 Fig. 14) 如果在 Cugar Four 到場，飛機轉向至 IAH 的 305 幅向(radial) 後失去通信，飛行員該如何處置?(如圖A21_Fig14)",
+      "question": "(請參考 Fig. 14) 如果在 Cugar Four 到場，飛機轉向至 IAH 的 305 幅向(radial) 後失去通信，飛行員該如何處置?",
       "A": "直飛至IAH VORTAC , 然後沿IAH R-125出境做程序轉彎後進場",
       "B": "從BANTY INT 沿 IAH R-290 飛至最初進場定位點 , 然後沿IAH 10 海里弧圈 , 準備最後進場",
       "C": "直飛 至IAH VORTAC , 然後沿IAH 10 海里弧圈至任一最初進場定位點 , 準備最後進場",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 14) What action should the pilot take if communications were lost during the Cugar Four Arrival, after turning on the 305 radial of IAH?",
+      "A_en": "Proceed direct to IAH VORTAC, then outbound on the IAH R-125 for a procedure turn for final approach.",
+      "B_en": "From BANTY INT, proceed to the IAF on the IAH R-290, then continue on the IAH 10 DME Arc to final approach.",
+      "C_en": "Proceed direct to IAH VORTAG, then to either IAF on the IAH 10 DME Arc to final approach.",
+      "figure": "A21_Fig14"
     },
     {
       "id": "0011521",
       "num": 91,
       "difficulty": "中",
       "answer": "C",
-      "question": "(請參考 Fig. 14) 當飛在 IAH 10 海里弧圈上遭遇左側風，則相對於機翼尖端 90 度 位置，為維持在10海里弧圈上，方位指針應指向何處?(如圖A21_Fig14)",
+      "question": "(請參考 Fig. 14) 當飛在 IAH 10 海里弧圈上遭遇左側風，則相對於機翼尖端 90 度 位置，為維持在10海里弧圈上，方位指針應指向何處?",
       "A": "指向左側機翼尖端點。",
       "B": "在左側機翼尖端點之後。",
       "C": "在左側機翼尖端點之前。",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 14) While arcing left on the IAH 10 DME Arc, the pilot experiences a left crosswind component. Where should the bearing pointer be referenced, relative to the 90 deg. (wingtip) position to maintain the 10 DME range?",
+      "A_en": "on the left wingtip reference.",
+      "B_en": "Behind the left wingtip reference.",
+      "C_en": "Ahead of the left wingtip reference.",
+      "figure": "A21_Fig14"
     },
     {
       "id": "0011522",
@@ -1013,7 +1377,11 @@
       "A": "方位 , 距離及垂直角",
       "B": "方位 , 範圍及垂直角",
       "C": "導引 , 範圍及目視訊息",
-      "has_figure": false
+      "question_en": "What functions are provided by ILS?",
+      "A_en": "Azimuth, distance, and vertical angle.",
+      "B_en": "Azimuth, range and vertical angle.",
+      "C_en": "Guidance, range, and visual information.",
+      "figure": null
     },
     {
       "id": "0011523",
@@ -1024,7 +1392,11 @@
       "A": "108.10 to 118.1 0 MHz.",
       "B": "108.1 0 to 111.95 MHz.",
       "C": "108. 1 0 to 117.95 MHz.",
-      "has_figure": false
+      "question_en": "Within what frequency range does the localizer transmitter of the ILS operate?",
+      "A_en": "108.10 to 118.1 0 MHz.",
+      "B_en": "108.1 0 to 111.95 MHz.",
+      "C_en": "108. 1 0 to 117.95 MHz.",
+      "figure": null
     },
     {
       "id": "0011524",
@@ -1035,7 +1407,11 @@
       "A": "內信標台",
       "B": "中羅盤定位台",
       "C": "外羅盤定位台",
-      "has_figure": false
+      "question_en": "Which component associated with the ILS is identified by the first two letters of the localizer identification group?",
+      "A_en": "inner marker.",
+      "B_en": "Middle corn ass locator.",
+      "C_en": "Outer compass locator.",
+      "figure": null
     },
     {
       "id": "0011525",
@@ -1046,7 +1422,11 @@
       "A": "連串兩短響組合及白色信標台燈",
       "B": "連續每秒一長音及白色信標台燈",
       "C": "一連串兩 長音組合及及白色信標台燈",
-      "has_figure": false
+      "question_en": "If installed, what aural and visual indications should be observed over the ILS back course marker?",
+      "A_en": "A series of two dot combinations and a white marker beacon light.",
+      "B_en": "Continuous dashes at the rate of one per second and a white marker beacon light.",
+      "C_en": "A series of two dash combinations and a white marker beacon light.",
+      "figure": null
     },
     {
       "id": "0011526",
@@ -1057,29 +1437,41 @@
       "A": "每秒連續6短音",
       "B": "每秒連續2長音",
       "C": "每秒兩次長短音交替",
-      "has_figure": false
+      "question_en": "What aural and visual indications should be observed over an ILS inner marker?",
+      "A_en": "Continuous dots at the rate of six per second.",
+      "B_en": "Continuous dashes at the rate of two per second.",
+      "C_en": "Alternate dots and dashes at the rate of two per second.",
+      "figure": null
     },
     {
       "id": "0011527",
       "num": 97,
       "difficulty": "中",
       "answer": "B",
-      "question": "( 根據Fig15表135及138) 在1.9海里處, 其左右定位台(localizer)的偏移以及下滑道 (glideslope)的偏移為何 ?(如圖A21_Fig15)",
+      "question": "( 根據Fig15表135及138) 在1.9海里處, 其左右定位台(localizer)的偏移以及下滑道 (glideslope)的偏移為何 ?",
       "A": "左右定位台中心線左側710呎及下滑道之下140呎",
       "B": "左右定位台中心線右側710呎 及下滑道之上140呎",
       "C": "左右定位台中心線右側430呎及下滑道之上28呎",
-      "has_figure": true
+      "question_en": "(Refer to table 135 and 138 on on figure 15.) Which displacement from the localizer and glide slope at the 1.9 NM point is indicated?",
+      "A_en": "710 feet to the left of the localizer centerline and 140 feet below the glide slope.",
+      "B_en": "710 feet to the right of the localizer centerline and 140 feet above the glide slope.",
+      "C_en": "430 feet to the right of the localizer centerline and 28 feet above the glide slope.",
+      "figure": "A21_Fig15"
     },
     {
       "id": "0011528",
       "num": 98,
       "difficulty": "中",
       "answer": "C",
-      "question": "(根據 Fig. 15 中的圖136及138) 距跑道1300呎處其左右定位台(localizer)的偏移以 及下滑道(glideslope)的偏移為何?(如圖A21_Fig15)",
+      "question": "(根據 Fig. 15 中的圖136及138) 距跑道1300呎處其左右定位台(localizer)的偏移以 及下滑道(glideslope)的偏移為何?",
       "A": "下滑道之下21呎及跑道中心線右側約320呎。",
       "B": "下滑道之上28呎及跑道中心線右側 約250呎。",
       "C": "下滑道之上21呎及跑道中心線左側約320呎。",
-      "has_figure": true
+      "question_en": "(Refer to figure 136 and 138 on Fig. 15) Which displacement from the localizer centerline and glide slope at the 1,300-foot point from the runway is indicated?",
+      "A_en": "21 feet below the glide slope and approximately 320 feet to the right of the runway centerline.",
+      "B_en": "28 feet above the glide slope and approximately 250 feet to the left of the runway centerline.",
+      "C_en": "21 feet above the glide slope and approximately 320 feet to the left of the runway centerline.",
+      "figure": "A21_Fig15"
     },
     {
       "id": "0011529",
@@ -1090,7 +1482,11 @@
       "A": "當CDI指針從最左側移至最右側或反之亦然",
       "B": "當CDI指針從中間偏移至最左或最右 側",
       "C": "當CDI指針從最左側一半處移至最右側一半處或反之亦然",
-      "has_figure": false
+      "question_en": "When is the course deviation indicator (CDI) considered to have a full-scale deflection?",
+      "A_en": "When the CDI deflects from full-scale left to full-scale right, or vice versa.",
+      "B_en": "When the CDI deflects from the center of the scale to full-scale left or right.",
+      "C_en": "When the CDI deflects from half-scale left to halfscale right, or vice versa.",
+      "figure": null
     },
     {
       "id": "0011530",
@@ -1101,7 +1497,11 @@
       "A": "ASR及PAR",
       "B": "中信標台對直線進場並無影響",
       "C": "羅盤定位台 , PAR 及 ASR",
-      "has_figure": false
+      "question_en": "What facilities may be substituted for an inoperative middle marker during a Category I ILS approach?",
+      "A_en": "ASR and PAR.",
+      "B_en": "The middle marker has no effect on straight-in minimums.",
+      "C_en": "Compass locator, PAR, and ASR.",
+      "figure": null
     },
     {
       "id": "0011531",
@@ -1112,7 +1512,11 @@
       "A": "飛機上任何失效的接收器",
       "B": "想要做ILS同時進場",
       "C": "希望雷達監控以提供側向區 隔",
-      "has_figure": false
+      "question_en": "When simultaneous ILS approaches are in progress, which of the following should approach control be advised of immediately?",
+      "A_en": "Any inoperative or malfunctioning aircraft receivers.",
+      "B_en": "If a simultaneous ILS approach is desired.",
+      "C_en": "if radar monitoring is desired to confirm lateral separation.",
+      "figure": null
     },
     {
       "id": "0011532",
@@ -1123,7 +1527,11 @@
       "A": "在公佈的DH",
       "B": "在公佈的MDA或環繞進場",
       "C": "在跑道環境看到後儘快執行",
-      "has_figure": false
+      "question_en": "When cleared to execute a published side-step maneuver, at what point is the pilot expected to commence this maneuver?",
+      "A_en": "At the published DH.",
+      "B_en": "At the MDA published or a circling approach.",
+      "C_en": "As soon as possible after the runway environment is in sight.",
+      "figure": null
     },
     {
       "id": "0011533",
@@ -1134,7 +1542,11 @@
       "A": "在所公布的環繞進場最低高度時",
       "B": "在跑道或跑道環境看到後儘快執行",
       "C": "在左右 定位台MDA及當看到跑道時",
-      "has_figure": false
+      "question_en": "When cleared to execute a published sidestep maneuver for a specific approach and landing on the parallel runway, at what point is the pilot expected to commence this maneuver?",
+      "A_en": "At the published minimum altitude for a circling approach.",
+      "B_en": "As soon as possible after the runway or runway environment is in sight.",
+      "C_en": "At the ImWizer MDA minimums and when the runway is in sight.",
+      "figure": null
     },
     {
       "id": "0011534",
@@ -1145,7 +1557,11 @@
       "A": "DH 50 呎及 RVR 1,200 呎.",
       "B": "DH 1 00 呎及 RVR 1,200 呎.",
       "C": "DH 150 呎及 RVR 1,500 呎.",
-      "has_figure": false
+      "question_en": "The lowest ILS Category II minimums are",
+      "A_en": "DH 50 feet and RVR 1,200 feet.",
+      "B_en": "DH 1 00 feet and RVR 1,200 feet.",
+      "C_en": "DH 150 feet and RVR 1,500 feet.",
+      "figure": null
     },
     {
       "id": "0011535",
@@ -1156,7 +1572,11 @@
       "A": "DH 50 呎及RVR 1,200 呎.",
       "B": "RVR 1,000 呎.",
       "C": "RVR 700 呎.",
-      "has_figure": false
+      "question_en": "What is the lowest Category IIIA minimum?",
+      "A_en": "DH 50 feet and RVR 1,200 feet.",
+      "B_en": "RVR 1,000 feet.",
+      "C_en": "RVR 700 feet,",
+      "figure": null
     },
     {
       "id": "0011536",
@@ -1167,7 +1587,11 @@
       "A": "RCLS 及 REIL.",
       "B": "雷達 及 RVR.",
       "C": "TDZL, RCLS, 及RVR.",
-      "has_figure": false
+      "question_en": "In addition to the localizer, glide slope, marker beacons, approach lighting, and HIRL, which ground components are required to be operative for a Category 11 instrument approach to a DH below 150 feet AGL?",
+      "A_en": "RCLS and REIL.",
+      "B_en": "Radar and RVR.",
+      "C_en": "TDZL, RCLS, and RVR.",
+      "figure": null
     },
     {
       "id": "0011537",
@@ -1178,7 +1602,11 @@
       "A": "雷達及RVR",
       "B": "RCLS及REIL",
       "C": "HIRL, TDZL , RCLS及RVR",
-      "has_figure": false
+      "question_en": "Which ground components are required to be operative for a Category 11 approach in addition to LOC, glide slope, marker beacons, and approach lights?",
+      "A_en": "Radar and RVR.",
+      "B_en": "RCLS and REIL.",
+      "C_en": "HIRL, TDZL, RCLS, and RVR.",
+      "figure": null
     },
     {
       "id": "0011538",
@@ -1189,7 +1617,11 @@
       "A": "有RNAV配備",
       "B": "有星象追蹤器配備",
       "C": "有FMS/EFIS配備",
-      "has_figure": false
+      "question_en": "Aircraft navigating by GPS are considered, on the flight plan, to be",
+      "A_en": "RNAV equipped",
+      "B_en": "Astrotracker equipped",
+      "C_en": "FMS / EFIS equipped",
+      "figure": null
     },
     {
       "id": "0011539",
@@ -1200,7 +1632,11 @@
       "A": "GPS或VOR",
       "B": "ILS或GPS",
       "C": "GPS或Loran C",
-      "has_figure": false
+      "question_en": "The weather forecast requires an alternate for LUKACHUKAI (GPS RWY 25) ARIZONA. The alternate airport must have an approved instrument approach procedure, which is anticipated to be operational and available at the estimated time of arrival, other than",
+      "A_en": "GPS or VOR.",
+      "B_en": "ILS or GPS.",
+      "C_en": "GPS or Loran C.",
+      "figure": null
     },
     {
       "id": "0011540",
@@ -1211,7 +1647,11 @@
       "A": "取消進場狀態指示",
       "B": "必須在進場時飛點對點 , 以遵守法定進場程序",
       "C": "如果是 手飛則完全沒影響",
-      "has_figure": false
+      "question_en": "Overriding an automatically selected sensitivity during a GPS approach will",
+      "A_en": "cancel the approach mode annunciation.",
+      "B_en": "require flying point-to-point on the approach to comply with the published approach procedure.",
+      "C_en": "have no effect if the approach is flown manually.",
+      "figure": null
     },
     {
       "id": "0011541",
@@ -1222,7 +1662,11 @@
       "A": "所有設備須符合TSO C-115A 得到許可",
       "B": "飛行員必須審視天氣 , 飛機手冊及特定 接收器的操作",
       "C": "建立若失去RAIM能力時的操作程序",
-      "has_figure": false
+      "question_en": "Authorization to conduct any GPS operation under IFR requires that",
+      "A_en": "the equipment be approved in accordance with TSO C-115a.",
+      "B_en": "the pilot must review appropriate weather, aircraft flight manual (AFM), and operation of the particular receiver.",
+      "C_en": "procedures must be established for use in the event that the loss of RAIM capability is predicted to occur.",
+      "figure": null
     },
     {
       "id": "0011542",
@@ -1233,7 +1677,11 @@
       "A": "由FAA許可的飛機飛行手冊 或飛行手冊補充文件",
       "B": "由主權國家或政府單位",
       "C": "僅 可由FAA官員",
-      "has_figure": false
+      "question_en": "GPS instrument approach operations, outside the United States, must be authorized by",
+      "A_en": "the FAA-approved aircraft flight manual (AFM) or flight manual supplement.",
+      "B_en": "a sovereign country or governmental unit.",
+      "C_en": "the FAA Administrator only.",
+      "figure": null
     },
     {
       "id": "0011543",
@@ -1244,7 +1692,11 @@
       "A": "繼續飛至誤失進場點並等待直至重新接收到衛星訊號",
       "B": "飛至許可的最初進場定位 點並等待直至重新接收到衛星訊號",
       "C": "選擇另一型進場使用另一型導航設施",
-      "has_figure": false
+      "question_en": "If Receiver Autonomous Integrity Monitoring (RAIM) is not available when setting up for GPS approach, the pilot should",
+      "A_en": "continue to the MAP and hold until the satellites are recaptured.",
+      "B_en": "proceed as cleared to the IAF and hold until satellite reception is satisfactory.",
+      "C_en": "select another type of approach using another type of navigation aid.",
+      "figure": null
     },
     {
       "id": "0011544",
@@ -1255,7 +1707,11 @@
       "A": "通過MAWP時",
       "B": "在MAWP之後",
       "C": "恰在MAWP之前",
-      "has_figure": false
+      "question_en": "A GPS missed approach requires that the pilot take action to sequence the receiver",
+      "A_en": "over the MAWP.",
+      "B_en": "after the MAWP.",
+      "C_en": "just prior to the MAWP.",
+      "figure": null
     },
     {
       "id": "0011545",
@@ -1266,73 +1722,101 @@
       "A": "資料庫會提供所有跑道所有轉換及離場程序",
       "B": "而若RAIM有效的話 , 飛行員就不 需要手動介入",
       "C": "GPS接收器必須設定成終端區航路偏移指示靈敏度",
-      "has_figure": false
+      "question_en": "If flying a published GPS departure,",
+      "A_en": "the data base will contain all of the transition or departures From all runways.",
+      "B_en": "and if RAIM is available, manual intervention by the pilot should not be required.",
+      "C_en": "the GPS receiver must be set to terminal course deviation indicator sensitivity.",
+      "figure": null
     },
     {
       "id": "0011546",
       "num": 116,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"D\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"D\"所呈現的位置有關聯?",
       "A": "4",
       "B": "15",
       "C": "17",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"D\" correspond?",
+      "A_en": "4",
+      "B_en": "15",
+      "C_en": "17",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011547",
       "num": 117,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"E\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"E\"所呈現的位置有關聯?",
       "A": "5",
       "B": "6",
       "C": "15",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"E\" correspond?",
+      "A_en": "5",
+      "B_en": "6",
+      "C_en": "15",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011548",
       "num": 118,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"F\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"F\"所呈現的位置有關聯?",
       "A": "10",
       "B": "14",
       "C": "16",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"F\" correspond?",
+      "A_en": "10",
+      "B_en": "14",
+      "C_en": "16",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011549",
       "num": 119,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"A\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"A\"所呈現的位置有關聯?",
       "A": "1",
       "B": "8",
       "C": "11",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"A\" correspond?",
+      "A_en": "1",
+      "B_en": "8",
+      "C_en": "11",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011550",
       "num": 120,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"B\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"B\"所呈現的位置有關聯?",
       "A": "9",
       "B": "13",
       "C": "19",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"B\" correspond?",
+      "A_en": "9",
+      "B_en": "13",
+      "C_en": "19",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011551",
       "num": 121,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"C\"所呈現的位置有關聯?(如圖A21_Fig11)",
+      "question": "(參閱Fig11)哪一架飛機的位置與HSI \"C\"所呈現的位置有關聯?",
       "A": "6",
       "B": "7",
       "C": "12",
-      "has_figure": true
+      "question_en": "(Refer to Figure 11 .)To which aircraft position does HSI presentation \"C\" correspond?",
+      "A_en": "6",
+      "B_en": "7",
+      "C_en": "12",
+      "figure": "A21_Fig11"
     },
     {
       "id": "0011552",
@@ -1343,7 +1827,11 @@
       "A": "18分鐘.",
       "B": "24分鐘.",
       "C": "30分鐘.",
-      "has_figure": false
+      "question_en": "The ADF is tuned to a nondirectional radiobeacon and the relative bearing change from 095 to 100 in 1.5 minutes of elapsed time. The time en route to that station would be",
+      "A_en": "18min.",
+      "B_en": "24min",
+      "C_en": "30min.",
+      "figure": null
     },
     {
       "id": "0011553",
@@ -1354,7 +1842,11 @@
       "A": "9分鐘.",
       "B": "18分鐘.",
       "C": "30分鐘.",
-      "has_figure": false
+      "question_en": "The ADF is tuned to a nondirectional radiobeacon and the relative bearing change from 270 to 265 in 2.5 minutes of elapsed time. The time en route to that beacon would be",
+      "A_en": "9min.",
+      "B_en": "18min",
+      "C_en": "30min.",
+      "figure": null
     },
     {
       "id": "0011554",
@@ -1365,7 +1857,11 @@
       "A": "15分鐘.",
       "B": "18分鐘.",
       "C": "24分鐘.",
-      "has_figure": false
+      "question_en": "The ADF is tuned to a nondirectional radiobeacon and the relative bearing change from 085 to 090 in 2 minutes of elapsed time. The time en route to that station would be",
+      "A_en": "15min.",
+      "B_en": "18min.",
+      "C_en": "24min.",
+      "figure": null
     },
     {
       "id": "0011555",
@@ -1376,7 +1872,11 @@
       "A": "12分鐘.",
       "B": "15分鐘.",
       "C": "18分鐘.",
-      "has_figure": false
+      "question_en": "If the relative bearing changes from 090 to 100 in 2.5 minutes of elapsed time, the time en route to the station would be",
+      "A_en": "12min.",
+      "B_en": "15min.",
+      "C_en": "18min.",
+      "figure": null
     },
     {
       "id": "0011556",
@@ -1387,7 +1887,11 @@
       "A": "15哩,22.5分鐘.",
       "B": "22.5哩,15分鐘.",
       "C": "32哩,18分鐘.",
-      "has_figure": false
+      "question_en": "The ADF is tuned to a nondirectional radiobeacon and the relative bearing change from 090 to 100 in 2.5 minutes of elapsed time. If the true airspeed is 90knots, the distance and time en route to that radiobeacon would be",
+      "A_en": "15 miles and 22.5 minutes.",
+      "B_en": "22.5 miles and 15 minutes.",
+      "C_en": "32 miles and 18 minutes.",
+      "figure": null
     },
     {
       "id": "0011557",
@@ -1398,7 +1902,11 @@
       "A": "8.2加崙.",
       "B": "14.4加崙.",
       "C": "18.7加崙.",
-      "has_figure": false
+      "question_en": "Wingtip bearing change………………….5 Time elapsed between bearing change…………………………….6min Rate of fuel consumption…………………………….12gal/hr The fuel required to fly to the station is",
+      "A_en": "8.2 gallons.",
+      "B_en": "14.4 gallons.",
+      "C_en": "18.7 gallons.",
+      "figure": null
     },
     {
       "id": "0011558",
@@ -1409,7 +1917,11 @@
       "A": "1分鐘.",
       "B": "2分鐘.",
       "C": "3分鐘.",
-      "has_figure": false
+      "question_en": "If a standard rate of turn is maintained, how long would it take to turn 360?",
+      "A_en": "1 min",
+      "B_en": "2 mins",
+      "C_en": "3mins",
+      "figure": null
     },
     {
       "id": "0011559",
@@ -1420,7 +1932,11 @@
       "A": "3.44加崙.",
       "B": "6.88加崙.",
       "C": "17.84加崙.",
-      "has_figure": false
+      "question_en": "Wingtip bearing change………………….15 Time elapsed between bearing change…………………………….6min Rate of fuel consumption…………………………….8.6gal/hr The fuel required to fly to the station is",
+      "A_en": "3.44 gallons.",
+      "B_en": "6.88 gallons.",
+      "C_en": "17.84 gallons.",
+      "figure": null
     },
     {
       "id": "0011560",
@@ -1431,7 +1947,11 @@
       "A": "26哩.",
       "B": "37哩.",
       "C": "58哩.",
-      "has_figure": false
+      "question_en": "The relative bearing on ADF changes from 265 to 260 in 2 minutes of elapsed time. If the groundspeed is 145 knots, the distance to that station would be",
+      "A_en": "26NM",
+      "B_en": "37NM",
+      "C_en": "58NM",
+      "figure": null
     },
     {
       "id": "0011561",
@@ -1442,7 +1962,11 @@
       "A": "3分鐘.",
       "B": "6分鐘.",
       "C": "12分鐘.",
-      "has_figure": false
+      "question_en": "While maintaining a constant heading, a relative bearing of 15 doubles in 6 minutes. The time to the station being used is",
+      "A_en": "3 minutes.",
+      "B_en": "6 minutes.",
+      "C_en": "12 minutes.",
+      "figure": null
     },
     {
       "id": "0011562",
@@ -1453,7 +1977,11 @@
       "A": "5分鐘.",
       "B": "10分鐘.",
       "C": "15分鐘.",
-      "has_figure": false
+      "question_en": "While maintaining a constant heading, the ADF needle increases from a relative bearing of 045 to 090 in 5 minutes. The time to the station being used is",
+      "A_en": "5 minutes.",
+      "B_en": "10 minutes.",
+      "C_en": "15 minutes.",
+      "figure": null
     },
     {
       "id": "0011563",
@@ -1464,7 +1992,11 @@
       "A": "7分鐘與16哩.",
       "B": "14分鐘與28哩.",
       "C": "19分鐘與38哩.",
-      "has_figure": false
+      "question_en": "While cruising at 135 knots and on constant headin, the ADF needle decreases from a relative bearing of 315 to 270 in 7 minutes. The approximate time and distance to the station being used is",
+      "A_en": "7 minutes and 16 miles.",
+      "B_en": "14 minutes and 28 miles.",
+      "C_en": "19 minutes and 38 miles.",
+      "figure": null
     },
     {
       "id": "0011564",
@@ -1475,7 +2007,11 @@
       "A": "安裝與儀器誤差.",
       "B": "非標準氣溫.",
       "C": "高度與非標準氣溫.",
-      "has_figure": false
+      "question_en": "True airspeed is best described as calibrated airspeed corrected for",
+      "A_en": "installation and instrument error.",
+      "B_en": "non-standard temperture.",
+      "C_en": "altitude and non-standard temperture.",
+      "figure": null
     },
     {
       "id": "0011565",
@@ -1486,7 +2022,11 @@
       "A": "18到20度.",
       "B": "10到12度.",
       "C": "5到10度.",
-      "has_figure": false
+      "question_en": "When checking the course sensitivity of vor receiver, how many degrees should the OBS be rotated to move the CDI from the center to the last dot on either side?",
+      "A_en": "18 to 20.",
+      "B_en": "10 to 12.",
+      "C_en": "5 to 10.",
+      "figure": null
     },
     {
       "id": "0011566",
@@ -1497,7 +2037,11 @@
       "A": "隨零磁差線偏移而變動",
       "B": "發生於同一飛機但不同航向.",
       "C": "發生於同一地區內之 所有飛機.",
-      "has_figure": false
+      "question_en": "Which statement is true about magnetic deviation of a compass ? Deviation",
+      "A_en": "varies over time as the agonic line shifts.",
+      "B_en": "varise for different headings of the same aircraft.",
+      "C_en": "is the same aircraft for all in the same locality.",
+      "figure": null
     },
     {
       "id": "0011567",
@@ -1508,7 +2052,11 @@
       "A": "安裝與儀器誤差.",
       "B": "儀器誤差.",
       "C": "非標準氣溫.",
-      "has_figure": false
+      "question_en": "Calibrated airspeed is best described as indicated airspeed corrected for",
+      "A_en": "installation and instrument error.",
+      "B_en": "instrument error.",
+      "C_en": "non-standard temperture.",
+      "figure": null
     },
     {
       "id": "0011568",
@@ -1519,7 +2067,11 @@
       "A": "攝氏15度與29.92釐米汞柱.",
       "B": "華氏59度與29.92厘米汞柱.",
       "C": "攝氏15度與29.92 豪巴.",
-      "has_figure": false
+      "question_en": "What are the standard temperature and pressure values for sea level?",
+      "A_en": "15 c and 29.92\"Hg.",
+      "B_en": "59 F and 1013.2\" Hg.",
+      "C_en": "15 C and 29.92 Mb.",
+      "figure": null
     },
     {
       "id": "0011569",
@@ -1530,7 +2082,11 @@
       "A": "4.4加崙.",
       "B": "8.4加崙.",
       "C": "12.7加崙.",
-      "has_figure": false
+      "question_en": "Wingtip bearing change………………….10 Time elapsed between Rate of fuel The fuel required to fly bearing change…………………………….4min consumption…………………………….11gal/hr to the station is",
+      "A_en": "4.4 gallons.",
+      "B_en": "8.4 gallons.",
+      "C_en": "12 gallons.",
+      "figure": null
     },
     {
       "id": "0011570",
@@ -1541,7 +2097,11 @@
       "A": "保持水平.",
       "B": "向風邊副翼朝上.",
       "C": "向風邊副翼朝下.",
-      "has_figure": false
+      "question_en": "When taxiing during strong quartering tailwinds, which aileron positions should be used?",
+      "A_en": "neutral.",
+      "B_en": "Aileron up on the side from which the wind is blowing.",
+      "C_en": "Aileron down on the side from which the wind is blowing.",
+      "figure": null
     },
     {
       "id": "0011571",
@@ -1552,7 +2112,11 @@
       "A": "當時之高度表撥定值.",
       "B": "29.92厘米汞柱之高度表撥定值.",
       "C": "以場高為準,讀取高 度表之撥定值.",
-      "has_figure": false
+      "question_en": "To determine presure altitude prior takeoff, the altimeter should be set to",
+      "A_en": "the current altimeter setting.",
+      "B_en": "29.92\"Hg and the altimeter indication noted.",
+      "C_en": "the field elevation and presure reading in the altimeter setting window noted.",
+      "figure": null
     },
     {
       "id": "0011572",
@@ -1563,7 +2127,11 @@
       "A": "4度",
       "B": "6度",
       "C": "8度",
-      "has_figure": false
+      "question_en": "What is maximum tolerance(+ or -) allowed for an operational VOR equipment check when using an FAA-approved ground test signal?",
+      "A_en": "4。",
+      "B_en": "6。",
+      "C_en": "8。",
+      "figure": null
     },
     {
       "id": "0011573",
@@ -1574,7 +2142,11 @@
       "A": "至電台其飛行軌跡為一曲線.",
       "B": "不論是朝向電台或是飛離電台,在側風情況下都需 要實際經驗.",
       "C": "至電台,ADF需備有自動或手動可旋轉之方位角.",
-      "has_figure": false
+      "question_en": "Which is true about homing when using ADF during crosswind conditions? Homing",
+      "A_en": "to a radio station results in a curved path that leads to the station.",
+      "B_en": "is a practical navigation method for flying both to and from a radio station.",
+      "C_en": "to a radio station requires that the ADF have an automatically or manually rotatable azimuth.",
+      "figure": null
     },
     {
       "id": "0011574",
@@ -1585,40 +2157,56 @@
       "A": "當飛離電台,航向需轉至遠離ADF指針.",
       "B": "當飛離電台時,以適當的攔截軌跡來修正 側風所造成之偏離,ADF針尾將會偏向向風面.",
       "C": "當飛向電台時,以適當的攔截軌跡來 修正側風所造成之偏離,ADF針頭將會偏向向風面.",
-      "has_figure": false
+      "question_en": "Which is true regarding tracking on a desired bearing when using ADF during crosswind conditions?",
+      "A_en": "To track outbound, heading corrections should be made away from ADF pointer.",
+      "B_en": "When on the desired track outbound with the proper drift correction established, the ADF pointer will be deflected to windward side of the tail position.",
+      "C_en": "When on the desired track inbound with proper drift correction established, the ADF pointer will be deflected to the windward side of the nose position.",
+      "figure": null
     },
     {
       "id": "0011575",
       "num": 145,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig16.)飛機之位置如第一號儀表顯示;當飛機轉向磁航向090度時,相對幅向為 何?(如圖A21_Fig16)",
+      "question": "(參閱Fig16.)飛機之位置如第一號儀表顯示;當飛機轉向磁航向090度時,相對幅向為 何?",
       "A": "150度.",
       "B": "190度.",
       "C": "250度.",
-      "has_figure": true
+      "question_en": "(Refer to figure 16 0n page 2-9)at the position indicated by instrument group 1, what would be the relative bearing if the aircraft were turned to a magnetic heading of 090?",
+      "A_en": "150。",
+      "B_en": "190。",
+      "C_en": "250。",
+      "figure": "A21_Fig16"
     },
     {
       "id": "0011576",
       "num": 146,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig16.)飛機之位置如第一號儀表顯示;欲以30度夾角攔截330度磁幅向到電台,飛 機該如何轉?(如圖A21_Fig16)",
+      "question": "(參閱Fig16.)飛機之位置如第一號儀表顯示;欲以30度夾角攔截330度磁幅向到電台,飛 機該如何轉?",
       "A": "左轉航向270度.",
       "B": "右轉航向330度.",
       "C": "右轉航向360度.",
-      "has_figure": true
+      "question_en": "(Refer to figure 16 0n page 2-9)at the position indicated by instrument group 1, to intercept the 330 magnetic bearing to the NDB at a 30 angle, the aircraft should be turned?",
+      "A_en": "left to heading of",
+      "B_en": "right to heading330",
+      "C_en": "right to heading",
+      "figure": "A21_Fig16"
     },
     {
       "id": "0011577",
       "num": 147,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig16.)若飛機繼續保持三號儀表之航向,當飛機以030度磁幅向飛離電台,其相對 幅向為何?(如圖A21_Fig16)",
+      "question": "(參閱Fig16.)若飛機繼續保持三號儀表之航向,當飛機以030度磁幅向飛離電台,其相對 幅向為何?",
       "A": "030度.",
       "B": "060度.",
       "C": "240度.",
-      "has_figure": true
+      "question_en": "(Refer to figure 16) If the aircraft continues its present heading as shown in instrument group 3, what will be the relative bearing when the aircraft reaches the magnetic bearing of 030 FROM the NDB?",
+      "A_en": "030。",
+      "B_en": "060。",
+      "C_en": "240。",
+      "figure": "A21_Fig16"
     },
     {
       "id": "0011578",
@@ -1629,7 +2217,11 @@
       "A": "增加起飛速度.",
       "B": "拉長起飛距離.",
       "C": "減少起飛距離.",
-      "has_figure": false
+      "question_en": "What effect does an uphill runway slope have on takeoff performance ?",
+      "A_en": "Increases takeoff speed.",
+      "B_en": "Increases takeoff distance.",
+      "C_en": "Decreases takeoff distance.",
+      "figure": null
     },
     {
       "id": "0011579",
@@ -1640,7 +2232,11 @@
       "A": "6哩.",
       "B": "8.5哩.",
       "C": "11哩. 場溫…攝氏12度 巡航空層壓力高度… 爬升至巡航高度所需之距離為何?(如圖",
-      "has_figure": true
+      "question_en": "(Refer to figure 32 ) airport pressure altitude…4,000ft airport temperature… 12C cruise pressure altitude…9,000ft cruise temperture…-4C What will be the distance required to climb to cruise altitude under given conditions?",
+      "A_en": "6 miles.",
+      "B_en": "8.5 miles.",
+      "C_en": "11 miles.",
+      "figure": "A21_Fig32"
     },
     {
       "id": "0011580",
@@ -1651,117 +2247,161 @@
       "A": "全時保持水平.",
       "B": "副翼朝向來風面.",
       "C": "與風向相反操作.",
-      "has_figure": false
+      "question_en": "While taxiing a light, high-wing airplane during strong quartering tailwinds, the aileron control should be positioned",
+      "A_en": "neutral at all times.",
+      "B_en": "toward the direction from which the wind is blowing.",
+      "C_en": "opposite the direction from which the wind is blowing.",
+      "figure": null
     },
     {
       "id": "0011581",
       "num": 151,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig17)若飛機維持現有航向,哪一個圖表顯示飛機將以60度繳攔截060幅向接進電 台?(如圖A21_Fig17)",
+      "question": "(參閱Fig17)若飛機維持現有航向,哪一個圖表顯示飛機將以60度繳攔截060幅向接進電 台?",
       "A": "6",
       "B": "4",
       "C": "5",
-      "has_figure": true
+      "question_en": "(Refer to figure 17.)which illustration indicates the airplane will intercept the 060 radial at a 60 angle inbound, if the present heading is maintained?",
+      "A_en": "6",
+      "B_en": "4",
+      "C_en": "5",
+      "figure": "A21_Fig17"
     },
     {
       "id": "0011582",
       "num": 152,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig17.)依據圖表2,如果飛機保持現有航向,哪一個答案是正確的?飛機將(如圖 A21_Fig17)",
+      "question": "(參閱Fig17.)依據圖表2,如果飛機保持現有航向,哪一個答案是正確的?飛機將",
       "A": "以45度角穿越180幅向飛離電台.",
       "B": "以45度角攔截225度幅向.",
       "C": "以45度角攔截360 度幅向.",
-      "has_figure": true
+      "question_en": "(Refer to figure 17.)which statement is true regarding illustration 2, if the present heading is maintaind? The airplane will",
+      "A_en": "cross the 180 radial at 45 angle outbound.",
+      "B_en": "intercept 225 radial at a 45 angle.",
+      "C_en": "intercept 360 radial at a 45 angle.",
+      "figure": "A21_Fig17"
     },
     {
       "id": "0011583",
       "num": 153,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱 Fig. 17)哪一個圖表顯示飛機保持現有航向，以75度角攔截060幅向飛離電 台?(如圖A21_Fig17)",
+      "question": "(參閱 Fig. 17)哪一個圖表顯示飛機保持現有航向，以75度角攔截060幅向飛離電 台?",
       "A": "4",
       "B": "5",
       "C": "6",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 17) Which illustration indicates the airplane will intercept the 060 radial at a 75 angle outbound, if the present heading is maintained?",
+      "A_en": "4",
+      "B_en": "5",
+      "C_en": "6",
+      "figure": "A21_Fig17"
     },
     {
       "id": "0011584",
       "num": 154,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱 Fig. 17) 哪一圖表顯示飛機需左轉150度後才能以60度角攔截360幅向飛向電 台?(如圖A21_Fig17)",
+      "question": "(參閱 Fig. 17) 哪一圖表顯示飛機需左轉150度後才能以60度角攔截360幅向飛向電 台?",
       "A": "1",
       "B": "2",
       "C": "3",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 17) Which illustration indicates the airplane should be turned 150 left to intercept the 360 radial at a 60 angle inbound?",
+      "A_en": "1",
+      "B_en": "2",
+      "C_en": "3",
+      "figure": "A21_Fig17"
     },
     {
       "id": "0011585",
       "num": 155,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig17.)依據圖表4,如果飛機保持現有航向,哪一個答案是正確的?飛機將(如圖 A21_Fig17)",
+      "question": "(參閱Fig17.)依據圖表4,如果飛機保持現有航向,哪一個答案是正確的?飛機將",
       "A": "以15度角穿越060幅向.",
       "B": "以30度角攔截240度幅向.",
       "C": "以75度角攔截180度幅向.",
-      "has_figure": true
+      "question_en": "(Refer to figure 17.) Which is ture regarding illustration 4 if the present heading is maintained? The airplane will",
+      "A_en": "cross the 060 radial at a 15 angle.",
+      "B_en": "intercept the 240 radial at a 30 angle.",
+      "C_en": "cross the 180 radial at a 75 angle.",
+      "figure": "A21_Fig17"
     },
     {
       "id": "0011586",
       "num": 156,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig18.)要以30度角攔截240度磁方位,飛機需(如圖A21_FIG18)",
+      "question": "(參閱Fig18.)要以30度角攔截240度磁方位,飛機需",
       "A": "左轉065.",
       "B": "左轉125.",
       "C": "右轉270.",
-      "has_figure": true
+      "question_en": "(Refer to figure 18.) To intercept a magnetic bearing of 240 from at a 30 angle(while outbound), the airplane should be turned",
+      "A_en": "left 065.",
+      "B_en": "left",
+      "C_en": "right",
+      "figure": "A21_Fig18"
     },
     {
       "id": "0011587",
       "num": 157,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig18)若飛機持續保持圖上所示之航向,飛機將以35度角攔截哪一個磁方位飛離 電台?(如圖A21_FIG18)",
+      "question": "(參閱Fig18)若飛機持續保持圖上所示之航向,飛機將以35度角攔截哪一個磁方位飛離 電台?",
       "A": "035度",
       "B": "070度",
       "C": "215度",
-      "has_figure": true
+      "question_en": "(Refer to figure 18.) If the airplane continues to fly on the headingas shown, what magnetic bearing from the station would be intercepted at 35 angle outbound?",
+      "A_en": "035。",
+      "B_en": "070。",
+      "C_en": "215。",
+      "figure": "A21_Fig18"
     },
     {
       "id": "0011588",
       "num": 158,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig19)若飛機持續保持圖上所示之航向,飛機將以35度角攔截哪一個磁方位飛離 電台?(如圖A21_FIG19)",
+      "question": "(參閱Fig19)若飛機持續保持圖上所示之航向,飛機將以35度角攔截哪一個磁方位飛離 電台?",
       "A": "090度",
       "B": "270度",
       "C": "305度",
-      "has_figure": true
+      "question_en": "(Refer to figure 19.) If the airplane continues to fly on magnetic heading as illustrated, what magnetic bearing FROM the station would be intercepted at a 35 angle?",
+      "A_en": "090。",
+      "B_en": "270。",
+      "C_en": "305。",
+      "figure": "A21_Fig19"
     },
     {
       "id": "0011589",
       "num": 159,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig19)若飛機持續保持圖上所示之航向,飛機將以30度角攔截哪一個磁方位飛離 電台?(如圖A21_FIG19)",
+      "question": "(參閱Fig19)若飛機持續保持圖上所示之航向,飛機將以30度角攔截哪一個磁方位飛離 電台?",
       "A": "090度",
       "B": "270度",
       "C": "310度",
-      "has_figure": true
+      "question_en": "(Refer to figure 19.) If the airplane continues to fly on magnetic heading as illustrated, what magnetic bearing FROM the station would be intercepted at a 30 angle?",
+      "A_en": "090。",
+      "B_en": "270。",
+      "C_en": "310。",
+      "figure": "A21_Fig19"
     },
     {
       "id": "0011590",
       "num": 160,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig.32)機場壓力高度2,000呎, 場溫攝氏20℃ ,巡航壓力高度10,000呎, 巡航空 層溫度攝氏0℃ 爬升至巡航高度所需之油量,時間,與距離為何?(如圖A21_FIG32)",
+      "question": "(參閱Fig.32)機場壓力高度2,000呎, 場溫攝氏20℃ ,巡航壓力高度10,000呎, 巡航空 層溫度攝氏0℃ 爬升至巡航高度所需之油量,時間,與距離為何?",
       "A": "5加崙,9分鐘,13浬.",
       "B": "6加崙,11分鐘,16浬.",
       "C": "7加崙,12分鐘,18浬.",
-      "has_figure": true
+      "question_en": "(Refer to figure 32)airport pressure altitude…2,000ft airport temperature… 20C cruise pressure altitude…10,000ft cruise temperture…0C What will be the fuel, time, and distance required to climb to cruise altitude under given conditions?",
+      "A_en": "5 gallons, 9 minutes, 13NM.",
+      "B_en": "6 gallons, 11 minutes, 16NM.",
+      "C_en": "7 gallons, 12 minutes, 18NM.",
+      "figure": "A21_Fig32"
     },
     {
       "id": "0011591",
@@ -1772,7 +2412,11 @@
       "A": "將OBS轉至180 +-4度間,CDI應顯示於中心,並離開電台.",
       "B": "將OBS調至指定幅向,CDI 應維持於中心線不超過左右4度的離開電台.",
       "C": "將飛機朝向VOR並將OBS轉向000度,CDI 應保持中心,左右不超過4度,朝向電台.",
-      "has_figure": false
+      "question_en": "How should the pilot make a VOR receiver check when the aircraft is located on the designated check-point on the airport surface?",
+      "A_en": "Set the OBS on 180 plus or minus 4; the CDI should center with From indication.",
+      "B_en": "Set OBS on the designated radial. The CDI must center within plus or minus 4 of that radial with a FROM indication.",
+      "C_en": "Whith the aircraft headed directly toward the VOR and OBS set 000, the CDI should center within plus or minus 4 of that radial with a to indication.",
+      "figure": null
     },
     {
       "id": "0011592",
@@ -1783,7 +2427,11 @@
       "A": "10分鐘.",
       "B": "15分鐘.",
       "C": "20分鐘.",
-      "has_figure": false
+      "question_en": "Inbound on the 190 radial, a pilot selects the 195 radial, turns 5 to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 10 min. based on this information, the ETE to the station is",
+      "A_en": "10 minutes.",
+      "B_en": "15 minutes.",
+      "C_en": "20 minutes.",
+      "figure": null
     },
     {
       "id": "0011593",
@@ -1794,7 +2442,11 @@
       "A": "10分鐘.",
       "B": "12分鐘.",
       "C": "24分鐘.",
-      "has_figure": false
+      "question_en": "Inbound on the 315 radial, a pilot selects the 320 radial, turns 5 to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 12 min. based on this information, the ETE to the station is",
+      "A_en": "10 minutes.",
+      "B_en": "12 minutes.",
+      "C_en": "24 minutes.",
+      "figure": null
     },
     {
       "id": "0011594",
@@ -1805,7 +2457,11 @@
       "A": "8分鐘.",
       "B": "16分鐘.",
       "C": "24分鐘.",
-      "has_figure": false
+      "question_en": "Inbound on the 090 radial, a pilot rotatess the OBS 010 to the left, turns 010 to the right, and notes the time. While maintaining a constant heading, the pilot determines that the elapsed time for the CDI to center is 8 minutes. Based on this information, the ETE to the station is",
+      "A_en": "8 minutes.",
+      "B_en": "16 minutes.",
+      "C_en": "24 minutes.",
+      "figure": null
     },
     {
       "id": "0011595",
@@ -1816,7 +2472,11 @@
       "A": "8分鐘.",
       "B": "15分鐘.",
       "C": "30分鐘.",
-      "has_figure": false
+      "question_en": "Inbound on the 040 radial, a pilot selects the 055 radial, turns 15 to the left, and notes the time. While maintaining a constant heading, the pilot notes the time for the CDI to center is 15 min. based on this information, the ETE to the station is",
+      "A_en": "8 minutes.",
+      "B_en": "15 minutes.",
+      "C_en": "30 minutes.",
+      "figure": null
     },
     {
       "id": "0011596",
@@ -1827,7 +2487,11 @@
       "A": "42分鐘,84浬.",
       "B": "42分鐘,91浬.",
       "C": "44分鐘,96浬.",
-      "has_figure": false
+      "question_en": "While maintaining a magnetic heading of 270 and a true airspeed is 120 knots, the 360 radial of VOR is crossed at 1237 and the 350 radial is crossed at 1244.The approximate time and distance to this station are",
+      "A_en": "42 minutes and 84NM.",
+      "B_en": "42 minutes and 91NM.",
+      "C_en": "44 minutes and 96NM.",
+      "figure": null
     },
     {
       "id": "0011597",
@@ -1838,7 +2502,11 @@
       "A": "FAR PART 121.",
       "B": "ICAO ANNEX 1, CHAPTER 2.",
       "C": "FAR PART",
-      "has_figure": false
+      "question_en": "Which publication includes information on operations in the NORTH ATLANTIC MINIMUN NAVIGATION PERFORMANCE SPECIFICATIONS AIRSPACE?",
+      "A_en": "FAR PART 121.",
+      "B_en": "ICAO ANNEX 1, CHAPTER 2.",
+      "C_en": "FAR PART",
+      "figure": null
     },
     {
       "id": "0011598",
@@ -1849,7 +2517,11 @@
       "A": "將發生5秒鐘來預警飛行員。",
       "B": "將發生10秒鐘來預警飛行員。",
       "C": "將發生15秒鐘來 預警飛行員。",
-      "has_figure": false
+      "question_en": "During LORAN approach the receiver must detect a lost signal blink within:",
+      "A_en": "5 seconds of the occurrence and warn the pilot of the event.",
+      "B_en": "10 seconds of the occurrence and warn the pilot of the event.",
+      "C_en": "15 seconds of the occurrence and warn the pilot of the event.",
+      "figure": null
     },
     {
       "id": "0011599",
@@ -1860,7 +2532,11 @@
       "A": "參閱飛機飛行手冊補充章節.",
       "B": "機上有一狀態卡標示\"LORAN-C可於儀器飛行時航 路,終端與進場使用\".",
       "C": "登記於機體時間記錄本上;LORAN-C接收器每30天需做一次檢 查.",
-      "has_figure": false
+      "question_en": "How may a pilot determine if a LORAN-C receiver is authorized for IFR operations?",
+      "A_en": "consult the AIRPLANE FIGHT MANUAL SUPPLEMENT.",
+      "B_en": "a placard stating, \"LORAN-C APPROVED FOR IFR EN ROUTE, TERMINAL AND APPROACH SEGMENTS\" .",
+      "C_en": "an airframe logbook entry that the LORAN-C receiver has been checked within the previous 30 calendar days.",
+      "figure": null
     },
     {
       "id": "0011600",
@@ -1871,7 +2547,11 @@
       "A": "ㄧ群作業於108-115頻率之電台.",
       "B": "兩個作用於90-110頻率之電台.",
       "C": "ㄧ串作用於 90-110頻率之電台.",
-      "has_figure": false
+      "question_en": "LORAN-C is based upon measurements of the difference in time arrival of pulses generated by what type of radio station?",
+      "A_en": "a group of stations operating on the 108-115 MHz frequency band.",
+      "B_en": "two stations operating on the 90-110 MHz frequency band.",
+      "C_en": "a chain of stations operating on the 90-110 kHz frequency band.",
+      "figure": null
     },
     {
       "id": "0011601",
@@ -1882,7 +2562,11 @@
       "A": "不會有改變,但地速會比較快.",
       "B": "會比較快,但地速不會改變.",
       "C": "會增加,因為空氣 比較稀薄.",
-      "has_figure": false
+      "question_en": "A higher elevation airports the pilot should know that indicated airspeed",
+      "A_en": "will be unchanged, but groundspeed will be faster.",
+      "B_en": "will be higher, but groundspeed will be unchange.",
+      "C_en": "should be increased to compensate for thinner air.",
+      "figure": null
     },
     {
       "id": "0011602",
@@ -1893,7 +2577,11 @@
       "A": "5分鐘與8.7哩.",
       "B": "10分鐘與17哩.",
       "C": "15分鐘與31.2哩.",
-      "has_figure": false
+      "question_en": "While maintaining a constant heading, a relative bearing of 15 doubles in 5 minutes. If the true airspeed is 105 knots, The time and distance to the station being used is approximately",
+      "A_en": "5 minutes and 8.7 miles.",
+      "B_en": "10 minutes and 17 miles.",
+      "C_en": "15 minutes and 31.2 miles.",
+      "figure": null
     },
     {
       "id": "0011603",
@@ -1904,7 +2592,11 @@
       "A": "所選擇的幅向4度以內.",
       "B": "所選擇的幅向6度以內.",
       "C": "若VOR是朝向南面,0度飛向電 台.",
-      "has_figure": false
+      "question_en": "When the CDI needle is centered during an airborne VOR check, the omnibearing selector and the TO/FROM indicator should read",
+      "A_en": "within 4 of the selected radial.",
+      "B_en": "within 6 of the selected radial.",
+      "C_en": "0 TO, only if u are due south of the VOR.",
+      "figure": null
     },
     {
       "id": "0011604",
@@ -1915,7 +2607,11 @@
       "A": "15浬。",
       "B": "32浬。",
       "C": "36浬。",
-      "has_figure": false
+      "question_en": "The ADF indicates a wingtip bearing change of 10 degree in 2 minutes of elapsed time, and the TAS is 160 knots. What is the distance to the station?",
+      "A_en": "15 NM.",
+      "B_en": "32 NM.",
+      "C_en": "36 NM.",
+      "figure": null
     },
     {
       "id": "0011605",
@@ -1926,7 +2622,11 @@
       "A": "6哩.",
       "B": "2哩.",
       "C": "1哩.",
-      "has_figure": false
+      "question_en": "An aircraft 60 miles from VOR station has a CDI indication of one fifth deflection this represents a course centerline deviation of approximately",
+      "A_en": "6 miles.",
+      "B_en": "2 miles.",
+      "C_en": "1 miles.",
+      "figure": null
     },
     {
       "id": "0011606",
@@ -1937,7 +2637,11 @@
       "A": "永遠為電子驅動;轉彎指示儀為真空驅動.",
       "B": "只顯示轉彎角度,轉彎指示儀顯示轉 彎之速率.",
       "C": "指示滾轉率與轉彎率;轉彎指示儀顯示轉彎率與協調性.",
-      "has_figure": false
+      "question_en": "What is an operational difference between the turn coordinator and the turn-and-slip indicator? The turn coordinator",
+      "A_en": "is always electric; the turn-and slip indicator is always vacuum-driven.",
+      "B_en": "indicates bank angle only; the turn-and slip indicator indicates rate of turn and coordination.",
+      "C_en": "indicates roll rate, rate of turn, and coordination; the turn-and-slip indicator indicates rate of turn and coordination.",
+      "figure": null
     },
     {
       "id": "0011607",
@@ -1948,7 +2652,11 @@
       "A": "只是ㄧ備用系統.",
       "B": "可靠度比真空驅動來的高.",
       "C": "穩定性比真空驅動要好.",
-      "has_figure": false
+      "question_en": "What is an advantage of an electric turn coordinator if the airplane has a vacuum system for other gyroscopic instruments?",
+      "A_en": "It is a backup in case of vacuum system failure",
+      "B_en": "It is more reliable than vacuum-driven indicators.",
+      "C_en": "It will not tumble as will vacuum-driven turn indicators.",
+      "figure": null
     },
     {
       "id": "0011608",
@@ -1959,62 +2667,86 @@
       "A": "215度,並將航向朝向CDI指針.",
       "B": "215度,並將航向遠離CDI指針.",
       "C": "035度,並將航 向朝向CDI指針.",
-      "has_figure": false
+      "question_en": "To track outbound on the 215 radial of a VOR station, the recommended procedure is to set the OBS to",
+      "A_en": "215 and make heading corrections toward the CDI needle.",
+      "B_en": "215 and make heading corrections away from the CDI needle.",
+      "C_en": "035 and make heading corrections toward the CDI needle.",
+      "figure": null
     },
     {
       "id": "0011609",
       "num": 179,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在左轉90度後,攔截到幅向180?(如圖A21_Fig20)",
+      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在左轉90度後,攔截到幅向180?",
       "A": "2",
       "B": "3",
       "C": "4",
-      "has_figure": true
+      "question_en": "(Refer to figure 20.) Which instrument shows the aircraft in a position where a straight course after a 90 left turn would result in intercepting the 180 radial?",
+      "A_en": "2",
+      "B_en": "3",
+      "C_en": "4",
+      "figure": "A21_Fig20"
     },
     {
       "id": "0011610",
       "num": 180,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig20.)哪一些圖表顯示飛機漸漸遠離電台?(如圖A21_Fig20)",
+      "question": "(參閱Fig20.)哪一些圖表顯示飛機漸漸遠離電台?",
       "A": "4",
       "B": "1 &",
       "C": "2 &",
-      "has_figure": true
+      "question_en": "(Refer to figure 20.) Which instrument(s) show(s) the aircraft is getting further from the selected VORTAC?",
+      "A_en": "4",
+      "B_en": "1 &",
+      "C_en": "2 &",
+      "figure": "A21_Fig20"
     },
     {
       "id": "0011611",
       "num": 181,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在VORTAC的西北方?(如圖A21_Fig20)",
+      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在VORTAC的西北方?",
       "A": "1",
       "B": "2",
       "C": "3",
-      "has_figure": true
+      "question_en": "(Refer to figure 20.) Which instrument shows the aircraft to be northwest of the VORTAC?",
+      "A_en": "1",
+      "B_en": "2",
+      "C_en": "3",
+      "figure": "A21_Fig20"
     },
     {
       "id": "0011612",
       "num": 182,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在轉180度後,以30度角攔截到幅向150?(如圖 A21_Fig20)",
+      "question": "(參閱Fig20) 哪一個儀器圖顯示飛機在轉180度後,以30度角攔截到幅向150?",
       "A": "2",
       "B": "3",
       "C": "4",
-      "has_figure": true
+      "question_en": "(Refer to figure 20.) Which instrument shows the aircraft in a position where a 180 turn would result in the aircraft intercepting the 150 radial at a 30 angle?",
+      "A_en": "2",
+      "B_en": "3",
+      "C_en": "4",
+      "figure": "A21_Fig20"
     },
     {
       "id": "0011613",
       "num": 183,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig20) 運用儀表三,飛機左轉180度再直飛,將會攔截到哪一個幅向?(如圖 A21_Fig20)",
+      "question": "(參閱Fig20) 運用儀表三,飛機左轉180度再直飛,將會攔截到哪一個幅向?",
       "A": "幅向135.",
       "B": "幅向270.",
       "C": "幅向360.",
-      "has_figure": true
+      "question_en": "(Refer to figure 20.) Using instrument group 3. if an aircraft makes a 180 turn on the left and continues straight ahead, it will intercept which radial?",
+      "A_en": "135 radial.",
+      "B_en": "270 radial.",
+      "C_en": "360 radial.",
+      "figure": "A21_Fig20"
     },
     {
       "id": "0011614",
@@ -2025,7 +2757,11 @@
       "A": "360度,並將航向朝向CDI指針.",
       "B": "180度,並將航向遠離CDI指針.",
       "C": "180度,並將航 向朝向CDI指針.",
-      "has_figure": false
+      "question_en": "TO track outbound on the 180 radial of a VOR station, the recommended procedure is to set the OBS to",
+      "A_en": "360 and make heading corrections toward the CDI needle.",
+      "B_en": "180 and make heading corrections away from the CDI needle.",
+      "C_en": "180 and make heading corrections toward the CDI needle.",
+      "figure": null
     },
     {
       "id": "0011615",
@@ -2036,7 +2772,11 @@
       "A": "飛行的航向與OBS所選擇的方位相反.",
       "B": "設定OBS與飛機所在方位成90度角.",
       "C": "當 飛機過電台後,OBS自飛向電台調整至飛離電台產生錯誤.",
-      "has_figure": false
+      "question_en": "Which situation would result in reverse sening of a VOR receiver?",
+      "A_en": "Flying a heading that is reciprocal to the bearing selected on the OBS.",
+      "B_en": "setting the OBS to a bearing that is 90 from the bearing on which the aircraft is located.",
+      "C_en": "Failing to change the OBS from the selected inbound course to outbound course after passing the station.",
+      "figure": null
     },
     {
       "id": "0011616",
@@ -2047,7 +2787,11 @@
       "A": "11900呎.",
       "B": "14130呎.",
       "C": "18150呎.",
-      "has_figure": false
+      "question_en": "Pressure altitude…..12000ft True air temperature…..+50 F the conditions given, the approximate density altitude is",
+      "A_en": "11,900 feet.",
+      "B_en": "14,130 feet.",
+      "C_en": "18,150 feet. From",
+      "figure": null
     },
     {
       "id": "0011618",
@@ -2058,7 +2802,11 @@
       "A": "7200呎.",
       "B": "7800呎.",
       "C": "9000呎.",
-      "has_figure": false
+      "question_en": "Pressure altitude…5000ft True air temperature…..+30 C conditions given, the approximate density altitude is",
+      "A_en": "7200 feet",
+      "B_en": "7800 feet.",
+      "C_en": "9000 feet From the",
+      "figure": null
     },
     {
       "id": "0011619",
@@ -2069,7 +2817,11 @@
       "A": "5000呎.",
       "B": "5500呎.",
       "C": "9000呎. 求密度高度為何?",
-      "has_figure": false
+      "question_en": "Pressure altitude…6000ft True air temperature…..+30 F conditions given, the approximate density altitude is",
+      "A_en": "5000 feet.",
+      "B_en": "5500 feet.",
+      "C_en": "9000 feet.",
+      "figure": null
     },
     {
       "id": "0011620",
@@ -2080,7 +2832,11 @@
       "A": "作用力與相對風成垂直.",
       "B": "不同之壓力垂直於翼弦上.",
       "C": "因空氣流經機翼上方弧 形之流線曲面造成減壓,垂直升力因而產生於機翼下方較平坦之弧面.",
-      "has_figure": false
+      "question_en": "Lift on a wing is most properly defined as the",
+      "A_en": "force acting perpendicular to the relative wind.",
+      "B_en": "differential pressure acting perpendicular to the chord of the wing.",
+      "C_en": "reduced pressure reesulting from a laminar flow over the upper camber of an airfoil, which acts perpendicular to the mean camber.",
+      "figure": null
     },
     {
       "id": "0011621",
@@ -2091,7 +2847,11 @@
       "A": "050度.",
       "B": "230度.",
       "C": "295度.",
-      "has_figure": false
+      "question_en": "The magnetic heading is 350 and the relative bearing to a radiobeacon is 240. what would be the magnetic bearing TO that radiobeacon?",
+      "A_en": "050。",
+      "B_en": "230。",
+      "C_en": "295。",
+      "figure": null
     },
     {
       "id": "0011622",
@@ -2102,7 +2862,11 @@
       "A": "065度磁幅向飛離電台.",
       "B": "150度磁幅向飛離電台.",
       "C": "330度磁幅向飛離電台.",
-      "has_figure": false
+      "question_en": "An aircraft is maintaining a magnetic heading of 265 and the ADF shows a relative bearing of 065, this indicates that aircraft is crossing the",
+      "A_en": "065 magnetic bearing FROM the radio beacon.",
+      "B_en": "150 magnetic bearing FROM the radio beacon.",
+      "C_en": "330 magnetic bearing FROM the radio beacon.",
+      "figure": null
     },
     {
       "id": "0011623",
@@ -2113,7 +2877,11 @@
       "A": "095度.",
       "B": "175度.",
       "C": "275度.",
-      "has_figure": false
+      "question_en": "The magnetic heading is 315 and the ADF shows a relative bearing of 140 .The magnetic bearing FROM the radiobeacon would be",
+      "A_en": "095。",
+      "B_en": "175。",
+      "C_en": "275。",
+      "figure": null
     },
     {
       "id": "0011624",
@@ -2124,7 +2892,11 @@
       "A": "090幅向.",
       "B": "180幅向.",
       "C": "360幅向.",
-      "has_figure": false
+      "question_en": "When using VOT to make a VOR receiver check, the CDI should be centerd and the OBS should indicate that the aircraft is on the",
+      "A_en": "090 radial.",
+      "B_en": "180 radial.",
+      "C_en": "360 radial.",
+      "figure": null
     },
     {
       "id": "0011625",
@@ -2135,7 +2907,11 @@
       "A": "5000呎.",
       "B": "8500呎.",
       "C": "9500呎.",
-      "has_figure": false
+      "question_en": "Pressure altitude…7000ft True air temperature…..+15 C conditions given, the approximate density altitude is",
+      "A_en": "5000 feet.",
+      "B_en": "8500 feet.",
+      "C_en": "9500 feet. From the",
+      "figure": null
     },
     {
       "id": "0011626",
@@ -2146,7 +2922,11 @@
       "A": "12.5浬.",
       "B": "24.5浬.",
       "C": "34.5浬.",
-      "has_figure": false
+      "question_en": "With a TAS of 115 knots, the relative bearing on an ADF changes from 090 to 095 in 1.5 minutes of elapsed time. The distance to the station would be",
+      "A_en": "12.5 NM",
+      "B_en": "24.5NM",
+      "C_en": "34.5NM",
+      "figure": null
     },
     {
       "id": "0011627",
@@ -2157,62 +2937,86 @@
       "A": "150度.",
       "B": "285度.",
       "C": "330度.",
-      "has_figure": false
+      "question_en": "The ADF is tuned to radiobeacon. If the magnetic heading is 040 and the relative bearing is 290, the magnetic bearing TO that radiobeacon would be",
+      "A_en": "150。",
+      "B_en": "285。",
+      "C_en": "330。",
+      "figure": null
     },
     {
       "id": "0011628",
       "num": 197,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig25)以百分之70之馬力設定起飛至爬升共耗10分鐘,試計算耗油量?(如圖 A21_Fig25)",
+      "question": "(參閱Fig25)以百分之70之馬力設定起飛至爬升共耗10分鐘,試計算耗油量?",
       "A": "2.66加崙",
       "B": "2.88加崙",
       "C": "3.2加崙",
-      "has_figure": true
+      "question_en": "(Refer to figure 25.) Determine the amount of fuel consumed during takeoff and climb at 70 percent power for 10 minutes.",
+      "A_en": "2.66 gallons.",
+      "B_en": "2.88 gallons.",
+      "C_en": "3.2 gallons.",
+      "figure": "A21_Fig25"
     },
     {
       "id": "0011629",
       "num": 198,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig25)以百分之75之馬力設定起爬升7分鐘,試計算耗油量?(如圖A21_Fig25)",
+      "question": "(參閱Fig25)以百分之75之馬力設定起爬升7分鐘,試計算耗油量?",
       "A": "1.82加崙",
       "B": "1.97加崙",
       "C": "2.15加崙",
-      "has_figure": true
+      "question_en": "(Refer to figure25.) Approximately how much fuel would be consumed when climbing at 75 percent power for 7 minutes ?",
+      "A_en": "1.82 gallons.",
+      "B_en": "1.97 gallons.",
+      "C_en": "2.15 gallons",
+      "figure": "A21_Fig25"
     },
     {
       "id": "0011630",
       "num": 199,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig25) 油量…65加侖 最佳平飛馬力設定…55％ 由輛之情況下,可飛多久?(如圖A21_Fig25)",
+      "question": "(參閱Fig25) 油量…65加侖 最佳平飛馬力設定…55％ 由輛之情況下,可飛多久?",
       "A": "4小時17分.",
       "B": "4小時30分.",
       "C": "5小時4分. 需保留白晝目視法定需求",
-      "has_figure": true
+      "question_en": "Refer to figure 25.) Fuel quiantity…..65 gal best power-level flight 55 percent Approximately how much flight time would be available with a day VFR fuel reserve remaining",
+      "A_en": "4 hours 17 minutes.",
+      "B_en": "4 hours 30 minutes.",
+      "C_en": "5 hours 4 minutes.",
+      "figure": "A21_Fig25"
     },
     {
       "id": "0011631",
       "num": 200,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig25) 油量…47加侖 巡航馬力設定…55％ 需保留夜間目視法定需求由輛 之情況下,可飛多久?(如圖A21_Fig25)",
+      "question": "(參閱Fig25) 油量…47加侖 巡航馬力設定…55％ 需保留夜間目視法定需求由輛 之情況下,可飛多久?",
       "A": "3小時8分.",
       "B": "3小時22分.",
       "C": "3小時43分.",
-      "has_figure": true
+      "question_en": "Refer to figure 25.) Fuel quiantity…..47 gal power-cruise(lean) 55 percent Approximately how much flight time would be available with a night VFR fuel reserve remaining",
+      "A_en": "3 hours 8 minutes.",
+      "B_en": "3 hours 22 minutes.",
+      "C_en": "3 hours 43 minutes.",
+      "figure": "A21_Fig25"
     },
     {
       "id": "0011632",
       "num": 201,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig25)以百分隻55的巡航馬力,38加崙的油量在符合夜間目視飛行要求之保留油 量情況下,可飛多少時間?(如圖A21_Fig25)",
+      "question": "(參閱Fig25)以百分隻55的巡航馬力,38加崙的油量在符合夜間目視飛行要求之保留油 量情況下,可飛多少時間?",
       "A": "2小時34分.",
       "B": "2小時49分.",
       "C": "3小時18分.",
-      "has_figure": true
+      "question_en": "(Refer to figure 8.)With 38 gallons of fuel aboard at cruise power (55 percent), how much flight time is available with night VFR fuel reserve still remaining.",
+      "A_en": "2 hours 34 minutes.",
+      "B_en": "2 hours 49 minutes.",
+      "C_en": "3 hours 18 minutes.",
+      "figure": "A21_Fig25"
     },
     {
       "id": "0011633",
@@ -2222,8 +3026,12 @@
       "question": "(參閱Fig. 33) 用最大爬升率自引擎啟動爬升至10,000呎之壓力高度所消耗之油量為何 飛機重…3,800磅 機場壓力高度…4,000呎",
       "A": "28磅。",
       "B": "35磅。",
-      "C": "40磅。 50 場溫…攝氏30度。(如圖A21_Fig33)",
-      "has_figure": true
+      "C": "40磅。 50 場溫…攝氏30度。",
+      "question_en": "(Refer to Fig. 33) Using a maximum rate of climb, how much fuel would be used from engine start to 10,000 feet pressure altitude? Aircraft weight…..3,800 lb Airport pressure altitude…..4,000 ft Temperature…..30C",
+      "A_en": "28 pounds.",
+      "B_en": "35 pounds.",
+      "C_en": "40 pounds.",
+      "figure": "A21_Fig33"
     },
     {
       "id": "0011634",
@@ -2234,7 +3042,11 @@
       "A": "10磅。",
       "B": "14磅。",
       "C": "24磅。",
-      "has_figure": false
+      "question_en": "(Refer to Fig. 33) Using a maximum rate of climb, how much fuel would be used from engine start to 6,000 feet pressure altitude? Aircraft weight…..3,200 lb Airport pressure altitude…..2,000 ft Temperature…..27C",
+      "A_en": "10 pounds.",
+      "B_en": "14 pounds.",
+      "C_en": "24 pounds.",
+      "figure": null
     },
     {
       "id": "0011635",
@@ -2244,8 +3056,12 @@
       "question": "(參閱Fig26)用一般爬升率自引擎啟動爬升至12,000呎之壓力高度所消耗之油量為何? 飛機重…3,800磅 機場壓力高度…4,000呎",
       "A": "46磅.",
       "B": "51磅.",
-      "C": "58磅. 場溫…攝氏26度.(如圖A21_FIG26)",
-      "has_figure": true
+      "C": "58磅. 場溫…攝氏26度.",
+      "question_en": "(Refer to figure 26.) Using a normal climb, how much fuel would be used from engine start to 12,000 feet pressure altitude? Aircraft weight…..3,800 lb Airport pressure altitude…..4,000 ft Temperature…..26C",
+      "A_en": "46 pounds.",
+      "B_en": "51 pounds.",
+      "C_en": "58 pounds.",
+      "figure": "A21_Fig33"
     },
     {
       "id": "0011636",
@@ -2255,41 +3071,57 @@
       "question": "(參閱Fig26)用一般爬升率自引擎啟動爬升至10,000呎之壓力高度所消耗之油量為何? 飛機重…3,500磅 機場壓力高度…4,000呎",
       "A": "23磅.",
       "B": "31磅.",
-      "C": "35磅. 52 場溫…攝氏21度.(如圖A21_FIG26)",
-      "has_figure": true
+      "C": "35磅. 52 場溫…攝氏21度.",
+      "question_en": "(Refer to figure 26.) Using a normal climb, how much fuel would be used from engine start to 10,000 feet pressure altitude? Aircraft weight…..3,500 lb Airport pressure altitude…..4,000 ft Temperature…..21C",
+      "A_en": "23 pounds.",
+      "B_en": "31 pounds.",
+      "C_en": "35 pounds.",
+      "figure": "A21_Fig26"
     },
     {
       "id": "0011637",
       "num": 206,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig27)當馬力設定是百分之64,引擎轉速2500轉,試計算48加崙之餘油飛行與 7,500呎之高空時,可飛多遠?(如圖A21_Fig27)",
+      "question": "(參閱Fig27)當馬力設定是百分之64,引擎轉速2500轉,試計算48加崙之餘油飛行與 7,500呎之高空時,可飛多遠?",
       "A": "635哩.",
       "B": "645哩.",
       "C": "810哩.",
-      "has_figure": true
+      "question_en": "(Refer to figure 27.) If the cruise altitude is 7,500 feet, using 64 percent power at 2,500 RPM, what would be the range with 48 gallons of usable fuel?",
+      "A_en": "635 miles.",
+      "B_en": "645 miles.",
+      "C_en": "810 miles.",
+      "figure": "A21_Fig27"
     },
     {
       "id": "0011638",
       "num": 207,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig27)當馬力設定是百分之52,試計算48加崙之餘油飛行與7,500呎之高空時,可 飛多久?(如圖A21_Fig27)",
+      "question": "(參閱Fig27)當馬力設定是百分之52,試計算48加崙之餘油飛行與7,500呎之高空時,可 飛多久?",
       "A": "6.1小時",
       "B": "7.7小時",
       "C": "8.0小時",
-      "has_figure": true
+      "question_en": "(Refer to figure 27.) What would be the endurance at an altitude of 7,500 feet, using 52 percent power?(NOTE: with 48 gallons fuel-no reserve)",
+      "A_en": "6.1 hours.",
+      "B_en": "7.7 hours.",
+      "C_en": "8.0 hours.",
+      "figure": "A21_Fig27"
     },
     {
       "id": "0011639",
       "num": 208,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig27)當馬力設定是百分之52,試計算飛行與7,500呎之高空時之真空速與每小時 之油耗.(如圖A21_Fig27)",
+      "question": "(參閱Fig27)當馬力設定是百分之52,試計算飛行與7,500呎之高空時之真空速與每小時 之油耗.",
       "A": "103哩/每小時,7.7加崙/每小時.",
       "B": "105哩/每小時,6.1加崙/每小時.",
       "C": "105哩/每 小時,6.2加崙/每小時.",
-      "has_figure": true
+      "question_en": "(Refer to figure 27.) What would be the approximate true airspeed and fuel consumption per hour at an altitude of 7,500 feet, using 52 percent power?",
+      "A_en": "103 MPH TAS, 7.7 GPH.",
+      "B_en": "105 MPH TAS, 6.1 GPH.",
+      "C_en": "105 MPH TAS, 6.2 GPH.",
+      "figure": "A21_Fig27"
     },
     {
       "id": "0011640",
@@ -2299,41 +3131,57 @@
       "question": "(參閱Fig30)以正常馬力爬升,試算出爬升至壓力高度8,000呎所需之時間?飛機重 量…3,400磅 機場壓力高度…4,000呎",
       "A": "4.8分鐘",
       "B": "5分鐘",
-      "C": "5.5分鐘 54 溫度…攝氏14度(如圖A21_Fig30)",
-      "has_figure": true
+      "C": "5.5分鐘 54 溫度…攝氏14度",
+      "question_en": "(Refer to figure 30.) Using a normal climb, how much to climb to a 8,000 feet pressure altitude? lb Airport pressure altitude…..4,000 ft Temperature…..14C",
+      "A_en": "4.8 minutes.",
+      "B_en": "5 minutes.",
+      "C_en": "5.5 minutes. 61 time would be required Aircraft weight…..3,400",
+      "figure": "A21_Fig30"
     },
     {
       "id": "0011641",
       "num": 210,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下1度 馬力設定…2200 RPM,20吋MP 可用餘油344磅 根據上述之數據，試計算在合乎晝間目視天氣的 情況下可飛多久?(如圖A21_Fig28)",
+      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下1度 馬力設定…2200 RPM,20吋MP 可用餘油344磅 根據上述之數據，試計算在合乎晝間目視天氣的 情況下可飛多久?",
       "A": "4小時50分。",
       "B": "5小時20分。",
       "C": "5小時59分。",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 28) pressure altitude: 18,000 ft; Temperature: -1 deg. C; Power: 2200 RPM--20\"MP; Recommended lean mixture usable fuel: 344 lb; What is the approximate flight time available under the given condition (Allow for VFR day fuel reserve)?",
+      "A_en": "4 hours 50 minutes.",
+      "B_en": "5 hours 20 minutes.",
+      "C_en": "5 hours 59 minutes.",
+      "figure": "A21_Fig28"
     },
     {
       "id": "0011642",
       "num": 211,
       "difficulty": "易",
       "answer": "B",
-      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下21度 馬力設定…2400 根據上述之數據,試計算在合乎晝間目視天氣的 RPM,28吋mp 可用餘油425磅 情況下可飛多久?(如圖A21_Fig28)",
+      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下21度 馬力設定…2400 根據上述之數據,試計算在合乎晝間目視天氣的 RPM,28吋mp 可用餘油425磅 情況下可飛多久?",
       "A": "3小時46分.",
       "B": "4小時1分.",
       "C": "4小時31分.",
-      "has_figure": true
+      "question_en": "(Refer to figure 28.) pressure altitude: 18,000 ft ; Temperature: -21C ;Power: 2400 RPM--28\"MP; Recommended lean mixture usable fuel: 425 lb ; what is the approximate flight time available under the given condition ( Allow for VFR day fuel reserve )",
+      "A_en": "3 hours 46 minutes.",
+      "B_en": "4 hours 1 minutes.",
+      "C_en": "4 hours 31 minutes.",
+      "figure": "A21_Fig28"
     },
     {
       "id": "0011643",
       "num": 212,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下41度 馬力設定…2500 根據上述之數據,試計算在合乎夜間目視天氣的 RPM,26吋mp 可用餘油318磅 情況下可飛多久?(如圖A21_Fig28)",
+      "question": "(參閱Fig28) 壓力高度…18,000呎 溫度…攝氏零下41度 馬力設定…2500 根據上述之數據,試計算在合乎夜間目視天氣的 RPM,26吋mp 可用餘油318磅 情況下可飛多久?",
       "A": "2小時27分.",
       "B": "3小時12分.",
       "C": "3小時42分.",
-      "has_figure": true
+      "question_en": "(Refer to figure 28.) pressure altitude:18,000 ft ; Temperature: -41C; Power: 2500 RPM--26\"MP; Recommended lean mixture usable fuel: 318 lb; what is the approximate flight time available under the given condition( Allow for VFR night fuel reserve )",
+      "A_en": "2 hours 27 minutes.",
+      "B_en": "3 hours 12 minutes.",
+      "C_en": "3 hours 42 minutes.",
+      "figure": "A21_Fig28"
     },
     {
       "id": "0011644",
@@ -2343,8 +3191,12 @@
       "question": "(參閱Fig29)以最大馬力爬升,試算出爬升至壓力高度8,000呎所需之時間?飛機重 量…4,000磅 機場壓力高度…2,000呎",
       "A": "7分鐘",
       "B": "8.4分鐘",
-      "C": "11.2分鐘 56 溫度…攝氏32度(如圖A21_Fig29)",
-      "has_figure": true
+      "C": "11.2分鐘 56 溫度…攝氏32度",
+      "question_en": "(Refer to figure 29.) Using a maximum rate of climb, how much time would be required to climb to a 8,000 feet pressure altitude? Aircraft weight…..4,000 lb Airport pressure altitude…..2,000 ft Temperature…..32C",
+      "A_en": "7 minutes.",
+      "B_en": "8.4 minutes.",
+      "C_en": "11.2 minutes.",
+      "figure": "A21_Fig29"
     },
     {
       "id": "0011645",
@@ -2354,8 +3206,12 @@
       "question": "(參閱Fig29)以最大馬力爬升,試算自引擎啟動至爬升至壓力高度16,000呎所耗之油量? 飛機重量…3,400磅 機場壓力高度…6,000呎",
       "A": "43磅",
       "B": "45磅",
-      "C": "49磅 溫度…攝氏10度(如圖A21_Fig29)",
-      "has_figure": true
+      "C": "49磅 溫度…攝氏10度",
+      "question_en": "(Refer to figure 29.) Using a maximum rate of climb, how much fuel would be used from engine start to 16,000 feet pressure altitude? Aircraft weight…..3,400 lb Airport pressure altitude…..6,000 ft Temperature…..10C",
+      "A_en": "43 pounds.",
+      "B_en": "45 pounds.",
+      "C_en": "49 pounds.",
+      "figure": "A21_Fig29"
     },
     {
       "id": "0011646",
@@ -2365,52 +3221,72 @@
       "question": "(參閱Fig30)以正常馬力爬升,試算自引擎啟動至爬升至壓力高度12,000呎所耗之油量? 飛機重量…3,700磅 機場壓力高度…4,000呎",
       "A": "30磅",
       "B": "37磅",
-      "C": "46磅 57 溫度…攝氏21度(如圖A21_Fig30)",
-      "has_figure": true
+      "C": "46磅 57 溫度…攝氏21度",
+      "question_en": "(Refer to figure 30.) Using a normal climb, how much fuel would be required from engine start to climb to a 12,000 feet pressure altitude? Aircraft weight…..3,700 lb Airport pressure altitude…..4,000 ft Temperature…..21C",
+      "A_en": "30 pounds.",
+      "B_en": "37 pounds.",
+      "C_en": "46 pounds.",
+      "figure": "A21_Fig30"
     },
     {
       "id": "0011647",
       "num": 216,
       "difficulty": "易",
       "answer": "C",
-      "question": "(參閱Fig31)塔台播報地面風向010,風速18哩,使用08跑道落地,側風為何?(如圖 A21_Fig31)",
+      "question": "(參閱Fig31)塔台播報地面風向010,風速18哩,使用08跑道落地,側風為何?",
       "A": "7哩",
       "B": "15哩",
       "C": "17哩",
-      "has_figure": true
+      "question_en": "(Refer to figure 31 on page 12-35.) If the tower-reported surface wind is 010 at 18 knots, what is the crosswind component for RWY 08 landing ?",
+      "A_en": "7 knots.",
+      "B_en": "15 knots.",
+      "C_en": "17 knots.",
+      "figure": "A21_Fig31"
     },
     {
       "id": "0011648",
       "num": 217,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig. 31) 使用30跑道落地。若Vso為60節(浬/時)，請問會超過飛機0.2Vso側風限 制的地面風為何?(如圖A21_Fig31)",
+      "question": "(參閱Fig. 31) 使用30跑道落地。若Vso為60節(浬/時)，請問會超過飛機0.2Vso側風限 制的地面風為何?",
       "A": "260度的20節。",
       "B": "275度的25節。",
       "C": "315度的35節。",
-      "has_figure": true
+      "question_en": "(Refer to Fig. 31) Rwy 30 is being used for landing. Which surface wind would exceed the airplane's crosswind capability of 0.2 Vso, if Vso is 60 knots?",
+      "A_en": "260 at 20 knots.",
+      "B_en": "275 at 25 knots.",
+      "C_en": "315 at 35 knots.",
+      "figure": "A21_Fig31"
     },
     {
       "id": "0011649",
       "num": 218,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig31)13跑道起飛,風向190,風速15哩,請問頂頭風風速為何?(如圖A21_Fig31)",
+      "question": "(參閱Fig31)13跑道起飛,風向190,風速15哩,請問頂頭風風速為何?",
       "A": "7哩",
       "B": "13哩",
       "C": "15哩",
-      "has_figure": true
+      "question_en": "(Refer to figure 31 on page 12-35.) What is headwind component for a RWY 13 takeoff if the surface wind is 190 at 15 knots ?",
+      "A_en": "7 knots.",
+      "B_en": "13 knots.",
+      "C_en": "15 knots.",
+      "figure": "A21_Fig31"
     },
     {
       "id": "0011650",
       "num": 219,
       "difficulty": "易",
       "answer": "A",
-      "question": "(參閱Fig31)地面風向180,風速25哩,當使用13跑道落地時,側風為何?(如圖A21_Fig31)",
+      "question": "(參閱Fig31)地面風向180,風速25哩,當使用13跑道落地時,側風為何?",
       "A": "19哩",
       "B": "21哩",
       "C": "23哩",
-      "has_figure": true
+      "question_en": "(Refer to figure 31 on page 12-35.) The surface wind is 180 at 25 knots. What is the crosswwind component for a RWY 13 landing ?",
+      "A_en": "19 knots.",
+      "B_en": "21 knots.",
+      "C_en": "23 knots.",
+      "figure": "A21_Fig31"
     },
     {
       "id": "0011651",
@@ -2421,7 +3297,11 @@
       "A": "36浬.",
       "B": "57.5浬.",
       "C": "115浬. 真空速…115哩 到電台之距",
-      "has_figure": false
+      "question_en": "Wingtip bearing change 5 degree ; Time elapsed between bearing change 5 minutes. True airspeed 115kts ; The distance to the station is",
+      "A_en": "36NM",
+      "B_en": "57.5NM",
+      "C_en": "115NM",
+      "figure": null
     },
     {
       "id": "0011652",
@@ -2432,7 +3312,11 @@
       "A": "30分鐘, 42.5哩,4.80加崙.",
       "B": "32分鐘, 48哩,5.58加崙.",
       "C": "48分鐘, 48哩,4.58 加崙.",
-      "has_figure": false
+      "question_en": "Wingtip bearing change 15 degree ; Time elapsed between bearing change 7.5 min ； true airspeed 85 kts ；Rate of fuel consumption 9.6 gal/hr The time , distance and fuel to the station",
+      "A_en": "30 minutes; 42.5 miles; 4.80 gallons.",
+      "B_en": "32minutes; 48miles; 5.58 gallons.",
+      "C_en": "48 minutes; 48miles; 4.58 gallons.",
+      "figure": null
     }
   ]
 }
