@@ -8,7 +8,7 @@
       "num": 1,
       "difficulty": "易",
       "answer": "A",
-      "question": "\"已知:DOW=45680, MZFW=62600, MLDW=68040, MTOW=76850, TIF=9200, TOF=15600, 最 大酬載為何 ?\"",
+      "question": "\"Given: DOW=45680, MZFW=62600, MLDW=68040, MTOW=76850, TIF=9200, TOF=15600, what is maximum payload ?\"",
       "question_en": "\"Given: DOW=45680, MZFW=62600, MLDW=68040, MTOW=76850, TIF=9200, TOF=15600, what is maximum payload ?\"",
       "A": "15570",
       "A_en": "15570",
@@ -18,7 +18,7 @@
       "C_en": "16190",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012555",
@@ -35,7 +35,7 @@
       "C_en": "170000",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012556",
@@ -52,23 +52,23 @@
       "C_en": "160000",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012557",
       "num": 4,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
+      "question": "\"Given: MZFW=130000, MLDW=140000, MTOW=170000, DOW=90000, TIF=20000, TOF=30000, Payload=40000, what is the operating weight for this flight?\"",
       "question_en": "\"Given: MZFW=130000, MLDW=140000, MTOW=170000, DOW=90000, TIF=20000, TOF=30000, Payload=40000, what is the operating weight for this flight?\"",
-      "A": "",
+      "A": "120000",
       "A_en": "120000",
-      "B": "",
+      "B": "150000",
       "B_en": "150000",
-      "C": "",
+      "C": "160000",
       "C_en": "160000",
       "figure": null,
-      "D": "",
+      "D": "全部皆非",
       "D_en": "全部皆非"
     },
     {
@@ -76,16 +76,16 @@
       "num": 5,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
+      "question": "\"Given: ZFW=A, LDW=B, TOW=C, DOW=D, Payload=H, I what is true?\"",
       "question_en": "\"Given: ZFW=A, LDW=B, TOW=C, DOW=D, Payload=H, I what is true?\"",
-      "A": "",
+      "A": "A=D+H",
       "A_en": "A=D+H",
-      "B": "",
+      "B": "A=C-E",
       "B_en": "A=C-E",
-      "C": "",
+      "C": "A=G-F",
       "C_en": "A=G-F",
       "figure": null,
-      "D": "",
+      "D": "全部皆非",
       "D_en": "全部皆非"
     },
     {
@@ -93,16 +93,16 @@
       "num": 6,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
+      "question": "\"Given: ZFW=A, LDW=B, TOW=C, DOW=D, Payload=H, I what is true?\"",
       "question_en": "\"Given: ZFW=A, LDW=B, TOW=C, DOW=D, Payload=H, I what is true?\"",
-      "A": "",
+      "A": "A=D+H",
       "A_en": "A=D+H",
-      "B": "",
+      "B": "C=D+E",
       "B_en": "C=D+E",
-      "C": "",
+      "C": "B=C-F TIF=E, TOF=F, Operating weight=G, TIF=E, TOF=F, Operating weight=G,",
       "C_en": "B=C-F TIF=E, TOF=F, Operating weight=G, TIF=E, TOF=F, Operating weight=G,",
       "figure": null,
-      "D": "",
+      "D": "全部皆非 TOF=30000 TOF=30000 TOF=30000 TOF=F, 可操作重量為G (Operating TOF=F, 可操作重量為G (Operating",
       "D_en": "全部皆非 TOF=30000 TOF=30000 TOF=30000 TOF=F, 可操作重量為G (Operating TOF=F, 可操作重量為G (Operating"
     },
     {
@@ -110,13 +110,13 @@
       "num": 7,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
+      "question": "重量 X 力臂 ÷ 降減係數(Reduction Factor) = ?",
       "question_en": "Weight X Arm ÷ the Reduction Factor is the formula used to determine ?",
-      "A": "",
+      "A": "index units.",
       "A_en": "index units.",
-      "B": "",
+      "B": "total moments.",
       "B_en": "total moments.",
-      "C": "",
+      "C": "CG from LEMAC.",
       "C_en": "CG from LEMAC.",
       "figure": null
     },
@@ -125,13 +125,13 @@
       "num": 8,
       "difficulty": "易",
       "answer": "C",
-      "question": "",
+      "question": "The term mean aerodynamic chord may be defined as the ?",
       "question_en": "The term mean aerodynamic chord may be defined as the ?",
-      "A": "",
+      "A": "ratio of the average wing chord to its aerodynamic center of pressure.",
       "A_en": "ratio of the average wing chord to its aerodynamic center of pressure.",
-      "B": "",
+      "B": "\" distance from the leading edge to the trailing edge of the wing, measured at the wing root.\"",
       "B_en": "\" distance from the leading edge to the trailing edge of the wing, measured at the wing root.\"",
-      "C": "",
+      "C": "chord of an imaginary airfoil which has the same aerodynamic characteristics as the actual airfoil.",
       "C_en": "chord of an imaginary airfoil which has the same aerodynamic characteristics as the actual airfoil.",
       "figure": null
     },
@@ -155,13 +155,13 @@
       "num": 10,
       "difficulty": "易",
       "answer": "B",
-      "question": "",
+      "question": "飛機的CG如何決定?",
       "question_en": "The CG of an airplane can be determined by ?",
-      "A": "",
+      "A": "multiplying total arms by total weight.",
       "A_en": "multiplying total arms by total weight.",
-      "B": "",
+      "B": "dividing total moments by total weight.",
       "B_en": "dividing total moments by total weight.",
-      "C": "",
+      "C": "multiplying total weight by total moments.",
       "C_en": "multiplying total weight by total moments.",
       "figure": null
     },
@@ -170,13 +170,13 @@
       "num": 11,
       "difficulty": "易",
       "answer": "B",
-      "question": "",
+      "question": "Which of the following weight factors determine ramp or taxi weight?",
       "question_en": "Which of the following weight factors determine ramp or taxi weight?",
-      "A": "",
+      "A": "Payload plus operating weight.",
       "A_en": "Payload plus operating weight.",
-      "B": "",
+      "B": "Zero fuel weight plus total fuel load.",
       "B_en": "Zero fuel weight plus total fuel load.",
-      "C": "",
+      "C": "\"Zero fuel weight plus payload, fuel, and oil.\"",
       "C_en": "\"Zero fuel weight plus payload, fuel, and oil.\"",
       "figure": null
     },
@@ -185,13 +185,13 @@
       "num": 12,
       "difficulty": "易",
       "answer": "B",
-      "question": "",
+      "question": "為何需要制定加油的標準程序?",
       "question_en": "For what reason there is a standard procedure for fuel loading?",
-      "A": "",
+      "A": "For fire fighting",
       "A_en": "For fire fighting",
-      "B": "",
+      "B": "Reduce the bending moment of the wing",
       "B_en": "Reduce the bending moment of the wing",
-      "C": "",
+      "C": "Prevent tail down during refueling",
       "C_en": "Prevent tail down during refueling",
       "figure": null
     },
@@ -200,13 +200,13 @@
       "num": 13,
       "difficulty": "易",
       "answer": "B",
-      "question": "",
+      "question": "TOW 包括?",
       "question_en": "TOW includes ?",
-      "A": "",
+      "A": "ZFW + Trip fuel",
       "A_en": "ZFW + Trip fuel",
-      "B": "",
+      "B": "DOW + Payload + TOF",
       "B_en": "DOW + Payload + TOF",
-      "C": "",
+      "C": "DOW + Trip fuel",
       "C_en": "DOW + Trip fuel",
       "figure": null
     },
@@ -215,13 +215,13 @@
       "num": 14,
       "difficulty": "易",
       "answer": "C",
-      "question": "",
+      "question": "Caculate the TOW : OW=3800kg",
       "question_en": "Caculate the TOW : OW=3800kg",
-      "A": "",
+      "A": "4700kg",
       "A_en": "4700kg",
-      "B": "",
+      "B": "5100kg",
       "B_en": "5100kg",
-      "C": "",
+      "C": "4900kg ZFW=4200kg TOF=700kg Trip Fuel= 500kg",
       "C_en": "4900kg ZFW=4200kg TOF=700kg Trip Fuel= 500kg",
       "figure": null
     },
@@ -230,16 +230,16 @@
       "num": 15,
       "difficulty": "易",
       "answer": "C",
-      "question": "",
+      "question": "ZFW 加上 TOF 等於?",
       "question_en": "ZFW + TOF =?",
-      "A": "",
+      "A": "DOW",
       "A_en": "DOW",
-      "B": "",
+      "B": "Landing weight",
       "B_en": "Landing weight",
-      "C": "",
+      "C": "TOW",
       "C_en": "TOW",
       "figure": null,
-      "D": "",
+      "D": "Aircraft gross weight",
       "D_en": "Aircraft gross weight"
     },
     {
@@ -272,7 +272,7 @@
       "C_en": "the C.G. position has no effect on fuel saving",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012571",
@@ -289,7 +289,7 @@
       "C_en": "fuel not enough",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012572",
@@ -300,13 +300,13 @@
       "question_en": "\"In case of carrying Ballast Fuel, what weight should the ballast fuel be included ?\"",
       "A": "飛機基本重量(basic weight)",
       "A_en": "aircraft basic weight",
-      "B": "起飛油量(take off fuel)",
+      "B": "take off fuel",
       "B_en": "take off fuel",
-      "C": "零油重量(zero fuel weight)",
+      "C": "zero fuel weight",
       "C_en": "zero fuel weight",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012573",
@@ -315,7 +315,7 @@
       "answer": "C",
       "question": "下列敘述何者錯誤?",
       "question_en": "which of the following description is FALSE",
-      "A": "零油重=dry operating weight+酬載",
+      "A": "ZFW=DOW+Payload",
       "A_en": "ZFW=DOW+Payload",
       "B": "起飛重=零油重+起飛油重",
       "B_en": "TOW=ZFW+T/O fuel",
@@ -323,7 +323,7 @@
       "C_en": "LDW=TOW-T/O fuel",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012574",
@@ -340,7 +340,7 @@
       "C_en": "The weight which is closest to its respective max. weight",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012575",
@@ -357,7 +357,7 @@
       "C_en": "lift force center is aftward of C.G.",
       "figure": null,
       "D": "全 部皆非",
-      "D_en": ""
+      "D_en": "全 部皆非"
     },
     {
       "id": "0012576",
@@ -374,7 +374,7 @@
       "C_en": "independent of C.G.",
       "figure": null,
       "D": "全部皆 非",
-      "D_en": ""
+      "D_en": "全部皆 非"
     },
     {
       "id": "0012577",
@@ -391,7 +391,7 @@
       "C_en": "independent of C.G.",
       "figure": null,
       "D": "全部皆 非",
-      "D_en": ""
+      "D_en": "全部皆 非"
     },
     {
       "id": "0012578",
@@ -408,7 +408,7 @@
       "C_en": "C.G. will not change",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012579",
@@ -425,7 +425,7 @@
       "C_en": "depend on aircraft type",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012580",
@@ -442,7 +442,7 @@
       "C_en": "maximum zero fuel weight",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012581",
@@ -459,24 +459,24 @@
       "C_en": "23.1%MAC",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012582",
       "num": 29,
       "difficulty": "易",
       "answer": "C",
-      "question": "已知: MTOW=283 噸, MLDW=213 噸, MZFW=204噸, DOW=114 噸, Trip fuel = 75 噸, take off fuel=85 噸, 此趟飛行可裝載之最大酬載maximum allowable payload為何?",
+      "question": "\"Given: MTOW=283 tons, MLDW=213 tons, MZFW=204 tons, DOW=114 tons, Trip fuel = 75 tons, take off fuel=85 tons, , what is the maximum allowable payload for this flight?\"",
       "question_en": "\"Given: MTOW=283 tons, MLDW=213 tons, MZFW=204 tons, DOW=114 tons, Trip fuel = 75 tons, take off fuel=85 tons, , what is the maximum allowable payload for this flight?\"",
-      "A": "90 噸",
+      "A": "90 tons",
       "A_en": "90 tons",
-      "B": "89噸",
+      "B": "89 tons",
       "B_en": "89 tons",
-      "C": "84噸",
+      "C": "84 tons",
       "C_en": "84 tons",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012583",
@@ -540,7 +540,7 @@
       "C_en": "124.5 inches",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012587",
@@ -557,7 +557,7 @@
       "C_en": "124.5 inches",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012588",
@@ -589,7 +589,7 @@
       "C_en": "165149",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012590",
@@ -606,23 +606,23 @@
       "C_en": "970",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012591",
       "num": 38,
       "difficulty": "中",
       "answer": "C",
-      "question": "",
+      "question": "\"Given: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=23000, TOF=40000, what is the maximum allowed traffic load for this flight ?\"",
       "question_en": "\"Given: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=23000, TOF=40000, what is the maximum allowed traffic load for this flight ?\"",
-      "A": "",
+      "A": "40748",
       "A_en": "40748",
-      "B": "",
+      "B": "40114",
       "B_en": "40114",
-      "C": "",
+      "C": "38263",
       "C_en": "38263",
       "figure": null,
-      "D": "",
+      "D": "全部皆非",
       "D_en": "全部皆非"
     },
     {
@@ -630,16 +630,16 @@
       "num": 39,
       "difficulty": "中",
       "answer": "B",
-      "question": "",
+      "question": "\"Given: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=30000, TOF=40000, what is the allowed weight for take off for this flight ?\"",
       "question_en": "\"Given: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=30000, TOF=40000, what is the allowed weight for take off for this flight ?\"",
-      "A": "",
+      "A": "160634",
       "A_en": "160634",
-      "B": "",
+      "B": "170000",
       "B_en": "170000",
-      "C": "",
+      "C": "165149",
       "C_en": "165149",
       "figure": null,
-      "D": "",
+      "D": "全部皆非 TOF=40000 TOF=40000",
       "D_en": "全部皆非 TOF=40000 TOF=40000"
     },
     {
@@ -1160,16 +1160,16 @@
       "num": 73,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
+      "question": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=20000, is the maximum allowed traffic load ?",
       "question_en": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=20000, is the maximum allowed traffic load ?",
-      "A": "",
+      "A": "40748",
       "A_en": "40748",
-      "B": "",
+      "B": "40114",
       "B_en": "40114",
-      "C": "",
+      "C": "38263 TOF=30000,what",
       "C_en": "38263 TOF=30000,what",
       "figure": null,
-      "D": "",
+      "D": "全部皆非",
       "D_en": "全部皆非"
     },
     {
@@ -1177,7 +1177,7 @@
       "num": 74,
       "difficulty": "中",
       "answer": "C",
-      "question": "已知: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=20000, 此趟飛行允許之最大起飛重量 allowed weight for take off為何?",
+      "question": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=20000, TOF=40000, what is the allowed weight for take off?",
       "question_en": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=20000, TOF=40000, what is the allowed weight for take off?",
       "A": "160634",
       "A_en": "160634",
@@ -1187,23 +1187,23 @@
       "C_en": "165149",
       "figure": null,
       "D": "全部皆非",
-      "D_en": ""
+      "D_en": "全部皆非"
     },
     {
       "id": "0012628",
       "num": 75,
       "difficulty": "易",
       "answer": "B",
-      "question": "",
+      "question": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=30000, TOF=40000, what is the maximum allowed traffic load?",
       "question_en": "\"GIVEN: MZFW=130634, MLDW=145149, MTOW=170000, DOW=89886, TIF=30000, TOF=40000, what is the maximum allowed traffic load?",
-      "A": "",
+      "A": "40748",
       "A_en": "40748",
-      "B": "",
+      "B": "40114",
       "B_en": "40114",
-      "C": "",
+      "C": "38263",
       "C_en": "38263",
       "figure": null,
-      "D": "",
+      "D": "全部皆非 9 TOF=30000 TOF=40000 TOF=40000 (A27) CPL載重平衡",
       "D_en": "全部皆非 9 TOF=30000 TOF=40000 TOF=40000 (A27) CPL載重平衡"
     }
   ]
