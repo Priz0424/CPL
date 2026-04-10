@@ -615,7 +615,24 @@ function renderHome() {
 // ═════════════════════════════════════════=
 function resetSubject(subj) {
   if (!confirm('Reset this subject progress?')) return;
+
   localStorage.removeItem(`cpl_s_${subj}`);
+
+  // If currently practicing this subject, also clear session state
+  if (activeSubject === subj) {
+    session = { correct: 0, wrong: 0, wrongItems: [] };
+    questionQueue = [];
+    currentIdx = 0;
+    answered = false;
+
+    // Clear result UI if visible
+    const wl = document.getElementById('wrong-list');
+    if (wl) wl.innerHTML = '';
+
+    const ws = document.getElementById('wrong-section');
+    if (ws) ws.style.display = 'none';
+  }
+
   showToast('Reset done');
   renderHome();
 }
