@@ -856,5 +856,40 @@ function showToast(msg) {
 
 loadAll();
 </script>
+<script>
+(function () {
+  const KEY = "a21_progress";
+
+  function save(index) {
+    if (index === undefined || index === null) return;
+    localStorage.setItem(KEY, JSON.stringify({ index }));
+  }
+
+  function load() {
+    try {
+      return JSON.parse(localStorage.getItem(KEY) || "null");
+    } catch (e) {
+      return null;
+    }
+  }
+
+  const saved = load();
+
+  // expose resume index for app to use
+  if (saved && typeof saved.index === "number") {
+    window.__resumeIndex = saved.index;
+  }
+
+  // auto-sync if app uses a global index variable
+  setInterval(() => {
+    if (typeof window.currentIndex === "number") {
+      save(window.currentIndex);
+    }
+  }, 800);
+
+  // expose manual save function
+  window.saveProgress = save;
+})();
+</script>
 </body>
 </html>
