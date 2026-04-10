@@ -655,7 +655,7 @@ function renderQuestion() {
   if (q.figure) {
     const ext = q.figure.includes('Fig') ? 'png' : 'png';
     figImg.src = `${IMG_BASE}/${activeSubject}/${q.figure}.png`;
-    figImg.onerror = () => { figImg.src = `${IMG_BASE}/${activeSubject}/${q.figure}.jpeg`; };
+    figImg.onerror = () => { figImg.src = `${IMG_BASE}/${activeSubject}/${q.figure}.png`; };
     figLabel.textContent = q.figure;
     figWrap.classList.remove('hidden');
   } else {
