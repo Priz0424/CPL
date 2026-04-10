@@ -422,6 +422,7 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
 // ══════════════════════════════════════════
 const SUBJECTS_MANIFEST = ['A21','A22','A23','A24','A25','A26','A27','B01','B09'];
 const IMG_BASE = 'images';
+const OPTION_LETTERS = ['A','B','C','D'];
 
 let allSubjects  = {};
 let activeSubject = null;
@@ -487,6 +488,10 @@ const T = {
 };
 function t(key){ return T[lang][key] || T.en[key] || key; }
 
+function getOptionLetters(q) {
+  return OPTION_LETTERS.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
+}
+
 // ══════════════════════════════════════════
 // PERSISTENCE
 // ══════════════════════════════════════════
@@ -538,7 +543,7 @@ function updateQuizLang() {
   document.getElementById('q-text').textContent = useEn ? (q.question_en || q.question) : q.question;
   // Update options text only (keep state classes)
   const btns = document.querySelectorAll('.opt');
-  ['A','B','C'].forEach((ltr,i) => {
+  getOptionLetters(q).forEach((ltr,i) => {
     if (!btns[i]) return;
     const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
     btns[i].querySelector('.opt-txt').textContent = txt;
@@ -649,19 +654,40 @@ function showScreen(id) {
 // ══════════════════════════════════════════
 // START QUIZ
 // ══════════════════════════════════════════
+function buildGlobalPool() {
+  const pool = [];
+  Object.entries(allSubjects).forEach(([code, data]) => {
+    data.questions.forEach(q => {
+      pool.push({
+        ...q,
+        __subj: code
+      });
+    });
+  });
+  return pool;
+}
+
 function startMode(mode) {
   currentMode = mode;
-  if (!activeSubject) activeSubject = Object.keys(allSubjects)[0];
-  if (!activeSubject) { showToast('No subject loaded'); return; }
 
-  const data = allSubjects[activeSubject];
-  let pool = [...data.questions];
+  // GLOBAL MODE: use all subjects
+  let pool = buildGlobalPool();
 
   if (mode === 'wrong') {
-    const ids = getWrongIds(activeSubject);
-    pool = pool.filter(q => ids.includes(q.id));
-    if (!pool.length) { showToast(t('noWrongQ')); return; }
+    const wrongSet = new Set();
+
+    SUBJECTS_MANIFEST.forEach(subj => {
+      getWrongIds(subj).forEach(id => wrongSet.add(`${subj}::${id}`));
+    });
+
+    pool = pool.filter(q => wrongSet.has(`${q.__subj}::${q.id}`));
+
+    if (!pool.length) {
+      showToast(t('noWrongQ'));
+      return;
+    }
   }
+
   if (mode === 'random' || mode === 'exam') shuffle(pool);
   if (mode === 'exam') pool = pool.slice(0, 30);
 
@@ -684,9 +710,12 @@ function renderQuestion() {
   const useEn = lang === 'en';
 
   // Header
-  const subj = allSubjects[activeSubject];
+  const subj = activeSubject ? allSubjects[activeSubject] : null;
+
   document.getElementById('quiz-title').textContent =
-    `${activeSubject} · ${useEn ? (subj.title_en||subj.title) : subj.title}`;
+    activeSubject
+      ? `${activeSubject} · ${useEn ? (subj.title_en||subj.title) : subj.title}`
+      : `CPL · ${useEn ? 'All Subjects' : '全題庫'}`;
   document.getElementById('prog-fill').style.width = (currentIdx/total*100)+'%';
   document.getElementById('sc-ok').textContent  = session.correct;
   document.getElementById('sc-bad').textContent = session.wrong;
@@ -733,7 +762,7 @@ function renderQuestion() {
   // Options
   const optEl = document.getElementById('options');
   optEl.innerHTML = '';
-  ['A','B','C'].forEach(ltr => {
+  getOptionLetters(q).forEach(ltr => {
     const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
     const btn = document.createElement('button');
     btn.className = 'opt';
@@ -759,7 +788,7 @@ function selectAnswer(chosen, correct, q) {
   answered = true;
   const ok = chosen === correct;
 
-  saveStats(activeSubject, q.id, ok);
+  saveStats(q.__subj, q.id, ok);
   if (ok) session.correct++;
   else { session.wrong++; session.wrongItems.push({q, chosen}); }
 
@@ -767,7 +796,7 @@ function selectAnswer(chosen, correct, q) {
   document.getElementById('sc-bad').textContent = session.wrong;
 
   const btns = document.querySelectorAll('.opt');
-  ['A','B','C'].forEach((ltr,i) => {
+  getOptionLetters(q).forEach((ltr,i) => {
     btns[i].disabled = true;
     if (ltr === chosen && ok)   btns[i].classList.add('correct');
     else if (ltr === chosen)    btns[i].classList.add('wrong');
