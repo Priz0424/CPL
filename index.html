@@ -304,7 +304,7 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 24px;
+    padding: 24px 24px 100px;
     overflow-y: auto;
     border-right: 1px solid var(--line);
     -webkit-overflow-scrolling: touch;
@@ -316,7 +316,7 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
     display: flex;
     flex-direction: column;
     gap: 14px;
-    padding: 24px 24px 100px;
+    padding: 24px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -376,17 +376,19 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
     max-height: 100%;
     object-fit: contain;
   }
-  /* without a figure, left panel doesn't need to stretch */
-  .qpanel-left:not(.has-figure){ overflow-y: auto; }
-  .qpanel-left:not(.has-figure) .fig-wrap{ flex: 0; }
+  /* without a figure, the figure panel doesn't need to stretch */
+  .qpanel-left:not(.has-figure),
+  .qpanel-right:not(.has-figure){ overflow-y: auto; }
+  .qpanel-left:not(.has-figure) .fig-wrap,
+  .qpanel-right:not(.has-figure) .fig-wrap{ flex: 0; }
 
   /* Question card stays compact */
   .qcard{ flex-shrink: 0; }
 }
 
 @media(min-width:1024px){
-  .qpanel-left{ padding: 32px; }
-  .qpanel-right{ padding: 32px 32px 0; }
+  .qpanel-left{ padding: 32px 32px 100px; }
+  .qpanel-right{ padding: 32px; }
   .q-text{ font-size: 17px; }
   .opt{ font-size: 15px; }
   /* Home and result get a max-width cap */
@@ -520,6 +522,18 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
     var(--paper2);
 }
 @media(max-width:767px){
+  .fig-wrap{
+    flex:none;
+    min-height:auto;
+    height:auto;
+  }
+  .fig-img{
+    width:100%;
+    height:auto !important;
+    max-height:none !important;
+    object-fit:contain;
+    aspect-ratio:auto;
+  }
   .figure-viewer{
     padding:14px;
   }
@@ -892,6 +906,34 @@ function getFigureCandidates(subjectCode, figure) {
 
 function canZoomFigure() {
   return window.matchMedia('(min-width:768px)').matches;
+}
+
+function isDesktopQuizLayout() {
+  return window.matchMedia('(min-width:768px)').matches;
+}
+
+function syncQuizPanelLayout() {
+  const leftPanel = document.querySelector('.qpanel-left');
+  const rightPanel = document.querySelector('.qpanel-right');
+  const qcard = leftPanel?.querySelector('.qcard');
+  const qMeta = document.querySelector('.q-meta');
+  const figWrap = document.getElementById('fig-wrap');
+  const options = document.getElementById('options');
+  const feedback = document.getElementById('result-fb');
+
+  if (!leftPanel || !rightPanel || !qcard || !qMeta || !figWrap || !options || !feedback) return;
+
+  if (isDesktopQuizLayout()) {
+    if (figWrap.parentElement !== rightPanel) rightPanel.appendChild(figWrap);
+    if (options.parentElement !== leftPanel) leftPanel.appendChild(options);
+    if (feedback.parentElement !== leftPanel) leftPanel.appendChild(feedback);
+    return;
+  }
+
+  leftPanel.insertBefore(figWrap, leftPanel.children[1] || null);
+  if (qMeta.parentElement !== rightPanel) rightPanel.insertBefore(qMeta, rightPanel.firstChild || null);
+  rightPanel.appendChild(options);
+  rightPanel.appendChild(feedback);
 }
 
 function setFigureInteractive(enabled) {
@@ -1292,10 +1334,13 @@ function renderQuestion() {
     useEn ? (q.question_en || q.question) : q.question;
 
   // Figure
+  syncQuizPanelLayout();
   const figWrap  = document.getElementById('fig-wrap');
   const figImg   = document.getElementById('fig-img');
   const figLabel = document.getElementById('fig-label');
-  const leftPanel = document.querySelector('.qpanel-left');
+  const figurePanels = document.querySelectorAll('.qpanel-left, .qpanel-right');
+  const figurePanel = figWrap.closest('.qpanel-left, .qpanel-right');
+  figurePanels.forEach(panel => panel.classList.remove('has-figure'));
   setFigureInteractive(false);
   if (q.figure) {
     const figureSubject = getQuestionSubject(q);
@@ -1304,7 +1349,7 @@ function renderQuestion() {
     const tryNext = () => {
       if (i >= candidates.length) {
         figWrap.classList.add('hidden');
-        if (leftPanel) leftPanel.classList.remove('has-figure');
+        if (figurePanel) figurePanel.classList.remove('has-figure');
         setFigureInteractive(false);
         return;
       }
@@ -1312,7 +1357,7 @@ function renderQuestion() {
     };
     figImg.onerror = tryNext;
     figImg.onload  = () => {
-      if (leftPanel) leftPanel.classList.add('has-figure');
+      if (figurePanel) figurePanel.classList.add('has-figure');
       setFigureInteractive(canZoomFigure());
     };
     tryNext();
@@ -1320,7 +1365,7 @@ function renderQuestion() {
     figWrap.classList.remove('hidden');
   } else {
     figWrap.classList.add('hidden');
-    if (leftPanel) leftPanel.classList.remove('has-figure');
+    if (figurePanel) figurePanel.classList.remove('has-figure');
     setFigureInteractive(false);
   }
 
@@ -1516,6 +1561,7 @@ document.addEventListener('keydown', event => {
 });
 
 window.addEventListener('resize', () => {
+  syncQuizPanelLayout();
   if (!canZoomFigure()) {
     closeFigureViewer(true);
     setFigureInteractive(false);
@@ -1524,6 +1570,7 @@ window.addEventListener('resize', () => {
   setFigureInteractive(!document.getElementById('fig-wrap').classList.contains('hidden'));
 });
 
+syncQuizPanelLayout();
 syncThemeToggle();
 syncFigureViewerText();
 
