@@ -792,6 +792,13 @@ function getOptionLetters(q) {
   return OPTION_LETTERS.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
 }
 
+function getRenderedOptionOrder(q) {
+  if (Array.isArray(q?.__optionOrder) && q.__optionOrder.length) {
+    return q.__optionOrder.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
+  }
+  return getOptionLetters(q);
+}
+
 function isQuestionRenderable(q) {
   const prompt = (q.question || q.question_en || '').trim();
   return Boolean(prompt) && getOptionLetters(q).length >= 3;
@@ -988,10 +995,11 @@ function updateQuizLang() {
   document.getElementById('q-text').textContent = useEn ? (q.question_en || q.question) : q.question;
   // Update options text only (keep state classes)
   const btns = document.querySelectorAll('.opt');
-  getOptionLetters(q).forEach((ltr,i) => {
+  getRenderedOptionOrder(q).forEach((ltr,i) => {
     if (!btns[i]) return;
     const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
     btns[i].querySelector('.opt-txt').textContent = txt;
+    btns[i].querySelector('.opt-ltr').textContent = ltr;
   });
   // Update diff badge
   document.getElementById('q-diff-badge').textContent =
@@ -1251,7 +1259,8 @@ function renderQuestion() {
   // Options
   const optEl = document.getElementById('options');
   optEl.innerHTML = '';
-  getOptionLetters(q).forEach(ltr => {
+  q.__optionOrder = shuffle([...getOptionLetters(q)]);
+  getRenderedOptionOrder(q).forEach(ltr => {
     const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
     const btn = document.createElement('button');
     btn.className = 'opt';
@@ -1285,7 +1294,7 @@ function selectAnswer(chosen, correct, q) {
   document.getElementById('sc-bad').textContent = session.wrong;
 
   const btns = document.querySelectorAll('.opt');
-  getOptionLetters(q).forEach((ltr,i) => {
+  getRenderedOptionOrder(q).forEach((ltr,i) => {
     btns[i].disabled = true;
     if (ltr === chosen && ok)   btns[i].classList.add('correct');
     else if (ltr === chosen)    btns[i].classList.add('wrong');
