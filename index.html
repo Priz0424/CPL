@@ -493,6 +493,11 @@ function getOptionLetters(q) {
   return OPTION_LETTERS.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
 }
 
+function isQuestionRenderable(q) {
+  const prompt = (q.question || q.question_en || '').trim();
+  return Boolean(prompt) && getOptionLetters(q).length >= 3;
+}
+
 function getQuestionSubject(q) {
   return q.__subj || activeSubject || '';
 }
@@ -683,7 +688,7 @@ function renderHome() {
       <div class="prog-track"><div class="prog-bar" style="width:${pct}%"></div></div>
       <div class="prog-row"><span>${lang==='en'?'Attempted':'已練習'} ${attempted}</span><span>${pct}%</span></div>
     `;
-    card.onclick = () => startMode('random', code);
+    card.onclick = () => startMode('random', code, { resumeUnanswered: true });
     list.appendChild(card);
   }
 }
@@ -736,23 +741,34 @@ function buildGlobalPool() {
       });
     });
   });
-  return pool;
+  return pool.filter(isQuestionRenderable);
 }
 
-function buildSubjectPool(subjectCode) {
+function buildSubjectPool(subjectCode, { excludeAnswered = false } = {}) {
   const data = allSubjects[subjectCode];
   if (!data) return [];
-  return data.questions.map(q => ({
-    ...q,
-    __subj: subjectCode
-  }));
+  const answeredIds = excludeAnswered ? new Set(Object.keys(getStats(subjectCode))) : null;
+  return data.questions
+    .filter(q => !answeredIds || !answeredIds.has(q.id))
+    .map(q => ({
+      ...q,
+      __subj: subjectCode
+    }))
+    .filter(isQuestionRenderable);
 }
 
-function startMode(mode, subjectCode = activeSubject) {
+function startMode(mode, subjectCode = activeSubject, { resumeUnanswered = false } = {}) {
   currentMode = mode;
   activeSubject = subjectCode || null;
 
-  let pool = activeSubject ? buildSubjectPool(activeSubject) : buildGlobalPool();
+  let pool = activeSubject
+    ? buildSubjectPool(activeSubject, { excludeAnswered: resumeUnanswered && mode !== 'wrong' })
+    : buildGlobalPool();
+
+  if (activeSubject && resumeUnanswered && mode !== 'wrong' && !pool.length) {
+    showToast(lang === 'en' ? 'All questions in this subject are done. Starting over.' : '這科已全部作答，重新開始。');
+    pool = buildSubjectPool(activeSubject);
+  }
 
   if (mode === 'wrong') {
     const wrongSet = new Set();
@@ -768,6 +784,11 @@ function startMode(mode, subjectCode = activeSubject) {
       showToast(t('noWrongQ'));
       return;
     }
+  }
+
+  if (!pool.length) {
+    showToast(lang === 'en' ? 'No valid questions available.' : '目前沒有可作答的題目。');
+    return;
   }
 
   if (mode === 'random' || mode === 'exam') shuffle(pool);
@@ -787,6 +808,11 @@ function startMode(mode, subjectCode = activeSubject) {
 function renderQuestion() {
   const q     = questionQueue[currentIdx];
   const total = questionQueue.length;
+  if (!q) {
+    showToast(lang === 'en' ? 'No valid questions available.' : '目前沒有可作答的題目。');
+    showScreen('home');
+    return;
+  }
   answered    = false;
 
   const useEn = lang === 'en';
