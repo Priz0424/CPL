@@ -7,8 +7,21 @@
 <title>CPL Question Bank</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+(() => {
+  try {
+    const storedTheme = localStorage.getItem('cpl_theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const theme = storedTheme || (prefersDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', theme === 'dark' ? '#1a1814' : '#f8f6f1');
+  } catch (error) {}
+})();
+</script>
 <style>
 :root {
+  color-scheme: light;
   --ink:       #1a1a1a;
   --ink2:      #555;
   --ink3:      #999;
@@ -29,26 +42,25 @@
   --r:         14px;
   --r2:        10px;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --ink:     #f0ede6;
-    --ink2:    #b0aa9e;
-    --ink3:    #6e6860;
-    --paper:   #1a1814;
-    --paper2:  #201e19;
-    --paper3:  #282420;
-    --card:    #242019;
-    --line:    rgba(255,255,255,0.07);
-    --line2:   rgba(255,255,255,0.12);
-    --blue:      #6ba7e0;
-    --blue-bg:   #0e2236;
-    --green:     #4caf77;
-    --green-bg:  #0b2318;
-    --red:       #e07070;
-    --red-bg:    #2a1010;
-    --amber:     #e0a940;
-    --amber-bg:  #261c06;
-  }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink:     #f0ede6;
+  --ink2:    #b0aa9e;
+  --ink3:    #6e6860;
+  --paper:   #1a1814;
+  --paper2:  #201e19;
+  --paper3:  #282420;
+  --card:    #242019;
+  --line:    rgba(255,255,255,0.07);
+  --line2:   rgba(255,255,255,0.12);
+  --blue:      #6ba7e0;
+  --blue-bg:   #0e2236;
+  --green:     #4caf77;
+  --green-bg:  #0b2318;
+  --red:       #e07070;
+  --red-bg:    #2a1010;
+  --amber:     #e0a940;
+  --amber-bg:  #261c06;
 }
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);font-size:15px;line-height:1.5}
@@ -84,6 +96,12 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
 
 /* Lang pill in masthead */
 .masthead-row{display:flex;align-items:flex-end;justify-content:space-between}
+.masthead-actions{display:flex;align-items:center;gap:10px}
+.theme-toggle{width:40px;height:40px;border:none;border-radius:999px;background:var(--card);color:var(--ink);display:flex;align-items:center;justify-content:center;cursor:pointer;border:1px solid var(--line2);box-shadow:0 10px 30px rgba(0,0,0,.08);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background .18s ease}
+.theme-toggle:hover{transform:translateY(-1px);border-color:var(--line2);box-shadow:0 14px 30px rgba(0,0,0,.12)}
+.theme-toggle:active{transform:scale(.97)}
+.theme-toggle:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.theme-toggle-icon{font-size:17px;line-height:1}
 .lang-toggle{display:flex;background:var(--paper2);border:1px solid var(--line2);border-radius:24px;padding:3px;gap:2px}
 .lang-btn{font-size:11px;font-weight:600;letter-spacing:.06em;padding:5px 13px;border-radius:20px;border:none;cursor:pointer;background:transparent;color:var(--ink3);transition:all .18s}
 .lang-btn.active{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.1)}
@@ -481,27 +499,25 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
   from{opacity:0;transform:translateY(-12px) scale(.92)}
   to{opacity:.92;transform:translateY(0) scale(1)}
 }
-@media (prefers-color-scheme: dark) {
-  .fig-wrap.zoomable .fig-zoom-hint{
-    background:rgba(36,32,25,.88);
-    border-color:rgba(255,255,255,.1);
-    color:#f0ede6;
-  }
-  .figure-viewer-panel{
-    background:rgba(30,26,21,.94);
-    border-color:rgba(255,255,255,.08);
-  }
-  .figure-viewer-close{
-    background:rgba(255,255,255,.12);
-  }
-  .figure-viewer-close:hover{
-    background:rgba(255,255,255,.2);
-  }
-  .figure-viewer-img{
-    background:
-      linear-gradient(135deg, rgba(255,255,255,.04), rgba(255,255,255,.01)),
-      var(--paper2);
-  }
+:root[data-theme="dark"] .fig-wrap.zoomable .fig-zoom-hint{
+  background:rgba(36,32,25,.88);
+  border-color:rgba(255,255,255,.1);
+  color:#f0ede6;
+}
+:root[data-theme="dark"] .figure-viewer-panel{
+  background:rgba(30,26,21,.94);
+  border-color:rgba(255,255,255,.08);
+}
+:root[data-theme="dark"] .figure-viewer-close{
+  background:rgba(255,255,255,.12);
+}
+:root[data-theme="dark"] .figure-viewer-close:hover{
+  background:rgba(255,255,255,.2);
+}
+:root[data-theme="dark"] .figure-viewer-img{
+  background:
+    linear-gradient(135deg, rgba(255,255,255,.04), rgba(255,255,255,.01)),
+    var(--paper2);
 }
 @media(max-width:767px){
   .figure-viewer{
@@ -552,9 +568,14 @@ html,body{height:100%;font-family:'Inter',sans-serif;background:var(--paper);col
           <div class="masthead-title">CPL <span>Question</span><br>Bank</div>
           <div class="masthead-sub">民用航空甲種飛行員 學科題庫</div>
         </div>
-        <div class="lang-toggle">
-          <button class="lang-btn active" id="home-lang-en" onclick="setLang('en')">EN</button>
-          <button class="lang-btn" id="home-lang-zh" onclick="setLang('zh')">中</button>
+        <div class="masthead-actions">
+          <button class="theme-toggle" id="home-theme-toggle" onclick="toggleTheme()" aria-label="Switch theme" title="Switch theme">
+            <span class="theme-toggle-icon" id="home-theme-icon">☀</span>
+          </button>
+          <div class="lang-toggle">
+            <button class="lang-btn active" id="home-lang-en" onclick="setLang('en')">EN</button>
+            <button class="lang-btn" id="home-lang-zh" onclick="setLang('zh')">中</button>
+          </div>
         </div>
       </div>
     </div>
@@ -722,6 +743,7 @@ let currentIdx   = 0;
 let answered     = false;
 let session      = { correct: 0, wrong: 0, wrongItems: [] };
 let lang         = localStorage.getItem('cpl_lang') || 'en'; // 'en' | 'zh'
+let theme        = document.documentElement.getAttribute('data-theme') || 'light';
 let quizAudioCtx = null;
 let figureViewerOpen = false;
 
@@ -751,6 +773,8 @@ const T = {
     g50:  '📚 Keep studying',
     g0:   '💪 Don\'t give up',
     noWrongQ: '🎉 No wrong questions — great job!',
+    themeToLight: 'Switch to light mode',
+    themeToDark: 'Switch to dark mode',
     zoomFigure: 'Click image to enlarge',
     openFigure: 'Open enlarged figure',
     closeFigure: 'Close figure',
@@ -780,6 +804,8 @@ const T = {
     g50:  '📚 還需要多練習',
     g0:   '💪 別氣餒，再試一次',
     noWrongQ: '🎉 全對，繼續保持！',
+    themeToLight: '切換到淺色',
+    themeToDark: '切換到深色',
     zoomFigure: '點擊圖片可放大',
     openFigure: '開啟放大圖片',
     closeFigure: '關閉圖片',
@@ -787,6 +813,35 @@ const T = {
   }
 };
 function t(key){ return T[lang][key] || T.en[key] || key; }
+
+function getThemeMetaColor(nextTheme) {
+  return nextTheme === 'dark' ? '#1a1814' : '#f8f6f1';
+}
+
+function syncThemeToggle() {
+  const toggle = document.getElementById('home-theme-toggle');
+  const icon = document.getElementById('home-theme-icon');
+  if (!toggle || !icon) return;
+
+  const nextTheme = theme === 'dark' ? 'light' : 'dark';
+  icon.textContent = theme === 'dark' ? '☀' : '☾';
+  const label = nextTheme === 'dark' ? t('themeToDark') : t('themeToLight');
+  toggle.setAttribute('aria-label', label);
+  toggle.setAttribute('title', label);
+}
+
+function applyTheme(nextTheme, { persist = true } = {}) {
+  theme = nextTheme === 'dark' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', theme);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute('content', getThemeMetaColor(theme));
+  if (persist) localStorage.setItem('cpl_theme', theme);
+  syncThemeToggle();
+}
+
+function toggleTheme() {
+  applyTheme(theme === 'dark' ? 'light' : 'dark');
+}
 
 function getOptionLetters(q) {
   return OPTION_LETTERS.filter(ltr => typeof q[ltr] === 'string' && q[ltr].trim());
@@ -980,6 +1035,7 @@ function setLang(l) {
   document.querySelectorAll('[data-en]').forEach(el => {
     el.textContent = l === 'zh' ? el.dataset.zh : el.dataset.en;
   });
+  syncThemeToggle();
   syncFigureViewerText();
   setFigureInteractive(canZoomFigure() && !document.getElementById('fig-wrap').classList.contains('hidden'));
   // If quiz is active, re-render question text only (no full re-render to keep answer state)
@@ -1468,6 +1524,7 @@ window.addEventListener('resize', () => {
   setFigureInteractive(!document.getElementById('fig-wrap').classList.contains('hidden'));
 });
 
+syncThemeToggle();
 syncFigureViewerText();
 
 loadAll();
