@@ -9,14 +9,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列在Class A空域之飛航操作敘述何者正確？",
+      "question_en": "Which is true regarding flight operations in Class A airspace?",
+      "has_figure": false,
       "A": "航機必須配備合法之測距裝備",
       "B": "必須執行儀器飛航操作",
       "C": "航機必須配備合法之 航空識別器",
-      "question_en": "Which is true regarding flight operations in Class A airspace?",
       "A_en": "Aircraft must be equipped with approved distance measuring equipment (DME)",
       "B_en": "Must conduct operations under instrument flight rules",
-      "C_en": "Aircraft must be equipped with an approved ATC transponder",
-      "figure": null
+      "C_en": "Aircraft must be equipped with an approved ATC transponder"
     },
     {
       "id": "0011895",
@@ -24,14 +24,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列在Class A空域之飛航操作敘述何者正確？",
+      "question_en": "Which is true regarding flight operations in Class A airspace?",
+      "has_figure": false,
       "A": "航機必須配備許可之測距裝備",
       "B": "航機必須配備許可之航空識別器及高度回報裝置",
       "C": "可以執行目視飛航操作",
-      "question_en": "Which is true regarding flight operations in Class A airspace?",
       "A_en": "Aircraft must be equipped with approved distance measuring equipment (DME)",
       "B_en": "Aircraft must be equipped with an ATC transponder and altitude reporting equipment",
-      "C_en": "Must conduct operations under visual flight rules",
-      "figure": null
+      "C_en": "Must conduct operations under visual flight rules"
     },
     {
       "id": "0011896",
@@ -39,14 +39,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列在Class B空域之飛航操作敘述何者正確？",
+      "question_en": "Which is true regarding flight operations in Class B airspace?",
+      "has_figure": false,
       "A": "除非PIC具有儀器飛航執照，否則不得執行目視飛航",
       "B": "飛行員在進入該空域操作前 必須得到航管許可",
       "C": "單飛之學生飛行員不得於該空域操作",
-      "question_en": "Which is true regarding flight operations in Class B airspace?",
       "A_en": "Flight under VFR is not authorized unless the pilot in command is instrument rated",
       "B_en": "The pilot must receive an ATC clearance before operating an aircraft in that area",
-      "C_en": "Solo student pilot operation are not authorized",
-      "figure": null
+      "C_en": "Solo student pilot operation are not authorized"
     },
     {
       "id": "0011897",
@@ -54,14 +54,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列在Class B空域操作之飛行員持照需求敘述何者正確？",
+      "question_en": "Which is true regarding pilot certification requirements for operations in Class B airspace?",
+      "has_figure": false,
       "A": "PIC必須持有私人以上之執照以及儀器飛航執照",
       "B": "PIC必須持有私人以上之執照",
       "C": "單飛之學生飛行員不得於該空域操作",
-      "question_en": "Which is true regarding pilot certification requirements for operations in Class B airspace?",
       "A_en": "The pilot in command must hold at least a private pilot certificate with an instrument rating",
       "B_en": "The pilot in command must hold at least a private pilot certificate",
-      "C_en": "Solo student pilot operation are not authorized",
-      "figure": null
+      "C_en": "Solo student pilot operation are not authorized"
     },
     {
       "id": "0011898",
@@ -69,14 +69,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "在Class B空域操作必須裝備下列何種航空器識別器？",
+      "question_en": "What transponder equipment is required for airplane operations in Class B airspace? A transponder",
+      "has_figure": false,
       "A": "具有4094識別碼，S模式及C模式功能",
       "B": "除非在離地面1000呎以下操作並得到航管 許可，否則必須具有4094識別碼",
       "C": "飛航操作需要有3英里以上的能見度",
-      "question_en": "What transponder equipment is required for airplane operations in Class B airspace? A transponder",
       "A_en": "with 4096 code or Mode S, and Mode C capability",
       "B_en": "with 4096 code capability is required except when operating at or below 1000 feet AGL under the terms of a letter of agreement",
-      "C_en": "is required for airplane operations when visibility is less than 3 miles",
-      "figure": null
+      "C_en": "is required for airplane operations when visibility is less than 3 miles"
     },
     {
       "id": "0011899",
@@ -84,14 +84,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "下列在Class B空域之飛航操作敘述何者正確？",
+      "question_en": "Which is true regarding flight operations in Class B airspace?",
+      "has_figure": false,
       "A": "航機必須配備合法之航空器識別器及高度回報裝置",
       "B": "PIC必須持有私人以上之執 照以及儀器飛航執照",
       "C": "PIC必須持有學生以上執照",
-      "question_en": "Which is true regarding flight operations in Class B airspace?",
       "A_en": "Aircraft must be equipped with an ATC transponder and altitude reporting equipment",
       "B_en": "The pilot in command must hold at least a private pilot certificate with an instrument rating",
-      "C_en": "The pilot in command must hold at least a student pilot certificate",
-      "figure": null
+      "C_en": "The pilot in command must hold at least a student pilot certificate"
     },
     {
       "id": "0011900",
@@ -99,14 +99,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列何者為Class B空域下的最高空指示空速？",
+      "question_en": "What is the maximum indicated airspeed authorized in the airspace underlying Class B airspace",
+      "has_figure": false,
       "A": "156海浬",
       "B": "200海浬",
       "C": "230海浬",
-      "question_en": "What is the maximum indicated airspeed authorized in the airspace underlying Class B airspace",
       "A_en": "156 knots",
       "B_en": "200 knots",
-      "C_en": "230 knots",
-      "figure": null
+      "C_en": "230 knots"
     },
     {
       "id": "0011901",
@@ -114,14 +114,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "除非得到航管許可，在離地2500呎及以下且距離主要機場4海浬範圍內之Class C或D空 域內，最高指示空速為",
+      "question_en": "Unless otherwise authorized or required by ATC, the maximum indicated airspeed permitted when at or below 2500 feet AGL within 4NM of the primary airport within Class C or D airspace is",
+      "has_figure": false,
       "A": "180海浬",
       "B": "200海浬",
       "C": "230海里",
-      "question_en": "Unless otherwise authorized or required by ATC, the maximum indicated airspeed permitted when at or below 2500 feet AGL within 4NM of the primary airport within Class C or D airspace is",
       "A_en": "180 knots",
       "B_en": "200 knots",
-      "C_en": "230 knots",
-      "figure": null
+      "C_en": "230 knots"
     },
     {
       "id": "0011902",
@@ -129,14 +129,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "飛離或飛抵Class C空域下，無塔台管制之衛星機場，下列敘述何者正確？",
+      "question_en": "Which is true regarding flight operations to or from a satellite airport, without an operating control tower, within the Class C airspace area?",
+      "has_figure": false,
       "A": "在起飛前，飛行員必須建立並保持與航管人員之通訊",
       "B": "航機必須配備合法之航空 器識別器及高度回報裝置",
       "C": "在落地前，飛行員必須建立並保持與航管人員之通訊",
-      "question_en": "Which is true regarding flight operations to or from a satellite airport, without an operating control tower, within the Class C airspace area?",
       "A_en": "Prior to takeoff, a pilot must establish communication with the ATC controlling facility",
       "B_en": "Aircraft must be equipped with an ATC transponder and altitude reporting equipment",
-      "C_en": "Prior to land, a pilot must establish and maintain communication with an ATC controlling facility",
-      "figure": null
+      "C_en": "Prior to land, a pilot must establish and maintain communication with an ATC controlling facility"
     },
     {
       "id": "0011903",
@@ -144,14 +144,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "飛離或飛抵Class C空域下，無塔台管制之衛星機場，下列敘述何者正確？",
+      "question_en": "Which is true regarding flight operations to or from a satellite airport, without an operating control; tower, within the Class C airspace area?",
+      "has_figure": false,
       "A": "在進入該空域前，飛行員必須建立並保持與航管人員之通訊",
       "B": "航機必須配備合法 之航空器識別器",
       "C": "在起飛前，飛行員必須建立並保持與航管人員之通訊",
-      "question_en": "Which is true regarding flight operations to or from a satellite airport, without an operating control; tower, within the Class C airspace area?",
       "A_en": "Prior to entering that airspace, a pilot must establish and maintain communication with the ATC serving facility",
       "B_en": "Aircraft must be equipped with an ATC transponder",
-      "C_en": "Prior to takeoff, a pilot must establish communication with the ATC controlling facility",
-      "figure": null
+      "C_en": "Prior to takeoff, a pilot must establish communication with the ATC controlling facility"
     },
     {
       "id": "0011904",
@@ -159,14 +159,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "在一些沒有能見度報告之Class D空域機場，以特種目視條件起降之航機操作",
+      "question_en": "At some airport located in Class D airspace where ground visibility is not reported, takeoffs and landings under special VFR are",
+      "has_figure": false,
       "A": "不允許",
       "B": "得在飛航能見度1英里以上操作",
       "C": "僅能在地面能見度3英里以上操作",
-      "question_en": "At some airport located in Class D airspace where ground visibility is not reported, takeoffs and landings under special VFR are",
       "A_en": "not authorized",
       "B_en": "authorized by ATC if the flight visibility is at least 1 SM",
-      "C_en": "authorized only if the ground visibility is observed to be at least 3 SM",
-      "figure": null
+      "C_en": "authorized only if the ground visibility is observed to be at least 3 SM"
     },
     {
       "id": "0011905",
@@ -174,14 +174,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "在Class D空域機場，以特種目視條件執行起降之航機其目視條件為何？",
+      "question_en": "When operating an airplane for the purpose of takeoff and landing within Class D airspace under special VFR, what minimum distance from clouds and what visibility are required?",
+      "has_figure": false,
       "A": "不得進雲，地面能見度1英哩以上。",
       "B": "在雲幕下500呎，地面能見度1英哩以上。",
       "C": "不得進雲，飛航能見度1海浬以上。",
-      "question_en": "When operating an airplane for the purpose of takeoff and landing within Class D airspace under special VFR, what minimum distance from clouds and what visibility are required?",
       "A_en": "Remain clear of clouds, and the ground visibility must be at least 1 SM.",
       "B_en": "500 feet beneath clouds, and the ground visibility must be at least 1 SM.",
-      "C_en": "Remain clear of clouds, and the flight visibility must be at least 1 NM.",
-      "figure": null
+      "C_en": "Remain clear of clouds, and the flight visibility must be at least 1 NM."
     },
     {
       "id": "0011906",
@@ -189,14 +189,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "夜間於Class D空域，以特種目視條件操作之條件為何？",
+      "question_en": "To operate an airplane under special VFR (SVFR) within Class D airspace at night, which is required?",
+      "has_figure": false,
       "A": "飛行員必須持有儀器執照，但航機不需具有儀器飛航設備，只要天氣條件在特別目 視條件天候以上",
       "B": "該Class D空域必須經特別指定為夜間使用",
       "C": "飛行員必須持有儀 器執照，航機亦需具有儀器飛航設備",
-      "question_en": "To operate an airplane under special VFR (SVFR) within Class D airspace at night, which is required?",
       "A_en": "The pilot must hold an instrument rating, but the airplane need not be equipped for instrument flight, as long as the weather will remain at or above SVFR minimums",
       "B_en": "The Class D airspace must be specifically designated as a night SVFR area",
-      "C_en": "The pilot must hold an instrument rating, and the airplane must be equipped for instrument flight",
-      "figure": null
+      "C_en": "The pilot must hold an instrument rating, and the airplane must be equipped for instrument flight"
     },
     {
       "id": "0011907",
@@ -204,14 +204,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "下列何種空域，其內的機場在無塔台管制下會改變空域條件？",
+      "question_en": "What designated airspace associated with an airport becomes inactive when the control tower at that airport is not in operation?",
+      "has_figure": false,
       "A": "Class D空域將變為Class C空域",
       "B": "Class D空域將變為Class E空域",
-      "C": "Class B 空域",
-      "question_en": "What designated airspace associated with an airport becomes inactive when the control tower at that airport is not in operation?",
+      "C_en": "Class B",
       "A_en": "Class D, which then becomes Class C",
       "B_en": "Class D, which then becomes Class E",
-      "C_en": "Class B",
-      "figure": null
+      "C": "Class B"
     },
     {
       "id": "0011908",
@@ -219,14 +219,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "於Class D空域具有航管設施之機場進場落地，飛行員必須於下列何情況前建立通訊？",
+      "question_en": "When approaching to land at an airport with an ATC facility, in Class D airspace, the pilot must establish communications prior to",
+      "has_figure": false,
       "A": "10海里以內，離地3000呎含以下",
       "B": "30英里，並且必須配備航空器識別器",
       "C": "4海里 以內，離地2500呎含以下",
-      "question_en": "When approaching to land at an airport with an ATC facility, in Class D airspace, the pilot must establish communications prior to",
       "A_en": "10 NM, up to and including 3000 feet AGL",
       "B_en": "30 SM, and be transponder equipped",
-      "C_en": "4 NM, up to and including 2500 feet AGL",
-      "figure": null
+      "C_en": "4 NM, up to and including 2500 feet AGL"
     },
     {
       "id": "0011909",
@@ -234,14 +234,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "於Class E空域具有航管設施之機場附近操作時，飛行員必須於下列何情況前建立通 訊？",
+      "question_en": "When operating an aircraft in the vicinity of an airport with an operating control tower, in Class E airspace, a pilot must establish communications prior to",
+      "has_figure": false,
       "A": "5海里以內，離地3000呎含以下",
       "B": "5海里以內，離地3000呎含以下",
       "C": "4海里以內， 離地2500呎含以下",
-      "question_en": "When operating an aircraft in the vicinity of an airport with an operating control tower, in Class E airspace, a pilot must establish communications prior to",
       "A_en": "5 NM, up to and including 3000 feet AGL",
       "B_en": "5 NM, up to and including 3000 feet AGL",
-      "C_en": "4 NM, up to and including 2500 feet AGL",
-      "figure": null
+      "C_en": "4 NM, up to and including 2500 feet AGL"
     },
     {
       "id": "0011910",
@@ -249,14 +249,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "於Class G空域無塔台設施之機場進場落地，飛行員必須",
+      "question_en": "When approaching to land at an airport without an operating control tower, in Class G airspace, the pilot should",
+      "has_figure": false,
       "A": "除非特別標示，所有的轉向必須向左",
       "B": "在800呎高度加入機場左航線",
       "C": "在800呎 高度進入並飛航機場航線",
-      "question_en": "When approaching to land at an airport without an operating control tower, in Class G airspace, the pilot should",
       "A_en": "make all turns to the left, unless otherwise indicated",
       "B_en": "fly a left-hand traffic pattern at 800 feet AGL",
-      "C_en": "enter and fly a traffic pattern at 800 feet AGL",
-      "figure": null
+      "C_en": "enter and fly a traffic pattern at 800 feet AGL"
     },
     {
       "id": "0011911",
@@ -264,14 +264,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "除了夏威夷地區，聯邦低高度航路範圍",
+      "question_en": "Excluding Hawaii, the vertical limits of the Federal Low Altitude airways extend from",
+      "has_figure": false,
       "A": "自離地700呎開始，延伸至海平面14500呎(不含)以下",
       "B": "自離地1200呎開始，延伸 至海平面18000呎(不含)以下",
       "C": "自離地1200呎開始，延伸至海平面14500呎(不含)以下",
-      "question_en": "Excluding Hawaii, the vertical limits of the Federal Low Altitude airways extend from",
       "A_en": "700 feet AGL up to, but not including, 14500 feet MSL",
       "B_en": "1200 feet AGL up to, but not including, 18000 feet MSL",
-      "C_en": "1200 feet AGL up to, but not including, 14500 feet MSL",
-      "figure": null
+      "C_en": "1200 feet AGL up to, but not including, 14500 feet MSL"
     },
     {
       "id": "0011912",
@@ -279,89 +279,89 @@
       "difficulty": "易",
       "answer": "A",
       "question": "使用極高頻(VHF/DF)定向設備協助定位時，必須裝備有何種之功能？",
+      "question_en": "To use VHF/DF facilities for assistance in locating your position, you must have an operative VHF",
+      "has_figure": false,
       "A": "具有發射及接收功能",
       "B": "具有發射及接收功能，另外必須有一部可使用之空中定向 儀(ADF)接收器",
       "C": "具有發射及接收功能，另外必須有一部可使用之極高頻萬向導航台 (VOR)接收器",
-      "question_en": "To use VHF/DF facilities for assistance in locating your position, you must have an operative VHF",
       "A_en": "transmitter and receiver",
       "B_en": "transmitter and receiver, and an operative ADF receiver",
-      "C_en": "transmitter and receiver, and an operative VOR receiver",
-      "figure": null
+      "C_en": "transmitter and receiver, and an operative VOR receiver"
     },
     {
       "id": "0011913",
       "num": 20,
       "difficulty": "易",
       "answer": "C",
-      "question": "（參考fig 1）一般而言飛行員於完全脫離跑道後聯繫地面管制台。完全脫離跑道係指",
+      "question": "（參考fig 1）一般而言飛行員於完全脫離跑道後聯繫地面管制台。完全脫離跑道係指 (如圖A23_Fig1)",
+      "question_en": "(Figure 1) The pilot generally calls ground control after landing when the aircraft is completely clear of the runway. this is when the aircraft(如圖 A23_Fig1)",
+      "has_figure": true,
       "A": "通過上方標誌之紅色停止標誌後",
       "B": "通過中央標誌之黃色虛線後",
       "C": "通過中央標誌 之黃色實線後",
-      "question_en": "(Figure 1) The pilot generally calls ground control after landing when the aircraft is completely clear of the runway. this is when the aircraft",
       "A_en": "passes the red symbol shown at the top of the figure",
       "B_en": "is on the dashed-line side of the middle symbol",
-      "C_en": "is past the solid-line side of the middle symbol",
-      "figure": "A23_Fig1"
+      "C_en": "is past the solid-line side of the middle symbol"
     },
     {
       "id": "0011914",
       "num": 21,
       "difficulty": "易",
       "answer": "B",
-      "question": "（參考fig 1）上方之紅色停止標誌最可能在下列何處看到？",
+      "question": "（參考fig 1）上方之紅色停止標誌最可能在下列何處看到？(如圖A23_Fig1)",
+      "question_en": "(Figure 1)The red symbol at the top would most likely be found(如圖A23_Fig1)",
+      "has_figure": true,
       "A": "脫離跑道後聯繫地面管制台之前",
       "B": "在滑行道與一般道路交接處，且可能造成誤判 時",
       "C": "在接近使用儀器降落系統進場之跑道頭前",
-      "question_en": "(Figure 1)The red symbol at the top would most likely be found",
       "A_en": "upon exiting all runways prior to calling ground control",
       "B_en": "at an intersection where a roadway may be mistaken as a taxiway",
-      "C_en": "near the approach end of ILS runway",
-      "figure": "A23_Fig1"
+      "C_en": "near the approach end of ILS runway"
     },
     {
       "id": "0011915",
       "num": 22,
       "difficulty": "易",
       "answer": "C",
-      "question": "（參考fig 1）在脫離使用跑道時有可能會通過儀器降落系統危險區。該區的範圍是以 何種標誌界定？",
+      "question": "（參考fig 1）在脫離使用跑道時有可能會通過儀器降落系統危險區。該區的範圍是以 何種標誌界定？(如圖A23_Fig1)",
+      "question_en": "(Figure 1) While clearing an active runway you are most likely clear of the ILS critical area when you pass which symbol?(如圖A23_Fig1)",
+      "has_figure": true,
       "A": "上方紅色標誌",
       "B": "中央黃色標誌",
       "C": "下方黃色標誌",
-      "question_en": "(Figure 1) While clearing an active runway you are most likely clear of the ILS critical area when you pass which symbol?",
       "A_en": "Top red",
       "B_en": "Middle yellow",
-      "C_en": "Bottom yellow",
-      "figure": "A23_Fig1"
+      "C_en": "Bottom yellow"
     },
     {
       "id": "0011916",
       "num": 23,
       "difficulty": "易",
       "answer": "A",
-      "question": "（參考fig 1）在滑行至使用跑道時有可能會通過儀器降落系統危險區。該區的範圍是 以何種標誌界定？",
+      "question": "（參考fig 1）在滑行至使用跑道時有可能會通過儀器降落系統危險區。該區的範圍是 以何種標誌界定？(如圖A23_Fig1)",
+      "question_en": "(Figure 1)When taxiing up to an active runway, you are likely to be clear of the ILS critical area when short of which symbol?(如圖A23_Fig1)",
+      "has_figure": true,
       "A": "下方黃色標誌",
       "B": "上方紅色標誌",
       "C": "中央黃色標誌",
-      "question_en": "(Figure 1)When taxiing up to an active runway, you are likely to be clear of the ILS critical area when short of which symbol?",
       "A_en": "Bottom yellow",
       "B_en": "Top red",
-      "C_en": "Middle yellow",
-      "figure": "A23_Fig1"
+      "C_en": "Middle yellow"
     },
     {
       "id": "0011917",
       "num": 24,
       "difficulty": "易",
       "answer": "A",
-      "question": "（參考fig 1）何種標誌不具有阻止飛機進入跑道之功能？",
+      "question": "（參考fig 1）何種標誌不具有阻止飛機進入跑道之功能？(如圖A23_Fig1)",
+      "question_en": "(Figure 1)Which symbol does not directly address runway incursion with other aircraft?(如圖A23_Fig1)",
+      "has_figure": true,
       "A": "上方紅色標誌",
       "B": "中央黃色標誌",
       "C": "下方黃色標誌",
-      "question_en": "(Figure 1)Which symbol does not directly address runway incursion with other aircraft?",
       "A_en": "Top red",
       "B_en": "Middle yellow",
-      "C_en": "Bottom yellow",
-      "figure": "A23_Fig1"
+      "C_en": "Bottom yellow"
     },
     {
       "id": "0011918",
@@ -369,14 +369,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "滑行道終止標誌",
+      "question_en": "The \"taxiway ending\" marker",
+      "has_figure": false,
       "A": "標示滑行道終止無法繼續滑行",
       "B": "標示飛機無法進入之區域",
       "C": "提供至標示滑行道 之滑行指引",
-      "question_en": "The \"taxiway ending\" marker",
       "A_en": "indicates taxiway does not continue",
       "B_en": "identifies area where aircraft are prohibited",
-      "C_en": "provides general taxiing direction to named taxiway",
-      "figure": null
+      "C_en": "provides general taxiing direction to named taxiway"
     },
     {
       "id": "0011919",
@@ -384,14 +384,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "目視飛航條件下接近作為導航功用之極高頻多向導航台(VOR)時應該要",
+      "question_en": "When in the vicinity of a VOR which is being used for navigation on VFR flight, it is important to",
+      "has_figure": false,
       "A": "做90度之左轉及右轉確認有無其他航機",
       "B": "保持警戒以免其他與其他接近極高頻多 向導航台(VOR)之飛機過於接近本機",
       "C": "在極高頻多向導航台(VOR)之右方通過，讓反向 飛行之航機也由其右方通過",
-      "question_en": "When in the vicinity of a VOR which is being used for navigation on VFR flight, it is important to",
       "A_en": "make 90? left and right turns to scan for other traffic",
       "B_en": "exercise sustained vigilance to avoid aircraft that may be converging on the VOR from other directions",
-      "C_en": "pass the VOR on the right side of the radial to allow room for aircraft flying in the opposite direction on the same radial",
-      "figure": null
+      "C_en": "pass the VOR on the right side of the radial to allow room for aircraft flying in the opposite direction on the same radial"
     },
     {
       "id": "0011920",
@@ -399,14 +399,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "兩架同類別飛機同時接近機場準備落地，何者有優先權？",
+      "question_en": "Two aircraft of the same category are approaching an airport for the purpose of landing. The right-of-way belongs to the aircraft",
+      "has_figure": false,
       "A": "高高度者",
       "B": "低高度者，但是該駕駛不得利用此規則任意切進超前上方飛機",
       "C": "較 靈活之飛機可以超越其他飛機",
-      "question_en": "Two aircraft of the same category are approaching an airport for the purpose of landing. The right-of-way belongs to the aircraft",
       "A_en": "at the higher altitude",
       "B_en": "at the lower altitude, but the pilot shall not take advantage of this rule to cut in front of or to overtake the other aircraft",
-      "C_en": "that is more maneuverable, and that aircraft may, with caution, move in front of or overtake the other aircraft",
-      "figure": null
+      "C_en": "that is more maneuverable, and that aircraft may, with caution, move in front of or overtake the other aircraft"
     },
     {
       "id": "0011921",
@@ -414,14 +414,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "夜航時若兩架飛機彼此接近，一號機飛行員僅看到二號機的綠色航行燈，則何者有優先 路權？",
+      "question_en": "During a night operation, the pilot of aircraft #1 sees only the green light of aircraft #2. If the aircraft are converging, which pilot has the right-of-way? The pilot of aircraft",
+      "has_figure": false,
       "A": "二號機，且二號機在一號機左方",
       "B": "二號機，且二號機在一號機右方",
       "C": "一號機， 且一號機在二號機右方",
-      "question_en": "During a night operation, the pilot of aircraft #1 sees only the green light of aircraft #2. If the aircraft are converging, which pilot has the right-of-way? The pilot of aircraft",
       "A_en": "#2; aircraft #2 is to the left of aircraft #1",
       "B_en": "#2; aircraft #2 is to the right of aircraft #1",
-      "C_en": "#1; aircraft #1 is to the right of aircraft #2",
-      "figure": null
+      "C_en": "#1; aircraft #1 is to the right of aircraft #2"
     },
     {
       "id": "0011922",
@@ -429,14 +429,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "一架單引擎飛機的飛行員看到一架多引擎飛機由左方接近，何者有優先的航權？",
+      "question_en": "A pilot flying a single-engine airplane observes a multiengine airplane approaching from the left. Which pilot should give way?",
+      "has_figure": false,
       "A": "單引擎飛機有優先權，多引擎飛機應該向其右方避讓",
       "B": "單引擎飛機有優先權，多 引擎飛機應該向其左方避讓",
       "C": "兩架飛機都應向其右方避讓",
-      "question_en": "A pilot flying a single-engine airplane observes a multiengine airplane approaching from the left. Which pilot should give way?",
       "A_en": "The pilot of the multiengine airplane should give way; the single-engine airplane is to its right",
       "B_en": "The pilot of the single-engine airplane should give way; the other airplane is to the left",
-      "C_en": "Each pilot should alter course to the right",
-      "figure": null
+      "C_en": "Each pilot should alter course to the right"
     },
     {
       "id": "0011923",
@@ -444,14 +444,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "一架飛機正要超越直昇機，何者有優先航權？",
+      "question_en": "An airplane is overtaking a helicopter. Which aircraft has the right-of-way?",
+      "has_figure": false,
       "A": "直昇機，且其駕駛可以預期飛機由其右方超越",
       "B": "飛機，且其駕駛應告知直昇機， 會由其右方超越",
       "C": "直昇機，且其駕駛可以預期飛機由其左方超越",
-      "question_en": "An airplane is overtaking a helicopter. Which aircraft has the right-of-way?",
       "A_en": "Helicopter; the pilot should expect to be passed on the right",
       "B_en": "Airplane; the airplane pilot should alter course to the left to pass",
-      "C_en": "Helicopter; the pilot should expect to be passed on the left",
-      "figure": null
+      "C_en": "Helicopter; the pilot should expect to be passed on the left"
     },
     {
       "id": "0011924",
@@ -459,14 +459,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "A飛機正要超越B飛機，何者有優先航權？",
+      "question_en": "Airplane A is overtaking airplane B. Which airplane has the right-of-way?",
+      "has_figure": false,
       "A": "B飛機，且其駕駛可以預期A飛機由其右方超越",
       "B": "A飛機，且其駕駛應由B飛機之右 方超越",
       "C": "B飛機，且其駕駛可以預期A飛機由其左方超越",
-      "question_en": "Airplane A is overtaking airplane B. Which airplane has the right-of-way?",
       "A_en": "Airplane B; the pilot should expect to be passed on the right",
       "B_en": "Airplane A; the pilot should alter course to the right to pass",
-      "C_en": "Airplane B; the pilot should expect to be passed on the left",
-      "figure": null
+      "C_en": "Airplane B; the pilot should expect to be passed on the left"
     },
     {
       "id": "0011925",
@@ -474,14 +474,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "如果飛機在以下之條件下飛行時，需要為每一位乘員配備助漂裝備？",
+      "question_en": "Approved flotation gear, readily available to each occupant, is required on each aircraft if it is being flown for hire over water,",
+      "has_figure": false,
       "A": "水陸兩用機離岸50海里以上",
       "B": "離岸距離超過無動力滑翔距離",
       "C": "離岸50英里以上",
-      "question_en": "Approved flotation gear, readily available to each occupant, is required on each aircraft if it is being flown for hire over water,",
       "A_en": "in amphibious aircraft beyond 50 NM from shore",
       "B_en": "beyond power-off gliding distance from shore",
-      "C_en": "more than 50 statute miles from shore",
-      "figure": null
+      "C_en": "more than 50 statute miles from shore"
     },
     {
       "id": "0011926",
@@ -489,14 +489,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "客艙壓力高度在海平面15000呎以上時之氧氣規定：",
+      "question_en": "What are the oxygen requirements when operating at cabin pressure altitudes above 15,000 feet MSL?",
+      "has_figure": false,
       "A": "飛航組員必須有氧氣可供使用",
       "B": "如果是操作氣球，則任何高度都不須氧氣",
       "C": "飛 航組員及乘客都必須有輔助氧氣系統可供使用",
-      "question_en": "What are the oxygen requirements when operating at cabin pressure altitudes above 15,000 feet MSL?",
       "A_en": "Oxygen must be available for the flight crew",
       "B_en": "Oxygen is not required at any altitude in a balloon",
-      "C_en": "The flight crew and passengers must be provided with supplemental oxygen",
-      "figure": null
+      "C_en": "The flight crew and passengers must be provided with supplemental oxygen"
     },
     {
       "id": "0011927",
@@ -504,14 +504,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "如果沒有位置燈，飛機在何條件下必須停止操作？",
+      "question_en": "If not equipped with required position lights, an aircraft must terminate flight",
+      "has_figure": false,
       "A": "日落後",
       "B": "日落後30分鐘",
       "C": "日落後一小時",
-      "question_en": "If not equipped with required position lights, an aircraft must terminate flight",
       "A_en": "at sunset",
       "B_en": "30 minutes after sunset",
-      "C_en": "1 hour after sunset",
-      "figure": null
+      "C_en": "1 hour after sunset"
     },
     {
       "id": "0011928",
@@ -519,14 +519,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "如果沒有電力以及防撞燈，飛機在何條件下必須停止操作？",
+      "question_en": "If an aircraft is not equipped with an electrical or anti-collision light system, no person may operate that aircraft",
+      "has_figure": false,
       "A": "天黑後",
       "B": "日落後一小時",
       "C": "自日落到日出間",
-      "question_en": "If an aircraft is not equipped with an electrical or anti-collision light system, no person may operate that aircraft",
       "A_en": "after dark",
       "B_en": "1 hour after sunset",
-      "C_en": "after sunset to sunrise",
-      "figure": null
+      "C_en": "after sunset to sunrise"
     },
     {
       "id": "0011929",
@@ -534,14 +534,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "動力航機的夜間目視飛航需要何裝置？",
+      "question_en": "Which is required equipment for powered aircraft during VFR night flights?",
+      "has_figure": false,
       "A": "防撞燈",
       "B": "陀螺式方向指示裝置",
       "C": "陀螺式傾角及仰角指示裝置",
-      "question_en": "Which is required equipment for powered aircraft during VFR night flights?",
       "A_en": "Anti-collision light system",
       "B_en": "Gyroscopic direction indicator",
-      "C_en": "Gyroscopic bank-and-pitch indicator",
-      "figure": null
+      "C_en": "Gyroscopic bank-and-pitch indicator"
     },
     {
       "id": "0011930",
@@ -549,14 +549,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "動力航機的夜間目視飛航需要何裝置？",
+      "question_en": "Which is required equipment for powered aircraft during VFR night flights?",
+      "has_figure": false,
       "A": "如果被租賃，需要有紅色的閃燈",
       "B": "如果被租賃，需要有落地燈",
       "C": "以壓力控制的 高度表",
-      "question_en": "Which is required equipment for powered aircraft during VFR night flights?",
       "A_en": "Flashlight with red lens, if the flight is for hire",
       "B_en": "An electric landing light, if the flight is for hire",
-      "C_en": "Sensitive altimeter adjustable for barometric pressure",
-      "figure": null
+      "C_en": "Sensitive altimeter adjustable for barometric pressure"
     },
     {
       "id": "0011931",
@@ -564,14 +564,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "在Class C, D及E空域，海平面6500呎，目視飛航的能見度及雲幕限制為：",
+      "question_en": "What is the minimum flight visibility and proximity to cloud requirements for VFR flight, at 6,500 feet MSL, in Class C, D, and E airspace?",
+      "has_figure": false,
       "A": "1英里能見度，不得進雲",
       "B": "3英里能見度，在雲的1000呎之上或500呎之下",
       "C": "5英 里能見度，在雲的1000呎之上或1000呎之下",
-      "question_en": "What is the minimum flight visibility and proximity to cloud requirements for VFR flight, at 6,500 feet MSL, in Class C, D, and E airspace?",
       "A_en": "1 mile visibility; clear of clouds",
       "B_en": "3 miles visibility; 1000 feet above and 500 feet below",
-      "C_en": "5 miles visibility; 1000 feet above and 1000 feet below",
-      "figure": null
+      "C_en": "5 miles visibility; 1000 feet above and 1000 feet below"
     },
     {
       "id": "0011932",
@@ -579,14 +579,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "目視飛航條件之巡航高度為：",
+      "question_en": "VFR cruising altitudes are required to be maintained when flying",
+      "has_figure": false,
       "A": "離地3000呎以上時，使用真航向",
       "B": "離地3000呎以上時，使用磁航向",
       "C": "海平面3000 呎以上時，使用磁航向",
-      "question_en": "VFR cruising altitudes are required to be maintained when flying",
       "A_en": "at 3000 feet or more AGL, based on true course",
       "B_en": "more than 3000 feet AGL, based on magnetic course",
-      "C_en": "at 3000 feet or more above MSL, based on magnetic heading",
-      "figure": null
+      "C_en": "at 3000 feet or more above MSL, based on magnetic heading"
     },
     {
       "id": "0011933",
@@ -594,14 +594,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "目視飛航條件下，能見度要求自何高度以上增加至5英里？",
+      "question_en": "The minimum flight visibility for VFR flight increases to 5 statute miles beginning at an altitude of",
+      "has_figure": false,
       "A": "海平面以上14500呎",
       "B": "海平面以上10000呎，如果離地1200呎以上",
       "C": "海平面以上 10000呎，不論離地高度",
-      "question_en": "The minimum flight visibility for VFR flight increases to 5 statute miles beginning at an altitude of",
       "A_en": "14500 feet MSL",
       "B_en": "10000 feet MSL if above 1200 feet AGL",
-      "C_en": "10000 feet MSL regardless of height above ground",
-      "figure": null
+      "C_en": "10000 feet MSL regardless of height above ground"
     },
     {
       "id": "0011934",
@@ -609,14 +609,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "區域飛航圖中，使用藍色或紫色標示機場之敘述何者正確？",
+      "question_en": "Which is true concerning the blue and magenta colors used to depict airports on Sectional Aeronautical Charts?",
+      "has_figure": false,
       "A": "Class A, B和C空域有塔台的機場為藍色，Class D和E空域為紫色",
       "B": "Class C, D 和E空域有塔台的機場為紫色",
       "C": "Class B, C, D和E空域有塔台的機場為藍色",
-      "question_en": "Which is true concerning the blue and magenta colors used to depict airports on Sectional Aeronautical Charts?",
       "A_en": "Airports with control towers underlying Class A, B, and C airspace are shown in blue; Class D and E airspace are magenta",
       "B_en": "Airports with control towers underlying Class C, D and E airspace are shown in magenta",
-      "C_en": "Airports with control towers underlying Class B, C, D and E airspace are shown in blue",
-      "figure": null
+      "C_en": "Airports with control towers underlying Class B, C, D and E airspace are shown in blue"
     },
     {
       "id": "0011935",
@@ -624,14 +624,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "區域飛航圖中，使用藍色虛線標示機場周圍，代表此區域為",
-      "A": "特種目視飛航條件空域",
-      "B": "Class B空域",
-      "C": "Class D空域",
       "question_en": "When a dashed blue circles surrounds an airport on a sectional aeronautical chart it will depict the boundary of",
-      "A_en": "Special VFR airspace",
+      "has_figure": false,
+      "A": "特種目視飛航條件空域",
       "B_en": "Class B airspace",
       "C_en": "Class D airspace",
-      "figure": null
+      "A_en": "Special VFR airspace",
+      "B": "Class B airspace",
+      "C": "Class D airspace"
     },
     {
       "id": "0011936",
@@ -639,14 +639,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "在美國不包含2500呎以下，在何高度以上操作時必須配備Mode C功能之航空器識別器？",
+      "question_en": "In the contiguous U.S., excluding the airspace at and below 2500 feet AGL, an operable coded transponder equipped with Mode C capability is required in all airspace above",
+      "has_figure": false,
       "A": "海平面10000呎",
       "B": "海平面12500呎",
       "C": "海平面14500呎",
-      "question_en": "In the contiguous U.S., excluding the airspace at and below 2500 feet AGL, an operable coded transponder equipped with Mode C capability is required in all airspace above",
       "A_en": "10000 feet MSL",
       "B_en": "12500 feet MSL",
-      "C_en": "14500 feet MSL",
-      "figure": null
+      "C_en": "14500 feet MSL"
     },
     {
       "id": "0011937",
@@ -654,14 +654,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "何條件下操作需要配備有高度回報功能之航空器識別器？",
-      "A": "Class A, Class B和Class C空域",
+      "question_en": "A coded transponder equipped with altitude reporting equipment is required for",
+      "has_figure": false,
+      "A_en": "Class A, Class B, and Class C airspace areas",
       "B": "美國地區（包含哥倫比亞特區），10000呎含 以上",
       "C": "答案A及B皆正確",
-      "question_en": "A coded transponder equipped with altitude reporting equipment is required for",
-      "A_en": "Class A, Class B, and Class C airspace areas",
       "B_en": "all airspace of the 48 contiguous U.S. and District of Columbia at and above 10000 feet MSL (including airspace at and below 2500 feet above the surface)",
       "C_en": "both answer A and B",
-      "figure": null
+      "A": "Class A, Class B, and Class C airspace areas"
     },
     {
       "id": "0011938",
@@ -669,14 +669,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "除了起降或航管要求外，最低的儀器飛航條件高度為：",
+      "question_en": "Except when necessary for takeoff or landing or unless otherwise authorized by the Administrator, the minimum altitude for IFR flight is",
+      "has_figure": false,
       "A": "任何地形皆2000呎以上",
       "B": "山區3000呎以上，其他地形2000呎以上",
       "C": "山區最高障 礙物2000呎以上，其他地形最高障礙物1000呎以上",
-      "question_en": "Except when necessary for takeoff or landing or unless otherwise authorized by the Administrator, the minimum altitude for IFR flight is",
       "A_en": "2000 feet over all terrain",
       "B_en": "3000 feet over designated mountainous terrain; 2000 feet over terrain elsewhere",
-      "C_en": "2000 feet above the highest obstacle over designated mountainous terrain; 1000 feet above the highest obstacle over terrain elsewhere",
-      "figure": null
+      "C_en": "2000 feet above the highest obstacle over designated mountainous terrain; 1000 feet above the highest obstacle over terrain elsewhere"
     },
     {
       "id": "0011939",
@@ -684,14 +684,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "若儀器進場有DH或MDA標示，則除非有下列何種條件，否則飛機不得繼續進場？",
+      "question_en": "On an instrument approach where a DH or MDA is applicable, the pilot may not operate below, or continue the approach unless the",
+      "has_figure": false,
       "A": "飛機可以一直維持在適當的進場位置，直到可以於跑道正常落地",
       "B": "飛行員可以目 視進場及跑道燈",
       "C": "能見度和雲幕高皆高於法規之最低標準",
-      "question_en": "On an instrument approach where a DH or MDA is applicable, the pilot may not operate below, or continue the approach unless the",
       "A_en": "aircraft is continuously in a position from which a descent to a normal landing, on the intended runway, can be made",
       "B_en": "approach and runway lights are distinctly visible to the pilot",
-      "C_en": "flight visibility and ceiling are at, or above the published minimums for that approach",
-      "figure": null
+      "C_en": "flight visibility and ceiling are at, or above the published minimums for that approach"
     },
     {
       "id": "0011940",
@@ -699,14 +699,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "如果儀器飛航條件下之飛行計畫沒有合規定之備降站，且目的地機場沒有儀器進場程 序，則目的地天氣在抵達時應該高於",
+      "question_en": "For an airport without an approved instrument approach procedure to be listed as an alternate airport on an IFR flight plan, the forecasted weather conditions at the time of arrival must have at least a",
+      "has_figure": false,
       "A": "雲幕高2000呎，能見度3英里",
       "B": "雲幕高及能見度符合基本目視飛航規定",
       "C": "雲幕高 1000呎，能見度3英里",
-      "question_en": "For an airport without an approved instrument approach procedure to be listed as an alternate airport on an IFR flight plan, the forecasted weather conditions at the time of arrival must have at least a",
       "A_en": "ceiling of 2000 feet and visibility 3 SM",
       "B_en": "ceiling and visibility that allows for a descent, approach, and landing under basic VFR",
-      "C_en": "ceiling of 1000 feet and visibility 3 NM",
-      "figure": null
+      "C_en": "ceiling of 1000 feet and visibility 3 NM"
     },
     {
       "id": "0011941",
@@ -714,14 +714,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "如果儀器飛航條件下之飛行計畫具有備降站，需攜帶航路至落地的燃油，目的地至備降 站的燃油，以及之後多少分鐘的燃油？",
+      "question_en": "If weather conditions are such that it is required to designate an alternate airport on your IFR flight plan, you should plan to carry enough fuel to arrive at the first airport of intended landing, fly from that airport to the alternate airport, and fly thereafter for",
+      "has_figure": false,
       "A": "慢速巡航30分鐘",
       "B": "正常速度巡航45分鐘",
       "C": "正常速度巡航1小時",
-      "question_en": "If weather conditions are such that it is required to designate an alternate airport on your IFR flight plan, you should plan to carry enough fuel to arrive at the first airport of intended landing, fly from that airport to the alternate airport, and fly thereafter for",
       "A_en": "30 minutes at slow cruising speed",
       "B_en": "45 minutes at normal cruising speed",
-      "C_en": "1 hour at normal cruising speed",
-      "figure": null
+      "C_en": "1 hour at normal cruising speed"
     },
     {
       "id": "0011942",
@@ -729,14 +729,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "商用駕駛執照有沒有失效期限？",
+      "question_en": "Does a commercial pilot certificate have a specific expiration date?",
+      "has_figure": false,
       "A": "沒有失效期限。",
       "B": "有的，發證當月的24個月底之後即失效。",
       "C": "沒有，但是如果 12個月內沒有飛行或熟飛即失效。",
-      "question_en": "Does a commercial pilot certificate have a specific expiration date?",
       "A_en": "No, it is issued without a specific expiration date",
       "B_en": "Yes, it expires at the end of the 24th month after the month in which it was issued",
-      "C_en": "No, but commercial privileges expire if a flight review is not satisfactorily completed each 12 months",
-      "figure": null
+      "C_en": "No, but commercial privileges expire if a flight review is not satisfactorily completed each 12 months"
     },
     {
       "id": "0011943",
@@ -744,14 +744,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "民航機之PIC於飛行中不得空投任何物品",
+      "question_en": "A pilot in command (PIC) of a civil aircraft may not allow any object to be dropped from that aircraft in flight",
+      "has_figure": false,
       "A": "如果可能危害到人或物品的話",
       "B": "除非PIC已經被許可在私人區域空投",
       "C": "除非空 投前已經有預警以避免傷害",
-      "question_en": "A pilot in command (PIC) of a civil aircraft may not allow any object to be dropped from that aircraft in flight",
       "A_en": "if it creates a hazard to persons and property",
       "B_en": "unless the PIC has permission to drop any object over private property",
-      "C_en": "unless reasonable precautions are taken to avoid injury to property",
-      "figure": null
+      "C_en": "unless reasonable precautions are taken to avoid injury to property"
     },
     {
       "id": "0011944",
@@ -759,14 +759,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "何種飛行在飛行前必須要有天氣及油量的考量？",
+      "question_en": "The required preflight action relative to weather reports and fuel requirements is applicable to",
+      "has_figure": false,
       "A": "任何有報償或租賃的飛行",
       "B": "任何不在機場附近的操作都需要",
       "C": "只有儀器飛航條 件下需要",
-      "question_en": "The required preflight action relative to weather reports and fuel requirements is applicable to",
       "A_en": "Any flight conducted for compensation or hire",
       "B_en": "Any flight not in the vicinity of an airport",
-      "C_en": "IFR flights only",
-      "figure": null
+      "C_en": "IFR flights only"
     },
     {
       "id": "0011945",
@@ -774,14 +774,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "如果發現機上之航空器識別器未被測試或檢視過，而且已經過期，則是否可以使用？",
+      "question_en": "If an ATC transponder installed in an aircraft has not been tested, inspected, and found to comply with regulations within a specified period, what is the limitation on its use?",
+      "has_figure": false,
       "A": "不得使用",
       "B": "只能在Class G空域使用",
       "C": "只能用於目視飛航條件下之飛行",
-      "question_en": "If an ATC transponder installed in an aircraft has not been tested, inspected, and found to comply with regulations within a specified period, what is the limitation on its use?",
       "A_en": "Its use is not permitted",
       "B_en": "It may be used when in Class G airspace",
-      "C_en": "It may be used for VFR flight only",
-      "figure": null
+      "C_en": "It may be used for VFR flight only"
     },
     {
       "id": "0011946",
@@ -789,14 +789,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何狀況下需要使用防撞燈？",
+      "question_en": "Pilots are required to have the anti-collision light system operating",
+      "has_figure": false,
       "A": "任何操作下，不論日間或夜間",
       "B": "當飛行員進入駕駛艙後",
       "C": "當引擎發動後",
-      "question_en": "Pilots are required to have the anti-collision light system operating",
       "A_en": "during all types of operations, both day and night",
       "B_en": "anytime the pilot is in the cockpit",
-      "C_en": "anytime an engine is in operation",
-      "figure": null
+      "C_en": "anytime an engine is in operation"
     },
     {
       "id": "0011947",
@@ -804,14 +804,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "紅色的閃燈代表",
+      "question_en": "Light beacons producing red flashes indicate",
+      "has_figure": false,
       "A": "起飛跑道末端警告",
       "B": "飛行員應該保持機場航線淨空，並繼續繞場",
       "C": "障礙物或危 險區域",
-      "question_en": "Light beacons producing red flashes indicate",
       "A_en": "end of runway warning at departure end",
       "B_en": "a pilot should remain clear of an airport traffic pattern and continue circling",
-      "C_en": "obstructions or areas considered hazardous to aerial navigation",
-      "figure": null
+      "C_en": "obstructions or areas considered hazardous to aerial navigation"
     },
     {
       "id": "0011948",
@@ -819,14 +819,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "對於使用氣象雷達判斷天氣狀況之敘述何者正確？",
+      "question_en": "Which is true regarding the use of airborne weather-avoidance radar for the recognition of certain weather conditions?",
+      "has_figure": false,
       "A": "雷達顯示不保證一定可以避免儀器飛航狀況下的所有天氣",
       "B": "如果避開強大的回 波，則可以保證不會遭遇冰雹",
       "C": "飛在雷達回波間的空白區域，代表也可以以目視方式 看到暴風雲層區域",
-      "question_en": "Which is true regarding the use of airborne weather-avoidance radar for the recognition of certain weather conditions?",
       "A_en": "The radarscope provides no assurance of avoiding instrument weather conditions",
       "B_en": "The avoidance of hail is assured when flying between and just clear of the most intense echoes",
-      "C_en": "The clear area between intense echoes indicates that visual sighting of storms can be maintained when flying between the echoes",
-      "figure": null
+      "C_en": "The clear area between intense echoes indicates that visual sighting of storms can be maintained when flying between the echoes"
     },
     {
       "id": "0011949",
@@ -834,14 +834,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "何人對飛機能否安全飛航負責？",
+      "question_en": "Who is responsible for determining if an aircraft is in condition for safe flight?",
+      "has_figure": false,
       "A": "合格之維修員",
       "B": "PIC",
       "C": "飛機所有者",
-      "question_en": "Who is responsible for determining if an aircraft is in condition for safe flight?",
       "A_en": "A certificated aircraft mechanic",
       "B_en": "The pilot in command",
-      "C_en": "The owner or operator",
-      "figure": null
+      "C_en": "The owner or operator"
     },
     {
       "id": "0011951",
@@ -849,14 +849,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "執行儀器飛航條件之飛行前，飛行員必須瞭解所有相關資訊，以及",
+      "question_en": "Before beginning any flight under IFR, the pilot in command must become familiar with all available information concerning that flight. In addition, the pilot must",
+      "has_figure": false,
       "A": "熟悉目的地機場所有的儀器進場程序",
       "B": "在飛行計畫中列一個備降站，並確認其適 合起降",
       "C": "熟悉目的地欲使用之跑道長度，天氣，以及如果飛行計畫無法遵行時的替代 方案",
-      "question_en": "Before beginning any flight under IFR, the pilot in command must become familiar with all available information concerning that flight. In addition, the pilot must",
       "A_en": "be familiar with all instrument approaches at the destination airport",
       "B_en": "list an alternate airport on the flight plan, and confirm adequate takeoff and landing performance at the destination airport",
-      "C_en": "be familiar with the runway lengths at airports of intended use, weather reports, fuel requirements, and alternatives available, if the planned flight cannot be completed",
-      "figure": null
+      "C_en": "be familiar with the runway lengths at airports of intended use, weather reports, fuel requirements, and alternatives available, if the planned flight cannot be completed"
     },
     {
       "id": "0011952",
@@ -864,14 +864,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "飛航組員之肩部安全帶在何時必須繫上？",
+      "question_en": "Each required flight crewmember is required to keep his or her shoulder harness fastened",
+      "has_figure": false,
       "A": "只有在起降且有乘客時",
       "B": "當飛航組員上座時，除非飛行員無法正常執行任務",
       "C": "起降時，除非飛行員無法正常執行任務",
-      "question_en": "Each required flight crewmember is required to keep his or her shoulder harness fastened",
       "A_en": "during takeoff and landing only when passengers are aboard the aircraft",
       "B_en": "while the crewmembers are at their stations, unless he or she is unable to perform required duties",
-      "C_en": "during takeoff and landing, unless he or she is unable to perform required duties",
-      "figure": null
+      "C_en": "during takeoff and landing, unless he or she is unable to perform required duties"
     },
     {
       "id": "0011953",
@@ -879,14 +879,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "在巡航中與航管通話失效,飛行員應如何選擇下降進場的時機?",
+      "question_en": "After experiencing two-way radio communications failure en route, when should a pilot begin the descent for the instrument approach?",
+      "has_figure": false,
       "A": "到達儀器進場的 IAF(initial approach fix)時,但不早於航管許可之飛行計劃的 ETA.",
       "B": "到達儀器進場的待命點(Holding fix),且時間為ETA加減3分鐘以內.",
       "C": "在飛 行計劃的ETA到達儀器進場的主要 IAF(Primary initial approach fix)時,或航管指示 之EFC時間,取其晚者.",
-      "question_en": "After experiencing two-way radio communications failure en route, when should a pilot begin the descent for the instrument approach?",
       "A_en": "Upon arrival at any initial approach fix for the instrument approach procedure but not before the flight plan ETA as amended by ATC.",
       "B_en": "Upon arrival at the holding fix depicted on the instrument approach proc. at the corrected ETA, + or - 3 minutes.",
-      "C_en": "At the primary initial approach fix for the instrument approach procedure at the ETA shown on the flight plan or the EFC time, whichever is later.",
-      "figure": null
+      "C_en": "At the primary initial approach fix for the instrument approach procedure at the ETA shown on the flight plan or the EFC time, whichever is later."
     },
     {
       "id": "0011954",
@@ -894,14 +894,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "關於駕駛艙通話記錄器的使用下列何者正確?",
+      "question_en": "Which rule applies to the use of the cockpit voice recorder erasure feature?",
+      "has_figure": false,
       "A": "可以全部刪除,除了落地前最後30分鐘的通話記錄",
       "B": "可以全部刪除,除了最後30分 鐘的通話記錄",
       "C": "可以全部刪除,除非有事件必須通NTSB",
-      "question_en": "Which rule applies to the use of the cockpit voice recorder erasure feature?",
       "A_en": "A- All recorded information may be erased, except for the last 30 minutes prior to landing.",
       "B_en": "B- Any information more than 30 minutes old may be erased.",
-      "C_en": "C- All recorded information may be erased, unless the NTSB needs to be notified of an occurrence.",
-      "figure": null
+      "C_en": "C- All recorded information may be erased, unless the NTSB needs to be notified of an occurrence."
     },
     {
       "id": "0011955",
@@ -909,14 +909,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "駕駛艙通話記錄器必須在哪些時間內正常操作?",
+      "question_en": "A cockpit voice recorder must be operated",
+      "has_figure": false,
       "A": "開車前到飛行任務結束",
       "B": "開車前到關車前",
       "C": "開始滑行到飛行任務結束",
-      "question_en": "A cockpit voice recorder must be operated",
       "A_en": "from the start of the before starting engine checklist to completion of final checklist upon termination of flight.",
       "B_en": "from the start of the before starting engine checklist to completion of checklist prior to engine shutdown.",
-      "C_en": "when starting to taxi for takeoff to the engine shutdown checklist after termination of the flight.",
-      "figure": null
+      "C_en": "when starting to taxi for takeoff to the engine shutdown checklist after termination of the flight."
     },
     {
       "id": "0011956",
@@ -924,14 +924,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "民航機何時必須有DME的裝備?",
+      "question_en": "When must an air carrier airplane be DME equipped?",
+      "has_figure": false,
       "A": "所有在 Class E 的 IFR 航機, 及操作VFR on Top 的航機",
       "B": "當航機必須要配備 VOR 接收器時",
       "C": "在 FL 180 以上操作的航機",
-      "question_en": "When must an air carrier airplane be DME equipped?",
       "A_en": "A- In Class E airspace for all IFR or VFR on Top operations.",
       "B_en": "B- Whenever VOR navigational receivers are required.",
-      "C_en": "C- For flights at or above FL 180.",
-      "figure": null
+      "C_en": "C- For flights at or above FL 180."
     },
     {
       "id": "0011957",
@@ -939,14 +939,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "當航行路線計畫使用NDB時,考量到裝備可能失效,飛行員應注意?",
+      "question_en": "When a pilot plans a flight using NDB NAVAIDS, which rule applies?",
+      "has_figure": false,
       "A": "航機必須有足夠的油料,並以VOR導航飛至適合的備降場並落地",
       "B": "航機必須能使用 其他的導航配備返回起飛站",
       "C": "航機必須有足夠的油料,並依靠剩餘的無線電系統,以 VOR導航飛至適合的備降場並完成儀器進場",
-      "question_en": "When a pilot plans a flight using NDB NAVAIDS, which rule applies?",
       "A_en": "The airplane must have sufficient fuel to proceed, by means of VOR NAVAIDS, to a suitable airport and land.",
       "B_en": "The pilot must be able to return to the departure airport using other navigation radios.",
-      "C_en": "The airplane must have sufficient fuel to proceed, by means of VOR NAVAIDS, to a suitable airport and complete an instrument approach by use of the remaining airplane radio system.",
-      "figure": null
+      "C_en": "The airplane must have sufficient fuel to proceed, by means of VOR NAVAIDS, to a suitable airport and complete an instrument approach by use of the remaining airplane radio system."
     },
     {
       "id": "0011958",
@@ -954,14 +954,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "當民航機使用單一ADF接受器進行IFR飛行時,若ADF失效則?",
+      "question_en": "If an air carrier airplane is flying IFR using a single ADF navigation receiver and the ADF equipment fails, the flight must be able to",
+      "has_figure": false,
       "A": "航機必須依靠剩餘的無線電系統,以VOR導航安全地飛至適合的備降場並完成儀器進 場",
       "B": "使用推算導航的方式繼續飛至目的地機場",
       "C": "航機必須以VOR導航飛至適合的備 降場並落地",
-      "question_en": "If an air carrier airplane is flying IFR using a single ADF navigation receiver and the ADF equipment fails, the flight must be able to",
       "A_en": "proceed safely to a suitable airport using VOR aids and complete an instrument approach by use of the remaining airplane radio system.",
       "B_en": "continue to the destination airport by means of dead reckoning navigation.",
-      "C_en": "proceed to a suitable airport using VOR aids, complete an instrument approach and land.",
-      "figure": null
+      "C_en": "proceed to a suitable airport using VOR aids, complete an instrument approach and land."
     },
     {
       "id": "0011959",
@@ -969,14 +969,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當民航機的氣象雷達失效且航路上有雷雨預報,航機派遣只能限於?",
+      "question_en": "If an air carrier airplane's airborne radar is inoperative and thunderstorms are forecast along the proposed route of flight, an airplane may be dispatched only",
+      "has_figure": false,
       "A": "爬升及下降保持VFR,巡航則保持VFR on top",
       "B": "VFR飛行",
       "C": "白天的VFR飛行",
-      "question_en": "If an air carrier airplane's airborne radar is inoperative and thunderstorms are forecast along the proposed route of flight, an airplane may be dispatched only",
       "A_en": "when able to climb and descend VFR and maintain VFR/OT en route.",
       "B_en": "in VFR conditions.",
-      "C_en": "in day VFR conditions.",
-      "figure": null
+      "C_en": "in day VFR conditions."
     },
     {
       "id": "0011960",
@@ -984,14 +984,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "下車何種航機派遣須確保氣象雷達操作正常?",
-      "A": "夜間VFR且航路天氣會遭遇 scattered thunderstorms",
+      "question_en": "An air carrier airplane's airborne radar must be in satisfactory operating condition prior to dispatch, if the flight will be",
+      "has_figure": false,
+      "A_en": "conducted under VFR conditions at night with scattered thunderstorms reported en route.",
       "B": "載客飛行,但不包括全貨 機飛行",
       "C": "執行IFR飛行,且航管可提供雷達引導以避開天氣",
-      "question_en": "An air carrier airplane's airborne radar must be in satisfactory operating condition prior to dispatch, if the flight will be",
-      "A_en": "conducted under VFR conditions at night with scattered thunderstorms reported en route.",
       "B_en": "carrying passengers, but not if it is 'all cargo.'",
       "C_en": "Cconducted IFR, and ATC is able to radar vector the flight around areas of weather.",
-      "figure": null
+      "A": "conducted under VFR conditions at night with scattered thunderstorms reported en route."
     },
     {
       "id": "0011961",
@@ -999,14 +999,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "航路上所必需的特別導航裝備清單記載於?",
-      "A": "Air Carrier's Operations Specifications.",
-      "B": "nternational Flight Information Manual.",
-      "C": "Airplane Flight Manual.",
       "question_en": "Where is a list maintained for routes that require special navigation equipment?",
+      "has_figure": false,
       "A_en": "Air Carrier's Operations Specifications.",
       "B_en": "nternational Flight Information Manual.",
       "C_en": "Airplane Flight Manual.",
-      "figure": null
+      "A": "Air Carrier's Operations Specifications.",
+      "B": "nternational Flight Information Manual.",
+      "C": "Airplane Flight Manual."
     },
     {
       "id": "0011962",
@@ -1014,29 +1014,29 @@
       "difficulty": "中",
       "answer": "B",
       "question": "IFR跑道的 HIRL 或 MIRL與VFR跑道比較,有何優點?",
+      "question_en": "What is the advantage of HIRL or MIRL on an IFR runway as compared to a VFR runway?",
+      "has_figure": false,
       "A": "燈光較密集易於與周邊其他燈光做區別",
       "B": "跑道的最後2000呎,橘色燈光會取代白 燈以作為警示區",
       "C": "跑道的最後3000呎,會以紅白相間的燈光作為警示區",
-      "question_en": "What is the advantage of HIRL or MIRL on an IFR runway as compared to a VFR runway?",
       "A_en": "A- Lights are closer together and easily distinguished from surrounding lights.",
       "B_en": "B- Amber lights replace white on the last 2,000 feet of runway for a caution zone.",
-      "C_en": "C- Alternate red and white lights replace the white on the last 3,000 feet of runway for a caution zone.",
-      "figure": null
+      "C_en": "C- Alternate red and white lights replace the white on the last 3,000 feet of runway for a caution zone."
     },
     {
       "id": "0011963",
       "num": 69,
       "difficulty": "易",
       "answer": "B",
-      "question": "Three-bar VASI有何優點?",
+      "question": "What is the advantage of a three-bar VASI?",
+      "question_en": "What is the advantage of a three-bar VASI?",
+      "has_figure": false,
       "A": "飛行員可選擇下滑角",
       "B": "可適用於駕駛艙高低不同的航機",
       "C": "可視度較好,且能在 較高的高度看見",
-      "question_en": "What is the advantage of a three-bar VASI?",
       "A_en": "A- Pilots have a choice of glide angles.",
       "B_en": "B- A normal glide angle is afforded both high and low cockpit aircraft.",
-      "C_en": "C- The three-bar VASI is much more visible and can be used at a greater height.",
-      "figure": null
+      "C_en": "C- The three-bar VASI is much more visible and can be used at a greater height."
     },
     {
       "id": "0011964",
@@ -1044,14 +1044,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "高性能航機的飛行員在參考大下滑角VASI下降時應注意何風險?",
+      "question_en": "A pilot of a high-performance airplane should be aware that flying a steeper-than-normal VASI glide slope angle may result in",
+      "has_figure": false,
       "A": "重落地",
       "B": "落地滾行距離增加",
       "C": "跑道頭前著陸",
-      "question_en": "A pilot of a high-performance airplane should be aware that flying a steeper-than-normal VASI glide slope angle may result in",
       "A_en": "a hard landing.",
       "B_en": "increased landing rollout.",
-      "C_en": "landing short of the runway threshold.",
-      "figure": null
+      "C_en": "landing short of the runway threshold."
     },
     {
       "id": "0011965",
@@ -1059,14 +1059,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "大下滑角的 Three-bar VASI是設計給何種航機使用?",
+      "question_en": "The higher glide slope of the three-bar VASI is intended for use by",
+      "has_figure": false,
       "A": "高性能航機",
       "B": "直昇機",
       "C": "高駕駛艙航機",
-      "question_en": "The higher glide slope of the three-bar VASI is intended for use by",
       "A_en": "high performance aircraft.",
       "B_en": "helicopters.",
-      "C_en": "high cockpit aircraft.",
-      "figure": null
+      "C_en": "high cockpit aircraft."
     },
     {
       "id": "0011966",
@@ -1074,14 +1074,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "裝設REIL的目的為何?",
+      "question_en": "What is the purpose of REIL?",
+      "has_figure": false,
       "A": "標明跑道範圍與其他燈光的區別",
       "B": "標明著陸區以避免航機在跑道頭前著陸",
       "C": "進 場的目視下滑道參考",
-      "question_en": "What is the purpose of REIL?",
       "A_en": "Identification of a runway surrounded by a preponderance of other lighting.",
       "B_en": "Identification of the touchdown zone to prevent landing short.",
-      "C_en": "Establish visual descent guidance information during an approach.",
-      "figure": null
+      "C_en": "Establish visual descent guidance information during an approach."
     },
     {
       "id": "0011967",
@@ -1089,14 +1089,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "何種訊息顯示VORTAC正在維護中且不可作為導航參考",
+      "question_en": "What would be the identification when a VORTAC is undergoing routine maintenance and is considered unreliable?",
+      "has_figure": false,
       "A": "每隔30秒會送出\"TESTING\"的測試訊號",
       "B": "識別碼會顯示\"M\",且儀表上間歇性的 \"OFF\"旗幟會出現",
       "C": "識別碼會被移除",
-      "question_en": "What would be the identification when a VORTAC is undergoing routine maintenance and is considered unreliable?",
       "A_en": "A test signal, 'TESTING,' is sent every 30 seconds.",
       "B_en": "Identifier is preceded by 'M' and an intermittent 'OFF' flag would appear.",
-      "C_en": "The identifier would be removed.",
-      "figure": null
+      "C_en": "The identifier would be removed."
     },
     {
       "id": "0011968",
@@ -1104,14 +1104,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "當航機以12000英呎飛越VORTAC站台正上方時,DME會顯示多少?",
+      "question_en": "What DME indications should a pilot observe when directly over a VORTAC site at 12,000 feet?",
+      "has_figure": false,
       "A": "0 NM",
       "B": "2 NM",
       "C": "2.3 NM",
-      "question_en": "What DME indications should a pilot observe when directly over a VORTAC site at 12,000 feet?",
       "A_en": "0 DME miles.",
       "B_en": "2 DME miles.",
-      "C_en": "2.3 DME miles.",
-      "figure": null
+      "C_en": "2.3 DME miles."
     },
     {
       "id": "0011969",
@@ -1119,14 +1119,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何種情況下DME會有最大的指示誤差?",
+      "question_en": "Where does the DME indicator have the greatest error between the ground distance and displayed distance to the VORTAC?",
+      "has_figure": false,
       "A": "高高度且靠近站台",
       "B": "低高度且靠近站台",
       "C": "低高度且遠離站台",
-      "question_en": "Where does the DME indicator have the greatest error between the ground distance and displayed distance to the VORTAC?",
       "A_en": "High altitudes close to the VORTAC.",
       "B_en": "Low altitudes close to the VORTAC.",
-      "C_en": "Low altitudes far from the VORTAC.",
-      "figure": null
+      "C_en": "Low altitudes far from the VORTAC."
     },
     {
       "id": "0011970",
@@ -1134,14 +1134,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "場壓的定義為何?",
+      "question_en": "Which pressure is defined as station pressure?",
+      "has_figure": false,
       "A": "高度表撥定值",
       "B": "機場標高的實際氣壓",
       "C": "場站的氣壓減低至海平面",
-      "question_en": "Which pressure is defined as station pressure?",
       "A_en": "Altimeter setting.",
       "B_en": "Actual pressure at field elevation.",
-      "C_en": "Station barometric pressure reduced to sea level.",
-      "figure": null
+      "C_en": "Station barometric pressure reduced to sea level."
     },
     {
       "id": "0011971",
@@ -1149,14 +1149,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "在管制空域內的IFR飛行,若遭遇部份ILS接收器失效,飛行員應?",
+      "question_en": "What action is necessary when a partial loss of ILS receiver capability occurs while operating in controlled airspace under IFR?",
+      "has_figure": false,
       "A": "繼續依照許可進場,並在必要時向場站提出書面報告",
       "B": "如航機具備另一套可供進 場的無線電系統,則繼續執行進場,無需任何進一步處置",
       "C": "立即向航管通報失效情況",
-      "question_en": "What action is necessary when a partial loss of ILS receiver capability occurs while operating in controlled airspace under IFR?",
       "A_en": "Continue as cleared and file a written report to the Administrator if requested.",
       "B_en": "If the aircraft is equipped with other radios suitable for executing an instrument approach, no further action is necessary.",
-      "C_en": "Report the malfunction immediately to ATC.",
-      "figure": null
+      "C_en": "Report the malfunction immediately to ATC."
     },
     {
       "id": "0011972",
@@ -1164,14 +1164,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "在管制空域內的IFR飛行,若遭遇兩套VHF無線電系統中的一套失效,飛行員應?",
-      "A": "立即告知航管",
-      "B": "Squawk 7600",
-      "C": "監聽VOR接收器",
       "question_en": "What action should be taken if one of the two VHF radios fail while IFR in controlled airspace?",
-      "A_en": "Notify ATC immediately.",
+      "has_figure": false,
+      "A": "立即告知航管",
       "B_en": "Squawk 7600.",
+      "C": "監聽VOR接收器",
+      "A_en": "Notify ATC immediately.",
       "C_en": "Monitor the VOR receiver.",
-      "figure": null
+      "B": "Squawk 7600."
     },
     {
       "id": "0011973",
@@ -1179,14 +1179,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "在管制空域內的IFR飛行,若遭遇兩套VOR接收器中的一套失效,飛行員應?",
+      "question_en": "While flying IFR in controlled airspace, if one of the two VOR receivers fails, which course of action should the pilot-in-command follow?",
+      "has_figure": false,
       "A": "如還有一套正常運作則不需處置",
       "B": "立即告知航管",
       "C": "使用公司頻道通知派遣",
-      "question_en": "While flying IFR in controlled airspace, if one of the two VOR receivers fails, which course of action should the pilot-in-command follow?",
       "A_en": "A- No call is required if one of the two VOR receivers is operating properly.",
       "B_en": "B- Advise ATC immediately.",
-      "C_en": "C- Notify the dispatcher via company frequency.",
-      "figure": null
+      "C_en": "C- Notify the dispatcher via company frequency."
     },
     {
       "id": "0011974",
@@ -1194,14 +1194,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "在管制空域內的IFR飛行,若遭遇ADF接收器失效,飛行員應?",
+      "question_en": "While flying in controlled airspace under IFR, the ADF fails. What action is required?",
+      "has_figure": false,
       "A": "下降至 Class A空域以下",
       "B": "使用公司頻道通知派遣",
       "C": "立即告知航管",
-      "question_en": "While flying in controlled airspace under IFR, the ADF fails. What action is required?",
       "A_en": "A- Descend below Class A airspace.",
       "B_en": "B- Advise dispatch via company frequency.",
-      "C_en": "C- Notify ATC immediately.",
-      "figure": null
+      "C_en": "C- Notify ATC immediately."
     },
     {
       "id": "0011975",
@@ -1209,14 +1209,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "儀器飛行何時須配備DME?",
+      "question_en": "When is DME required for an instrument flight?",
+      "has_figure": false,
       "A": "在 24,000 英呎以上操作,且必須配備 VOR的航機",
       "B": "雷達管制區",
       "C": "12,500 英呎 以上操作者",
-      "question_en": "When is DME required for an instrument flight?",
       "A_en": "At or above 24,000 feet MSL if VOR navigational equipment is required.",
       "B_en": "In terminal radar service areas.",
-      "C_en": "Above 12,500 feet MSL.",
-      "figure": null
+      "C_en": "Above 12,500 feet MSL."
     },
     {
       "id": "0011976",
@@ -1224,14 +1224,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "機場的指示牌標示為待命區位置其外觀為?",
+      "question_en": "Holding position signs have",
+      "has_figure": false,
       "A": "紅底白字",
       "B": "白底紅字",
       "C": "紅底黃字",
-      "question_en": "Holding position signs have",
       "A_en": "A- white inscriptions on a red background.",
       "B_en": "B- red inscriptions on a white background.",
-      "C_en": "C- yellow inscriptions on a red background.",
-      "figure": null
+      "C_en": "C- yellow inscriptions on a red background."
     },
     {
       "id": "0011977",
@@ -1239,14 +1239,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "機場的指示牌標示目的地機場或相關訊息者其外觀為?",
+      "question_en": "Airport information signs, used to provide destination or information, have",
+      "has_figure": false,
       "A": "黑底黃字",
       "B": "黑底白字",
       "C": "黃底黑字",
-      "question_en": "Airport information signs, used to provide destination or information, have",
       "A_en": "A- yellow inscriptions on a black background.",
       "B_en": "B- white inscriptions on a black background.",
-      "C_en": "C- black inscriptions on a yellow background.",
-      "figure": null
+      "C_en": "C- black inscriptions on a yellow background."
     },
     {
       "id": "0011978",
@@ -1254,14 +1254,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "下列何種文件特許民航機業者在特定的區域內操作該航機?",
-      "A": "Operations Specifications.",
-      "B": "Operating Certificate.",
-      "C": "Dispatch Release.",
       "question_en": "Which document specifically authorizes a person to operate an aircraft in a particular geographic area?",
+      "has_figure": false,
       "A_en": "Operations Specifications.",
       "B_en": "Operating Certificate.",
       "C_en": "Dispatch Release.",
-      "figure": null
+      "A": "Operations Specifications.",
+      "B": "Operating Certificate.",
+      "C": "Dispatch Release."
     },
     {
       "id": "0011979",
@@ -1269,14 +1269,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "客機的緊急照明系統應於何時保持待命或啟用?",
+      "question_en": "The emergency lights on a passenger-carrying airplane must be armed or turned on during",
+      "has_figure": false,
       "A": "滑行,起飛,巡航,落地",
       "B": "滑行,起飛,落地",
       "C": "起飛,巡航,落地",
-      "question_en": "The emergency lights on a passenger-carrying airplane must be armed or turned on during",
       "A_en": "A- taxiing, takeoff, cruise, and landing.",
       "B_en": "B- taxiing, takeoff, and landing",
-      "C_en": "C- takeoff, cruise, and landing.",
-      "figure": null
+      "C_en": "C- takeoff, cruise, and landing."
     },
     {
       "id": "0011980",
@@ -1284,14 +1284,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "越水飛行所需要的緊急裝備為何?",
-      "A": "A portable survival emergency locator transmitter for each liferaft.",
-      "B": "A pyrotechnic signaling device for each life preserver.",
-      "C": "A life preserver equipped with a survivor locator light, for each person on the airplane.",
       "question_en": "What emergency equipment is required for extended overwater operations?",
+      "has_figure": false,
       "A_en": "A portable survival emergency locator transmitter for each liferaft.",
       "B_en": "A pyrotechnic signaling device for each life preserver.",
       "C_en": "A life preserver equipped with a survivor locator light, for each person on the airplane.",
-      "figure": null
+      "A": "A portable survival emergency locator transmitter for each liferaft.",
+      "B": "A pyrotechnic signaling device for each life preserver.",
+      "C": "A life preserver equipped with a survivor locator light, for each person on the airplane."
     },
     {
       "id": "0011981",
@@ -1299,14 +1299,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "越水飛行所需要的救生衣置於何處?",
+      "question_en": "Life preservers required for overwater operations are stored",
+      "has_figure": false,
       "A": "乘客易於取得之處",
       "B": "乘客座椅下方",
       "C": "就座乘客易於取得之處",
-      "question_en": "Life preservers required for overwater operations are stored",
       "A_en": "A- within easy reach of each passenger.",
       "B_en": "B- under each occupant seat.",
-      "C_en": "Cwithin easy reach of each seated occupant.",
-      "figure": null
+      "C_en": "Cwithin easy reach of each seated occupant."
     },
     {
       "id": "0011982",
@@ -1314,14 +1314,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "商用民航機計劃飛越未經調查的山區應配備何種緊急裝備?",
-      "A": "A signal mirror and colored smoke flares.",
-      "B": "Survival kit for each passenger",
-      "C": "An approved survival-type emergency locator transmitter.",
       "question_en": "An airplane operated by a commercial operator flying over uninhabited terrain must carry which emergency equipment?",
+      "has_figure": false,
       "A_en": "A signal mirror and colored smoke flares.",
       "B_en": "Survival kit for each passenger",
       "C_en": "An approved survival-type emergency locator transmitter.",
-      "figure": null
+      "A": "A signal mirror and colored smoke flares.",
+      "B": "Survival kit for each passenger",
+      "C": "An approved survival-type emergency locator transmitter."
     },
     {
       "id": "0011983",
@@ -1329,14 +1329,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "哪種民航機須配備機上通話系統?",
+      "question_en": "A crewmember interphone system is required on which airplane?",
+      "has_figure": false,
       "A": "大型民航機",
       "B": "噴射引擎民航機",
       "C": "19人座以上的民航機",
-      "question_en": "A crewmember interphone system is required on which airplane?",
       "A_en": "A- A large airplane.",
       "B_en": "B- A turbojet airplane.",
-      "C_en": "C- An airplane with more than 19 passenger seats.",
-      "figure": null
+      "C_en": "C- An airplane with more than 19 passenger seats."
     },
     {
       "id": "0011984",
@@ -1344,14 +1344,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "往復式引擎飛機,飛時2小時,客艙高度保持12000英呎,該航機必須保留多少備用的氧 氣?",
+      "question_en": "For a 2-hour flight in a reciprocating engine-powered airplane at a cabin pressure altitude of 12,000 feet, how much supplemental oxygen for sustenance must be provided? Enough oxygen for",
+      "has_figure": false,
       "A": "足以供應30分鐘給全體乘客的百分之十",
       "B": "足以供應1.5小時給全體乘客的百分之 十",
       "C": "每名乘客30分鐘的氧氣量",
-      "question_en": "For a 2-hour flight in a reciprocating engine-powered airplane at a cabin pressure altitude of 12,000 feet, how much supplemental oxygen for sustenance must be provided? Enough oxygen for",
       "A_en": "30 minutes for 10 percent of the passengers.",
       "B_en": "10 percent of the passengers for 1.5 hours.",
-      "C_en": "each passenger for 30 minutes.",
-      "figure": null
+      "C_en": "each passenger for 30 minutes."
     },
     {
       "id": "0011985",
@@ -1359,14 +1359,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "客艙高度在多少以上,必須全程提供乘客氧氣?",
-      "A": "15,000 feet.",
-      "B": "14,000 feet.",
-      "C": "13,000 feet.",
       "question_en": "At which cabin altitude must oxygen be provided for all passengers during the entire flight at those altitudes?",
+      "has_figure": false,
       "A_en": "15,000 feet.",
       "B_en": "14,000 feet.",
       "C_en": "13,000 feet.",
-      "figure": null
+      "A": "15,000 feet.",
+      "B": "14,000 feet.",
+      "C": "13,000 feet."
     },
     {
       "id": "0011986",
@@ -1374,14 +1374,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "149人座及8名組員的航機,若搭載97名乘客,至少需要幾位空服員?",
+      "question_en": "An airplane has seats for 149 passengers and eight crewmembers. What is the minimum number of flight attendants required with 97 passengers aboard?",
+      "has_figure": false,
       "A": "4位",
       "B": "3位",
       "C": "2位",
-      "question_en": "An airplane has seats for 149 passengers and eight crewmembers. What is the minimum number of flight attendants required with 97 passengers aboard?",
       "A_en": "Four.",
       "B_en": "Three.",
-      "C_en": "Two.",
-      "figure": null
+      "C_en": "Two."
     },
     {
       "id": "0011987",
@@ -1389,14 +1389,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "下列何種手冊記載緊急情況時組員的分工職掌?",
-      "A": "Airplane Flight Manual.",
-      "B": "Certificate holder's manual.",
-      "C": "Pilot's Emergency Procedures Handbook.",
       "question_en": "Which document includes descriptions of the required crewmember functions to be performed in the event of an emergency?",
+      "has_figure": false,
       "A_en": "Airplane Flight Manual.",
       "B_en": "Certificate holder's manual.",
       "C_en": "Pilot's Emergency Procedures Handbook.",
-      "figure": null
+      "A": "Airplane Flight Manual.",
+      "B": "Certificate holder's manual.",
+      "C": "Pilot's Emergency Procedures Handbook."
     },
     {
       "id": "0011988",
@@ -1404,14 +1404,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "附屬式航空器或商用航空器的機長應備妥何種文件至目的地機場?",
+      "question_en": "What information must the pilot in command of a supplemental air carrier flight or commercial operator carry to the destination airport?",
+      "has_figure": false,
       "A": "乘客及貨物清單",
       "B": "飛行計劃",
       "C": "組員及機長名單",
-      "question_en": "What information must the pilot in command of a supplemental air carrier flight or commercial operator carry to the destination airport?",
       "A_en": "Cargo and passenger distribution information.",
       "B_en": "Copy of the flight plan.",
-      "C_en": "Names of all crewmembers and designated pilot in command.",
-      "figure": null
+      "C_en": "Names of all crewmembers and designated pilot in command."
     },
     {
       "id": "0011989",
@@ -1419,14 +1419,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "每個組員應在航段中總是備妥",
+      "question_en": "Each crewmember shall have readily available for individual use on each flight a",
+      "has_figure": false,
       "A": "駕駛艙門的鑰匙",
       "B": "認證手冊",
       "C": "狀況良好的手電筒",
-      "question_en": "Each crewmember shall have readily available for individual use on each flight a",
       "A_en": "key to the flight deck door.",
       "B_en": "certificate holder's manual.",
-      "C_en": "flashlight in good working order.",
-      "figure": null
+      "C_en": "flashlight in good working order."
     },
     {
       "id": "0011990",
@@ -1434,14 +1434,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "若發生空中引擎熄火,在可能的狀況下,機長應立即通報那個單位?",
+      "question_en": "If an engine's rotation is stopped in flight, the pilot in command must report it, as soon as practicable, to the",
+      "has_figure": false,
       "A": "適合的地面無線電站台",
       "B": "就近的FAA分局",
       "C": "聯管",
-      "question_en": "If an engine's rotation is stopped in flight, the pilot in command must report it, as soon as practicable, to the",
       "A_en": "A- appropriate ground radio station.",
       "B_en": "B- nearest FAA district office.",
-      "C_en": "Coperations manager (or director of operations).",
-      "figure": null
+      "C_en": "Coperations manager (or director of operations)."
     },
     {
       "id": "0011991",
@@ -1449,14 +1449,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "若雙引擎民航機因故有必要關閉一具引擎,機長應該?",
+      "question_en": "What action shall the pilot in command take if it becomes necessary to shut down one of the two engines on an air carrier airplane?",
+      "has_figure": false,
       "A": "選擇機長認為與就近且適當的機場一樣安全的機場落地",
       "B": "在時間點內選擇就近且 適當的機場,並可做安全的落地",
       "C": "選擇就近且適當的機場落地,包括具備救援設施的 軍機場",
-      "question_en": "What action shall the pilot in command take if it becomes necessary to shut down one of the two engines on an air carrier airplane?",
       "A_en": "Land at the airport which the pilot considers to be as safe as the nearest suitable airport in point of time.",
       "B_en": "Land at the nearest suitable airport in point of time at which a safe landing can be made.",
-      "C_en": "Land at the nearest airport, including military, that has a crash and rescue unit.",
-      "figure": null
+      "C_en": "Land at the nearest airport, including military, that has a crash and rescue unit."
     },
     {
       "id": "0011992",
@@ -1464,14 +1464,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "下列何者應共同為航機的起始派遣,繼續派遣,轉降及終止派遣負責?",
+      "question_en": "The persons jointly responsible for the initiation, continuation, diversion, and termination of a supplemental air carrier or commercial operator flight are the",
+      "has_figure": false,
       "A": "機長及總機師",
       "B": "機長及聯管",
       "C": "機長及隨機人員",
-      "question_en": "The persons jointly responsible for the initiation, continuation, diversion, and termination of a supplemental air carrier or commercial operator flight are the",
       "A_en": "pilot in command and chief pilot.",
       "B_en": "pilot in command and director of operations.",
-      "C_en": "pilot in command and the flight follower.",
-      "figure": null
+      "C_en": "pilot in command and the flight follower."
     },
     {
       "id": "0011993",
@@ -1479,14 +1479,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "若發生緊急狀況時, 航機派遣人員無法連絡航機上的飛行員, 航機派遣人員應做何處置",
+      "question_en": "If an aircraft dispatcher cannot communicate with the pilot of an air carrier flight during an emergency, the aircraft dispatcher should",
+      "has_figure": false,
       "A": "視情況做必要的處置",
       "B": "啟動航機失聯計劃",
       "C": "去電請航機所在地的航管代為轉達",
-      "question_en": "If an aircraft dispatcher cannot communicate with the pilot of an air carrier flight during an emergency, the aircraft dispatcher should",
       "A_en": "take any action considered necessary under the circumstances.",
       "B_en": "comply with the company's lost aircraft plan.",
-      "C_en": "phone the ARTCC where the flight is located and ask for a phone patch with the flight.",
-      "figure": null
+      "C_en": "phone the ARTCC where the flight is located and ask for a phone patch with the flight."
     },
     {
       "id": "0011994",
@@ -1494,14 +1494,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "因緊急狀況發生,航機偏離相關法規規範,誰應提供書面報告?",
+      "question_en": "Who is required to submit a written report on a deviation that occurs during an emergency?",
+      "has_figure": false,
       "A": "機長",
       "B": "派遣",
       "C": "宣告緊急狀況者",
-      "question_en": "Who is required to submit a written report on a deviation that occurs during an emergency?",
       "A_en": "Pilot in command.",
       "B_en": "Dispatcher.",
-      "C_en": "Person who declares the emergency.",
-      "figure": null
+      "C_en": "Person who declares the emergency."
     },
     {
       "id": "0011995",
@@ -1509,14 +1509,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "誰應負責提供民航機機長,關於天氣資訊,及場站設施故障或服務項目中止的訊息?",
+      "question_en": "By regulation, who shall provide the pilot in command of a domestic or flag air carrier airplane information concerning weather, and irregularities of facilities and services?",
+      "has_figure": false,
       "A": "航機人員",
       "B": "航管",
       "C": "聯管",
-      "question_en": "By regulation, who shall provide the pilot in command of a domestic or flag air carrier airplane information concerning weather, and irregularities of facilities and services?",
       "A_en": "A- The aircraft dispatcher.",
       "B_en": "B- Air route traffic control center.",
-      "C_en": "CDirector of operations.",
-      "figure": null
+      "C_en": "CDirector of operations."
     },
     {
       "id": "0011996",
@@ -1524,14 +1524,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "組員(crewmember)的定義為何?",
+      "question_en": "Which is a definition of the term 'crewmember'?",
+      "has_figure": false,
       "A": "只限於飛行中的飛行員,飛航工程師或領航員",
       "B": "飛行中被指派任務的人員",
       "C": "飛 行中被指派任務的人員,不包括飛行員或飛航工程師",
-      "question_en": "Which is a definition of the term 'crewmember'?",
       "A_en": "A- Only a pilot, flight engineer, or flight navigator assigned to duty in an aircraft during flight time.",
       "B_en": "B- A person assigned to perform duty in an aircraft during flight time.",
-      "C_en": "C- Any person assigned to duty in an aircraft during flight except a pilot or flight engineer.",
-      "figure": null
+      "C_en": "C- Any person assigned to duty in an aircraft during flight except a pilot or flight engineer."
     },
     {
       "id": "0011997",
@@ -1539,14 +1539,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "在何種情況下航管得請求飛行中緊急狀況的詳細報告,即使航機並無違反任何法規?",
+      "question_en": "When may ATC request a detailed report on an emergency even though a rule has not been violated?",
+      "has_figure": false,
       "A": "航機獲航管優先許可時",
       "B": "任何時間,發生緊急狀況時",
       "C": "在管制空域內,發生緊急 狀況時",
-      "question_en": "When may ATC request a detailed report on an emergency even though a rule has not been violated?",
       "A_en": "When priority has been given.",
       "B_en": "Anytime an emergency occurs.",
-      "C_en": "When the emergency occurs in controlled airspace.",
-      "figure": null
+      "C_en": "When the emergency occurs in controlled airspace."
     },
     {
       "id": "0011998",
@@ -1554,14 +1554,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "國內線或國際線民航機在整段航程中,正常飛行狀況下應與誰保持聯絡?",
-      "A": "ARINC",
-      "B": "Any FSS",
-      "C": "Appropriate dispatch office",
       "question_en": "Who must the crew of a domestic or flag air carrier airplane be able to communicate with, under normal conditions, along the entire route (in either direction) of flight?",
+      "has_figure": false,
       "A_en": "ARINC.",
       "B_en": "Any FSS.",
       "C_en": "Appropriate dispatch office.",
-      "figure": null
+      "A": "ARINC.",
+      "B": "Any FSS.",
+      "C": "Appropriate dispatch office."
     },
     {
       "id": "0011999",
@@ -1569,14 +1569,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "飛行員如何使航機轉彎率增加且同時轉彎半徑減少",
+      "question_en": "How can the pilot increase the rate of turn and decrease the radius at the same time?",
+      "has_figure": false,
       "A": "增加坡度並加速",
       "B": "減速並增加坡度",
       "C": "減低坡度並加速",
-      "question_en": "How can the pilot increase the rate of turn and decrease the radius at the same time?",
       "A_en": "A- Steepen the bank and increase airspeed.",
       "B_en": "B- Steepen the bank and decrease airspeed.",
-      "C_en": "C- Shallow the bank and increase airspeed.",
-      "figure": null
+      "C_en": "C- Shallow the bank and increase airspeed."
     },
     {
       "id": "0012000",
@@ -1584,14 +1584,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "保持固定坡度且空速增加的情況下,航機的轉彎率與轉彎半徑有何關係?",
+      "question_en": "What is the relationship of the rate of turn with the radius of turn with a constant angle of bank but increasing airspeed?",
+      "has_figure": false,
       "A": "轉彎率減少與轉彎半徑增加",
       "B": "轉彎率增加且轉彎半徑減少",
       "C": "轉彎率與轉彎半徑 皆增加",
-      "question_en": "What is the relationship of the rate of turn with the radius of turn with a constant angle of bank but increasing airspeed?",
       "A_en": "A- Rate will decrease and radius will increase.",
       "B_en": "B- Rate will increase and radius will decrease.",
-      "C_en": "C- Rate and radius will increase.",
-      "figure": null
+      "C_en": "C- Rate and radius will increase."
     },
     {
       "id": "0012001",
@@ -1599,14 +1599,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "如遭遇發動機失效,建議應使用何種程序來進場落地?",
+      "question_en": "What procedure is recommended for an engine-out approach and landing?",
+      "has_figure": false,
       "A": "與正常進場落地幾乎相同",
       "B": "進場的高度及速度應比正常進場落地較高較快",
       "C": "除 了進入跑道頭才伸放起落架或襟翼以外,其餘與正常進場落地相同",
-      "question_en": "What procedure is recommended for an engine-out approach and landing?",
       "A_en": "The flightpath and procedures should be almost identical to a normal approach and landing.",
       "B_en": "The altitude and airspeed should be considerably higher than normal throughout the approach.",
-      "C_en": "A normal approach, except do not extend the landing gear or flaps until over the runway threshold.",
-      "figure": null
+      "C_en": "A normal approach, except do not extend the landing gear or flaps until over the runway threshold."
     },
     {
       "id": "0012002",
@@ -1614,14 +1614,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "雙引擎飛機在遭遇單發失效時性能損失可達多少?",
+      "question_en": "What is the resulting performance loss when one engine on a twin-engine fails?",
+      "has_figure": false,
       "A": "巡航空速減少50%",
       "B": "爬升性能減少50%以上",
       "C": "航機所有的性能減少50%",
-      "question_en": "What is the resulting performance loss when one engine on a twin-engine fails?",
       "A_en": "Reduction of cruise airspeed by 50 percent.",
       "B_en": "Reduction of climb by 50 percent or more.",
-      "C_en": "Reduction of all performance by 50 percent.",
-      "figure": null
+      "C_en": "Reduction of all performance by 50 percent."
     },
     {
       "id": "0012003",
@@ -1629,14 +1629,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "巡航中使用何種程序能使航機在固定航段內消耗最少燃油?",
+      "question_en": "Which procedure produces the minimum fuel consumption for a given leg of the cruise flight?",
+      "has_figure": false,
       "A": "頂風時增加巡航空速。",
       "B": "尾風時增加巡航空速。",
       "C": "頂風時增加巡航高度,尾風時 降低巡航高度。",
-      "question_en": "Which procedure produces the minimum fuel consumption for a given leg of the cruise flight?",
       "A_en": "Increase speed for a headwind.",
       "B_en": "Increase speed for a tailwind.",
-      "C_en": "Increase altitude for a headwind, decrease altitude for a tailwind.",
-      "figure": null
+      "C_en": "Increase altitude for a headwind, decrease altitude for a tailwind."
     },
     {
       "id": "0012004",
@@ -1644,14 +1644,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "如遭遇強烈亂流,建議應使用何種程序?",
+      "question_en": "If severe turbulence is encountered, which procedure is recommended?",
+      "has_figure": false,
       "A": "保持航機高度",
       "B": "保持航機固定的姿態",
       "C": "保持航機固定的速度及高度",
-      "question_en": "If severe turbulence is encountered, which procedure is recommended?",
       "A_en": "Maintain a constant altitude.",
       "B_en": "Maintain a constant attitude.",
-      "C_en": "Maintain constant airspeed and altitude.",
-      "figure": null
+      "C_en": "Maintain constant airspeed and altitude."
     },
     {
       "id": "0012005",
@@ -1659,14 +1659,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "誰應負責確保航機上應有的航圖已備妥?",
+      "question_en": "Assuring that appropriate aeronautical charts are aboard an aircraft is the responsibility of the",
+      "has_figure": false,
       "A": "航機派遣",
       "B": "領航員",
       "C": "機長",
-      "question_en": "Assuring that appropriate aeronautical charts are aboard an aircraft is the responsibility of the",
       "A_en": "aircraft dispatcher.",
       "B_en": "flight navigator.",
-      "C_en": "pilot-in-command.",
-      "figure": null
+      "C_en": "pilot-in-command."
     },
     {
       "id": "0012006",
@@ -1674,14 +1674,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何時需要有起飛備降場?",
+      "question_en": "An alternate airport for departure is required",
+      "has_figure": false,
       "A": "若起飛站的天氣情況低於該機場的落地標準",
       "B": "若起飛站的天氣預報在ETD時低於 該機場的落地標準",
-      "C": "若目的地機場的天氣情況僅略高於VFR標準(ceiling less than 3,000 feet and visibility less than 5 SM)",
-      "question_en": "An alternate airport for departure is required",
+      "C_en": "C- when destination weather is marginal VFR (ceiling less than 3,000 feet and visibility less than 5 SM).",
       "A_en": "A- if weather conditions are below authorized landing minimums at the departure airport.",
       "B_en": "B- when the weather forecast at the ETD is for landing minimums only at the departure airport.",
-      "C_en": "C- when destination weather is marginal VFR (ceiling less than 3,000 feet and visibility less than 5 SM).",
-      "figure": null
+      "C": "C- when destination weather is marginal VFR (ceiling less than 3,000 feet and visibility less than 5 SM)."
     },
     {
       "id": "0012007",
@@ -1689,14 +1689,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何種天氣情況只能由PIREP或空中飛行中觀察得到?",
+      "question_en": "Which type of weather can only be directly observed during flight and then reported in a PIREP?",
+      "has_figure": false,
       "A": "亂流及結構積冰",
       "B": "噴射氣流型態的風及積冰",
       "C": "對流層頂的高度及亂流",
-      "question_en": "Which type of weather can only be directly observed during flight and then reported in a PIREP?",
       "A_en": "Turbulence and structural icing.",
       "B_en": "Jetstream-type winds and icing.",
-      "C_en": "Level of the tropopause and turbulence.",
-      "figure": null
+      "C_en": "Level of the tropopause and turbulence."
     },
     {
       "id": "0012008",
@@ -1704,14 +1704,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "飛行員在IMC情況並正處於雷達引導中,若與航管通話失效,應做何處置?",
+      "question_en": "If a pilot is being radar vectored in IFR conditions and loses radio communications with ATC, what action should be taken?",
+      "has_figure": false,
       "A": "直飛IFR flight plan下一個航點,並繼續照計劃飛行",
       "B": "Squawk 7700並爬高至VFR 飛行狀況",
       "C": "直飛雷達引導所指示的航點或航路",
-      "question_en": "If a pilot is being radar vectored in IFR conditions and loses radio communications with ATC, what action should be taken?",
       "A_en": "Fly directly to the next point shown on the IFR flight plan and continue the flight.",
       "B_en": "Squawk 7700 and climb to VFR on Top.",
-      "C_en": "Fly direct to a fix, route, or airway specified in the vector clearance.",
-      "figure": null
+      "C_en": "Fly direct to a fix, route, or airway specified in the vector clearance."
     },
     {
       "id": "0012009",
@@ -1719,14 +1719,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "飛行員在IMC情況中與航管通話失效,飛航高度應如何選擇?",
+      "question_en": "A pilot is flying in IFR weather conditions and has two-way radio communications failure. What altitude should be used?",
+      "has_figure": false,
       "A": "最後許可高度, 航管指示可預期的高度,或MEA,取最高者.",
       "B": "不低於為該航路上之 最高地障加1000呎",
       "C": "高於該航路MEA的VFR高度",
-      "question_en": "A pilot is flying in IFR weather conditions and has two-way radio communications failure. What altitude should be used?",
       "A_en": "Last assigned altitude, altitude ATC has advised to expect, or the MEA, whichever is highest.",
       "B_en": "An altitude that is at least 1,000 feet above the highest obstacle along the route.",
-      "C_en": "A VFR altitude that is above the MEA for each leg.",
-      "figure": null
+      "C_en": "A VFR altitude that is above the MEA for each leg."
     },
     {
       "id": "0012010",
@@ -1734,14 +1734,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "飛行員對TCAS advisory 做出反應動作,而偏離航管許可,應通知航管並",
+      "question_en": "Each pilot, who deviates from an ATC clearance in response to a TCAS advisory, is expected to notify ATC and",
+      "has_figure": false,
       "A": "保持改變後的航向及高度,因航管仍有radar contact",
       "B": "請求新的航管許可",
       "C": "在 TCAS traffic無影響後,立即回復保持原先的航管許可",
-      "question_en": "Each pilot, who deviates from an ATC clearance in response to a TCAS advisory, is expected to notify ATC and",
       "A_en": "maintain the course and altitude resulting from the deviation, as ATC has radar contact.",
       "B_en": "request a new ATC clearance.",
-      "C_en": "expeditiously return to the ATC clearance in effect prior to the advisory, after the conflict is resolved.",
-      "figure": null
+      "C_en": "expeditiously return to the ATC clearance in effect prior to the advisory, after the conflict is resolved."
     },
     {
       "id": "0012011",
@@ -1749,29 +1749,29 @@
       "difficulty": "易",
       "answer": "C",
       "question": "座艙通話記錄(CVR)及飛航資料記錄(FDR)的內容僅能用於何者用途?",
+      "question_en": "Information obtained from flight data and cockpit voice recorders shall be used only for determining",
+      "has_figure": false,
       "A": "誰應為事故或意外負責.",
       "B": "民事賠償或認證的證據",
       "C": "造成事故或意外的可能原 因",
-      "question_en": "Information obtained from flight data and cockpit voice recorders shall be used only for determining",
       "A_en": "who was responsible for any accident or incident.",
       "B_en": "evidence for use in civil penalty or certificate action.",
-      "C_en": "possible causes of accidents or incidents.",
-      "figure": null
+      "C_en": "possible causes of accidents or incidents."
     },
     {
       "id": "0012012",
       "num": 118,
       "difficulty": "易",
       "answer": "B",
-      "question": "Precision Approach Path Indicator (PAPI)的組成為何?",
+      "question": "What does the Precision Approach Path Indicator (PAPI) consist of?",
+      "question_en": "What does the Precision Approach Path Indicator (PAPI) consist of?",
+      "has_figure": false,
       "A": "平行跑道,1排4個燈,有紅,白及綠燈.",
       "B": "垂直跑道,1排4個燈,有紅燈及白燈.",
       "C": "單一的燈箱,投射紅白兩色",
-      "question_en": "What does the Precision Approach Path Indicator (PAPI) consist of?",
       "A_en": "Row of four lights parallel to the runway; red, white, and green.",
       "B_en": "Row of four lights perpendicular to the runway; red and white.",
-      "C_en": "One light projector with two colors; red and white.",
-      "figure": null
+      "C_en": "One light projector with two colors; red and white."
     },
     {
       "id": "0012013",
@@ -1779,14 +1779,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "在何種情況下大型航機產生的翼尖渦流強度最大?",
+      "question_en": "Which flight conditions of a large jet airplane create the most severe flight hazard by generating wingtip vortices of the greatest strength?",
+      "has_figure": false,
       "A": "大重量,慢速,收機輪及收外型",
       "B": "大重量,慢速,放機輪及放外型",
       "C": "大重量,高速, 放機輪及放外型",
-      "question_en": "Which flight conditions of a large jet airplane create the most severe flight hazard by generating wingtip vortices of the greatest strength?",
       "A_en": "Heavy, slow, gear and flaps up.",
       "B_en": "Heavy, slow, gear and flaps down.",
-      "C_en": "Heavy fast, gear and flaps down.",
-      "figure": null
+      "C_en": "Heavy fast, gear and flaps down."
     },
     {
       "id": "0012014",
@@ -1794,14 +1794,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "在大型航機後方產生的亂流僅在何時產生?",
+      "question_en": "Hazardous vortex turbulence that might be encountered behind large aircraft is created only when that aircraft is",
+      "has_figure": false,
       "A": "產生昇力時",
       "B": "高速飛行時",
       "C": "使用大推力時",
-      "question_en": "Hazardous vortex turbulence that might be encountered behind large aircraft is created only when that aircraft is",
       "A_en": "developing lift.",
       "B_en": "operating at high airspeeds.",
-      "C_en": "using high power settings.",
-      "figure": null
+      "C_en": "using high power settings."
     },
     {
       "id": "0012015",
@@ -1809,14 +1809,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "大型航機所產生的翼尖渦流的特性為何?",
-      "A": "下沉並產生亂流",
-      "B": "從地面爬升至 traffic pattern altitude",
-      "C": "在開始起飛滾行 點累積,並持續一段時間",
       "question_en": "Wingtip vortices created by large aircraft tend to",
-      "A_en": "sink below the aircraft generating the turbulence.",
+      "has_figure": false,
+      "A": "下沉並產生亂流",
       "B_en": "rise from the surface to traffic pattern altitude.",
+      "C": "在開始起飛滾行 點累積,並持續一段時間",
+      "A_en": "sink below the aircraft generating the turbulence.",
       "C_en": "accumulate and remain for a period of time at the point where the takeoff roll began.",
-      "figure": null
+      "B": "rise from the surface to traffic pattern altitude."
     },
     {
       "id": "0012016",
@@ -1824,29 +1824,29 @@
       "difficulty": "易",
       "answer": "B",
       "question": "為避免前架次起飛航機的翼尖渦流,飛行員應注意?",
+      "question_en": "To avoid the wingtip vortices of a departing jet airplane during takeoff, the pilot should",
+      "has_figure": false,
       "A": "在通過前架次起飛航機的軌跡後再離地",
       "B": "爬高並保持在起飛航機的軌跡之上風邊",
       "C": "保持在起飛航機的軌跡的下方",
-      "question_en": "To avoid the wingtip vortices of a departing jet airplane during takeoff, the pilot should",
       "A_en": "lift off at a point well past the jet airplane's flightpath.",
       "B_en": "climb above and stay upwind of the jet airplane's flightpath.",
-      "C_en": "remain below the flightpath of the jet airplane.",
-      "figure": null
+      "C_en": "remain below the flightpath of the jet airplane."
     },
     {
       "id": "0012017",
       "num": 123,
       "difficulty": "易",
       "answer": "B",
-      "question": "航管指示 Hold short of a runway (如 ILS critical area等),航機應停在?",
+      "question": "When instructed by ATC to 'Hold short of a runway (ILS critical area, etc.),' the pilot should stop",
+      "question_en": "When instructed by ATC to 'Hold short of a runway (ILS critical area, etc.),' the pilot should stop",
+      "has_figure": false,
       "A": "鼻輪壓在 hold line",
       "B": "航機的每一部份都在 hold line 之後",
       "C": "駕駛艙與 hold line 平行",
-      "question_en": "When instructed by ATC to 'Hold short of a runway (ILS critical area, etc.),' the pilot should stop",
       "A_en": "with the nose gear on the hold line.",
       "B_en": "so that no part of the aircraft extends beyond the hold line.",
-      "C_en": "so the flight deck area of the aircraft is even with the hold line.",
-      "figure": null
+      "C_en": "so the flight deck area of the aircraft is even with the hold line."
     },
     {
       "id": "0012018",
@@ -1854,29 +1854,29 @@
       "difficulty": "易",
       "answer": "A",
       "question": "當進行環繞進場,若飛行員失去目視參考時,應作何處置?",
+      "question_en": "If visual reference is lost while circling to land from an instrument approach, what action(s) should the pilot take?",
+      "has_figure": false,
       "A": "爬高並轉向落地跑道方向直到能建立迷失進場航向",
       "B": "保持MDA並轉向落地跑道方 向,如不能重新保持目視再執行迷失進場",
       "C": "爬高並轉向VOR/NDB方向,請求航管進一步 指示",
-      "question_en": "If visual reference is lost while circling to land from an instrument approach, what action(s) should the pilot take?",
       "A_en": "Make a climbing turn toward the landing runway until established on the missed approach course.",
       "B_en": "Turn toward the landing runway maintaining MDA, and if visual reference is not regained, perform missed approach.",
-      "C_en": "Make a climbing turn toward the VOR/NDB, and request further instructions.",
-      "figure": null
+      "C_en": "Make a climbing turn toward the VOR/NDB, and request further instructions."
     },
     {
       "id": "0012019",
       "num": 125,
       "difficulty": "易",
       "answer": "A",
-      "question": "",
-      "A": "",
-      "B": "",
-      "C": "",
+      "question": "當到達clearance limit時,飛行員應報告哪些事項?",
       "question_en": "What report should the pilot make at a clearance limit?",
+      "has_figure": false,
+      "A": "到達時間,與當時高度/空層",
+      "B": "到達時間,與當時高度/空層,及預期的待命速度",
+      "C": "到達時間,與當時高度/空層,預期的待命速度,及 inbound leg length",
       "A_en": "Time and altitude/flight level arriving or leaving.",
       "B_en": "Time, altitude/flight level, and expected holding speed.",
-      "C_en": "Time, altitude/flight level, expected holding speed, and inbound leg length.",
-      "figure": null
+      "C_en": "Time, altitude/flight level, expected holding speed, and inbound leg length."
     },
     {
       "id": "0012020",
@@ -1884,14 +1884,14 @@
       "difficulty": "中",
       "answer": "A",
       "question": "當使用flight director system,在待命航線內轉彎時,飛行員應達到多少坡度或轉彎 率?",
+      "question_en": "When using a flight director system, what rate of turn or bank angle should a pilot observe during turns in a holding pattern?",
+      "has_figure": false,
       "A": "每秒3度, 或坡度25度,取較小者",
       "B": "每秒3度, 或坡度30度,取較小者",
       "C": "每秒1.5 度, 或坡度25度, 取較小者",
-      "question_en": "When using a flight director system, what rate of turn or bank angle should a pilot observe during turns in a holding pattern?",
       "A_en": "3° per second or 25° bank, whichever is less.",
       "B_en": "3° per second or 30° bank, whichever is less.",
-      "C_en": "1-1/2° per second or 25° bank, whichever is less.",
-      "figure": null
+      "C_en": "1-1/2° per second or 25° bank, whichever is less."
     },
     {
       "id": "0012021",
@@ -1899,14 +1899,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "在NDB待命時 , second leg outbound之計時起算點為何?",
+      "question_en": "When holding at an NDB, at what point should the timing begin for the second leg outbound?",
+      "has_figure": false,
       "A": "Abeam待命點, 或建立outbound航向, 取較早者",
       "B": "通過待命點後以標準轉彎計時一 分鐘後",
       "C": "Abeam待命點",
-      "question_en": "When holding at an NDB, at what point should the timing begin for the second leg outbound?",
       "A_en": "Abeam the holding fix or when the wings are level after completing the turn to the outbound heading, whichever occurs first.",
       "B_en": "At the end of a 1-minute standard rate turn after station passage.",
-      "C_en": "When abeam the holding fix.",
-      "figure": null
+      "C_en": "When abeam the holding fix."
     },
     {
       "id": "0012022",
@@ -1914,14 +1914,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "航機在Class C空域操作之最低裝備需求為何?",
-      "A": "雙向通訊裝備(Two-way communications)",
-      "B": "雙向通訊裝備(Two-way communications)及 詢答器(transponder)",
-      "C": "詢答器(transponder)及測距儀(DME)",
       "question_en": "What minimum aircraft equipment is required for operation within Class C airspace?",
+      "has_figure": false,
       "A_en": "Two-way communications.",
       "B_en": "Two-way communications and transponder.",
+      "C": "詢答器(transponder)及測距儀(DME)",
       "C_en": "Transponder 及 DME.",
-      "figure": null
+      "A": "Two-way communications.",
+      "B": "Two-way communications and transponder."
     },
     {
       "id": "0012023",
@@ -1929,14 +1929,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "Class C airspace提供航機何種服務?",
+      "question_en": "What services are provided for aircraft operating within Class C airspace?",
+      "has_figure": false,
       "A": "到場航機的順序,隔離(不含 VFR航機 ), 及traffic advisories",
       "B": "到場航機的順 序(不含 VFR航機 ),所有航機的隔離, 及traffic advisories",
       "C": "到場航機的順序, 所 有航機的隔離, 及traffic advisories",
-      "question_en": "What services are provided for aircraft operating within Class C airspace?",
       "A_en": "Sequencing of arriving aircraft, separation of aircraft (except between VFR aircraft), and traffic advisories.",
       "B_en": "Sequencing of arriving aircraft (except VFR aircraft), separation between all aircraft, and traffic advisories.",
-      "C_en": "Sequencing of all arriving aircraft, separation between all aircraft, and traffic advisories.",
-      "figure": null
+      "C_en": "Sequencing of all arriving aircraft, separation between all aircraft, and traffic advisories."
     },
     {
       "id": "0012024",
@@ -1944,14 +1944,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "設計軍機操作空域(MOA)的目的在於?",
+      "question_en": "What is the purpose of MOAs?",
+      "has_figure": false,
       "A": "保護軍機避免與民航機空中接近",
       "B": "隔離軍機訓練活動與 IFR民航機",
       "C": "隔離軍機 訓練活動與 IFR及 VFR民航機",
-      "question_en": "What is the purpose of MOAs?",
       "A_en": "To protect military aircraft operations from civil aircraft.",
       "B_en": "To separate military training activities from IFR traffic.",
-      "C_en": "To separate military training activities from both IFR and VFR traffic.",
-      "figure": null
+      "C_en": "To separate military training activities from both IFR and VFR traffic."
     },
     {
       "id": "0012025",
@@ -1959,29 +1959,29 @@
       "difficulty": "中",
       "answer": "C",
       "question": "在軍機操作空域內(MOA),誰應負責空中避撞?",
+      "question_en": "Who is responsible for collision avoidance in an MOA?",
+      "has_figure": false,
       "A": "戰管",
       "B": "航管",
       "C": "飛行員",
-      "question_en": "Who is responsible for collision avoidance in an MOA?",
       "A_en": "Military controllers.",
       "B_en": "ATC controllers.",
-      "C_en": "Each pilot.",
-      "figure": null
+      "C_en": "Each pilot."
     },
     {
       "id": "0012026",
       "num": 132,
       "difficulty": "易",
       "answer": "A",
-      "question": "當執行 simultaneous approaches時 , 飛行員會在那個波道得到 radar advisories?",
-      "A": "塔台波道",
-      "B": "approach control波道",
-      "C": "一架在塔台波道,另一架在 approach control波道",
+      "question": "When simultaneous approaches are in progress, how does each pilot receive radar advisories?",
       "question_en": "When simultaneous approaches are in progress, how does each pilot receive radar advisories?",
-      "A_en": "On tower frequency.",
+      "has_figure": false,
+      "A": "塔台波道",
       "B_en": "On approach control frequency.",
+      "C": "一架在塔台波道,另一架在 approach control波道",
+      "A_en": "On tower frequency.",
       "C_en": "One pilot on tower frequency and the other on approach control frequency.",
-      "figure": null
+      "B": "On approach control frequency."
     },
     {
       "id": "0012027",
@@ -1989,29 +1989,29 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當航管許可side-step maneuver進場時,飛行員應何時開始做 side-step?",
+      "question_en": "When cleared to execute a published side-step maneuver, at what point is the pilot expected to commence this maneuver?",
+      "has_figure": false,
       "A": "下降至DH時",
       "B": "MDA或環繞進場",
       "C": "目視跑道環境後儘快執行",
-      "question_en": "When cleared to execute a published side-step maneuver, at what point is the pilot expected to commence this maneuver?",
       "A_en": "At the published DH.",
       "B_en": "At the MDA published or a circling approach.",
-      "C_en": "As soon as possible after the runway environment is in sight.",
-      "figure": null
+      "C_en": "As soon as possible after the runway environment is in sight."
     },
     {
       "id": "0012028",
       "num": 134,
       "difficulty": "易",
       "answer": "A",
-      "question": "當執行 simultaneous ILS approaches , 何種情況下飛行員必須立即告知 approach control?",
-      "A": "航機導航儀接收器失效及故障時",
-      "B": "欲執行 simultaneous ILS approach時",
-      "C": "欲 請雷達監控航機隔離時",
+      "question": "When simultaneous ILS approaches are in progress, which of the following should approach control be advised of immediately?",
       "question_en": "When simultaneous ILS approaches are in progress, which of the following should approach control be advised of immediately?",
-      "A_en": "Any inoperative or malfunctioning aircraft receivers.",
+      "has_figure": false,
+      "A": "航機導航儀接收器失效及故障時",
       "B_en": "If a simultaneous ILS approach is desired.",
+      "C": "欲 請雷達監控航機隔離時",
+      "A_en": "Any inoperative or malfunctioning aircraft receivers.",
       "C_en": "If radar monitoring is desired to confirm lateral separation.",
-      "figure": null
+      "B": "If a simultaneous ILS approach is desired."
     },
     {
       "id": "0012029",
@@ -2019,14 +2019,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "何種情況下飛行員可以在飛行結束前取消 IFR flight plan?",
+      "question_en": "Under what condition may a pilot cancel an IFR flight plan prior to completing the flight?",
+      "has_figure": false,
       "A": "任何時間,當航管許可將可能違反法規時",
       "B": "任何時間,在管制空域內與航管聯絡時",
-      "C": "VFR conditions ,且不在 Class A airspace.",
-      "question_en": "Under what condition may a pilot cancel an IFR flight plan prior to completing the flight?",
+      "C_en": "Only if in VFR conditions in other than Class A airspace.",
       "A_en": "Anytime it appears the clearance will cause a deviation from FARs.",
       "B_en": "Anytime within controlled airspace by contacting ARTCC.",
-      "C_en": "Only if in VFR conditions in other than Class A airspace.",
-      "figure": null
+      "C": "Only if in VFR conditions in other than Class A airspace."
     },
     {
       "id": "0012030",
@@ -2034,14 +2034,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "簡化的航路許可\"Cleared as filed\",至少要包括那些資訊?",
-      "A": "Clearance limit及航路高度",
-      "B": "Clearance limit, 航路高度及 SID",
-      "C": "目的地機 場, 航路高度及 SID",
       "question_en": "What minimum information does an abbreviated departure clearance 'cleared as filed' include?",
+      "has_figure": false,
       "A_en": "Clearance limit and en route altitude.",
       "B_en": "Clearance limit, en route altitude, and SID, if appropriate.",
+      "C": "目的地機 場, 航路高度及 SID",
       "C_en": "Destination airport, en route altitude, and SID, if appropriate.",
-      "figure": null
+      "A": "Clearance limit and en route altitude.",
+      "B": "Clearance limit, en route altitude, and SID, if appropriate."
     },
     {
       "id": "0012031",
@@ -2049,14 +2049,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何種情況下飛行員會收到包含\"某時間後失效\"的許可?",
+      "question_en": "Under what condition does a pilot receive a 'void time' specified in the clearance?",
+      "has_figure": false,
       "A": "在無管制的機場",
       "B": "當執行\"Gate hold\"程序時",
       "C": "當開車前收到許可時",
-      "question_en": "Under what condition does a pilot receive a 'void time' specified in the clearance?",
       "A_en": "On an uncontrolled airport.",
       "B_en": "When 'gate hold' procedures are in effect.",
-      "C_en": "If the clearance is received prior to starting engines.",
-      "figure": null
+      "C_en": "If the clearance is received prior to starting engines."
     },
     {
       "id": "0012032",
@@ -2064,14 +2064,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當航管通知\"VERIFY 9,000\",而航機卻正保持8000呎,飛行員應做何處置?",
+      "question_en": "What action should a pilot take if asked by ARTCC to 'VERIFY 9,000' and the flight is actually maintaining 8,000?",
+      "has_figure": false,
       "A": "立即爬高到9000呎",
       "B": "報告航管將爬高到9000呎",
       "C": "報告航管目前保持8000呎",
-      "question_en": "What action should a pilot take if asked by ARTCC to 'VERIFY 9,000' and the flight is actually maintaining 8,000?",
       "A_en": "Immediately climb to 9,000.",
       "B_en": "Report climbing to 9,000.",
-      "C_en": "Report maintaining 8,000.",
-      "figure": null
+      "C_en": "Report maintaining 8,000."
     },
     {
       "id": "0012033",
@@ -2079,14 +2079,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "IFR的航路上何時需做位置報告?",
+      "question_en": "Where are position reports required on an IFR flight on airways or routes?",
+      "has_figure": false,
       "A": "通過所有的強制報告點時",
       "B": "ARTCC航管有特別要求報告航點",
       "C": "須轉換高度或報 告天氣的航點",
-      "question_en": "Where are position reports required on an IFR flight on airways or routes?",
       "A_en": "Over all designated compulsory reporting points.",
       "B_en": "Only where specifically requested by ARTCC.",
-      "C_en": "When requested to change altitude or advise of weather conditions.",
-      "figure": null
+      "C_en": "When requested to change altitude or advise of weather conditions."
     },
     {
       "id": "0012034",
@@ -2094,14 +2094,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "IFR 有 radar contact,何者為強制報告項目?",
+      "question_en": "Which reports are required when operating IFR in radar environment?",
+      "has_figure": false,
       "A": "位置報告, 離開高度, 無法保持爬升率500ft/min, 到達待命點,或許可點的時間及 高度",
       "B": "位置報告, 離開高度, 無法保持爬升率500ft/min, 到達待命點或許可點的時 間及高度, 及平均真空速改變超過5%或10浬",
       "C": "離開高度, 無法保持爬升率 500ft/min,到達待命點或許可點的時間及高度,及離開該待命點或許可點, 及平均真空 速改變超過5%或10浬",
-      "question_en": "Which reports are required when operating IFR in radar environment?",
       "A_en": "Position reports, vacating an altitude, unable to climb 500 ft/min, and time and altitude reaching a holding fix or point to which cleared.",
       "B_en": "Position reports, vacating an altitude, unable to climb 500 ft/min, time and altitude reaching a holding fix or point to which cleared, average TAS exceeding 5 percent or 10 knots.",
-      "C_en": "Vacating an altitude, unable to climb 500 ft/min, time and altitude reaching a holding fix or point to which cleared, a change in average TAS exceeding 5 percent or 10 knots, and leaving any assigned holding fix or point.",
-      "figure": null
+      "C_en": "Vacating an altitude, unable to climb 500 ft/min, time and altitude reaching a holding fix or point to which cleared, a change in average TAS exceeding 5 percent or 10 knots, and leaving any assigned holding fix or point."
     },
     {
       "id": "0012035",
@@ -2109,14 +2109,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "IFR 進場時若無 radar contact,何者為強制報告項目?",
-      "A": "離開 FAF inbound 或 OM inbound 及迷失進場 (missed approach).",
-      "B": "離開 FAF inbound , OM inbound或 outbound, 及迷失進場 (missed approach).",
-      "C": "離開 FAF inbound , OM inbound或 outbound, 程序轉彎 inbound及 outbound及及目視跑道",
       "question_en": "Which reports are always required when on an IFR approach not in radar contact?",
+      "has_figure": false,
       "A_en": "Leaving FAF inbound or outer marker inbound and missed approach.",
       "B_en": "Leaving FAF inbound, leaving outer marker inbound or outbound, and missed approach.",
       "C_en": "Leaving FAF inbound, leaving outer marker inbound or outbound, procedure turn outbound and inbound, and visual contact with the runway.",
-      "figure": null
+      "A": "Leaving FAF inbound or outer marker inbound and missed approach.",
+      "B": "Leaving FAF inbound, leaving outer marker inbound or outbound, and missed approach.",
+      "C": "Leaving FAF inbound, leaving outer marker inbound or outbound, procedure turn outbound and inbound, and visual contact with the runway."
     },
     {
       "id": "0012036",
@@ -2124,14 +2124,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "飛行員在與航管初次通話中應如何表示已收到 ATIS?",
+      "question_en": "Pilots should notify controllers on initial contact that they have received the ATIS broadcast by?",
+      "has_figure": false,
       "A": "報告已收到數字",
       "B": "報告已收到天氣",
-      "C": "報告 ATIS Code",
-      "question_en": "Pilots should notify controllers on initial contact that they have received the ATIS broadcast by?",
+      "C_en": "repeating the alphabetical code word appended to the broadcast.",
       "A_en": "stating 'Have Numbers'.",
       "B_en": "stating 'Have Weather'.",
-      "C_en": "repeating the alphabetical code word appended to the broadcast.",
-      "figure": null
+      "C": "repeating the alphabetical code word appended to the broadcast."
     },
     {
       "id": "0012037",
@@ -2139,14 +2139,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "申請及請求 IFR flight plan應間隔多少時間?",
+      "question_en": "What is the suggested time interval for filing and requesting an IFR flight plan?",
+      "has_figure": false,
       "A": "不晚於ETD前30分鐘申請 IFR flight plan,不早於滑行前10分鐘請求航路許可",
       "B": "不晚於ETD前30分鐘申請 IFR flight plan,不晚於滑行前10分鐘請求航路許可",
       "C": "不晚 於ETD前60分鐘申請 IFR flight plan,不晚於滑行前10分鐘請求航路許可",
-      "question_en": "What is the suggested time interval for filing and requesting an IFR flight plan?",
       "A_en": "File at least 30 minutes prior to departure and request the clearance not more than 10 minutes prior to taxi.",
       "B_en": "File at least 30 minutes prior to departure and request the clearance at least 10 minutes prior to taxi.",
-      "C_en": "File at least 1 hour prior to departure and request the clearance at least 10 minutes prior to taxi.",
-      "figure": null
+      "C_en": "File at least 1 hour prior to departure and request the clearance at least 10 minutes prior to taxi."
     },
     {
       "id": "0012038",
@@ -2154,14 +2154,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "如何在 IFR flight plan表示飛航路線?",
-      "A": "簡化的航路路線或包括 transitions的jet routes",
-      "B": "航路路線或包括VORs and fixes的jet routes",
-      "C": "航路路線或只包括強制報告點的 jet routes",
       "question_en": "How should the route of flight be defined on an IFR flight plan?",
-      "A_en": "A simplified route via airways or jet routes with transitions.",
+      "has_figure": false,
+      "A": "簡化的航路路線或包括 transitions的jet routes",
       "B_en": "A route via airways or jet routes with VORs and fixes used.",
+      "C": "航路路線或只包括強制報告點的 jet routes",
+      "A_en": "A simplified route via airways or jet routes with transitions.",
       "C_en": "A route via airways or jet routes with only the compulsory reporting points.",
-      "figure": null
+      "B": "A route via airways or jet routes with VORs and fixes used."
     },
     {
       "id": "0012039",
@@ -2169,14 +2169,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "非標準航路的直飛路線在 IFR flight plan應如何表示?",
+      "question_en": "How should an off-airway direct flight be defined on an IFR flight plan?",
+      "has_figure": false,
       "A": "起始點, 真航向 ,及最終點",
       "B": "所有航機將飛越的 radio fixes",
       "C": "起始點, 所有 飛行員欲視為強制報告點的 radio fixes ,及最終點",
-      "question_en": "How should an off-airway direct flight be defined on an IFR flight plan?",
       "A_en": "The initial fix, the true course, and the final fix.",
       "B_en": "All radio fixes over which the flight will pass.",
-      "C_en": "The initial fix, all radio fixes which the pilot wishes to be compulsory reporting points, and the final fix.",
-      "figure": null
+      "C_en": "The initial fix, all radio fixes which the pilot wishes to be compulsory reporting points, and the final fix."
     },
     {
       "id": "0012040",
@@ -2184,14 +2184,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "設計 STAR最主要的目的為何?",
+      "question_en": "What is the primary purpose of a STAR?",
+      "has_figure": false,
       "A": "隔離 VFR 及 IFR的航機",
       "B": "簡化航管許可頒布的程序",
       "C": "減少特定機場塞機情況",
-      "question_en": "What is the primary purpose of a STAR?",
       "A_en": "Provide separation between IFR and VFR traffic.",
       "B_en": "Simplify clearance delivery procedures.",
-      "C_en": "Decrease traffic congestion at certain airports.",
-      "figure": null
+      "C_en": "Decrease traffic congestion at certain airports."
     },
     {
       "id": "0012041",
@@ -2199,14 +2199,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "航管何時會發給航機 STAR?",
+      "question_en": "When does ATC issue a STAR?",
+      "has_figure": false,
       "A": "僅當航管認為適合時",
       "B": "僅發給優先進場之航機",
       "C": "僅當飛行員主動請求時",
-      "question_en": "When does ATC issue a STAR?",
       "A_en": "Only when ATC deems it appropriate.",
       "B_en": "Only to high priority flights.",
-      "C_en": "Only upon request of the pilot.",
-      "figure": null
+      "C_en": "Only upon request of the pilot."
     },
     {
       "id": "0012042",
@@ -2214,14 +2214,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "當航管雷達引導航機穿過IFR進場五邊時,飛行員應做何處置?",
+      "question_en": "What action(s) should a pilot take if vectored across the final approach course during an IFR approach?",
+      "has_figure": false,
       "A": "保持雷達引導的航向,直到航管進一步指示",
       "B": "告知航管航機正穿過五邊",
       "C": "轉向 五邊繼續進場,並在波道上廣播航機已繼續進場",
-      "question_en": "What action(s) should a pilot take if vectored across the final approach course during an IFR approach?",
       "A_en": "Continue on the last heading issued until otherwise instructed.",
       "B_en": "Contact approach control, and advise that the flight is crossing the final approach course.",
-      "C_en": "Turn onto final, and broadcast in the blind that the flight has proceeded on final.",
-      "figure": null
+      "C_en": "Turn onto final, and broadcast in the blind that the flight has proceeded on final."
     },
     {
       "id": "0012043",
@@ -2229,14 +2229,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當航管雷達引導至IFR五邊進場時,飛行員應於何時下降至 published altitudes?",
+      "question_en": "While being vectored to the final approach course of an IFR approach, when may the pilot descend to published altitudes?",
+      "has_figure": false,
       "A": "當航機建立在進場圖之指定航段後",
       "B": "當航機近於進場邊10哩以內",
       "C": "僅於得到航 管進場許可後",
-      "question_en": "While being vectored to the final approach course of an IFR approach, when may the pilot descend to published altitudes?",
       "A_en": "Anytime the flight is on a published leg of an approach chart.",
       "B_en": "When the flight is within the 10-mile ring of a published approach.",
-      "C_en": "Only when approach control clears the flight for the approach.",
-      "figure": null
+      "C_en": "Only when approach control clears the flight for the approach."
     },
     {
       "id": "0012044",
@@ -2244,14 +2244,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "當雷達引導IFR進場至無管制機場,何時為雷達引導結束?",
-      "A": "直到落地,或或告知切換至 advisory frequency",
-      "B": "當對正 final approach course",
-      "C": "當許可進場時",
       "question_en": "When is radar service terminated while vectored for an IFR approach at an uncontrolled airport?",
-      "A_en": "Only upon landing or advised to change to advisory frequency.",
+      "has_figure": false,
+      "A": "直到落地,或或告知切換至 advisory frequency",
       "B_en": "When aligned on the final approach course.",
+      "C": "當許可進場時",
+      "A_en": "Only upon landing or advised to change to advisory frequency.",
       "C_en": "When cleared for the approach.",
-      "figure": null
+      "B": "When aligned on the final approach course."
     },
     {
       "id": "0012045",
@@ -2259,14 +2259,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "當收到IFR進場許可至無管制機場且無FSS時,在被告知切換後,飛行員應做何預警?",
-      "A": "守聽航管的 traffic advisories 及 UNICOM",
+      "question_en": "When cleared for an IFR approach to an uncontrolled airport with no FSS, what precaution should the pilot take after being advised to change to advisory frequency?",
+      "has_figure": false,
+      "A_en": "Monitor ATC for traffic advisories as well as UNICOM.",
       "B": "守聽 traffic advisories 並報告 航機的位置及意向",
       "C": "直到目視跑道後,再於UNICOM 波道上報告航機的位置及意向",
-      "question_en": "When cleared for an IFR approach to an uncontrolled airport with no FSS, what precaution should the pilot take after being advised to change to advisory frequency?",
-      "A_en": "Monitor ATC for traffic advisories as well as UNICOM.",
       "B_en": "Broadcast position and intentions on the Common Traffic Advisory Frequency and monitor the frequency.",
       "C_en": "Wait until visual contact is made with the airport and then broadcast position and intentions to land on UNICOM.",
-      "figure": null
+      "A": "Monitor ATC for traffic advisories as well as UNICOM."
     },
     {
       "id": "0012046",
@@ -2274,14 +2274,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "在有管制的機場落地後,航機應?",
+      "question_en": "What action is expected of an aircraft upon landing at a controlled airport?",
+      "has_figure": false,
       "A": "繼續在落地方向上滑行,直到塔台通知切換至地面管制",
       "B": "在就近的滑行道上脫離 跑道,並保持塔台波道,直到進一步指示",
       "C": "在就近的滑行道上脫離跑道,並在進入滑行 道後,切換至地面管制波道",
-      "question_en": "What action is expected of an aircraft upon landing at a controlled airport?",
       "A_en": "Continue taxiing in the landing direction until advised by the tower to switch to ground control frequency.",
       "B_en": "Exit the runway at the nearest suitable taxiway and remain on tower frequency until instructed otherwise.",
-      "C_en": "Exit the runway at the nearest suitable taxiway and switch to ground control upon crossing the taxiway holding lines.",
-      "figure": null
+      "C_en": "Exit the runway at the nearest suitable taxiway and switch to ground control upon crossing the taxiway holding lines."
     },
     {
       "id": "0012047",
@@ -2289,14 +2289,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "飛行員應如何覆誦航管許可或指示?",
+      "question_en": "What is the pilot's responsibility for clearance or instruction readback?",
+      "has_figure": false,
       "A": "除了SIDs外, 覆誦所有的指定高度, 高度限制,及雷達引導的指示",
       "B": "若已瞭解航管 許可或指示,回答收到即可",
       "C": "覆誦完整的航管許可或指示以確認完全瞭解",
-      "question_en": "What is the pilot's responsibility for clearance or instruction readback?",
       "A_en": "Except for SIDs, read back altitude assignments, altitude restrictions, and vectors.",
       "B_en": "If the clearance or instruction is understood, an acknowledgment is sufficient.",
-      "C_en": "Read back the entire clearance or instruction to confirm the message is understood.",
-      "figure": null
+      "C_en": "Read back the entire clearance or instruction to confirm the message is understood."
     },
     {
       "id": "0012048",
@@ -2304,14 +2304,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "為確保能得到航管優先,執行空中救護的航機應將\"LIFEGUARD\"注明於飛航計劃之何處?",
-      "A": "Aircraft type/special equipment block.",
-      "B": "Pilot's name and Aircraft type.",
-      "C": "Pilot's name and address block.",
       "question_en": "To assure expeditious handling of a civilian air ambulance flight, the word 'LIFEGUARD' should be entered in which section of the flight plan?",
+      "has_figure": false,
       "A_en": "Aircraft type/special equipment block.",
       "B_en": "Pilot's name and Aircraft type.",
       "C_en": "Pilot's name and address block.",
-      "figure": null
+      "A": "Aircraft type/special equipment block.",
+      "B": "Pilot's name and Aircraft type.",
+      "C": "Pilot's name and address block."
     },
     {
       "id": "0012049",
@@ -2319,29 +2319,29 @@
       "difficulty": "中",
       "answer": "C",
       "question": "飛行員應如何描述 braking action?",
-      "A": "0 , 50%, 75%, 100%",
-      "B": "Zero-zero, fifty-fifty, or normal.",
-      "C": "Nil, poor, fair, or good.",
       "question_en": "How should a pilot describe braking action?",
-      "A_en": "00 percent, 50 percent, 75 percent, or 100 percent.",
+      "has_figure": false,
+      "A": "0 , 50%, 75%, 100%",
       "B_en": "Zero-zero, fifty-fifty or normal.",
       "C_en": "Nil, poor, fair, or good.",
-      "figure": null
+      "A_en": "00 percent, 50 percent, 75 percent, or 100 percent.",
+      "B": "Zero-zero, fifty-fifty or normal.",
+      "C": "Nil, poor, fair, or good."
     },
     {
       "id": "0012050",
       "num": 156,
       "difficulty": "易",
       "answer": "B",
-      "question": "何謂PRM(Precision Runway Monitoring)?",
+      "question": "Precision Runway Monitoring (PRM) is",
+      "question_en": "Precision Runway Monitoring (PRM) is",
+      "has_figure": false,
       "A": "航機機上雷達裝備,用於監控兩條跑道的進場",
       "B": "雷達系統,用於監控兩條平行而相 近跑道的進場",
       "C": "高擷取率雷達系統,用於監控多架飛機於單跑道的進場",
-      "question_en": "Precision Runway Monitoring (PRM) is",
       "A_en": "an airborne radar system for monitoring approaches to two runways.",
       "B_en": "a radar system for monitoring approaches to closely spaced parallel runways.",
-      "C_en": "a high update rate radar system for monitoring multiple aircraft to a single runway.",
-      "figure": null
+      "C_en": "a high update rate radar system for monitoring multiple aircraft to a single runway."
     },
     {
       "id": "0012051",
@@ -2349,14 +2349,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "除緊急情況外,飛行員何時可預期得到優先落地許可",
+      "question_en": "Except during an emergency, when can a pilot expect landing priority?",
+      "has_figure": false,
       "A": "當收到IFR的進場許可",
       "B": "當航機為大重量操作時",
       "C": "先到先服務為原則",
-      "question_en": "Except during an emergency, when can a pilot expect landing priority?",
       "A_en": "When cleared for an IFR approach.",
       "B_en": "When piloting a large, heavy aircraft.",
-      "C_en": "In turn, on a first-come, first-serve basis.",
-      "figure": null
+      "C_en": "In turn, on a first-come, first-serve basis."
     },
     {
       "id": "0012052",
@@ -2364,14 +2364,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "若航管要求航機調整空速且會超出航機的操作範圍,飛行員應做何處置?",
+      "question_en": "If ATC requests a speed adjustment that is not within the operating limits of the aircraft, what action must the pilot take?",
+      "has_figure": false,
       "A": "盡量配合調整到航管要求的空速,但不超限",
       "B": "盡量長時間保持在預劃的空速後,再 向航管請求合理的空速",
       "C": "告知航管航機能保持的空速",
-      "question_en": "If ATC requests a speed adjustment that is not within the operating limits of the aircraft, what action must the pilot take?",
       "A_en": "Maintain an airspeed within the operating limitations as close to the requested speed as possible.",
       "B_en": "Attempt to use the requested speed as long as possible, then request a reasonable airspeed from ATC.",
-      "C_en": "Advise ATC of the airspeed that will be used.",
-      "figure": null
+      "C_en": "Advise ATC of the airspeed that will be used."
     },
     {
       "id": "0012053",
@@ -2379,14 +2379,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "在執行ILS進場時,何種情況下一定要執行迷失進場?",
+      "question_en": "When must the pilot initiate a missed approach procedure from an ILS approach?",
+      "has_figure": false,
       "A": "在DH時無法清楚目視跑道",
       "B": "到達DH且已過進場圖所標示的迷失進場時間,無法清 楚目視跑道環境",
       "C": "在DH時無法清楚目視任何目視參考 (visual references),或之後 的任何時間無法保持目視",
-      "question_en": "When must the pilot initiate a missed approach procedure from an ILS approach?",
       "A_en": "At the DH when the runway is not clearly visible.",
       "B_en": "When the time has expired after reaching the DH and the runway environment is not clearly visible.",
-      "C_en": "At the DH, if the visual references for the intended runway are not distinctly visible or anytime thereafter that visual reference is lost.",
-      "figure": null
+      "C_en": "At the DH, if the visual references for the intended runway are not distinctly visible or anytime thereafter that visual reference is lost."
     },
     {
       "id": "0012054",
@@ -2394,14 +2394,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "當航管在雷達引導至 \"NO PT\"的儀器進場時,飛行員應?",
+      "question_en": "If being radar vectored to the final approach course of a published instrument approach that specifies 'NO PT,' the pilot should",
+      "has_figure": false,
       "A": "提醒航管,航機將不會執行程序轉彎 (procedure turn)",
       "B": "不執行程序轉彎 (procedure turn),除飛航管特別指示",
       "C": "執行待命航線式的程序轉彎 (procedure turn)",
-      "question_en": "If being radar vectored to the final approach course of a published instrument approach that specifies 'NO PT,' the pilot should",
       "A_en": "advise ATC that a procedure turn will not be executed.",
       "B_en": "not execute the procedure turn unless specifically cleared to do so by ATC.",
-      "C_en": "execute a holding-pattern type procedure turn.",
-      "figure": null
+      "C_en": "execute a holding-pattern type procedure turn."
     },
     {
       "id": "0012055",
@@ -2409,29 +2409,29 @@
       "difficulty": "易",
       "answer": "A",
       "question": "ILS功能正常下,無法目視跑道,應於何時執行迷失進場?",
-      "A": "在下滑道上到達DH時",
-      "B": "到達目視下降點時(visual descent point)",
-      "C": "到達進場 圖所標示的迷失進場時間",
       "question_en": "Assuming that all ILS components are operating and the required visual references are not acquired, the missed approach should be initiated upon",
-      "A_en": "arrival at the DH on the glide slope.",
+      "has_figure": false,
+      "A": "在下滑道上到達DH時",
       "B_en": "arrival at the visual descent point.",
+      "C": "到達進場 圖所標示的迷失進場時間",
+      "A_en": "arrival at the DH on the glide slope.",
       "C_en": "expiration of the time listed on the approach chart for missed approach.",
-      "figure": null
+      "B": "arrival at the visual descent point."
     },
     {
       "id": "0012056",
       "num": 162,
       "difficulty": "易",
       "answer": "B",
-      "question": "當航管在雷達引導至 unpublished route並發給\"cleared for approach\",航機應?",
-      "A": "下降至MVA(minimum vector altitude)",
-      "B": "保持最後指定高度,直到建立進場邊上",
-      "C": "下降到 IAF(initial approach fix)的高度",
+      "question": "What action should be taken when a pilot is 'cleared for approach' while being radar vectored on an unpublished route?",
       "question_en": "What action should be taken when a pilot is 'cleared for approach' while being radar vectored on an unpublished route?",
+      "has_figure": false,
       "A_en": "Descend to minimum vector altitude.",
-      "B_en": "Remain at last assigned altitude until established on a published route segment.",
+      "B": "保持最後指定高度,直到建立進場邊上",
       "C_en": "Descend to initial approach fix altitude.",
-      "figure": null
+      "B_en": "Remain at last assigned altitude until established on a published route segment.",
+      "A": "Descend to minimum vector altitude.",
+      "C": "Descend to initial approach fix altitude."
     },
     {
       "id": "0012057",
@@ -2439,14 +2439,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當使用ALSF-1 approach light system為主要目視參考時,何時才能下降至DH 或MDA以 下?",
-      "A": "DH 或MDA以,下不可參考approach light system到落地",
-      "B": "可以繼續參考approach light system到落地",
-      "C": "可以繼續參考approach light system,但不得低於100呎 (above touchdown zone)",
       "question_en": "Under which condition, if any, may a pilot descend below DH or MDA when using the ALSF-1 approach light system as the primary visual reference for the intended runway?",
+      "has_figure": false,
       "A_en": "Under no condition can the approach light system serve as a necessary visual reference for descent below DH or MDA.",
-      "B_en": "Descent to the intended runway is authorized as long as any portion of the approach light system can be seen.",
+      "B": "可以繼續參考approach light system到落地",
       "C_en": "The approach light system can be used as a visual reference, except that descent below 100 feet above TDZE requires that the red light bars be visible and identifiable.",
-      "figure": null
+      "B_en": "Descent to the intended runway is authorized as long as any portion of the approach light system can be seen.",
+      "A": "Under no condition can the approach light system serve as a necessary visual reference for descent below DH or MDA.",
+      "C": "The approach light system can be used as a visual reference, except that descent below 100 feet above TDZE requires that the red light bars be visible and identifiable."
     },
     {
       "id": "0012058",
@@ -2454,14 +2454,14 @@
       "difficulty": "中",
       "answer": "B",
       "question": "當航管許可ILS進場後,應飛何種高度?",
+      "question_en": "What altitude is a pilot authorized to fly when cleared for an ILS approach? The pilot",
+      "has_figure": false,
       "A": "下降至 procedure turn的高度",
       "B": "保持最後指定高度,直到攔截到各進場邊的指定 高度",
       "C": "穩定在五邊後即可下降",
-      "question_en": "What altitude is a pilot authorized to fly when cleared for an ILS approach? The pilot",
       "A_en": "may begin a descent to the procedure turn altitude.",
       "B_en": "must maintain the last assigned altitude until established on a published route or segment of the approach .",
-      "C_en": "may descend from the assigned altitude only when established on the final approach course.",
-      "figure": null
+      "C_en": "may descend from the assigned altitude only when established on the final approach course."
     },
     {
       "id": "0012059",
@@ -2469,14 +2469,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當決定轉降至備降場時,最低的天氣標準為何?",
+      "question_en": "When proceeding to the alternate airport, which minimums apply?",
+      "has_figure": false,
       "A": "IFR備降場天氣標準",
       "B": "ETA加減1小時內,雲幕2000呎,能見度3哩",
       "C": "實際儀器進場 圖的落地天氣標準",
-      "question_en": "When proceeding to the alternate airport, which minimums apply?",
       "A_en": "The IFR alternate minimums",
       "B_en": "2000-3 for at least 1 hour before until 1 hour after the ETA.",
-      "C_en": "The actual minimums shown on the IAP chart for the airport.",
-      "figure": null
+      "C_en": "The actual minimums shown on the IAP chart for the airport."
     },
     {
       "id": "0012060",
@@ -2484,14 +2484,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "當航管頒布的許可與法規抵觸時,飛行員應做何處置?",
-      "A": "完全 Read back",
+      "question_en": "What action should a pilot take when a clearance is received from ATC that appears to be contrary to a regulation?",
+      "has_figure": false,
+      "A_en": "Read the clearance back in its entirety.",
       "B": "請求航管釐清",
       "C": "不接受此許可",
-      "question_en": "What action should a pilot take when a clearance is received from ATC that appears to be contrary to a regulation?",
-      "A_en": "Read the clearance back in its entirety.",
       "B_en": "Request a clarification from ATC.",
       "C_en": "Do not accept the clearance.",
-      "figure": null
+      "A": "Read the clearance back in its entirety."
     },
     {
       "id": "0012061",
@@ -2499,29 +2499,29 @@
       "difficulty": "易",
       "answer": "B",
       "question": "當航管許可side-step maneuver進場時,飛行員應何時開始做 side-step?",
+      "question_en": "When cleared to execute a published side-step maneuver for a specific approach and landing on the parallel runway, at what point is the pilot expected to commence this maneuver?",
+      "has_figure": false,
       "A": "下降至環繞進場高度(circling approach)時",
       "B": "目視跑道或機場後儘快執行",
       "C": "到達MDA且目視跑道後",
-      "question_en": "When cleared to execute a published side-step maneuver for a specific approach and landing on the parallel runway, at what point is the pilot expected to commence this maneuver?",
       "A_en": "At the published minimum altitude for a circling approach.",
       "B_en": "As soon as possible after the runway or runway environment is in sight.",
-      "C_en": "At the localizer MDA minimums and when the runway is in sight.",
-      "figure": null
+      "C_en": "At the localizer MDA minimums and when the runway is in sight."
     },
     {
       "id": "0012062",
       "num": 168,
       "difficulty": "易",
       "answer": "B",
-      "question": "何謂航管指示(ATC instruction)?",
-      "A": "同航管許可(ATC clearance)",
+      "question": "An ATC 'instruction'",
+      "question_en": "An ATC 'instruction'",
+      "has_figure": false,
+      "A_en": "is the same as an ATC 'clearance.'",
       "B": "航管延伸的指示,需要航機作出特定的處置",
       "C": "必 須完整\"read back\"而確認生效",
-      "question_en": "An ATC 'instruction'",
-      "A_en": "is the same as an ATC 'clearance.'",
       "B_en": "is a directive issued by ATC for the purpose of requiring a pilot to take a specific action.",
       "C_en": "must be 'read back' in full to the controller and confirmed before becoming effective.",
-      "figure": null
+      "A": "is the same as an ATC 'clearance.'"
     },
     {
       "id": "0012063",
@@ -2529,14 +2529,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "航機以GPS為導航裝備,其導航能力應視為?",
-      "A": "RNAV equipped.",
-      "B": "Astrotracker equipped.",
-      "C": "FMS/EFIS equipped.",
       "question_en": "Aircraft navigating by GPS are considered, on the flight plan, to be",
+      "has_figure": false,
       "A_en": "RNAV equipped.",
       "B_en": "Astrotracker equipped.",
       "C_en": "FMS/EFIS equipped.",
-      "figure": null
+      "A": "RNAV equipped.",
+      "B": "Astrotracker equipped.",
+      "C": "FMS/EFIS equipped."
     },
     {
       "id": "0012064",
@@ -2544,14 +2544,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "如果你在大型航機落地後進行起飛,應計劃於何處離地?",
+      "question_en": "If you take off behind a heavy jet that has just landed, you should plan to lift off",
+      "has_figure": false,
       "A": "該機落地點之前",
       "B": "該機落地點之後",
       "C": "恰好在該機落地點,並保持在跑道的上風 邊緣",
-      "question_en": "If you take off behind a heavy jet that has just landed, you should plan to lift off",
       "A_en": "prior to the point where the jet touched down.",
       "B_en": "beyond the point where the jet touched down.",
-      "C_en": "at the point where the jet touched down and on the upwind edge of the runway.",
-      "figure": null
+      "C_en": "at the point where the jet touched down and on the upwind edge of the runway."
     },
     {
       "id": "0012065",
@@ -2559,14 +2559,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "IFR飛行員應何時告知航管\"Minimum fuel\"?",
+      "question_en": "Under what condition should a pilot on IFR advise ATC of minimum fuel status?",
+      "has_figure": false,
       "A": "油量低於IFR所需油量",
       "B": "需要優先落地許可",
       "C": "剩餘油量無法接受進一步的延誤",
-      "question_en": "Under what condition should a pilot on IFR advise ATC of minimum fuel status?",
       "A_en": "When the fuel supply becomes less than that required for IFR.",
       "B_en": "If the remaining fuel suggests a need for traffic or landing priority.",
-      "C_en": "If the remaining fuel precludes any undue delay.",
-      "figure": null
+      "C_en": "If the remaining fuel precludes any undue delay."
     },
     {
       "id": "0012066",
@@ -2574,14 +2574,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "\"Minimum fuel\"對航管的意義是?",
+      "question_en": "What does the term 'minimum fuel' imply to ATC?",
+      "has_figure": false,
       "A": "航機需要航管優先",
       "B": "航機需要緊急就近落地",
       "C": "進一步的延遲將可能造成航機的 緊急情況",
-      "question_en": "What does the term 'minimum fuel' imply to ATC?",
       "A_en": "Traffic priority is needed to the destination airport.",
       "B_en": "Emergency handling is required to the nearest suitable airport.",
-      "C_en": "Advisory that indicates an emergency situation is possible should an undue delay occur.",
-      "figure": null
+      "C_en": "Advisory that indicates an emergency situation is possible should an undue delay occur."
     },
     {
       "id": "0012067",
@@ -2589,29 +2589,29 @@
       "difficulty": "易",
       "answer": "B",
       "question": "何種情況下航管會發佈安全警告(safety alerts)?",
+      "question_en": "Under what condition does ATC issue safety alerts?",
+      "has_figure": false,
       "A": "有立即撞機的危險",
       "B": "當航機接近地面或地障時",
       "C": "極端的天氣,風切或大冰雹",
-      "question_en": "Under what condition does ATC issue safety alerts?",
       "A_en": "When collision with another aircraft is imminent.",
       "B_en": "If the aircraft altitude is noted to be in close proximity to the surface or an obstacle.",
-      "C_en": "When weather conditions are extreme and wind shear or large hail is in the vicinity.",
-      "figure": null
+      "C_en": "When weather conditions are extreme and wind shear or large hail is in the vicinity."
     },
     {
       "id": "0012068",
       "num": 174,
       "difficulty": "易",
       "answer": "B",
-      "question": "劫機的 transponder codes為何?",
-      "A": "7200",
-      "B": "7500",
-      "C": "7777",
+      "question": "What is the hijack code?",
       "question_en": "What is the hijack code?",
+      "has_figure": false,
       "A_en": "7200",
       "B_en": "7500",
       "C_en": "7777",
-      "figure": null
+      "A": "7200",
+      "B": "7500",
+      "C": "7777"
     },
     {
       "id": "0012069",
@@ -2619,14 +2619,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "飛行員操作詢答器(transponder)撥定值時,應避開哪個範圍?",
+      "question_en": "Which range of codes should a pilot avoid switching through when changing transponder codes?",
+      "has_figure": false,
       "A": "0000 到 1000.",
       "B": "7200 及 7500 系列.",
       "C": "7500, 7600, 及 7700 系列.",
-      "question_en": "Which range of codes should a pilot avoid switching through when changing transponder codes?",
       "A_en": "0000 through 1000.",
       "B_en": "7200 and 7500 series.",
-      "C_en": "7500, 7600, and 7700 series.",
-      "figure": null
+      "C_en": "7500, 7600, and 7700 series."
     },
     {
       "id": "0012070",
@@ -2634,14 +2634,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "當機場不同的位置出現不同的風向時,塔台會如何報?",
-      "A": "Light and variable.",
-      "B": "Wind shear.",
-      "C": "Frontal passage.",
       "question_en": "What airport condition is reported by the tower when more than one wind condition at different positions on the airport is reported?",
+      "has_figure": false,
       "A_en": "Light and variable.",
       "B_en": "Wind shear.",
       "C_en": "Frontal passage.",
-      "figure": null
+      "A": "Light and variable.",
+      "B": "Wind shear.",
+      "C": "Frontal passage."
     },
     {
       "id": "0012071",
@@ -2649,14 +2649,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "何種情況為最早可宣告為緊急情況的時機?",
+      "question_en": "What minimum condition is suggested for declaring an emergency?",
+      "has_figure": false,
       "A": "任何時間飛行員懷疑該情況已嚴重影響飛安",
       "B": "油量或天氣的因素需要航管優先",
       "C": "航機已發生火警,機械故障或結構受損",
-      "question_en": "What minimum condition is suggested for declaring an emergency?",
       "A_en": "Anytime the pilot is doubtful of a condition that could adversely affect flight safety.",
       "B_en": "When fuel endurance or weather will require an en route or landing priority.",
-      "C_en": "When distress conditions such as fire, mechanical failure, or structural damage occurs.",
-      "figure": null
+      "C_en": "When distress conditions such as fire, mechanical failure, or structural damage occurs."
     },
     {
       "id": "0012072",
@@ -2664,14 +2664,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "何種的目視Traffic最可能有碰撞的疑慮?",
+      "question_en": "Which observed target aircraft would be of most concern with respect to collision avoidance?",
+      "has_figure": false,
       "A": "正面,高速由左至右",
       "B": "正面,慢速由右至左",
       "C": "正面,靜止不動,逐漸變大",
-      "question_en": "Which observed target aircraft would be of most concern with respect to collision avoidance?",
       "A_en": "One which appears to be ahead and moving from left to right at high speed.",
       "B_en": "One which appears to be ahead and moving from right to left at slow speed.",
-      "C_en": "One which appears to be ahead with no lateral or vertical movement and is increasing in size.",
-      "figure": null
+      "C_en": "One which appears to be ahead with no lateral or vertical movement and is increasing in size."
     },
     {
       "id": "0012073",
@@ -2679,14 +2679,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "具備加壓客艙的四具往復式引擎客機在正常操作情況下,其駕駛艙通話記錄器的內容必 須?",
+      "question_en": "Information recorded during normal operation of a cockpit voice recorder in a large pressurized airplane with four reciprocating engines",
+      "has_figure": false,
       "A": "可以全部刪除或保留最後30分鐘的通話記錄",
       "B": "可以全部刪除或保留落地前最後30 分鐘的通話記錄",
       "C": "可以全部刪除,因為往復式引擎客機不須配備駛艙通話記錄器",
-      "question_en": "Information recorded during normal operation of a cockpit voice recorder in a large pressurized airplane with four reciprocating engines",
       "A_en": "may all be erased or otherwise obliterated except for the last 30 minutes.",
       "B_en": "may be erased or otherwise obliterated except for the last 30 minutes prior to landing.",
-      "C_en": "C- may all be erased, as the voice recorder is not required on an aircraft with reciprocating engines.",
-      "figure": null
+      "C_en": "C- may all be erased, as the voice recorder is not required on an aircraft with reciprocating engines."
     },
     {
       "id": "0012074",
@@ -2694,14 +2694,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "下列何者為目的地機場ETA天氣預報的主要來源?",
-      "A": "Low-Level Prog Chart.",
-      "B": "Radar Summary and Weather Depiction Charts.",
-      "C": "Terminal Aerodrome Forecast.",
       "question_en": "Which primary source contains information regarding the expected weather at the destination airport, at the ETA?",
+      "has_figure": false,
       "A_en": "Low-Level Prog Chart.",
       "B_en": "Radar Summary and Weather Depiction Charts.",
       "C_en": "Terminal Aerodrome Forecast.",
-      "figure": null
+      "A": "Low-Level Prog Chart.",
+      "B": "Radar Summary and Weather Depiction Charts.",
+      "C": "Terminal Aerodrome Forecast."
     },
     {
       "id": "0012075",
@@ -2709,14 +2709,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "TAF中只會顯示何種類型的雲?",
-      "A": "Altocumulus",
-      "B": "Cumulonimbus",
-      "C": "Stratocumulus",
       "question_en": "Which are the only cloud types forecast in the Terminal Aerodrome Forecast?",
+      "has_figure": false,
       "A_en": "Altocumulus",
       "B_en": "Cumulonimbus",
       "C_en": "Stratocumulus",
-      "figure": null
+      "A": "Altocumulus",
+      "B": "Cumulonimbus",
+      "C": "Stratocumulus"
     },
     {
       "id": "0012076",
@@ -2724,14 +2724,14 @@
       "difficulty": "易",
       "answer": "A",
       "question": "起飛時尾風增加之風切,會如何影響航機性能?",
+      "question_en": "Which airplane performance characteristics should be recognized during takeoff when encountering a tailwind shear that increases in intensity?",
+      "has_figure": false,
       "A": "空速減少",
       "B": "減少起飛距離",
       "C": "增加爬昇性能",
-      "question_en": "Which airplane performance characteristics should be recognized during takeoff when encountering a tailwind shear that increases in intensity?",
       "A_en": "Loss of, or diminished, airspeed performance.",
       "B_en": "Decreased takeoff distance",
-      "C_en": "Increased climb performance immediately after takeoff.",
-      "figure": null
+      "C_en": "Increased climb performance immediately after takeoff."
     },
     {
       "id": "0012077",
@@ -2739,14 +2739,14 @@
       "difficulty": "易",
       "answer": "B",
       "question": "航機在下滑道上下降,油門正保持空速,何種儀表顯示可代表遭遇尾風轉頂風之風切?",
+      "question_en": "Thrust is being managed to maintain desired indicated airspeed and the glide slope is being flown. Which characteristics should be observed when a tailwind shears to a constant headwind?",
+      "has_figure": false,
       "A": "姿態: 增加 下降率: 增加 空速:減少後增加",
       "B": "姿態: 增加 下降率: 減少 空速:增加後減少",
       "C": "姿態: 減少 下降率: 減少 空速:減少後增加",
-      "question_en": "Thrust is being managed to maintain desired indicated airspeed and the glide slope is being flown. Which characteristics should be observed when a tailwind shears to a constant headwind?",
       "A_en": "PITCH ATTITUDE: Increases. VERTICAL SPEED: Increases. INDICATED AIRSPEED: Decreases, then increases to approach speed.",
       "B_en": "PITCH ATTITUDE: Increases. VERTICAL SPEED: Decreases. INDICATED AIRSPEED: Increases, then decreases.",
-      "C_en": "PITCH ATTITUDE: Decreases. VERTICAL SPEED: Decreases. INDICATED AIRSPEED: Decreases, then increases to approach speed.",
-      "figure": null
+      "C_en": "PITCH ATTITUDE: Decreases. VERTICAL SPEED: Decreases. INDICATED AIRSPEED: Decreases, then increases to approach speed."
     },
     {
       "id": "0012078",
@@ -2754,14 +2754,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "Microburst中的下沉率可最大高達?",
-      "A": "8,000 ft/min.",
-      "B": "7,000 ft/min.",
-      "C": "6,000 ft/min.",
       "question_en": "Maximum downdrafts in a microburst encounter may be as strong as",
+      "has_figure": false,
       "A_en": "8,000 ft/min.",
       "B_en": "7,000 ft/min.",
       "C_en": "6,000 ft/min.",
-      "figure": null
+      "A": "8,000 ft/min.",
+      "B": "7,000 ft/min.",
+      "C": "6,000 ft/min."
     },
     {
       "id": "0012079",
@@ -2769,14 +2769,14 @@
       "difficulty": "中",
       "answer": "C",
       "question": "航機正遭遇45kt頂風,若再遇上Microburst,最大風切可達幾浬?",
-      "A": "40 knots.",
-      "B": "80 knots.",
-      "C": "90 knots.",
       "question_en": "An aircraft that encounters a headwind of 45 knots, within a microburst, may expect a total shear across the microburst of",
+      "has_figure": false,
       "A_en": "40 knots.",
       "B_en": "80 knots.",
       "C_en": "90 knots.",
-      "figure": null
+      "A": "40 knots.",
+      "B": "80 knots.",
+      "C": "90 knots."
     },
     {
       "id": "0012080",
@@ -2784,14 +2784,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "接獲航管許可後,飛行員不可偏離此許可,除非?",
-      "A": "請求修正許可",
-      "B": "正執行 VFR on top",
-      "C": "請求修正許可,或航機處於緊急情況",
       "question_en": "After an ATC clearance has been obtained, a pilot may not deviate from that clearance, unless the pilot ?",
-      "A_en": "request an amended clearance",
+      "has_figure": false,
+      "A": "請求修正許可",
       "B_en": "is operating VFR on top",
+      "C": "請求修正許可,或航機處於緊急情況",
+      "A_en": "request an amended clearance",
       "C_en": "request an amended clearance or has an emergency",
-      "figure": null
+      "B": "is operating VFR on top"
     },
     {
       "id": "0012081",
@@ -2799,14 +2799,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "飛行員在搜尋空中的航機時,應使用何種技巧?",
+      "question_en": "To scan properly for traffic, a pilot should?",
+      "has_figure": false,
       "A": "每隔一段時間,緩慢地由視野的一邊掃到另一邊",
       "B": "專注任何在視野周圍移動的物 體",
       "C": "眼睛連續地使用短暫固定間隔的移動,使天空的影像連續地進入視野的中心",
-      "question_en": "To scan properly for traffic, a pilot should?",
       "A_en": "slowly sweep the field of vision from one side to the other side at intervals",
       "B_en": "concerntrate on any peripheral movement detected",
-      "C_en": "use a serious of short, regular spaced eye movements that bring successive area of the sky into the central visual field",
-      "figure": null
+      "C_en": "use a serious of short, regular spaced eye movements that bring successive area of the sky into the central visual field"
     },
     {
       "id": "0012082",
@@ -2814,14 +2814,14 @@
       "difficulty": "易",
       "answer": "C",
       "question": "當計劃進行夜間緊急落地,下列何者是必要的考量之一?",
+      "question_en": "When planning for an emergency landing at night, one of the primary consideration should include?",
+      "has_figure": false,
       "A": "以無外型落地確保高落地姿態",
       "B": "關閉所有電力開關以節省電池電力來準備落地",
-      "C": "如可能的話,選擇在靠近公眾的區域落地",
-      "question_en": "When planning for an emergency landing at night, one of the primary consideration should include?",
+      "C": "如可能的話,選擇在靠近公眾的區域落地 22 (A23) CPL飛航管理程序",
       "A_en": "landind without flaps to ensure a nose-high landing attitude at touch down",
       "B_en": "turning off all electrical switches to save battery power for landing",
-      "C_en": "selecting a landing area close to public access, if possible",
-      "figure": null
+      "C_en": "selecting a landing area close to public access, if possible"
     }
   ]
 }

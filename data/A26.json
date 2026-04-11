@@ -10,13 +10,13 @@
       "answer": "B",
       "question": "飛行員遇到速度或高度輕微變化時應回報遭遇何種亂流？",
       "question_en": "A pilot reporting turbulence that momentarily causes slight, erratic changes in altitude and/or attitude should report it as",
+      "has_figure": false,
       "A": "輕度抖動",
-      "A_en": "light chop",
       "B": "輕度亂流",
-      "B_en": "light turbulence",
       "C": "中度亂流",
-      "C_en": "moderate turbulence",
-      "figure": null
+      "A_en": "light chop",
+      "B_en": "light turbulence",
+      "C_en": "moderate turbulence"
     },
     {
       "id": "0012424",
@@ -25,13 +25,13 @@
       "answer": "C",
       "question": "飛行員遇到速度或高度變化，但飛機仍可以維持控制時應回報遭遇何種亂流？",
       "question_en": "When turbulence causes changes in altitude and/or attitude, bur aircraft control remains positive, that should be reported as",
+      "has_figure": false,
       "A": "輕度亂流",
-      "A_en": "light",
       "B": "重度亂流",
-      "B_en": "severe",
       "C": "中度亂流",
-      "C_en": "moderate",
-      "figure": null
+      "A_en": "light",
+      "B_en": "severe",
+      "C_en": "moderate"
     },
     {
       "id": "0012425",
@@ -40,13 +40,13 @@
       "answer": "B",
       "question": "在高度遭遇亂流並且沒有任何積雲或雷雨雲層，屬於",
       "question_en": "Turbulence that is encountered above 15000 feet AGL not associated with cumuliform clouding thunderstorms, should be report as",
+      "has_figure": false,
       "A": "重度亂流",
-      "A_en": "severe turbulence",
       "B": "晴空亂流",
-      "B_en": "clear air turbulence",
       "C": "對流亂流",
-      "C_en": "convective turbulence",
-      "figure": null
+      "A_en": "severe turbulence",
+      "B_en": "clear air turbulence",
+      "C_en": "convective turbulence"
     },
     {
       "id": "0012426",
@@ -55,13 +55,13 @@
       "answer": "B",
       "question": "低空風切預報系統提供何種情況之資料及偵測？",
       "question_en": "The Low Level Wind Shear Alert System (LLWAS) provides wind data and software process to detect the presence of a",
+      "has_figure": false,
       "A": "積雨雲下方之氣流",
-      "A_en": "rotating column of air extending from a cumulonimbus cloud",
       "B": "機場上空短時間內風向及風速快速變化",
-      "B_en": "change in wind direction and/or speed within a very short distance above the airport",
       "C": "由地球自轉造成 的連續風向變化",
-      "C_en": "downward motion of the air associated with continuous winds blowing with an easterly component due to the rotation of the earth",
-      "figure": null
+      "A_en": "rotating column of air extending from a cumulonimbus cloud",
+      "B_en": "change in wind direction and/or speed within a very short distance above the airport",
+      "C_en": "downward motion of the air associated with continuous winds blowing with an easterly component due to the rotation of the earth"
     },
     {
       "id": "0012427",
@@ -70,13 +70,13 @@
       "answer": "A",
       "question": "儀器飛行時，最即時的航路及目的地天氣資料可由下列那個方式獲得？",
       "question_en": "The most current en route and destination weather information for an instrument flight should be obtained from the",
+      "has_figure": false,
       "A": "自動飛航服務站(AFSS)",
-      "A_en": "AFFS",
       "B": "機場航站資料服務(ATIS)",
-      "B_en": "ATIS broadcast",
       "C": "飛行員提示系統(NOTAMS)",
-      "C_en": "Notices to Airmen Publications",
-      "figure": null
+      "A_en": "AFFS",
+      "B_en": "ATIS broadcast",
+      "C_en": "Notices to Airmen Publications"
     },
     {
       "id": "0012428",
@@ -85,13 +85,13 @@
       "answer": "C",
       "question": "電話資訊提示服務(TIBS)以何種方式提供自動飛航服務站(AFSS)之資訊？",
       "question_en": "The Telephone Information Briefing Service (TIBS) provided by AFSSs includes",
+      "has_figure": false,
       "A": "在122.0MHz廣播天氣資訊",
-      "A_en": "weather information service on a common frequency(122.0 MHz)",
       "B": "在特定區域50英里內廣播天氣資訊",
-      "B_en": "recorded weather briefing service for the local area, usually within 50 miles and route forecasts",
       "C": "以電話方式循 環播放天氣資訊",
-      "C_en": "continuous recording of meteorological and/or aeronautical information available by telephone",
-      "figure": null
+      "A_en": "weather information service on a common frequency(122.0 MHz)",
+      "B_en": "recorded weather briefing service for the local area, usually within 50 miles and route forecasts",
+      "C_en": "continuous recording of meteorological and/or aeronautical information available by telephone"
     },
     {
       "id": "0012429",
@@ -100,13 +100,13 @@
       "answer": "B",
       "question": "危險天氣警示服務(HWAS)在特定VOR頻率廣播何種資訊？",
       "question_en": "The Hazardous In-flight Weather Advisory Service (HWAS) is broadcast service over selected VORs that provides",
+      "has_figure": false,
       "A": "在每小時的15及45分時，撥報顯著天氣變化(SIGMETs)及飛行員天氣回報(AIRMETs)",
-      "A_en": "SIGMETs and AIRMETs at 15 minutes and 45 minutes past the hour for the first hour after issuance",
       "B": "連續循環播放飛航天氣警示",
-      "B_en": "continuous broadcast of in-flight weather advisories",
       "C": "在每小時的15及45分時，撥報顯著天氣變化 (SIGMETs)，對流顯著天氣變化(CONVECTIVE SIGMETs)及飛行員天氣回報(AIRMETs)",
-      "C_en": "SIGMETs, CONVECTIVE SIGMETs and AIRMETs at 15 minutes and 45 minutes past the hour",
-      "figure": null
+      "A_en": "SIGMETs and AIRMETs at 15 minutes and 45 minutes past the hour for the first hour after issuance",
+      "B_en": "continuous broadcast of in-flight weather advisories",
+      "C_en": "SIGMETs, CONVECTIVE SIGMETs and AIRMETs at 15 minutes and 45 minutes past the hour"
     },
     {
       "id": "0012430",
@@ -115,13 +115,13 @@
       "answer": "A",
       "question": "天氣警示廣播，包含危害天氣警示(AWW)，顯著天氣變化(SIGMETs)及對流顯著天氣變化 (CONVECTIVE SIGMETs)，由和方式提供？",
       "question_en": "Weather Advisory Broadcasts, including Severe Weather Forecast Alerts (AWW), Convective SIGMETs, and SIGMETs, are provided by",
+      "has_figure": false,
       "A": "由地區航管中心(ARTCCs)在其管轄範圍的150英里內，以緊急頻道以外的適當頻道播 放",
-      "A_en": "ARTCCs on all frequencies, except emergency, when any part of the area described is within 150 miles of the airspace under their jurisdiction",
       "B": "由自動飛航服務站(AFSS)在其管轄範圍200海里以內以122.0mHz頻率廣播",
-      "B_en": "AFSSs on 122.2 MHz and adjacent VORs, when any part of the area described is within 200 miles of the airspace under their jurisdiction",
       "C": "以 特定的低頻或極高頻萬向導航台(VOR)頻率播放",
-      "C_en": "selected low-frequency and/or VOR navigational aids",
-      "figure": null
+      "A_en": "ARTCCs on all frequencies, except emergency, when any part of the area described is within 150 miles of the airspace under their jurisdiction",
+      "B_en": "AFSSs on 122.2 MHz and adjacent VORs, when any part of the area described is within 200 miles of the airspace under their jurisdiction",
+      "C_en": "selected low-frequency and/or VOR navigational aids"
     },
     {
       "id": "0012431",
@@ -130,13 +130,13 @@
       "answer": "A",
       "question": "欲收到連續錄音播放的天氣簡報，包含高空風變化，航路天氣預報，飛行員應該監聽",
       "question_en": "To obtain a continuous transcribed weather briefing including winds aloft and route forecasts for a cross-country flight, a pilot could monitor",
+      "has_figure": false,
       "A": "低頻或極高頻萬向導航台(VOR)頻率播放的連續錄音播放天氣簡報(TWEB)",
-      "A_en": "a TWEB on a low-frequency and/or VOR receiver",
       "B": "極高 頻萬向導航台(VOR)頻率播放的常規天氣簡報",
-      "B_en": "the regularly scheduled weather broadcast on a VOR frequency",
       "C": "以高頻播放的航路天氣警示服務",
-      "C_en": "a high-frequency radio receiver tuned to En Route Flight Advisory Service",
-      "figure": null
+      "A_en": "a TWEB on a low-frequency and/or VOR receiver",
+      "B_en": "the regularly scheduled weather broadcast on a VOR frequency",
+      "C_en": "a high-frequency radio receiver tuned to En Route Flight Advisory Service"
     },
     {
       "id": "0012432",
@@ -145,13 +145,13 @@
       "answer": "C",
       "question": "下列何種飛航天氣警示，提供飛行員關於可能的中度積冰及亂流，和地面及山區30海里 以上的風速變化？",
       "question_en": "What type of In-flight Weather Advisories provides an en route pilot with information regarding the possibility of moderate icing, moderate turbulence, winds of 30 knots or more at the surface and extensive mountain obscurement?",
+      "has_figure": false,
       "A": "顯著天氣變化(SIGMETs)，對流顯著天氣變化(CONVECTIVE SIGMETs)",
-      "A_en": "Convective SIGMETs and SIGMETs",
       "B": "危害天氣警 示(AWW)及顯著天氣變化(SIGMETs)",
-      "B_en": "Severe Weather Forecast Alerts (AWW) and SIGMETs",
       "C": "飛行員天氣回報(AIRMETs)及中心天氣警示 (CWA)",
-      "C_en": "AIRMETs and Center Weather Advisories (CWA)",
-      "figure": null
+      "A_en": "Convective SIGMETs and SIGMETs",
+      "B_en": "Severe Weather Forecast Alerts (AWW) and SIGMETs",
+      "C_en": "AIRMETs and Center Weather Advisories (CWA)"
     },
     {
       "id": "0012433",
@@ -160,13 +160,13 @@
       "answer": "A",
       "question": "火山已經或即將噴發之資訊會以何種方式提供？",
       "question_en": "What single reference contains information regarding a volcanic eruption, that is occurring or expected to occur?",
+      "has_figure": false,
       "A": "飛航天氣警示",
-      "A_en": "In-Flight Weather Advisories",
       "B": "航站氣象預報(TAF)",
-      "B_en": "Terminal Area Forecasts (TAF)",
       "C": "天氣圖",
-      "C_en": "Weather Depiction Chart",
-      "figure": null
+      "A_en": "In-Flight Weather Advisories",
+      "B_en": "Terminal Area Forecasts (TAF)",
+      "C_en": "Weather Depiction Chart"
     },
     {
       "id": "0012434",
@@ -175,13 +175,13 @@
       "answer": "A",
       "question": "顯著天氣變化(SIGMETs)對何種航機提供資訊？",
       "question_en": "SIGMETs are issued as a warning of weather conditions which are hazardous",
+      "has_figure": false,
       "A": "所有航機",
-      "A_en": "to all aircraft",
       "B": "特定重型航機",
-      "B_en": "particularly to heavy aircraft",
       "C": "特定輕型航機",
-      "C_en": "particularly to light airplanes",
-      "figure": null
+      "A_en": "to all aircraft",
+      "B_en": "particularly to heavy aircraft",
+      "C_en": "particularly to light airplanes"
     },
     {
       "id": "0012435",
@@ -190,13 +190,13 @@
       "answer": "A",
       "question": "航站氣象預報(TAF)每天提供幾次更新，每次有效期間多久？",
       "question_en": "Terminal Aerodrome Forecasts (TAF) are issued how many times a day and cover what period of time?",
+      "has_figure": false,
       "A": "一日4次，每次有效期間24小時",
-      "A_en": "Four times daily and are usually valid for a 24 hour period",
       "B": "一日6次，每次有效期間24小時，包括一個4小時 的準確範圍",
-      "B_en": "Six times daily and are usually valid for a 24 hour period including a 4-hour categorical outlook",
       "C": "一日4次，每次有效期間24小時，包括一個6小時的準確範圍",
-      "C_en": "Four times daily and are valid for 12 hours including a 6-hour categorical outlook",
-      "figure": null
+      "A_en": "Four times daily and are usually valid for a 24 hour period",
+      "B_en": "Six times daily and are usually valid for a 24 hour period including a 4-hour categorical outlook",
+      "C_en": "Four times daily and are valid for 12 hours including a 6-hour categorical outlook"
     },
     {
       "id": "0012436",
@@ -205,13 +205,13 @@
       "answer": "C",
       "question": "航站氣象預報(TAF)中，VRB是指：",
       "question_en": "What does the contraction VRB in the Terminal Aerodrome Forecast (TAF) mean?",
+      "has_figure": false,
       "A": "風速在某範圍內不定",
-      "A_en": "Wind speed is variable throughout the period",
       "B": "雲幕低不定",
-      "B_en": "Cloud base is variable",
       "C": "風向不定",
-      "C_en": "Wind direction is variable",
-      "figure": null
+      "A_en": "Wind speed is variable throughout the period",
+      "B_en": "Cloud base is variable",
+      "C_en": "Wind direction is variable"
     },
     {
       "id": "0012438",
@@ -220,13 +220,13 @@
       "answer": "A",
       "question": "想瞭解兩氣象回報點之間的實際天氣狀況，下列何方式最佳？",
       "question_en": "To best determine observed weather conditions between weather reporting stations, the pilot should refer to",
+      "has_figure": false,
       "A": "飛行員回報",
-      "A_en": "pilot reports",
       "B": "地區天氣預報",
-      "B_en": "Area Forecasts",
       "C": "氣象預報圖",
-      "C_en": "prognostic charts",
-      "figure": null
+      "A_en": "pilot reports",
+      "B_en": "Area Forecasts",
+      "C_en": "prognostic charts"
     },
     {
       "id": "0012439",
@@ -235,13 +235,13 @@
       "answer": "C",
       "question": "何人具有拒絕或接受”落地後暫停等待程序”許可的最終權力？",
       "question_en": "Who has the final authority to accept or decline any \"land and hold should\" (LAHSO clearance?",
+      "has_figure": false,
       "A": "塔台管制員",
-      "A_en": "66 kts",
       "B": "航機擁有者∕操作者",
-      "B_en": "Airplane owner/operator",
       "C": "PIC",
-      "C_en": "Pilot-in-Command",
-      "figure": null
+      "A_en": "66 kts",
+      "B_en": "Airplane owner/operator",
+      "C_en": "Pilot-in-Command"
     },
     {
       "id": "0012440",
@@ -250,13 +250,13 @@
       "answer": "A",
       "question": "在何種時機飛行員可以拒絕接受”落地後暫停等待程序”許可？",
       "question_en": "When should pilots decline a \"land and hold should\" (LAHSO) clearance?",
+      "has_figure": false,
       "A": "和飛航安全相衝突時",
-      "A_en": "When it will compromise safety",
       "B": "當跑道髒污時",
-      "B_en": "If runway surface is contaminated",
       "C": "在塔台同意下",
-      "C_en": "Only when the tower controller concurs",
-      "figure": null
+      "A_en": "When it will compromise safety",
+      "B_en": "If runway surface is contaminated",
+      "C_en": "Only when the tower controller concurs"
     },
     {
       "id": "0012441",
@@ -265,13 +265,13 @@
       "answer": "A",
       "question": "飛行員接受 \"land and hold short\" 許可之能見度與雲幕高限制為何？",
       "question_en": "What is the minimum visibility and ceiling required for a pilot to receive a \"land and hold short\" clearance?",
+      "has_figure": false,
       "A": "能見度3英里，雲幕高1000呎",
-      "A_en": "3 statute miles and 1000 feet",
       "B": "能見度3海里，雲幕高1000呎",
-      "B_en": "3 nautical miles and 1000 feet",
       "C": "能見度3英里，雲 幕高1500呎",
-      "C_en": "3 statute miles and 1500 feet",
-      "figure": null
+      "A_en": "3 statute miles and 1000 feet",
+      "B_en": "3 nautical miles and 1000 feet",
+      "C_en": "3 statute miles and 1500 feet"
     },
     {
       "id": "0012442",
@@ -280,13 +280,13 @@
       "answer": "C",
       "question": "如何知道我方與對方飛機的行進路徑有造成碰撞的可能？",
       "question_en": "How can you determine if another aircraft is on a collision course with your aircraft",
+      "has_figure": false,
       "A": "雙方機首指向同一位置",
-      "A_en": "The nose of each aircraft is pointed at the same point in space",
       "B": "對方飛機看起來快速增大",
-      "B_en": "The other aircraft will always appear to get larger and closer at a rapid rate",
       "C": "雙方相對位置並無明顯變 化",
-      "C_en": "There will be no apparent relative motion between your aircraft and the other aircraft",
-      "figure": null
+      "A_en": "The nose of each aircraft is pointed at the same point in space",
+      "B_en": "The other aircraft will always appear to get larger and closer at a rapid rate",
+      "C_en": "There will be no apparent relative motion between your aircraft and the other aircraft"
     },
     {
       "id": "0012443",
@@ -295,13 +295,13 @@
       "answer": "A",
       "question": "於夜航時可以看見前機之白燈以及旋轉之紅燈，則對方航機",
       "question_en": "What is the general direction of movement of the other aircraft if during a night flight you observe a steady white light and a rotating red light ahead and at your altitude? The other aircraft is",
+      "has_figure": false,
       "A": "與我同航向且飛離",
-      "A_en": "headed away from you",
       "B": "通過我的左方",
-      "B_en": "crossing to your left",
       "C": "正對我飛近",
-      "C_en": "approaching you head-on",
-      "figure": null
+      "A_en": "headed away from you",
+      "B_en": "crossing to your left",
+      "C_en": "approaching you head-on"
     },
     {
       "id": "0012444",
@@ -310,13 +310,13 @@
       "answer": "A",
       "question": "起飛時為了避免受到前方落地之大型噴射機亂流影響，飛行員應於跑道何位置升空？",
       "question_en": "To avoid possible wake turbulence from a large jet aircraft that has just landed prior to your takeoff, at which point on the runway should you plan to become airborne?",
+      "has_figure": false,
       "A": "通過前機落地位置之後",
-      "A_en": "Past the point where the jet touched down",
       "B": "在前機落地位置或之前",
-      "B_en": "At the point where the jet touched down, or just prior to this point",
       "C": "前機落地位置前約500呎左 右",
-      "C_en": "Approximately 500 feet prior to the point where the jet touched down",
-      "figure": null
+      "A_en": "Past the point where the jet touched down",
+      "B_en": "At the point where the jet touched down, or just prior to this point",
+      "C_en": "Approximately 500 feet prior to the point where the jet touched down"
     },
     {
       "id": "0012445",
@@ -325,13 +325,13 @@
       "answer": "B",
       "question": "對於前機亂流敘述何者正確？",
       "question_en": "Choose the correct statement regarding wake turbulence.",
+      "has_figure": false,
       "A": "渦流在開始起飛仰轉時即產生",
-      "A_en": "Vortex generation begins with the initiation of the takeoff roll",
       "B": "由渦流產生的滾轉導致飛機失控是主要的危害",
-      "B_en": "The primary hazard is loss of control because of induced roll",
       "C": "當飛機於大重量，未放外型，高速狀態下渦流強度最大",
-      "C_en": "The greatest vortex strength is produced when the generating airplane is heavy, clean, and fast",
-      "figure": null
+      "A_en": "Vortex generation begins with the initiation of the takeoff roll",
+      "B_en": "The primary hazard is loss of control because of induced roll",
+      "C_en": "The greatest vortex strength is produced when the generating airplane is heavy, clean, and fast"
     },
     {
       "id": "0012446",
@@ -340,13 +340,13 @@
       "answer": "A",
       "question": "當有大型噴射機以同高度，由左至右，約一英里距離通過本機前方時，應注意哪些事項 以避免前機亂流影響？",
       "question_en": "Which procedures should you follow to avoid wake turbulence if a large jet crosses your course from left to right approximately 1 mile ahead and at your altitude?",
+      "has_figure": false,
       "A": "確保本機略高於前機飛行路徑",
-      "A_en": "Make sure you are slightly above the path of the jet",
       "B": "維持高度和飛行路徑，並減速至VA",
-      "B_en": "Slow your airspeed to VA and maintain altitude and course",
       "C": "確保本機 略低於前機，並垂直其飛行路徑",
-      "C_en": "Make sure you are slightly below the path of the jet and perpendicular to the course",
-      "figure": null
+      "A_en": "Make sure you are slightly above the path of the jet",
+      "B_en": "Slow your airspeed to VA and maintain altitude and course",
+      "C_en": "Make sure you are slightly below the path of the jet and perpendicular to the course"
     },
     {
       "id": "0012447",
@@ -355,13 +355,13 @@
       "answer": "A",
       "question": "在大型機後方落地，應注意哪些事項以避免渦流影響？",
       "question_en": "When landing behind a large aircraft, which procedure should be followed for vortex avoidance?",
+      "has_figure": false,
       "A": "保持高於前機下降路徑之進場直到落地",
-      "A_en": "Stay above its final approach flight path all the way to touchdown",
       "B": "保持低於前機下降路線並偏向一邊之進 場",
-      "B_en": "Stay below and to one side of its final approach flight path",
       "C": "保持遠低於前機下降路徑之進場，並提前前機2000呎落地",
-      "C_en": "Stay well below its final approach flight path and land at least 2000 feet behind",
-      "figure": null
+      "A_en": "Stay above its final approach flight path all the way to touchdown",
+      "B_en": "Stay below and to one side of its final approach flight path",
+      "C_en": "Stay well below its final approach flight path and land at least 2000 feet behind"
     },
     {
       "id": "0012448",
@@ -370,13 +370,13 @@
       "answer": "C",
       "question": "下列對於渦流氣旋的敘述何者正確？",
       "question_en": "With respect to vortex circulation, which is true?",
+      "has_figure": false,
       "A": "直昇機只產生下洗亂流，不會產生渦流氣旋",
-      "A_en": "Helicopters generate downwash turbulence, not vortex circulation",
       "B": "航機在高速飛行時產生的渦流氣旋 最大",
-      "B_en": "The vortex strength is greatest when the generating aircraft is flying fast",
       "C": "直昇機向前方飛行時，其飛航路徑上造成的渦流氣旋和一般航機產生的相同",
-      "C_en": "Vortex circulation generated by helicopters in forward flight trail behind in a manner similar to wingtip vortices generated by airplanes",
-      "figure": null
+      "A_en": "Helicopters generate downwash turbulence, not vortex circulation",
+      "B_en": "The vortex strength is greatest when the generating aircraft is flying fast",
+      "C_en": "Vortex circulation generated by helicopters in forward flight trail behind in a manner similar to wingtip vortices generated by airplanes"
     },
     {
       "id": "0012449",
@@ -385,13 +385,13 @@
       "answer": "B",
       "question": "下列對於渦流氣旋的敘述何者正確？",
       "question_en": "Which is true with respect to vortex circulation?",
+      "has_figure": false,
       "A": "直昇機只產生下洗亂流，不會產生渦流",
-      "A_en": "Helicopters generate downwash turbulence, not vortex circulation",
       "B": "航機在大重量，低速並且未放外型下飛 行時產生的渦流氣旋最大",
-      "B_en": "The vortex strength is greatest when the generating aircraft is heavy, clean, and slow",
       "C": "渦流氣旋下沈後，受到地面效應影響後即會快速消散並且 危險性非常低",
-      "C_en": "When vortex circulation sinks into ground effect, it tends to dissipate rapidly and offer little danger",
-      "figure": null
+      "A_en": "Helicopters generate downwash turbulence, not vortex circulation",
+      "B_en": "The vortex strength is greatest when the generating aircraft is heavy, clean, and slow",
+      "C_en": "When vortex circulation sinks into ground effect, it tends to dissipate rapidly and offer little danger"
     },
     {
       "id": "0012450",
@@ -400,13 +400,13 @@
       "answer": "C",
       "question": "當一架輕型高翼機在滑行時遭遇強大尾側風，副翼的操作為",
       "question_en": "While taxing a light, high-wing airplane during strong quartering tailwinds, the aileron control should be positioned",
+      "has_figure": false,
       "A": "保持中間位置",
-      "A_en": "neutral at all times",
       "B": "朝向尾側風的風向",
-      "B_en": "toward the direction from which the wind is blowing",
       "C": "反向尾側風的風向",
-      "C_en": "opposite the direction from which the wind is blowing",
-      "figure": null
+      "A_en": "neutral at all times",
+      "B_en": "toward the direction from which the wind is blowing",
+      "C_en": "opposite the direction from which the wind is blowing"
     },
     {
       "id": "0012451",
@@ -415,13 +415,13 @@
       "answer": "C",
       "question": "滑行時遭遇強大尾側風，副翼的姿態應為",
       "question_en": "When taxi during strong quartering tailwinds, which aileron position should be used?",
+      "has_figure": false,
       "A": "保持中間位置",
-      "A_en": "Neutral",
       "B": "尾側風來向之副翼向上",
-      "B_en": "Aileron up on the side which the wind is blowing",
       "C": "尾側風來向之副翼向下",
-      "C_en": "Aileron down on the side which the wind is blowing",
-      "figure": null
+      "A_en": "Neutral",
+      "B_en": "Aileron up on the side which the wind is blowing",
+      "C_en": "Aileron down on the side which the wind is blowing"
     },
     {
       "id": "0012452",
@@ -430,13 +430,13 @@
       "answer": "C",
       "question": "起飛時的側風修正何者正確？",
       "question_en": "With regard to the technique required for a crosswind correction on takeoff, a pilot should use",
+      "has_figure": false,
       "A": "不論前三點式或和三點式飛機，皆是副翼壓向側風方向，以正常速度仰轉",
-      "A_en": "aileron pressure into the wind and initiate the lift-off at a normal airspeed in both tail wheel- and nose wheel-type airplanes",
       "B": "不論 前三點式或和三點式飛機，皆是踩右舵，副翼壓向側風方向，以較高的速度仰轉",
-      "B_en": "right rudder pressure, aileron pressure into the wind, and higher than normal lift-off airspeed in both tricycle- and conventional-gear airplanes",
       "C": "不論前三點式或和三點式飛機，皆是以舵維持方向控制，副翼壓向側風方向，以較高的 速度仰轉",
-      "C_en": "rudder as required to maintain directional control, aileron pressure into the wind, and higher than normal lift-off airspeed in both conventional-and nose wheel-type airplane",
-      "figure": null
+      "A_en": "aileron pressure into the wind and initiate the lift-off at a normal airspeed in both tail wheel- and nose wheel-type airplanes",
+      "B_en": "right rudder pressure, aileron pressure into the wind, and higher than normal lift-off airspeed in both tricycle- and conventional-gear airplanes",
+      "C_en": "rudder as required to maintain directional control, aileron pressure into the wind, and higher than normal lift-off airspeed in both conventional-and nose wheel-type airplane"
     },
     {
       "id": "0012453",
@@ -445,13 +445,13 @@
       "answer": "B",
       "question": "側風落地在觸地時應",
       "question_en": "A proper crosswind landing on a runway requires that, at the moment of touchdown, the",
+      "has_figure": false,
       "A": "將飛機橫軸重直跑道",
-      "A_en": "direction of motion of the airplane and its lateral axis be perpendicular to the runway",
       "B": "將飛機縱軸平行跑道",
-      "B_en": "direction of motion of the airplane and its longitudinal axis be parallel to the runway",
       "C": "將下風邊機翼壓低以抵消飛機側 滑",
-      "C_en": "downwind wing be lowered sufficiently to eliminate the tendency for the airplane to drift",
-      "figure": null
+      "A_en": "direction of motion of the airplane and its lateral axis be perpendicular to the runway",
+      "B_en": "direction of motion of the airplane and its longitudinal axis be parallel to the runway",
+      "C_en": "downwind wing be lowered sufficiently to eliminate the tendency for the airplane to drift"
     },
     {
       "id": "0012454",
@@ -460,13 +460,13 @@
       "answer": "B",
       "question": "起飛前想知道場壓高度，高度表應設定在",
       "question_en": "To determine pressure altitude prior to takeoff, the altimeter should be set to",
+      "has_figure": false,
       "A": "當時的高度表設定",
-      "A_en": "the current altimeter setting",
       "B": "29.92，然後由高度值讀出場壓高度",
-      "B_en": "29.92\" Hg and the altimeter indication noted",
       "C": "高度放在場壓高度， 然後讀取高度表設定值",
-      "C_en": "the field elevation and the pressure reading in the altimeter setting window noted",
-      "figure": null
+      "A_en": "the current altimeter setting",
+      "B_en": "29.92\" Hg and the altimeter indication noted",
+      "C_en": "the field elevation and the pressure reading in the altimeter setting window noted"
     },
     {
       "id": "0012455",
@@ -475,13 +475,13 @@
       "answer": "A",
       "question": "在高海拔機場，指示空速",
       "question_en": "At higher elevation airports the pilot should know that indicated airspeed",
+      "has_figure": false,
       "A": "不變，但是地速會增加",
-      "A_en": "will be unchanged, but groundspeed will be faster",
       "B": "會變高，但是地速不變",
-      "B_en": "will be higher, but groundspeed will be unchanged",
       "C": "會增加因為空氣較稀薄",
-      "C_en": "should be increased to compensate for the thinner air",
-      "figure": null
+      "A_en": "will be unchanged, but groundspeed will be faster",
+      "B_en": "will be higher, but groundspeed will be unchanged",
+      "C_en": "should be increased to compensate for the thinner air"
     },
     {
       "id": "0012456",
@@ -490,13 +490,13 @@
       "answer": "B",
       "question": "維持標準轉彎，則轉360°需要",
       "question_en": "If a standard rate of turn is maintained, how long would it take to turn 360?",
+      "has_figure": false,
       "A": "一分鐘",
-      "A_en": "1 minute",
       "B": "二分鐘",
-      "B_en": "2 minutes",
       "C": "三分鐘",
-      "C_en": "3 minutes",
-      "figure": null
+      "A_en": "1 minute",
+      "B_en": "2 minutes",
+      "C_en": "3 minutes"
     },
     {
       "id": "0012457",
@@ -505,13 +505,13 @@
       "answer": "A",
       "question": "陣風下落地的建議為",
       "question_en": "Which type of approach and landing is recommended during gusty wind conditions?",
+      "has_figure": false,
       "A": "帶著油門進場與落地",
-      "A_en": "A power-on approach and power-on landing",
       "B": "收油門進場帶油門落地",
-      "B_en": "A power-off approach and power-on landing",
       "C": "帶油門進場收油門落地",
-      "C_en": "A power-on approach and power-off landing",
-      "figure": null
+      "A_en": "A power-on approach and power-on landing",
+      "B_en": "A power-off approach and power-on landing",
+      "C_en": "A power-on approach and power-off landing"
     },
     {
       "id": "0012458",
@@ -520,13 +520,13 @@
       "answer": "A",
       "question": "落地進場時遭遇亂流，建議使用何種操作方式，為什麼？",
       "question_en": "When turbulence is encountered during the approach to a landing, what action is recommended and for what primary reason?",
+      "has_figure": false,
       "A": "使用較高的進場速度以維持飛機的有效控制",
-      "A_en": "Increase the airspeed slightly above normal approach speed to attain more positive control",
       "B": "使用較低的進場速度以避免飛機遭 到過大壓力",
-      "B_en": "Decrease the airspeed slightly below normal approach speed to avoid overstressing the airplane",
       "C": "使用較高的進場速度使飛機盡快脫離亂流區",
-      "C_en": "Increase the airspeed slightly above normal approach speed to penetrate the turbulence as quickly as possible",
-      "figure": null
+      "A_en": "Increase the airspeed slightly above normal approach speed to attain more positive control",
+      "B_en": "Decrease the airspeed slightly below normal approach speed to avoid overstressing the airplane",
+      "C_en": "Increase the airspeed slightly above normal approach speed to penetrate the turbulence as quickly as possible"
     },
     {
       "id": "0012459",
@@ -535,13 +535,13 @@
       "answer": "C",
       "question": "當遭遇緊急狀況需要轉降至備降機場時，應",
       "question_en": "When diverting to an alternate airport because of an emergency, pilots should",
+      "has_figure": false,
       "A": "完全依賴無線電導航",
-      "A_en": "rely upon radio as the primary method of navigation",
       "B": "爬升以利於檢查自身位置及導航點",
-      "B_en": "climb to a higher altitude because it will be easier to identify checkpoints",
       "C": "使用經驗法則，心 算，及切捷徑或其他任何方式使本機盡快飛到正確的新航路上",
-      "C_en": "apply rule-of-thumb computations, estimates, and other appropriates shortcuts to divert to the new course as soon as possible",
-      "figure": null
+      "A_en": "rely upon radio as the primary method of navigation",
+      "B_en": "climb to a higher altitude because it will be easier to identify checkpoints",
+      "C_en": "apply rule-of-thumb computations, estimates, and other appropriates shortcuts to divert to the new course as soon as possible"
     },
     {
       "id": "0012460",
@@ -550,13 +550,13 @@
       "answer": "B",
       "question": "如果航行中遭遇重度亂流飛行員應將速度減至",
       "question_en": "If severe turbulence is encountered during flight, the pilot should reduce the airspeed to",
+      "has_figure": false,
       "A": "最低控制速度",
-      "A_en": "minimum control speed",
       "B": "設計過的飛行速度",
-      "B_en": "design-maneuvering speed",
       "C": "最高的結構巡航速度",
-      "C_en": "maximum structural cruising speed",
-      "figure": null
+      "A_en": "minimum control speed",
+      "B_en": "design-maneuvering speed",
+      "C_en": "maximum structural cruising speed"
     },
     {
       "id": "0012461",
@@ -565,13 +565,13 @@
       "answer": "C",
       "question": "在遭遇重度亂流時，最佳的減低翼面負荷因子之方式為",
       "question_en": "Which is the best technique for minimizing the wing-load factor when flying in severe turbulence?",
+      "has_figure": false,
       "A": "適當調整馬力以維持恆定速度",
-      "A_en": "Change power settings, as necessary, to maintain constant airspeed",
       "B": "以馬力控制速度，保持翼面水平，接受高度的變 化",
-      "B_en": "Control airspeed with power, maintain wings level, and accept variations of altitude",
       "C": "停止馬力及配平的調整以使速度維持或低於正常飛航速度，保持翼面水平，接受 高度及速度上的變化",
-      "C_en": "Set power and trim to obtain an airspeed at or below maneuvering speed, maintain wings level, and accept variations of airspeed and altitude",
-      "figure": null
+      "A_en": "Change power settings, as necessary, to maintain constant airspeed",
+      "B_en": "Control airspeed with power, maintain wings level, and accept variations of altitude",
+      "C_en": "Set power and trim to obtain an airspeed at or below maneuvering speed, maintain wings level, and accept variations of airspeed and altitude"
     },
     {
       "id": "0012462",
@@ -580,13 +580,13 @@
       "answer": "B",
       "question": "飛行員進入一個有晴空亂流回報的區域。當他遇到第一次氣流顛簸變化時應該",
       "question_en": "A pilot is entering an area where significant clear air turbulence has been reported. Which action is appropriate upon encountering the first ripple?",
+      "has_figure": false,
       "A": "保持高度和速度",
-      "A_en": "Maintain altitude and airspeed",
       "B": "調整空速至建議的亂流穿越速度",
-      "B_en": "Adjust airspeed to that recommended for rough air",
       "C": "以適當飛行速度緩慢的爬 升或下降",
-      "C_en": "Enter a shallow climb or descent at maneuvering speed",
-      "figure": null
+      "A_en": "Maintain altitude and airspeed",
+      "B_en": "Adjust airspeed to that recommended for rough air",
+      "C_en": "Enter a shallow climb or descent at maneuvering speed"
     },
     {
       "id": "0012463",
@@ -595,13 +595,13 @@
       "answer": "B",
       "question": "夜航操作時最佳的夜間視力可以何時達到？",
       "question_en": "For night flight operations, the best night vision is achieved when the",
+      "has_figure": false,
       "A": "約10分鐘後當瞳孔放大時",
-      "A_en": "pupils of the eyes have become dilated in approximately 10 minutes",
       "B": "約30分鐘後當視網膜上的桿狀細胞調整至適應黑暗時",
-      "B_en": "rods in the eyes have become adjusted to the darkness in approximately 30 minutes",
       "C": "約5分鐘後當視網膜上的錐狀細胞調整至適應黑暗時",
-      "C_en": "cones in the eyes have become adjusted to the darkness in approximately 5 minutes",
-      "figure": null
+      "A_en": "pupils of the eyes have become dilated in approximately 10 minutes",
+      "B_en": "rods in the eyes have become adjusted to the darkness in approximately 30 minutes",
+      "C_en": "cones in the eyes have become adjusted to the darkness in approximately 5 minutes"
     },
     {
       "id": "0012464",
@@ -610,13 +610,13 @@
       "answer": "B",
       "question": "夜間目視飛航時，何種狀況代表視力已經開始受限？",
       "question_en": "When operating VFR at night, what is the first indication of flying into restricted visibility conditions?",
+      "has_figure": false,
       "A": "地面燈光開始過亮",
-      "A_en": "Ground lights begin to take on an appearance of being surrounded by a halo or glow",
       "B": "地面景物逐漸失去亮度",
-      "B_en": "A gradual disappearance of lights on the ground",
       "C": "駕駛艙燈光開始過亮",
-      "C_en": "Cockpit lights begin to take on an appearance of a halo or glow around them",
-      "figure": null
+      "A_en": "Ground lights begin to take on an appearance of being surrounded by a halo or glow",
+      "B_en": "A gradual disappearance of lights on the ground",
+      "C_en": "Cockpit lights begin to take on an appearance of a halo or glow around them"
     },
     {
       "id": "0012465",
@@ -625,13 +625,13 @@
       "answer": "B",
       "question": "夜間遭遇發動機失效時，首要考慮的因素之一為",
       "question_en": "After experiencing a power plant failure at night, one of the primary considerations should include",
+      "has_figure": false,
       "A": "關掉所有電器開關以節省電瓶使用",
-      "A_en": "turning off all electrical switches to save battery power for landing",
       "B": "計畫在沒有任何燈光的區域執行緊急落地",
-      "B_en": "planning the emergency approach and landing to an unlighted portion of an area",
       "C": "飛往有照明的公路甚至高速公路，進行落地",
-      "C_en": "maneuvering to, and landing on a lighted highway or road",
-      "figure": null
+      "A_en": "turning off all electrical switches to save battery power for landing",
+      "B_en": "planning the emergency approach and landing to an unlighted portion of an area",
+      "C_en": "maneuvering to, and landing on a lighted highway or road"
     },
     {
       "id": "0012466",
@@ -640,13 +640,13 @@
       "answer": "A",
       "question": "夜間執行執行緊急落地時，首要考慮的因素之一為",
       "question_en": "When planning for an emergency landing at night, on of the primary considerations should include",
+      "has_figure": false,
       "A": "可能的話選擇在有人煙地區的附近落地",
-      "A_en": "selecting a landing area close to public access, if possible",
       "B": "不使用襟翼落地以維持機首朝上的姿態",
-      "B_en": "landing without flaps to ensure a nose-high landing attitude at touchdown",
       "C": "關掉所有電器開關以節省電瓶使用",
-      "C_en": "turning off all electrical switches to save battery power for the landing",
-      "figure": null
+      "A_en": "selecting a landing area close to public access, if possible",
+      "B_en": "landing without flaps to ensure a nose-high landing attitude at touchdown",
+      "C_en": "turning off all electrical switches to save battery power for the landing"
     },
     {
       "id": "0012467",
@@ -655,13 +655,13 @@
       "answer": "A",
       "question": "計畫在夜間長途飛航時，飛行員應檢查",
       "question_en": "When planning for a night cross-country flight, a pilot should check for",
+      "has_figure": false,
       "A": "航路上及目的地機場的燈光照明是否合適",
-      "A_en": "availability and status of en route and destination airport lighting systems",
       "B": "航路上的紅色燈光",
-      "B_en": "red en route course lights",
       "C": "機上的紅色旋 轉燈",
-      "C_en": "location of rotating light beacons",
-      "figure": null
+      "A_en": "availability and status of en route and destination airport lighting systems",
+      "B_en": "red en route course lights",
+      "C_en": "location of rotating light beacons"
     },
     {
       "id": "0012468",
@@ -670,13 +670,13 @@
       "answer": "C",
       "question": "計畫在夜間長途飛航時，飛行員應檢查",
       "question_en": "When planning for a night cross-country flight, a pilot should check for the availability and status of",
+      "has_figure": false,
       "A": "航路上所有的極高頻萬向導航台(VOR)都可以使用",
-      "A_en": "all VORs to be used en route",
       "B": "機場的紅色旋轉燈是否正常 工作",
-      "B_en": "airport rotating light beacons",
       "C": "目的地機場的燈光照明是否合適",
-      "C_en": "destination airport lighting systems",
-      "figure": null
+      "A_en": "all VORs to be used en route",
+      "B_en": "airport rotating light beacons",
+      "C_en": "destination airport lighting systems"
     },
     {
       "id": "0012469",
@@ -685,13 +685,13 @@
       "answer": "B",
       "question": "飛機在海平面18000呎操作時高度表設定值為",
       "question_en": "What altimeter setting is required when operating an aircraft at 18000 feet MSL?",
+      "has_figure": false,
       "A": "航路上收聽到的高度表設定值",
-      "A_en": "Current reported altimeter setting of a station along the route",
       "B": "29.92",
-      "B_en": "29.92 Inches Hg",
       "C": "起飛或目的地機場之高度表設定值",
-      "C_en": "Altimeter setting at the departure or destination airport",
-      "figure": null
+      "A_en": "Current reported altimeter setting of a station along the route",
+      "B_en": "29.92 Inches Hg",
+      "C_en": "Altimeter setting at the departure or destination airport"
     },
     {
       "id": "0012470",
@@ -700,13 +700,13 @@
       "answer": "C",
       "question": "收到航管許可後，飛行員不得違反許可，除非",
       "question_en": "After an ATC clearance has been obtained, a pilot may not deviate from that clearance, unless the pilot",
+      "has_figure": false,
       "A": "請求改變許可",
-      "A_en": "requests an amended clearance",
       "B": "在目視操作條件下",
-      "B_en": "is operating VFR on top",
       "C": "航管已經同意新的許可，或是遭遇緊急情 況",
-      "C_en": "receives an amended clearance or has an emergency",
-      "figure": null
+      "A_en": "requests an amended clearance",
+      "B_en": "is operating VFR on top",
+      "C_en": "receives an amended clearance or has an emergency"
     },
     {
       "id": "0012471",
@@ -715,13 +715,13 @@
       "answer": "A",
       "question": "執行規範的儀器進場時，飛行員何時不得使用程序轉彎？",
       "question_en": "A pilot performing a published instrument approach is not authorized to perform a procedure turn when",
+      "has_figure": false,
       "A": "當接受雷達引導至最後進場點或最後進場航向時",
-      "A_en": "receiving a radar vector to a final approach course or fix",
       "B": "在最低安全高度飛行時",
-      "B_en": "maneuvering at minimum safe altitudes",
       "C": "在 最低雷達引導高度飛行時",
-      "C_en": "maneuvering at radar vectoring altitudes",
-      "figure": null
+      "A_en": "receiving a radar vector to a final approach course or fix",
+      "B_en": "maneuvering at minimum safe altitudes",
+      "C_en": "maneuvering at radar vectoring altitudes"
     },
     {
       "id": "0012472",
@@ -730,13 +730,13 @@
       "answer": "A",
       "question": "除非下列何條件成立，否則飛行員在儀器進場後不得落地？",
       "question_en": "Pilots are not authorized to land an aircraft from an instrument approach unless the",
+      "has_figure": false,
       "A": "能見度高於或等於該儀器進場之要求",
-      "A_en": "flight visibility is at, or exceeds the visibility prescribed in the approach procedure being used",
       "B": "能見度及雲幕高高於或等於該儀器進場之 要求",
-      "B_en": "flight visibility and ceiling are at, or exceeds the minimums prescribed in the approach being used",
       "C": "目視下滑道燈號和跑道參考物清晰可見下",
-      "C_en": "visual approach slope indicator and runway references are distinctly visible to the pilot",
-      "figure": null
+      "A_en": "flight visibility is at, or exceeds the visibility prescribed in the approach procedure being used",
+      "B_en": "flight visibility and ceiling are at, or exceeds the minimums prescribed in the approach being used",
+      "C_en": "visual approach slope indicator and runway references are distinctly visible to the pilot"
     },
     {
       "id": "0012473",
@@ -745,13 +745,13 @@
       "answer": "B",
       "question": "儀器飛航條件下，下列何狀況PIC應盡快向航管回報？",
       "question_en": "The pilot in command of an aircraft operated under IFR, in controlled airspace, shall report as soon as practical to ATC when",
+      "has_figure": false,
       "A": "通過FL 180時",
-      "A_en": "passing FL",
       "B": "通過回報點時，應回報時間及高度",
-      "B_en": "passing each designated reporting point, to include time and altitude",
       "C": "改變航管單位時",
-      "C_en": "changing control facilities",
-      "figure": null
+      "A_en": "passing FL",
+      "B_en": "passing each designated reporting point, to include time and altitude",
+      "C_en": "changing control facilities"
     },
     {
       "id": "0012474",
@@ -760,13 +760,13 @@
       "answer": "B",
       "question": "儀器飛航條件下，下列何狀況PIC應盡快向航管回報？",
       "question_en": "The pilot in command of an aircraft operated under IFR, in controlled airspace, shall report as soon as practical to ATC when",
+      "has_figure": false,
       "A": "爬升或下降抵達指定高度時",
-      "A_en": "climbing or descending to assigned altitudes",
       "B": "飛航中遭遇任何通訊，導航或進場設施故障時",
-      "B_en": "experiencing any malfunctions of navigational, approach, or communications equipment, occurring in flight",
       "C": "被要求聯繫新的航管單位時",
-      "C_en": "requested to contact a new controlling facility",
-      "figure": null
+      "A_en": "climbing or descending to assigned altitudes",
+      "B_en": "experiencing any malfunctions of navigational, approach, or communications equipment, occurring in flight",
+      "C_en": "requested to contact a new controlling facility"
     },
     {
       "id": "0012475",
@@ -775,13 +775,13 @@
       "answer": "B",
       "question": "何人直接對飛航負起最終責任？",
       "question_en": "What person is directly responsible for the final authority as to the operation of the airplane?",
+      "has_figure": false,
       "A": "飛機合法持有者",
-      "A_en": "Certificate holder",
       "B": "PIC",
-      "B_en": "Pilot in command",
       "C": "飛機持有者/操作者",
-      "C_en": "Airplane owner/operator",
-      "figure": null
+      "A_en": "Certificate holder",
+      "B_en": "Pilot in command",
+      "C_en": "Airplane owner/operator"
     },
     {
       "id": "0012476",
@@ -790,13 +790,13 @@
       "answer": "B",
       "question": "在航站氣象預報(TAF)中，能見度P6SM代表",
       "question_en": "The visibility entry in a Terminal Aerodrome Forecasts (TAF) of P6SM implies that the prevailing visibility is expected to be greater than",
+      "has_figure": false,
       "A": "6海里",
-      "A_en": "6 nautical miles",
       "B": "6英里",
-      "B_en": "6 statute miles",
       "C": "6公里",
-      "C_en": "6 kilometers",
-      "figure": null
+      "A_en": "6 nautical miles",
+      "B_en": "6 statute miles",
+      "C_en": "6 kilometers"
     },
     {
       "id": "0012477",
@@ -805,13 +805,13 @@
       "answer": "A",
       "question": "飛航天氣警示包含下列何種資訊？",
       "question_en": "In-Flight Aviation Weather Advisories include what type of information?",
+      "has_figure": false,
       "A": "對航路飛機的危害天氣警示",
-      "A_en": "Forecasts for potentially hazardous flying conditions for en route aircraft",
       "B": "該地區低於目視天氣條件下的雲幕及能見度資料",
-      "B_en": "States and geographic areas with reported ceilings and visibilities below VFR minimums",
       "C": "該地區儀器天氣條件下的亂流及積冰狀況",
-      "C_en": "IFR conditions, turbulence, and icing within a valid period for the listed states",
-      "figure": null
+      "A_en": "Forecasts for potentially hazardous flying conditions for en route aircraft",
+      "B_en": "States and geographic areas with reported ceilings and visibilities below VFR minimums",
+      "C_en": "IFR conditions, turbulence, and icing within a valid period for the listed states"
     },
     {
       "id": "0012478",
@@ -820,13 +820,13 @@
       "answer": "C",
       "question": "當目的地氣象報告有雹線時，可能會遭遇何種天氣狀況？",
       "question_en": "What wind conditions would you anticipate when squalls are reported at your destination?",
+      "has_figure": false,
       "A": "風速急速改變，起伏約15海里",
-      "A_en": "Rapid variations in wind speed of 15 knots or more between peaks and lulls",
       "B": "風速改變35海里以上，伴隨風向變化30°以上",
-      "B_en": "Peaks gusts of at least 35 knots combined with a change in wind direction of 30? or more",
       "C": "瞬間風速增加16海里以上，，並維持在22海里一分鐘以上",
-      "C_en": "Sudden increases in wind speed of at least 16 knots to a sustained speed of 22 knots or more for at least 1 minute",
-      "figure": null
+      "A_en": "Rapid variations in wind speed of 15 knots or more between peaks and lulls",
+      "B_en": "Peaks gusts of at least 35 knots combined with a change in wind direction of 30? or more",
+      "C_en": "Sudden increases in wind speed of at least 16 knots to a sustained speed of 22 knots or more for at least 1 minute"
     },
     {
       "id": "0012479",
@@ -835,13 +835,13 @@
       "answer": "B",
       "question": "高空風預報使用的單位是",
       "question_en": "What values are used for Winds Aloft Forecasts?",
+      "has_figure": false,
       "A": "真方向和英里/小時",
-      "A_en": "True direction and MPH",
       "B": "真方向和海里/小時",
-      "B_en": "True direction and knots",
       "C": "磁方向和海里/小時",
-      "C_en": "Magnetic direction and knots",
-      "figure": null
+      "A_en": "True direction and MPH",
+      "B_en": "True direction and knots",
+      "C_en": "Magnetic direction and knots"
     },
     {
       "id": "0012480",
@@ -850,13 +850,13 @@
       "answer": "C",
       "question": "下列何種預報提供該航路之雲頂高，雲量，能見度等資料？",
       "question_en": "Which forecast provides specific information concerning expected sky cover, cloud tops, visibility, weather, and obstructions to vision in a route format?",
+      "has_figure": false,
       "A": "地區預報",
-      "A_en": "Area Forecast",
       "B": "航站氣象預報(TAF)",
-      "B_en": "Terminal Area Forecasts (TAF)",
       "C": "連續錄音播放天氣簡報 (TWEB)",
-      "C_en": "Transcribed Weather Broadcast (TWEB)",
-      "figure": null
+      "A_en": "Area Forecast",
+      "B_en": "Terminal Area Forecasts (TAF)",
+      "C_en": "Transcribed Weather Broadcast (TWEB)"
     },
     {
       "id": "0012483",
@@ -865,13 +865,13 @@
       "answer": "A",
       "question": "下列何種事件必須立刻向辦公室回報？",
       "question_en": "Which incident would require that the nearest NTSB field office be notified immediately?",
+      "has_figure": false,
       "A": "飛行中火警",
-      "A_en": "In flight fire",
       "B": "地面火警導致啟動滅火裝置",
-      "B_en": "Ground fire resulting in fire equipment dispatch",
       "C": "停放於機棚內的一級航空器發生火 警，導致損失超過25000美元",
-      "C_en": "Fire of the primary aircraft while in a hanger which results in damage to other property of more than $25000",
-      "figure": null
+      "A_en": "In flight fire",
+      "B_en": "Ground fire resulting in fire equipment dispatch",
+      "C_en": "Fire of the primary aircraft while in a hanger which results in damage to other property of more than $25000"
     },
     {
       "id": "0012484",
@@ -880,15 +880,15 @@
       "answer": "C",
       "question": "用何種術語來修正在航空通話中發話時的口誤？",
       "question_en": "If you make a miastake in transmission, you should use the phrase:",
-      "A": "Sorry",
+      "has_figure": false,
       "A_en": "Sorry",
-      "B": "I say again",
       "B_en": "I say again",
-      "C": "Correction",
       "C_en": "Correction",
-      "figure": null,
-      "D": "Correct",
-      "D_en": "Correct"
+      "D_en": "Correct",
+      "A": "Sorry",
+      "B": "I say again",
+      "C": "Correction",
+      "D": "Correct"
     },
     {
       "id": "0012485",
@@ -897,15 +897,15 @@
       "answer": "D",
       "question": "在機場管制服務的呼號最後名稱是:",
       "question_en": "The suffix in the callsign of an aerodrome control service would be:",
-      "A": "CONTROL",
+      "has_figure": false,
       "A_en": "CONTROL",
-      "B": "APRON",
       "B_en": "APRON",
-      "C": "GROUND",
       "C_en": "GROUND",
-      "figure": null,
-      "D": "TOWER",
-      "D_en": "TOWER"
+      "D_en": "TOWER",
+      "A": "CONTROL",
+      "B": "APRON",
+      "C": "GROUND",
+      "D": "TOWER"
     },
     {
       "id": "0012486",
@@ -914,13 +914,13 @@
       "answer": "B",
       "question": "\"WILCO\" 的定義是:",
       "question_en": "\"WILCO\" means:",
+      "has_figure": false,
       "A": "你所發的最後訊息,我已經全部接收到",
-      "A_en": "I have received all your last transmission",
       "B": "我了解你所發訊息的意思而且我會依照 著此意思做",
-      "B_en": "I understand your message and I will comply with it",
       "C": "對所提議假定的行動得到允許",
-      "C_en": "Permission for proposed action granted",
-      "figure": null
+      "A_en": "I have received all your last transmission",
+      "B_en": "I understand your message and I will comply with it",
+      "C_en": "Permission for proposed action granted"
     },
     {
       "id": "0012487",
@@ -929,13 +929,13 @@
       "answer": "B",
       "question": "當要做一緊急迫切情況呼叫時,首先所使用的頻率為何?",
       "question_en": "The frequency to transmit on first for an urgency call is the:",
+      "has_figure": false,
       "A": "最鄰近的雷達服務頻率",
-      "A_en": "frequency of the nearest radar station",
       "B": "正在使用的頻率",
-      "B_en": "frequency in use now",
       "C": "國際緊急危難頻率",
-      "C_en": "international distress frequency",
-      "figure": null
+      "A_en": "frequency of the nearest radar station",
+      "B_en": "frequency in use now",
+      "C_en": "international distress frequency"
     },
     {
       "id": "0012488",
@@ -944,13 +944,13 @@
       "answer": "A",
       "question": "當收到\"SQUAWK IDENT\"指示時,你的反應動作是:",
       "question_en": "The action that you carry out in response to the instruction \"SQUAWK IDENT\" is to:",
+      "has_figure": false,
       "A": "在控制平台上按一下識別(Ident)鈕",
-      "A_en": "press the special identification (Ident) button on the control panel",
       "B": "重設控制平台上的識別數字",
-      "B_en": "reset the numbers on the control panel",
       "C": "將控制平 台上的電門移到ALT位置",
-      "C_en": "move the switch on the control unit to the ALT position",
-      "figure": null
+      "A_en": "press the special identification (Ident) button on the control panel",
+      "B_en": "reset the numbers on the control panel",
+      "C_en": "move the switch on the control unit to the ALT position"
     },
     {
       "id": "0012489",
@@ -959,15 +959,15 @@
       "answer": "C",
       "question": "當管制員要你\"Pass me the following information\"時,會用何術語來表示?",
       "question_en": "If a controller would like to say to you \"Pass me the following information\", he would use the expression:",
-      "A": "READBACK",
+      "has_figure": false,
       "A_en": "READBACK",
-      "B": "REQUEST",
       "B_en": "REQUEST",
-      "C": "REPORT",
       "C_en": "REPORT",
-      "figure": null,
-      "D": "SAY AGAIN",
-      "D_en": "SAY AGAIN"
+      "D_en": "SAY AGAIN",
+      "A": "READBACK",
+      "B": "REQUEST",
+      "C": "REPORT",
+      "D": "SAY AGAIN"
     },
     {
       "id": "0012490",
@@ -976,15 +976,15 @@
       "answer": "B",
       "question": "當無法建立雙向無線電通話時,你會在發話前加何術語?",
       "question_en": "When unable to establish 2-way communications, you should prefix your message with:",
-      "A": "RADIO CHECK",
+      "has_figure": false,
       "A_en": "RADIO CHECK",
-      "B": "TRANSIMTTING BLIND",
       "B_en": "TRANSIMTTING BLIND",
-      "C": "PAN PAN PAN",
       "C_en": "PAN PAN PAN",
-      "figure": null,
-      "D": "DO YOU READ?",
-      "D_en": "DO YOU READ?"
+      "D_en": "DO YOU READ?",
+      "A": "RADIO CHECK",
+      "B": "TRANSIMTTING BLIND",
+      "C": "PAN PAN PAN",
+      "D": "DO YOU READ?"
     },
     {
       "id": "0012491",
@@ -993,15 +993,15 @@
       "answer": "A",
       "question": "當電碼設定為7700時,意思為:",
       "question_en": "A setting of 7700 on the transpoder indicates:",
-      "A": "DISTRESS",
+      "has_figure": false,
       "A_en": "DISTRESS",
-      "B": "AIRCRAFT IS LOST",
       "B_en": "AIRCRAFT IS LOST",
-      "C": "RADIO FAILURE",
       "C_en": "RADIO FAILURE",
-      "figure": null,
-      "D": "HI-JACKING",
-      "D_en": "HI-JACKING"
+      "D_en": "HI-JACKING",
+      "A": "DISTRESS",
+      "B": "AIRCRAFT IS LOST",
+      "C": "RADIO FAILURE",
+      "D": "HI-JACKING"
     },
     {
       "id": "0012492",
@@ -1010,13 +1010,13 @@
       "answer": "A",
       "question": "緊急迫切情況(Urgency)的條件定義為何？",
       "question_en": "The condition that defines the state of Urgency is that:",
+      "has_figure": false,
       "A": "對於航空器本身或機上人員有生命安全上的考量,但是還不需要立即的救助",
-      "A_en": "there is concern about the safety of the aircraft or a person on board but it does not require immediate assistance",
       "B": "航 空器或人員遭受到嚴重或即將發生的危險所威脅,需要立即救助",
-      "B_en": "the aircraft is threatened by serious or imminent danger and requires immediate assistance",
       "C": "在地面上所發生的 緊急事件",
-      "C_en": "there is an emergency on the ground",
-      "figure": null
+      "A_en": "there is concern about the safety of the aircraft or a person on board but it does not require immediate assistance",
+      "B_en": "the aircraft is threatened by serious or imminent danger and requires immediate assistance",
+      "C_en": "there is an emergency on the ground"
     },
     {
       "id": "0012493",
@@ -1025,14 +1025,14 @@
       "answer": "C",
       "question": "當你在做盲目發話時,你應該:",
       "question_en": "When making a blind transmission , you should:",
+      "has_figure": false,
       "A": "每個字發兩次",
-      "A_en": "transmit each word twice",
       "B": "在121.5頻率上重覆發話",
-      "B_en": "repeat the message on 121.5 MHz",
       "C": "每次訊息發話兩次",
-      "C_en": "transmit the message twice",
-      "figure": null,
       "D": "等待目視燈 光訊號",
+      "A_en": "transmit each word twice",
+      "B_en": "repeat the message on 121.5 MHz",
+      "C_en": "transmit the message twice",
       "D_en": "wait for visual signal"
     },
     {
@@ -1042,13 +1042,13 @@
       "answer": "A",
       "question": "當有緊急狀況發生,管制員會用何術種語來強制此頻率無線電靜默?",
       "question_en": "The phrase used by ATC to impose radio silence during an emergency situation is:",
-      "A": "STOP TRANSMITTING MAYDAY OUT",
+      "has_figure": false,
       "A_en": "STOP TRANSMITTING MAYDAY OUT",
-      "B": "MAYDAY MAYDAY MAYDAY OUT",
       "B_en": "MAYDAY MAYDAY MAYDAY OUT",
-      "C": "DISTRESS TRAFFIC IN PROGRESS",
       "C_en": "DISTRESS TRAFFIC IN PROGRESS",
-      "figure": null
+      "A": "STOP TRANSMITTING MAYDAY OUT",
+      "B": "MAYDAY MAYDAY MAYDAY OUT",
+      "C": "DISTRESS TRAFFIC IN PROGRESS"
     },
     {
       "id": "0012495",
@@ -1057,14 +1057,14 @@
       "answer": "D",
       "question": "當電碼設定為7500時,意思為:",
       "question_en": "Setting a Squawk of 7500 indicates that you:",
+      "has_figure": false,
       "A": "有緊急狀況發生",
-      "A_en": "have an emergency",
       "B": "無線電失效",
-      "B_en": "have a radio failure",
       "C": "沒有雷達服務",
-      "C_en": "are not receiving a radar service",
-      "figure": null,
       "D": "遭受劫持",
+      "A_en": "have an emergency",
+      "B_en": "have a radio failure",
+      "C_en": "are not receiving a radar service",
       "D_en": "are being Hi-jacked"
     },
     {
@@ -1074,14 +1074,14 @@
       "answer": "A",
       "question": "理論上你在5000呎上空可接收到多遠的VHF訊號?",
       "question_en": "The theoretical VHF range that you can obtain at FL50 is:",
+      "has_figure": false,
       "A": "85海浬",
-      "A_en": "85nm",
       "B": "120海浬",
-      "B_en": "120nm",
       "C": "71海浬",
-      "C_en": "71nm",
-      "figure": null,
       "D": "9海浬",
+      "A_en": "85nm",
+      "B_en": "120nm",
+      "C_en": "71nm",
       "D_en": "9nm"
     },
     {
@@ -1091,14 +1091,14 @@
       "answer": "C",
       "question": "你可在何種頻率收聽到ATIS?",
       "question_en": "The frequency on which ATIS can be found is",
+      "has_figure": false,
       "A": "專用VHF頻率",
-      "A_en": "Discrete VHF only",
       "B": "VOR頻率",
-      "B_en": "VOR frequency only",
       "C": "專用VHF 或 VOR 頻率",
-      "C_en": "Discrete VHF or VOR frequency",
-      "figure": null,
       "D": "任何飛航管制頻率",
+      "A_en": "Discrete VHF only",
+      "B_en": "VOR frequency only",
+      "C_en": "Discrete VHF or VOR frequency",
       "D_en": "any ATC frequency"
     },
     {
@@ -1108,14 +1108,14 @@
       "answer": "B",
       "question": "管制員何時會使用術語 \"BREAK BREAK\"?",
       "question_en": "A controller would say \"BREAK BREAK\" when he:",
+      "has_figure": false,
       "A": "對單一航空器發話時,想要在一長訊息間停頓",
-      "A_en": "wishes to create a pause in a long message to an aircraft",
       "B": "在一個忙碌的通話環境下,用來同 時對多架航空器來發話所使用",
-      "B_en": "is in a busy environment and has communications with more than one aircraft",
       "C": "對一航空器下達放棄起飛時使用",
-      "C_en": "is instructing an aircraft to abandon take-off",
-      "figure": null,
       "D": "用來取消先前 對航空器所下達的指示",
+      "A_en": "wishes to create a pause in a long message to an aircraft",
+      "B_en": "is in a busy environment and has communications with more than one aircraft",
+      "C_en": "is instructing an aircraft to abandon take-off",
       "D_en": "wishes to cancel a message already transmitted to an aircraft"
     },
     {
@@ -1125,13 +1125,13 @@
       "answer": "A",
       "question": "如果你沒辦法聯絡上所指定頻率的航管單位,你應該:",
       "question_en": "If you are unable to contact a station on a designated frequency, you should:",
+      "has_figure": false,
       "A": "嘗試換到另一適當頻率聯絡",
-      "A_en": "try another approiate frequency",
       "B": "發話時每個字發兩次",
-      "B_en": "transmit the words twice",
       "C": "開始盲目發話",
-      "C_en": "start transmitting blind",
-      "figure": null
+      "A_en": "try another approiate frequency",
+      "B_en": "transmit the words twice",
+      "C_en": "start transmitting blind"
     },
     {
       "id": "0012500",
@@ -1140,14 +1140,14 @@
       "answer": "A",
       "question": "當一航空器在晴空萬里且地障平坦之1萬呎上空時,最遠的VHF無線電通話範圍大約為:",
       "question_en": "An aircraft at FL100 over flat terrain on a clear day will have a maximum VHF communication range of about:",
+      "has_figure": false,
       "A": "120海浬",
-      "A_en": "120nm",
       "B": "100海浬",
-      "B_en": "100nm",
       "C": "150海浬",
-      "C_en": "150nm",
-      "figure": null,
       "D": "75海浬",
+      "A_en": "120nm",
+      "B_en": "100nm",
+      "C_en": "150nm",
       "D_en": "75nm"
     },
     {
@@ -1157,14 +1157,14 @@
       "answer": "C",
       "question": "許可限制點的定義為:",
       "question_en": "Clearance limit is defined as:",
+      "has_figure": false,
       "A": "在此高度下你將會碰撞到第一個高地障",
-      "A_en": "the height below which you will hit the first obstacle",
       "B": "航管單位所準許航空器可抵達的飛航空 層高度",
-      "B_en": "the flight level to which an aircraft is granted ATC clearance",
       "C": "航管單位所準許航空器可抵達的某位置點",
-      "C_en": "the point to which aircraft is granted ATC clearance",
-      "figure": null,
       "D": "航管許可失效的時間點",
+      "A_en": "the height below which you will hit the first obstacle",
+      "B_en": "the flight level to which an aircraft is granted ATC clearance",
+      "C_en": "the point to which aircraft is granted ATC clearance",
       "D_en": "the time at which the ATC clearance expires"
     },
     {
@@ -1174,15 +1174,15 @@
       "answer": "A",
       "question": "當你的航空器沒有迴波器時,你如何回應航管要求\"SQUAWK IDENT\"的指示:",
       "question_en": "If you are flying an aircraft without a transponder then reply to an instruction to \"SQUAWK IDENT\" should be:",
-      "A": "NEGATIVE TRANSPONDER",
+      "has_figure": false,
       "A_en": "NEGATIVE TRANSPONDER",
-      "B": "NO SQUAWK",
       "B_en": "NO SQUAWK",
-      "C": "SQUAWK NOT POSSIBLE",
       "C_en": "SQUAWK NOT POSSIBLE",
-      "figure": null,
-      "D": "NO SQUAWK",
-      "D_en": "NO SQUAWK"
+      "D_en": "NO SQUAWK",
+      "A": "NEGATIVE TRANSPONDER",
+      "B": "NO SQUAWK",
+      "C": "SQUAWK NOT POSSIBLE",
+      "D": "NO SQUAWK"
     },
     {
       "id": "0012503",
@@ -1191,13 +1191,13 @@
       "answer": "A",
       "question": "當聽見有緊急迫切情況(Urgency)的訊息時,飛行員應該:",
       "question_en": "On hearing an Urgency message, a pilot should:",
+      "has_figure": false,
       "A": "保持守聽並伺機提供協助",
-      "A_en": "maintain a listening watch to see if you can assist in any way",
       "B": "直接回應訊息",
-      "B_en": "acknowledge the message straight away",
       "C": "改變頻道以保持無線電靜默",
-      "C_en": "change frequency because a radio silence will be imposed",
-      "figure": null
+      "A_en": "maintain a listening watch to see if you can assist in any way",
+      "B_en": "acknowledge the message straight away",
+      "C_en": "change frequency because a radio silence will be imposed"
     },
     {
       "id": "0012504",
@@ -1206,13 +1206,13 @@
       "answer": "C",
       "question": "何時會用到 \"CORRECTION\" 這個術語？",
       "question_en": "The term \"CORRECTION\" is used when:",
+      "has_figure": false,
       "A": "要刪除訊息時",
-      "A_en": "the message to be deleted",
       "B": "訊息的覆誦為正確之時",
-      "B_en": "the readback of a message is correct",
       "C": "當在發話中有口誤發生時使用,然後 再加上正確的訊息",
-      "C_en": "an error has been made in the transmission and correct version is.",
-      "figure": null
+      "A_en": "the message to be deleted",
+      "B_en": "the readback of a message is correct",
+      "C_en": "an error has been made in the transmission and correct version is."
     },
     {
       "id": "0012505",
@@ -1221,13 +1221,13 @@
       "answer": "A",
       "question": "\"STANDBY\"此術語的定義為:",
       "question_en": "The definition of the phrase \"STANDBY\" is:",
+      "has_figure": false,
       "A": "等待然後我會呼叫你",
-      "A_en": "wait and I will call you",
       "B": "停止在你現在的位置",
-      "B_en": "hold your present position",
       "C": "當此次發話沒有發生過",
-      "C_en": "consider the transmission is not sent",
-      "figure": null
+      "A_en": "wait and I will call you",
+      "B_en": "hold your present position",
+      "C_en": "consider the transmission is not sent"
     },
     {
       "id": "0012506",
@@ -1236,13 +1236,13 @@
       "answer": "A",
       "question": "傳達 \"URGENCY\" 的通話術語為何:",
       "question_en": "The phrases proceeding an URGENCY message should be:",
-      "A": "PanPan PanPan PanPan",
+      "has_figure": false,
       "A_en": "PanPan PanPan PanPan",
-      "B": "Urgency Urgency Urgency",
       "B_en": "Urgency Urgency Urgency",
-      "C": "Mayday Mayday Mayday",
       "C_en": "Mayday Mayday Mayday",
-      "figure": null
+      "A": "PanPan PanPan PanPan",
+      "B": "Urgency Urgency Urgency",
+      "C": "Mayday Mayday Mayday"
     },
     {
       "id": "0012507",
@@ -1251,13 +1251,13 @@
       "answer": "A",
       "question": "為了獲得最佳的VHF通話品質,航空器最好是位於:",
       "question_en": "The best signals for VHF communications are obtained when the position of the aircraft is at:",
+      "has_figure": false,
       "A": "在機場附近上空的高高度",
-      "A_en": "high altitude and in the vicinity of the aerodrome",
       "B": "在遠距離的高高度位置",
-      "B_en": "high altitude at long range",
       "C": "在近距離的低高度位置",
-      "C_en": "low altitude and short range",
-      "figure": null
+      "A_en": "high altitude and in the vicinity of the aerodrome",
+      "B_en": "high altitude at long range",
+      "C_en": "low altitude and short range"
     },
     {
       "id": "0012508",
@@ -1266,13 +1266,13 @@
       "answer": "B",
       "question": "SAR的全名是:",
       "question_en": "SAR stands for:",
-      "A": "Single Aircraft Radio",
+      "has_figure": false,
       "A_en": "Single Aircraft Radio",
-      "B": "Search And Rescue",
       "B_en": "Search And Rescue",
-      "C": "Secondary Airborne Radar",
       "C_en": "Secondary Airborne Radar",
-      "figure": null
+      "A": "Single Aircraft Radio",
+      "B": "Search And Rescue",
+      "C": "Secondary Airborne Radar"
     },
     {
       "id": "0012509",
@@ -1281,15 +1281,15 @@
       "answer": "A",
       "question": "\"FASTAIR 1234\" 此呼號可被簡稱為:",
       "question_en": "The callsign FASTAIR 1234 can be abbreviated to:",
+      "has_figure": false,
       "A": "沒有簡稱",
-      "A_en": "No abbreviation",
-      "B": "FASTAIR",
       "B_en": "FASTAIR",
       "C": "1234",
+      "D_en": "FOXTROT34",
+      "A_en": "No abbreviation",
       "C_en": "1234",
-      "figure": null,
-      "D": "FOXTROT34",
-      "D_en": "FOXTROT34"
+      "B": "FASTAIR",
+      "D": "FOXTROT34"
     },
     {
       "id": "0012510",
@@ -1298,13 +1298,13 @@
       "answer": "A",
       "question": "你何時會用到 \"WORDS TWICE\" 這個術語？",
       "question_en": "You would use the phrase \"WORDS TWICE\" when you",
+      "has_figure": false,
       "A": "當你想要管制員每個字重覆兩遍",
-      "A_en": "want each word repeat twice",
       "B": "當你想要做盲目發話",
-      "B_en": "make a blind transmission",
       "C": "當你想要訊息被重覆 一次",
-      "C_en": "want the message to be repeated",
-      "figure": null
+      "A_en": "want each word repeat twice",
+      "B_en": "make a blind transmission",
+      "C_en": "want the message to be repeated"
     },
     {
       "id": "0012511",
@@ -1313,15 +1313,15 @@
       "answer": "C",
       "question": "當你想要訊息被再重覆一次,你應用何術語:",
       "question_en": "When asking for a repeat of a message, you should say:",
-      "A": "WORDS TWICE",
+      "has_figure": false,
       "A_en": "WORDS TWICE",
-      "B": "REPEAT MESSAGE",
       "B_en": "REPEAT MESSAGE",
-      "C": "SAY AGAIN",
       "C_en": "SAY AGAIN",
-      "figure": null,
-      "D": "SPEAK SLOWER",
-      "D_en": "SPEAK SLOWER"
+      "D_en": "SPEAK SLOWER",
+      "A": "WORDS TWICE",
+      "B": "REPEAT MESSAGE",
+      "C": "SAY AGAIN",
+      "D": "SPEAK SLOWER"
     },
     {
       "id": "0012512",
@@ -1330,13 +1330,13 @@
       "answer": "B",
       "question": "盲目傳送係",
       "question_en": "A \"BLIND TRANSMISSION\" is a transmission:",
+      "has_figure": false,
       "A": "由地面電台上空之航機所為之傳送",
-      "A_en": "from an aircraft that is directly overhead the ground station",
       "B": "自一電台向另一電台所做之單項信號傳送並 假設信號可妥善接收",
-      "B_en": "from one station to another when there is no communication but where is believed that the caller station is able to receive the transmission",
       "C": "視距範圍外之信號傳送",
-      "C_en": "where the transmission is unable to see the receiver",
-      "figure": null
+      "A_en": "from an aircraft that is directly overhead the ground station",
+      "B_en": "from one station to another when there is no communication but where is believed that the caller station is able to receive the transmission",
+      "C_en": "where the transmission is unable to see the receiver"
     },
     {
       "id": "0012513",
@@ -1345,13 +1345,13 @@
       "answer": "C",
       "question": "\"CANCEL\"此術語的定義為:",
       "question_en": "The term \"CANCEL\" means:",
+      "has_figure": false,
       "A": "當此次發話沒有傳送過",
-      "A_en": "consider the message is not sent",
       "B": "你的航班已被公司取消",
-      "B_en": "your flight has been cancelled by your operator",
       "C": "讓先前所給的許可失效",
-      "C_en": "annul the previously transmitted clearance",
-      "figure": null
+      "A_en": "consider the message is not sent",
+      "B_en": "your flight has been cancelled by your operator",
+      "C_en": "annul the previously transmitted clearance"
     },
     {
       "id": "0012514",
@@ -1360,15 +1360,15 @@
       "answer": "C",
       "question": "下列哪一名詞被定義為一航空器處於有立即危險發生的情況:",
       "question_en": "The condition that defines the state of an aircraft in imminent danger is:",
-      "A": "MAYDAY",
+      "has_figure": false,
       "A_en": "MAYDAY",
       "B": "緊急急迫情況(URGENCY)",
-      "B_en": "URGENCY",
       "C": "緊急危難情況 (DISTRESS)",
+      "D_en": "PAN PAN",
+      "B_en": "URGENCY",
       "C_en": "DISTRESS",
-      "figure": null,
-      "D": "PAN PAN",
-      "D_en": "PAN PAN"
+      "A": "MAYDAY",
+      "D": "PAN PAN"
     },
     {
       "id": "0012515",
@@ -1377,14 +1377,14 @@
       "answer": "C",
       "question": "\"READABILITY 3\"此用語的意思為:",
       "question_en": "The message \"READABILITY3\" means:",
+      "has_figure": false,
       "A": "偶爾聽的清晰",
-      "A_en": "Readable now and then",
       "B": "聽的清晰",
-      "B_en": "Readble",
       "C": "聽的清晰但有點難度",
-      "C_en": "Readable but with difficulty",
-      "figure": null,
       "D": "難以解讀",
+      "A_en": "Readable now and then",
+      "B_en": "Readble",
+      "C_en": "Readable but with difficulty",
       "D_en": "Unreadable"
     },
     {
@@ -1394,13 +1394,13 @@
       "answer": "B",
       "question": "在發生無線電失效情況你何時會尋找目視燈光訊號:",
       "question_en": "When do you look for visual signals after a communications failure?",
+      "has_figure": false,
       "A": "落地之後",
-      "A_en": "After landing",
       "B": "加入一有管制塔台的機場航線時",
-      "B_en": "Joining the circuit at a controlled airfield",
       "C": "機場上空",
-      "C_en": "Overhead an aerodrome",
-      "figure": null
+      "A_en": "After landing",
+      "B_en": "Joining the circuit at a controlled airfield",
+      "C_en": "Overhead an aerodrome"
     },
     {
       "id": "0012517",
@@ -1409,13 +1409,13 @@
       "answer": "B",
       "question": "VHF裡的VOLMET廣播之資訊內容為:",
       "question_en": "What information does VOLMET broadcast on VHF?",
+      "has_figure": false,
       "A": "危害天氣報告(SIGMET)",
-      "A_en": "SIGMETs",
       "B": "各不同機場的METAR",
-      "B_en": "METARs for various aerodromes",
       "C": "特定機場的TAF",
-      "C_en": "TAFs for specific aerodromes",
-      "figure": null
+      "A_en": "SIGMETs",
+      "B_en": "METARs for various aerodromes",
+      "C_en": "TAFs for specific aerodromes"
     },
     {
       "id": "0012518",
@@ -1424,13 +1424,13 @@
       "answer": "A",
       "question": "假設你被指示 \"SQUAWK 1250\", 你應該:",
       "question_en": "If you are told to \"SQUAWK 1250\", you should",
+      "has_figure": false,
       "A": "立即在SSR詢答機上設定電碼1250",
-      "A_en": "set code 1250 on SSR transponder (mode A)",
       "B": "換至125.0MHz的頻率",
-      "B_en": "change to frequency 125.0 MHz",
       "C": "回答\"TEST 1250\"",
-      "C_en": "say \"TESTING 1250\"",
-      "figure": null
+      "A_en": "set code 1250 on SSR transponder (mode A)",
+      "B_en": "change to frequency 125.0 MHz",
+      "C_en": "say \"TESTING 1250\""
     },
     {
       "id": "0012519",
@@ -1439,13 +1439,13 @@
       "answer": "B",
       "question": "航管對一航空器指示\"CHECK\"時 表示:",
       "question_en": "The message \"CHECK\" to an aircraft means that you should:",
+      "has_figure": false,
       "A": "確認你有接收並了解最後所傳的訊息",
-      "A_en": "confirm that you received and understood the last message",
       "B": "檢查一系統或程序",
-      "B_en": "examine a system or procedure",
       "C": "停留在原處",
-      "C_en": "stay where you are",
-      "figure": null
+      "A_en": "confirm that you received and understood the last message",
+      "B_en": "examine a system or procedure",
+      "C_en": "stay where you are"
     },
     {
       "id": "0012520",
@@ -1454,15 +1454,15 @@
       "answer": "A",
       "question": "無線電通話中VHF頻率的範圍是:",
       "question_en": "The full range of VHF frequencies used for communication is:",
-      "A": "118.0 to 136.975 MHz",
+      "has_figure": false,
       "A_en": "118.0 to 136.975 MHz",
-      "B": "108.0 to 139.5 MHz",
       "B_en": "108.0 to 139.5 MHz",
-      "C": "3 to 30 MHz",
       "C_en": "3 to 30 MHz",
-      "figure": null,
-      "D": "88 to 108 MHz",
-      "D_en": "88 to 108 MHz"
+      "D_en": "88 to 108 MHz",
+      "A": "118.0 to 136.975 MHz",
+      "B": "108.0 to 139.5 MHz",
+      "C": "3 to 30 MHz",
+      "D": "88 to 108 MHz"
     },
     {
       "id": "0012521",
@@ -1471,14 +1471,14 @@
       "answer": "C",
       "question": "當要做一緊急迫切情況呼叫時,首先所使用的頻率為何?",
       "question_en": "On what frequency do you transmit your first MAYDAY call?",
+      "has_figure": false,
       "A": "121.5 MHz",
-      "A_en": "121.5 MHz",
       "B": "最鄰近的雷達服務頻率",
-      "B_en": "The frequency of the nearest radar station",
       "C": "正在使用的頻率",
-      "C_en": "The frequency in use",
-      "figure": null,
       "D": "最鄰近的飛航情報業 務頻率",
+      "A_en": "121.5 MHz",
+      "B_en": "The frequency of the nearest radar station",
+      "C_en": "The frequency in use",
       "D_en": "The frequency of the nearest FIS"
     },
     {
@@ -1488,13 +1488,13 @@
       "answer": "B",
       "question": "緊急迫切情況(Urgency)的優先順序為何？",
       "question_en": "The priority for an urgency call is:",
+      "has_figure": false,
       "A": "低於緊急醫療求助",
-      "A_en": "lower than for a Pan Pan medical",
       "B": "高於一切一般情況但低於緊急危難情況",
-      "B_en": "higher than for everything else but less than for distress",
       "C": "視情況多寡後排 序而定",
-      "C_en": "dependant upon the length of the queue",
-      "figure": null
+      "A_en": "lower than for a Pan Pan medical",
+      "B_en": "higher than for everything else but less than for distress",
+      "C_en": "dependant upon the length of the queue"
     },
     {
       "id": "0012523",
@@ -1503,13 +1503,13 @@
       "answer": "B",
       "question": "無線電失效後電碼要設:",
       "question_en": "The Squawk code for radio failure is :",
+      "has_figure": false,
       "A": "7700",
-      "A_en": "7700",
       "B": "7600",
-      "B_en": "7600",
       "C": "7500",
-      "C_en": "7500",
-      "figure": null
+      "A_en": "7700",
+      "B_en": "7600",
+      "C_en": "7500"
     },
     {
       "id": "0012524",
@@ -1518,15 +1518,15 @@
       "answer": "B",
       "question": "The word for the expression \"Have I correctly received the following\" is:",
       "question_en": "The word for the expression \"Have I correctly received the following\" is:",
-      "A": "ACKNOWLEDGE",
+      "has_figure": false,
       "A_en": "ACKNOWLEDGE",
-      "B": "CONFIRM",
       "B_en": "CONFIRM",
-      "C": "VERIFY",
       "C_en": "VERIFY",
-      "figure": null,
-      "D": "ARE U SURE",
-      "D_en": "ARE U SURE"
+      "D_en": "ARE U SURE",
+      "A": "ACKNOWLEDGE",
+      "B": "CONFIRM",
+      "C": "VERIFY",
+      "D": "ARE U SURE"
     },
     {
       "id": "0012525",
@@ -1535,13 +1535,13 @@
       "answer": "C",
       "question": "\"VERIFY\" 一詞的定義為:",
       "question_en": "The term \"VERIFY\" means:",
+      "has_figure": false,
       "A": "確認你最後所傳的訊息",
-      "A_en": "confrim your last transmission",
       "B": "識別你自己",
-      "B_en": "identify yourself",
       "C": "核對及確認來源",
-      "C_en": "check and confirm with originator",
-      "figure": null
+      "A_en": "confrim your last transmission",
+      "B_en": "identify yourself",
+      "C_en": "check and confirm with originator"
     },
     {
       "id": "0012526",
@@ -1550,13 +1550,13 @@
       "answer": "B",
       "question": "假設你想反向滑行, 你的通話應該是:",
       "question_en": "If you want to backtrack then your transmission should be:",
-      "A": "REPORTING BACKTRACK",
+      "has_figure": false,
       "A_en": "REPORTING BACKTRACK",
-      "B": "REQUEST BACKTRACK",
       "B_en": "REQUEST BACKTRACK",
-      "C": "REQUEST VACATE RUNWAY",
       "C_en": "REQUEST VACATE RUNWAY",
-      "figure": null
+      "A": "REPORTING BACKTRACK",
+      "B": "REQUEST BACKTRACK",
+      "C": "REQUEST VACATE RUNWAY"
     },
     {
       "id": "0012527",
@@ -1565,14 +1565,14 @@
       "answer": "B",
       "question": "航管單位如何播報跑道視程(RVR):",
       "question_en": "How does ATC report RVR?",
+      "has_figure": false,
       "A": "以英呎和英吋做單位",
-      "A_en": "In feet and inches",
       "B": "以公尺為單位,分別有著陸區,中間點和跑道尾端數值",
-      "B_en": "In meters at touchdown, mid-point and stop-end of runway",
       "C": "以公里為單位,沿著最後進場",
-      "C_en": "In kilometers along the final approach",
-      "figure": null,
       "D": "以海哩為單位,順沿著跑道",
+      "A_en": "In feet and inches",
+      "B_en": "In meters at touchdown, mid-point and stop-end of runway",
+      "C_en": "In kilometers along the final approach",
       "D_en": "In nautical miles along with runway"
     },
     {
@@ -1582,13 +1582,13 @@
       "answer": "B",
       "question": "3500英呎的無線電通話用語應為:",
       "question_en": "How do you report a level of 3500feet?",
-      "A": "THREE FIVE ZERO FEET",
+      "has_figure": false,
       "A_en": "THREE FIVE ZERO FEET",
-      "B": "THREE THOUSND FIVE HUNDRED FEET",
       "B_en": "THREE THOUSND FIVE HUNDRED FEET",
-      "C": "THIRTY FIVE HUNDRED FEET",
       "C_en": "THIRTY FIVE HUNDRED FEET",
-      "figure": null
+      "A": "THREE FIVE ZERO FEET",
+      "B": "THREE THOUSND FIVE HUNDRED FEET",
+      "C": "THIRTY FIVE HUNDRED FEET"
     },
     {
       "id": "0012529",
@@ -1597,15 +1597,15 @@
       "answer": "B",
       "question": "當一航空器處於有立即危險情況時 ,應用何種術語?",
       "question_en": "The call from an aircraft in imminent danger is:",
-      "A": "OH NO!",
+      "has_figure": false,
       "A_en": "OH NO!",
-      "B": "MAYDAY MAYDAY MAYDAY",
       "B_en": "MAYDAY MAYDAY MAYDAY",
-      "C": "PANPAN PANPAN PANPAN",
       "C_en": "PANPAN PANPAN PANPAN",
-      "figure": null,
-      "D": "PAN PAN MEDICAL",
-      "D_en": "PAN PAN MEDICAL"
+      "D_en": "PAN PAN MEDICAL",
+      "A": "OH NO!",
+      "B": "MAYDAY MAYDAY MAYDAY",
+      "C": "PANPAN PANPAN PANPAN",
+      "D": "PAN PAN MEDICAL"
     },
     {
       "id": "0012530",
@@ -1614,13 +1614,13 @@
       "answer": "B",
       "question": "\" DISREGARD\"一詞的定義為:",
       "question_en": "The term\" DISREGARD\" means:",
+      "has_figure": false,
       "A": "不用理會我說甚麼",
-      "A_en": "Pay no attention to what I say",
       "B": "當前一次的發話沒有傳送過",
-      "B_en": "Consider the last message as not sent",
       "C": "取消最後的許可",
-      "C_en": "Cancel the last clearance",
-      "figure": null
+      "A_en": "Pay no attention to what I say",
+      "B_en": "Consider the last message as not sent",
+      "C_en": "Cancel the last clearance"
     },
     {
       "id": "0012531",
@@ -1629,14 +1629,14 @@
       "answer": "B",
       "question": "當你被指示 \"RE-SQUAWK 1015\", 你應該:",
       "question_en": "When told \"RE-SQUAWK 1015\", you should:",
+      "has_figure": false,
       "A": "在控制平台上按一下識別(Ident)鈕",
-      "A_en": "press the identification (Ident) button on the control panel",
       "B": "在模式A詢答機上重設數字",
-      "B_en": "reselect the digits on the transponder mode A",
       "C": "在高度表上 設1015",
-      "C_en": "set 1015 on your altimeter",
-      "figure": null,
       "D": "打開模式C",
+      "A_en": "press the identification (Ident) button on the control panel",
+      "B_en": "reselect the digits on the transponder mode A",
+      "C_en": "set 1015 on your altimeter",
       "D_en": "switch on mode C"
     },
     {
@@ -1646,14 +1646,14 @@
       "answer": "C",
       "question": "空中無線電通話,時間如何表示:",
       "question_en": "The time given in aeronautical communications is:",
+      "has_figure": false,
       "A": "只有分鐘",
-      "A_en": "in minutes only",
       "B": "當地平均時間",
-      "B_en": "Local mean time",
       "C": "UTC",
-      "C_en": "UTC",
-      "figure": null,
       "D": "日光節約時間",
+      "A_en": "in minutes only",
+      "B_en": "Local mean time",
+      "C_en": "UTC",
       "D_en": "daylight saving time"
     },
     {
@@ -1663,15 +1663,15 @@
       "answer": "D",
       "question": "下列哪一名詞的定義為 \"Permission not granted\" :",
       "question_en": "Word for the expression\"Permission not granted\" is:",
-      "A": "WILCO",
+      "has_figure": false,
       "A_en": "WILCO",
-      "B": "NOT APPROVED",
       "B_en": "NOT APPROVED",
-      "C": "NEVER",
       "C_en": "NEVER",
-      "figure": null,
-      "D": "NEGATIVE",
-      "D_en": "NEGATIVE"
+      "D_en": "NEGATIVE",
+      "A": "WILCO",
+      "B": "NOT APPROVED",
+      "C": "NEVER",
+      "D": "NEGATIVE"
     },
     {
       "id": "0012534",
@@ -1680,13 +1680,13 @@
       "answer": "C",
       "question": "\"SSR\"此簡稱的全名為:",
       "question_en": "The abbreviation SSR stands for:",
-      "A": "Single System Receiver",
+      "has_figure": false,
       "A_en": "Single System Receiver",
-      "B": "Sector Safety Range",
       "B_en": "Sector Safety Range",
-      "C": "Secondary Surveillance Radar",
       "C_en": "Secondary Surveillance Radar",
-      "figure": null
+      "A": "Single System Receiver",
+      "B": "Sector Safety Range",
+      "C": "Secondary Surveillance Radar"
     },
     {
       "id": "0012535",
@@ -1695,14 +1695,14 @@
       "answer": "C",
       "question": "在詢答機上選擇電碼7600,意指為:",
       "question_en": "The selection of the code 7600 on a transponder indicates:",
+      "has_figure": false,
       "A": "緊急危難情況",
-      "A_en": "distress",
       "B": "航空器被劫持",
-      "B_en": "hi-jacking",
       "C": "無線電失效",
-      "C_en": "loss of comms",
-      "figure": null,
       "D": "緊急急迫情況",
+      "A_en": "distress",
+      "B_en": "hi-jacking",
+      "C_en": "loss of comms",
       "D_en": "urgency"
     },
     {
@@ -1712,14 +1712,14 @@
       "answer": "B",
       "question": "On hearing the message \"ALL STATIONS, STEPHENVILLE RADAR, STOP TRANSMITTING MAYDAY\", you should:",
       "question_en": "On hearing the message \"ALL STATIONS, STEPHENVILLE RADAR, STOP TRANSMITTING MAYDAY\", you should:",
+      "has_figure": false,
       "A": "幫忙此緊急情況事件",
-      "A_en": "assist with the emergency",
       "B": "無線電肅靜請勿干擾此有緊急危難情況的航空器",
-      "B_en": "not interfere with the distress traffic",
       "C": "離開 此頻率",
-      "C_en": "leave the frequency",
-      "figure": null,
       "D": "重新發送一次你的訊息",
+      "A_en": "assist with the emergency",
+      "B_en": "not interfere with the distress traffic",
+      "C_en": "leave the frequency",
       "D_en": "re-transmitting the message"
     },
     {
@@ -1729,14 +1729,14 @@
       "answer": "B",
       "question": "擁有頻率118.0 to 136.975 MHz的無線電波段是:",
       "question_en": "The band for frequencies between 118.0 to 136.975 MHz is known as the:",
+      "has_figure": false,
       "A": "UHF 波段",
-      "A_en": "UHF band",
       "B": "VHF 波段",
-      "B_en": "VHF band",
       "C": "SHF 波段",
-      "C_en": "SHF band",
-      "figure": null,
       "D": "HF 波段",
+      "A_en": "UHF band",
+      "B_en": "VHF band",
+      "C_en": "SHF band",
       "D_en": "HF band"
     },
     {
@@ -1746,13 +1746,13 @@
       "answer": "B",
       "question": "當講到頻率,\"DECIMAL\" 這小數點用語可否省略?",
       "question_en": "When referring to a frequency the word \"DECIMAL\" can be dropped:",
+      "has_figure": false,
       "A": "只有在覆誦頻率時可以",
-      "A_en": "only during a readback of a frequency",
       "B": "不可以",
-      "B_en": "Never",
       "C": "只有在雙方無線電通話建立好滿意之後可省 略",
-      "C_en": "only after satisfactory communications have been established",
-      "figure": null
+      "A_en": "only during a readback of a frequency",
+      "B_en": "Never",
+      "C_en": "only after satisfactory communications have been established"
     },
     {
       "id": "0012539",
@@ -1761,13 +1761,13 @@
       "answer": "B",
       "question": "對於管制員所給資訊中,必須要覆誦的項目有:",
       "question_en": "The information in a message from ATC that has to be readback includes:",
+      "has_figure": false,
       "A": "天氣及風向",
-      "A_en": "weather, wind",
       "B": "高度表撥定值和使用跑道名稱",
-      "B_en": "QNH, runway in use",
       "C": "除了有猶豫的聲音外,所有都必 須覆誦",
-      "C_en": "everything except hesitation sounds",
-      "figure": null
+      "A_en": "weather, wind",
+      "B_en": "QNH, runway in use",
+      "C_en": "everything except hesitation sounds"
     },
     {
       "id": "0012540",
@@ -1776,15 +1776,15 @@
       "answer": "B",
       "question": "\"CHEROKEE XY-ABC\" 此呼號可被簡稱為:",
       "question_en": "The abbreviation for the callsign \"CHEROKEE XY-ABC\" would be:",
-      "A": "CHEROKEE XY-BC",
+      "has_figure": false,
       "A_en": "CHEROKEE XY-BC",
-      "B": "CHEROKEE BC",
       "B_en": "CHEROKEE BC",
-      "C": "XY-BC",
       "C_en": "XY-BC",
-      "figure": null,
       "D": "ABC",
-      "D_en": "ABC"
+      "D_en": "ABC",
+      "A": "CHEROKEE XY-BC",
+      "B": "CHEROKEE BC",
+      "C": "XY-BC"
     },
     {
       "id": "0012541",
@@ -1793,13 +1793,13 @@
       "answer": "B",
       "question": "管制員給航空器下達放棄起飛指示會使用何術語 ?",
       "question_en": "The instruction from ATC to an aircraft to abondon its take off includes the phrase:",
-      "A": "GIVE-UP TAKE OFF",
+      "has_figure": false,
       "A_en": "GIVE-UP TAKE OFF",
-      "B": "STOP IMMEDIATELY",
       "B_en": "STOP IMMEDIATELY",
-      "C": "ABORT TAKE OFF",
       "C_en": "ABORT TAKE OFF",
-      "figure": null
+      "A": "GIVE-UP TAKE OFF",
+      "B": "STOP IMMEDIATELY",
+      "C": "ABORT TAKE OFF"
     },
     {
       "id": "0012542",
@@ -1808,13 +1808,13 @@
       "answer": "C",
       "question": "航管單位名稱或呼號何時可以被省略？",
       "question_en": "The name or suffix on the callsign of an aeronautical station may be omitted:",
+      "has_figure": false,
       "A": "不可以",
-      "A_en": "Never",
       "B": "在航空器目視機場及聯絡後才可以",
-      "B_en": "provided that the aircraft is in visual contact with the aerodrome",
       "C": "只有在雙方無線電通話建立好滿 意之後可省略",
-      "C_en": "only after satisfactory communications have been established and providing there will be no confusion",
-      "figure": null
+      "A_en": "Never",
+      "B_en": "provided that the aircraft is in visual contact with the aerodrome",
+      "C_en": "only after satisfactory communications have been established and providing there will be no confusion"
     },
     {
       "id": "0012543",
@@ -1823,14 +1823,14 @@
       "answer": "B",
       "question": "\"READABILITY 2\" 表示發話品質為:",
       "question_en": "\"Readability 2\" means that your transmission is :",
+      "has_figure": false,
       "A": "雙向無線電通話已經建立",
-      "A_en": "two way communications have been established",
       "B": "偶爾聽的清晰",
-      "B_en": "readable now and then",
       "C": "聽的清晰但有點難度",
-      "C_en": "readable but with difficulty",
-      "figure": null,
       "D": "聽的清晰",
+      "A_en": "two way communications have been established",
+      "B_en": "readable now and then",
+      "C_en": "readable but with difficulty",
       "D_en": "readable"
     },
     {
@@ -1840,15 +1840,15 @@
       "answer": "D",
       "question": "在地面上無線電測試正確的呼叫方式為:",
       "question_en": "The correct call to make asking for radio check on the ground is:",
-      "A": "G-ABCD RADIO CHECK",
+      "has_figure": false,
       "A_en": "G-ABCD RADIO CHECK",
-      "B": "STEPHENVILLE TOWER, G-ABCD HOW DO YOU READ 118.7",
       "B_en": "STEPHENVILLE TOWER, G-ABCD HOW DO YOU READ 118.7",
-      "C": "STEPHENVILLE TOWER, G-ABCD READABILITY CHECK, 118.7",
       "C_en": "STEPHENVILLE TOWER, G-ABCD READABILITY CHECK, 118.7",
-      "figure": null,
-      "D": "STEPHENVILLE TOWER, G-ABCD RADIO CHECK, 118.7",
-      "D_en": "STEPHENVILLE TOWER, G-ABCD RADIO CHECK, 118.7"
+      "D_en": "STEPHENVILLE TOWER, G-ABCD RADIO CHECK, 118.7",
+      "A": "G-ABCD RADIO CHECK",
+      "B": "STEPHENVILLE TOWER, G-ABCD HOW DO YOU READ 118.7",
+      "C": "STEPHENVILLE TOWER, G-ABCD READABILITY CHECK, 118.7",
+      "D": "STEPHENVILLE TOWER, G-ABCD RADIO CHECK, 118.7"
     },
     {
       "id": "0012545",
@@ -1857,13 +1857,13 @@
       "answer": "C",
       "question": "管制員廣播\"DISTRESS TRAFFIC ENDED\"的訊息意思為:",
       "question_en": "The ATC message \"DISTRESS TRAFFIC ENDED\" signifies that:",
+      "has_figure": false,
       "A": "要全部的航空器結束他們的發話",
-      "A_en": "all aircraft are to end their transmission",
       "B": "要全部在此一頻率的航空器更換到另一頻率",
-      "B_en": "all aircraft on the frequency are to change to another frequency",
       "C": "緊急情況解除,恢復正常航管無線電通話",
-      "C_en": "normal ATC is resumed after an emergency",
-      "figure": null
+      "A_en": "all aircraft are to end their transmission",
+      "B_en": "all aircraft on the frequency are to change to another frequency",
+      "C_en": "normal ATC is resumed after an emergency"
     },
     {
       "id": "0012546",
@@ -1872,13 +1872,13 @@
       "answer": "B",
       "question": "航空器被許可從FL100下降至FL80所必須做的覆誦為:",
       "question_en": "The readback from an aircraft that is cleared to change level from FL100 to FL80 is:",
-      "A": "DESCENDING TO FL80",
+      "has_figure": false,
       "A_en": "DESCENDING TO FL80",
-      "B": "LEAVING FL100 DESCENDING TO FL80",
       "B_en": "LEAVING FL100 DESCENDING TO FL80",
-      "C": "DOWN TO FL80",
       "C_en": "DOWN TO FL80",
-      "figure": null
+      "A": "DESCENDING TO FL80",
+      "B": "LEAVING FL100 DESCENDING TO FL80",
+      "C": "DOWN TO FL80"
     },
     {
       "id": "0012547",
@@ -1887,14 +1887,14 @@
       "answer": "C",
       "question": "\"READABILITY 5\" 表示發話品質為:",
       "question_en": "Readability 5 means that your transmission is :",
+      "has_figure": false,
       "A": "偶爾聽的清晰",
-      "A_en": "Readable now and then",
       "B": "聽的清晰",
-      "B_en": "Readable",
       "C": "聽的非常清晰",
-      "C_en": "Perfectly readable",
-      "figure": null,
       "D": "難以解讀",
+      "A_en": "Readable now and then",
+      "B_en": "Readable",
+      "C_en": "Perfectly readable",
       "D_en": "Unreadable"
     },
     {
@@ -1904,14 +1904,14 @@
       "answer": "A",
       "question": "機場作業時間有\"HJ\"縮寫,意思為:",
       "question_en": "The abbreviation HJ means that the aerodrome is:",
+      "has_figure": false,
       "A": "作業時間從日出到日落",
-      "A_en": "open between sunrise and sunset",
       "B": "作業時間從日落到日出",
-      "B_en": "open between sunset and sunrise",
       "C": "作業時間為全天候24小時",
-      "C_en": "open 24 hours",
-      "figure": null,
       "D": "只在特定時間內開放",
+      "A_en": "open between sunrise and sunset",
+      "B_en": "open between sunset and sunrise",
+      "C_en": "open 24 hours",
       "D_en": "open during unspecified hours"
     },
     {
@@ -1921,15 +1921,15 @@
       "answer": "B",
       "question": "當管制員要你\"listen out on a frequency\"時,會用何術語來表示?",
       "question_en": "The phrase used by ATC to instruct you listen out on a frequency is:",
-      "A": "CONTACT",
+      "has_figure": false,
       "A_en": "CONTACT",
-      "B": "MONITOR",
       "B_en": "MONITOR",
       "C": "TRY",
+      "D_en": "REPORT",
       "C_en": "TRY",
-      "figure": null,
-      "D": "REPORT",
-      "D_en": "REPORT"
+      "A": "CONTACT",
+      "B": "MONITOR",
+      "D": "REPORT"
     },
     {
       "id": "0012550",
@@ -1938,13 +1938,13 @@
       "answer": "A",
       "question": "13,500 英呎的無線電通話用語為何?",
       "question_en": "An altitude of 13,500 feet would be spoken as:",
-      "A": "ONE THREE THOUSAND FIVE HUNDRED FEET",
+      "has_figure": false,
       "A_en": "ONE THREE THOUSAND FIVE HUNDRED FEET",
-      "B": "THIRTEEN THOUSAND FIVE HUNDRED FEET",
       "B_en": "THIRTEEN THOUSAND FIVE HUNDRED FEET",
-      "C": "ONE THREE THOUSAND FIVE ZERO ZERO FEET",
       "C_en": "ONE THREE THOUSAND FIVE ZERO ZERO FEET",
-      "figure": null
+      "A": "ONE THREE THOUSAND FIVE HUNDRED FEET",
+      "B": "THIRTEEN THOUSAND FIVE HUNDRED FEET",
+      "C": "ONE THREE THOUSAND FIVE ZERO ZERO FEET"
     },
     {
       "id": "0012551",
@@ -1953,14 +1953,14 @@
       "answer": "C",
       "question": "\"MONITOR\" 一詞的定義為何?",
       "question_en": "The definition of the instruction \"MONITOR\" is:",
+      "has_figure": false,
       "A": "你正在被監看",
-      "A_en": "you are being watched",
       "B": "在某一頻率建立無線電通話",
-      "B_en": "establish communications on frequency…",
       "C": "在某一頻率守聽",
-      "C_en": "listen out on frequency…",
-      "figure": null,
       "D": "在某一頻率 等待目視燈光訊號",
+      "A_en": "you are being watched",
+      "B_en": "establish communications on frequency…",
+      "C_en": "listen out on frequency…",
       "D_en": "watch out for visual signals on frequency"
     },
     {
@@ -1970,13 +1970,13 @@
       "answer": "B",
       "question": "你在收到 \"STANDBY ON 118.9 FOR TOWER\" 後的動作是:",
       "question_en": "Your action on receipt of the message \"STANDBY ON 118.9 FOR TOWER\" is to:",
+      "has_figure": false,
       "A": "換到頻率118.9後直接聯絡塔台管制",
-      "A_en": "change to freq 118.9 and contact TOWER",
       "B": "換到頻率118.9後,等待塔台管制主動聯絡 你",
-      "B_en": "change to freq 118.9 and wait for TOWER to initiate communications",
       "C": "在現在的頻率等待塔台管制聯絡讓你知道他何時準備好",
-      "C_en": "wait for TOWER to contact you on present frequency to let you know when they are ready",
-      "figure": null
+      "A_en": "change to freq 118.9 and contact TOWER",
+      "B_en": "change to freq 118.9 and wait for TOWER to initiate communications",
+      "C_en": "wait for TOWER to contact you on present frequency to let you know when they are ready"
     },
     {
       "id": "0012553",
@@ -1985,15 +1985,15 @@
       "answer": "C",
       "question": "當你保持3,500英呎飛正西南航向,你的無線電通話用語會是:",
       "question_en": "When flying on a SW headind at 3500 feet, you would report your heading and level as:",
-      "A": "HEADING 045 AT THREE THOUSAND FIVE HUNDRED",
+      "has_figure": false,
       "A_en": "HEADING 045 AT THREE THOUSAND FIVE HUNDRED",
-      "B": "HEADING 225 AT THRITY FIVE HUNDRED",
       "B_en": "HEADING 225 AT THRITY FIVE HUNDRED",
-      "C": "HEADING 225 AT THREE THOUSAND FIVE HUNDRED",
       "C_en": "HEADING 225 AT THREE THOUSAND FIVE HUNDRED",
-      "figure": null,
-      "D": "SOUTHWEST HEADING AT THREE FIVE ZERO ZERO",
-      "D_en": "SOUTHWEST HEADING AT THREE FIVE ZERO ZERO"
+      "D_en": "SOUTHWEST HEADING AT THREE FIVE ZERO ZERO",
+      "A": "HEADING 045 AT THREE THOUSAND FIVE HUNDRED",
+      "B": "HEADING 225 AT THRITY FIVE HUNDRED",
+      "C": "HEADING 225 AT THREE THOUSAND FIVE HUNDRED",
+      "D": "SOUTHWEST HEADING AT THREE FIVE ZERO ZERO"
     }
   ]
 }
