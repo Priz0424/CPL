@@ -799,6 +799,18 @@ function getRenderedOptionOrder(q) {
   return getOptionLetters(q);
 }
 
+function getRenderedOptionEntries(q) {
+  return getRenderedOptionOrder(q).map((actualKey, index) => ({
+    actualKey,
+    displayKey: OPTION_LETTERS[index] || actualKey
+  }));
+}
+
+function getDisplayedOptionLabel(q, actualKey) {
+  const entry = getRenderedOptionEntries(q).find(item => item.actualKey === actualKey);
+  return entry ? entry.displayKey : actualKey;
+}
+
 function isQuestionRenderable(q) {
   const prompt = (q.question || q.question_en || '').trim();
   return Boolean(prompt) && getOptionLetters(q).length >= 3;
@@ -995,11 +1007,11 @@ function updateQuizLang() {
   document.getElementById('q-text').textContent = useEn ? (q.question_en || q.question) : q.question;
   // Update options text only (keep state classes)
   const btns = document.querySelectorAll('.opt');
-  getRenderedOptionOrder(q).forEach((ltr,i) => {
+  getRenderedOptionEntries(q).forEach(({ actualKey, displayKey }, i) => {
     if (!btns[i]) return;
-    const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
+    const txt = useEn ? (q[actualKey+'_en'] || q[actualKey]) : q[actualKey];
     btns[i].querySelector('.opt-txt').textContent = txt;
-    btns[i].querySelector('.opt-ltr').textContent = ltr;
+    btns[i].querySelector('.opt-ltr').textContent = displayKey;
   });
   // Update diff badge
   document.getElementById('q-diff-badge').textContent =
@@ -1260,12 +1272,12 @@ function renderQuestion() {
   const optEl = document.getElementById('options');
   optEl.innerHTML = '';
   q.__optionOrder = shuffle([...getOptionLetters(q)]);
-  getRenderedOptionOrder(q).forEach(ltr => {
-    const txt = useEn ? (q[ltr+'_en'] || q[ltr]) : q[ltr];
+  getRenderedOptionEntries(q).forEach(({ actualKey, displayKey }) => {
+    const txt = useEn ? (q[actualKey+'_en'] || q[actualKey]) : q[actualKey];
     const btn = document.createElement('button');
     btn.className = 'opt';
-    btn.innerHTML = `<div class="opt-ltr">${ltr}</div><div class="opt-txt">${txt}</div>`;
-    btn.onclick = () => selectAnswer(ltr, q.answer, q);
+    btn.innerHTML = `<div class="opt-ltr">${displayKey}</div><div class="opt-txt">${txt}</div>`;
+    btn.onclick = () => selectAnswer(actualKey, q.answer, q);
     optEl.appendChild(btn);
   });
 
@@ -1294,11 +1306,11 @@ function selectAnswer(chosen, correct, q) {
   document.getElementById('sc-bad').textContent = session.wrong;
 
   const btns = document.querySelectorAll('.opt');
-  getRenderedOptionOrder(q).forEach((ltr,i) => {
+  getRenderedOptionEntries(q).forEach(({ actualKey }, i) => {
     btns[i].disabled = true;
-    if (ltr === chosen && ok)   btns[i].classList.add('correct');
-    else if (ltr === chosen)    btns[i].classList.add('wrong');
-    else if (ltr === correct)   btns[i].classList.add('reveal');
+    if (actualKey === chosen && ok)   btns[i].classList.add('correct');
+    else if (actualKey === chosen)    btns[i].classList.add('wrong');
+    else if (actualKey === correct)   btns[i].classList.add('reveal');
   });
 
   const fb      = document.getElementById('result-fb');
@@ -1320,7 +1332,7 @@ function selectAnswer(chosen, correct, q) {
     fbHead.className = 'fb-head bad';
     fbHead.textContent = t('wrong');
     const corrTxt = useEn ? (q[correct+'_en'] || q[correct]) : q[correct];
-    fbBody.textContent = `${t('wrongPre')} (${correct}) ${corrTxt}`;
+    fbBody.textContent = `${t('wrongPre')} (${getDisplayedOptionLabel(q, correct)}) ${corrTxt}`;
   }
 
   const nb    = document.getElementById('next-btn');
@@ -1382,13 +1394,15 @@ function showResult() {
       const qTxt    = useEn ? (q.question_en||q.question) : q.question;
       const chTxt   = useEn ? (q[chosen+'_en']||q[chosen]) : q[chosen];
       const corrTxt = useEn ? (q[q.answer+'_en']||q[q.answer]) : q[q.answer];
+      const chosenLabel = getDisplayedOptionLabel(q, chosen);
+      const correctLabel = getDisplayedOptionLabel(q, q.answer);
       const item = document.createElement('div');
       item.className = 'wrong-item';
       item.innerHTML = `
         <span class="wi-q">#${q.num} ${qTxt.slice(0,70)}${qTxt.length>70?'…':''}</span>
         <div style="font-size:12px;margin-top:4px">
-          <div class="wi-yours">✗ (${chosen}) ${chTxt.slice(0,50)}</div>
-          <div class="wi-correct">✓ (${q.answer}) ${corrTxt.slice(0,50)}</div>
+          <div class="wi-yours">✗ (${chosenLabel}) ${chTxt.slice(0,50)}</div>
+          <div class="wi-correct">✓ (${correctLabel}) ${corrTxt.slice(0,50)}</div>
         </div>`;
       wl.appendChild(item);
     });
